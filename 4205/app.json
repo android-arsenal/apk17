@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.birbit.android.jobqueue.examples.twitter",
+    "label" : "TwitterClient",
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECEIVE_BOOT_COMPLETED", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "com.google.android.c2dm.permission.RECEIVE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 2567,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.birbit.android.jobqueue.examples.twitter\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"com.google.android.c2dm.permission.RECEIVE\" />\n\t<application android:label=\"TwitterClient\" android:name=\"com.birbit.android.jobqueue.examples.twitter.TwitterApplication\" android:debuggable=\"true\">\n\t\t<activity android:label=\"TwitterClient\" android:name=\"com.birbit.android.jobqueue.examples.twitter.SampleTwitterClient\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"com.birbit.android.jobqueue.examples.twitter.services.MyJobService\" android:permission=\"android.permission.BIND_JOB_SERVICE\" />\n\t\t<service android:name=\"com.birbit.android.jobqueue.examples.twitter.services.MyGcmJobService\" android:permission=\"com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE\" android:exported=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"com.google.android.gms.gcm.ACTION_TASK_READY\" />\n\t\t\t</intent-filter>\n\t\t</service>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"10298000\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1407542,
+  "crc32" : 510926961,
+  "sha256" : "abd71da1c9595e7f961e8a492b51c91ed2ad45dc2a985899bb4ae24eb99002df",
+  "buildTime" : 1525971270000
+}

@@ -1,0 +1,168 @@
+2018-11-04 00:08:59,332 INFO  DownloadService - Downloading "https://github.com/anastr/SpeedView/archive/master.zip", attempt 3
+2018-11-04 00:09:05,370 INFO  DownloadService - Downloaded https://github.com/anastr/SpeedView/archive/master.zip, attempt 3
+2018-11-04 00:09:05,370 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/master.zip": 5 MB
+2018-11-04 00:09:05,370 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-04 00:09:05,377 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/master.zip: true
+2018-11-04 00:09:05,377 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src'.
+2018-11-04 00:09:05,465 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-11-04 00:09:05,465 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src]
+2018-11-04 00:09:05,483 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/.git/
+
+2018-11-04 00:09:05,488 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/gradlew
+2018-11-04 00:09:05,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/build.gradle
+2018-11-04 00:09:05,498 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/settings.gradle
+2018-11-04 00:09:05,498 INFO  ProjectBuildService - Remote scripts: none
+2018-11-04 00:09:05,498 INFO  ProjectFixService - Fixing project...
+2018-11-04 00:09:05,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/local.properties
+2018-11-04 00:09:05,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-04 00:09:05,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/speedviewlib/local.properties
+2018-11-04 00:09:05,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/speedviewlib/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=28]
+2018-11-04 00:09:05,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/local.properties
+2018-11-04 00:09:05,511 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-11-04 00:09:05,511 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-11-04 00:09:05,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-11-04 00:09:05,511 INFO  ProjectFixService - Project was maybe fixed
+2018-11-04 00:09:05,512 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-04 00:09:05,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-04 00:09:13,671 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-11-04 00:09:13,671 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-04 00:09:13,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-04 00:09:50,715 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:speedviewlib:preBuild UP-TO-DATE
+:speedviewlib:preDebugBuild UP-TO-DATE
+:speedviewlib:checkDebugManifest
+:speedviewlib:processDebugManifest
+:app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/cardview-v7/maven-metadata.xml
+Download https://dl.google.com/dl/android/maven2/com/android/support/recyclerview-v7/maven-metadata.xml
+:speedviewlib:compileDebugAidl
+:app:compileDebugAidl
+:speedviewlib:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:speedviewlib:compileDebugRenderscript
+:speedviewlib:generateDebugResValues
+:speedviewlib:generateDebugResources
+:speedviewlib:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:speedviewlib:platformAttrExtractor
+:speedviewlib:generateDebugBuildConfig
+:speedviewlib:prepareLintJar
+:speedviewlib:javaPreCompileDebug
+:speedviewlib:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:speedviewlib:mergeDebugShaders
+:speedviewlib:compileDebugShaders
+:speedviewlib:generateDebugAssets
+:speedviewlib:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:speedviewlib:compileDebugNdk NO-SOURCE
+:speedviewlib:mergeDebugJniLibFolders
+:speedviewlib:transformNativeLibsWithMergeJniLibsForDebug
+:speedviewlib:transformNativeLibsWithStripDebugSymbolForDebug
+:speedviewlib:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:speedviewlib:preReleaseBuild UP-TO-DATE
+:speedviewlib:checkReleaseManifest
+:speedviewlib:processReleaseManifest
+:app:preReleaseBuild
+:speedviewlib:compileReleaseAidl
+:app:compileReleaseAidl
+:speedviewlib:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:speedviewlib:compileReleaseRenderscript
+:speedviewlib:generateReleaseResValues
+:speedviewlib:generateReleaseResources
+:speedviewlib:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:speedviewlib:generateReleaseBuildConfig
+:speedviewlib:javaPreCompileRelease
+:speedviewlib:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:speedviewlib:mergeReleaseShaders
+:speedviewlib:compileReleaseShaders
+:speedviewlib:generateReleaseAssets
+:speedviewlib:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:speedviewlib:compileReleaseNdk NO-SOURCE
+:speedviewlib:mergeReleaseJniLibFolders
+:speedviewlib:transformNativeLibsWithMergeJniLibsForRelease
+:speedviewlib:transformNativeLibsWithStripDebugSymbolForRelease
+:speedviewlib:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:speedviewlib:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:speedviewlib:generateDebugSources
+:speedviewlib:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:speedviewlib:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:speedviewlib:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:speedviewlib:generateReleaseSources
+:speedviewlib:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:speedviewlib:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 36s
+91 actionable tasks: 91 executed
+
+2018-11-04 00:09:50,812 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264939324-0/src/SpeedView-master/app/build/outputs/apk/debug/app-debug.apk

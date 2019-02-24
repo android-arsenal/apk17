@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.xiaopo.flying.stickerview",
+    "label" : "StickerView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAEQklEQVR42u2Z6yvtWRjHD5th26IcJYWMGk3OEbkVCjWjKPNC8kYuL/CKN/4B5RKilEu7KSGXvBgMhlJyC5FcE164JOU6nG27hI3ffuZ5nvZvt8+ZvR0xnd/vNL9VT+t3W2t9P2s9z9pr7fXunZJknABAheYgsaleI9yeTEYd+XI9lh/i9Xs0PzRfiYzafm9N27PiMXdB0xqNxhNBED5JaSYNWtL0VQjx5dPT0+9YELCgbEyv1zehNDubAGKwXF1deSLA31QIcwPmAuaSmKltA3Um6jqbmpryttT6JYAD5Zubmz89Pj5emAAEqXueNJgA9P39/UGWWq0CTE9PByKATo4AXV1dH14KIMsRaG9v/6gAKAAKgAKgAHxfAFgHdHd3w/r6ujQA8/PzUF5eDrW1tbC1tWVVYEdHB+zv71sVYDAYwNnZmev45gCdnZ2Cvb09REZGQkJCAri6usLx8TFVBouLi5wfHByAo6MjVFRUyA8gODjYGB4ezr1M9xsbG5zjqhCoCOV0TxAPDw/yAwgLCzO6u7vD2NjYZ5W2trYyQFNTE49IT0+P2b3u7u4AF11QUlICg4OD/wKgkaOYEF2O6i4rK4PGxkY4PT3lZ7OzszA6OgrDw8NUj3BycvI6gOXlZSEoKAjs7OwgNTUV1tbWuIGAgAAG8PT0hJaWFn5fV1cH19fXEB0dDV5eXpCdnQ3JycmfAczMzICLiwtkZGTw89LSUnBzc4Pq6mrIz88HHx8fILHp6eng5OQE/v7+kJSUZKQRfnUQ4zUMDQ1BaGgoV0oiLF2IelwEqK+vB5VKBbinYFAqKwJkZmYycE5ODrvbzc0NqNVqvl9dXYWVlRXw9fWFmpoaBtBoNDwib3IhbNw8jR4dHbHQoqIimwAFBQXg7e1tNQboOZVBEfx8d3eX7+Pj46GwsNBs5I4EEBIS8rYY0Ol0gAFsnJiY4IpGRka4wYaGBpsAFBM0a4nBTb0sAhQXF7Mb0iiOj4/D7e0tu09eXp4ZtKqqikeDACIiIt4GQDMP+rGRBAUGBvJUSdMpTZ22AO7v7yElJYVFxsXFQVRUlBmAAvXy8pJd0cPDg3/Ympub+du0tDSIiYkBPz8/Du7/BMDkwwKJ1Gq1MDAwwGLpueXvAIHSNQWf6PeTk5PQ1tYGS0tL/J7yw8NDfn92dsbf7+3t8f329jb93kBfXx8D0rOdnR1zHClrIQVAAVAAFAAF4H8J8P3+uYubiZ/lOgK45Ah+DoAPDXp7e31wvX5OheRywIHaAFfHnyorKwNII66QHZ47YnLG7eEftOmgRCBSJbFtWtHiAvBP1KZ+yRmZKjY29sPCwsIArhx1FxcXl0ivp/xbmtjm+fm5bm5u7i/cqpL7qF56UqlG+zExMfGX3Nzc37KysiQxavtXTKTlq73/JQRuKn7ASw2am8SmIS2vOninYEHfc5TSbAaskmSS/gF0o9UV7Kt7YgAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 1737,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.xiaopo.flying.stickerview\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"StickerView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.xiaopo.flying.stickerview.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1585167,
+  "crc32" : 3989331776,
+  "sha256" : "0dec0ecbcd581d444e38c98f7c55015ae6cbd943f8aff6a6d2971c5aac1a689f",
+  "buildTime" : 1525972959000
+}

@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.kingbull.recorder",
+    "label" : "Recorder",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "19",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECORD_AUDIO", "android.permission.WRITE_EXTERNAL_STORAGE", "android.permission.READ_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1691,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.kingbull.recorder\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"19\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Recorder\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.kingbull.recorder.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.kingbull.recorder.PcmRecorderActivity\" />\n\t\t<activity android:name=\"com.kingbull.recorder.WavRecorderActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1377342,
+  "crc32" : 1996489520,
+  "sha256" : "5909f830c82db1a534840917ceebebc0c53a5040289378a828d90439ba51ce15",
+  "buildTime" : 1527361996000
+}

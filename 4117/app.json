@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.hitherejoe.animate",
+    "label" : "Animate!",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "23",
+    "platformBuildVersionName" : "6.0-2704002",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAACcFBMVEUAAAAAqv9AgP8AgP8blPIimfcjlfYamf8glvMhlPIhlPEglvEglPAhlfIhlfEejeUAAAAajOYhk/AhlPAhlfEhlPAfjuYUcLgcfM8hk+8gjucYZ6obcrwgk+8YZaAXY5wtm/Kg0fji8Pz4+/38/f2Yzff5+/39/f3g7vpnseokl/HR6PvU6Pd9u+xFnuQrkOFFn+V+vO3V6PibyvDO5/r1+fx8uushit4fit8fiuAhjOF9vO2ZyvEfjOL2+fxbqeYeid4fi+Fbq+n2+v1nsesfjOMvnPL6+/1+ve7h7/omj+MfjeSdz/jU5/eQxO/v9vuWyPCQxe8ijePU6PhrtO1+vOzx9/sijOAijeF/ve6w1fQfjeWdy/CdzPGWyPFGoOjd7fkfjuYqkOAhjOArk+Xy9/sgj+cgi+Amj+ImkOQgjeRGoekgjufX6vjW6vkjjuR/vfCw1vUgj+if0PhQpefz+PxPpukij+XU6Plste4gkOkfid5RpujZ6vjZ6/lQpul+ve8mkeYgj+gXXZcjjuNaq+qDv+9aq+tcrexnsu0gkOgfit+ZyfB9vO59ve/1+f2Zy/MgkOqbyvEsk+XV6fmbzPMhj+cXY5cfiuAlj+NstO3c7PkgkesgkOkgkeofi+Egkewgkeofi+IYZZoac78gku0XYJkSZKQgku4gkesgkesgk+4eid8PU4AAgL8AAAAbgNEhlvMgkuwfkOgad78AAAAAAAAGJDsadsAeid8gjeMfjOIfh9wfiN0fiN4fit8eid8dh9wYc7oGIjkAAAAIKkENOGANNVkNMlYNNVYNOF0IKUAAK1UAAAAAAAAzZsyVt77wAAAA0HRSTlMAAwQCEx4dCpbo7ZaY//+bARTq+f396xkl7/AqJu4rLP/////////////////////////////////////////////////////////////////////////////////////////////////////9///////////////////w/////////Sz/////////8P//////////////LPD//////f/w//3wKyj/LRzs/fn/7SIECKr///+uCQMrse7x8PHx8fHw7rItIUNNTU1NTUQGCw4FpVr6NAAAArxJREFUSMdjYKAXYGQiABhRlDMzEzYSWQ2QycLKhhewsoCVwdSzc3ByEQCc3OxwHcwMPLx8hAG/AFQDI4OgEJ+wiCheICLMKybOAPE5E4OEJJ8oIfNFeaWkgUohGmRkidIgh9BAnA3yQ0iDgqKSsoqKspKiAnEaVNXUoUBDkwgNWtrq6jq6evr6BoZG6irGWgQ1mKibmplbWFhYWlpaWZuq29gS0KCqbmfvAFHv6Ojo5Kzi4opXg5u7ui5Cva2th7qnlzc+DT7qvuYWfv4BIPUB/oG2QcHqId7eeDQoqYdaWISpK4c7OkYoq4e5ukaqR3lHR+PWoKauZ2ERYBcDck+sc5yra7x6QnR0dCJODSrqSUD3J4Pdbxvk6uqdop4KVJ+YiEcDzL+2rkD1YA1A9WlpOJ1kYJmekZHhBQaZWd7Z6glg9Wk5uDxtaBmRC0saefnRBeqFYPVpOUVYNRSrB1s5lpRC1JeWRZdXqFeC1aflVFVjjThPdUNH25pakPq6+ujoBnXPRrD6tKaq6mZsSUNTxc7J1ralta2tPT86usNZpROivqupqhurBr4eddNeUHh6e0eX9/WrT4Cq72qaiEOD1iQVdSOP+MmTsxumqKtMnQZVD9IwHXsGsnXRgGcgmHu6uqqaJs7AoYHPdeasqNmpqbMLKxsR6qua5uDUwAdyfzQkfuHqq+bi0cCHRf28uXPm49bAh6l+3twF+DTwYaiftxBFA2ZhjK5+zsIFixbDNSzBUvKhqZ+zcOmiZVANjAzLV/BiVig5OTlNYDB37tyFC1euWr1mLcM6aJW1fsPqjbwb0QHE5DmbNm1aCgSrN2/ZCq/jtm3fsXPX7l3oYM+evXv37tu3b//+/Qf2Hzx0eBuiGt165Oix45jgxIkTJ6Hg1OkjW5Er6jNnzxEAZ8+gVv7rzhMA6+jWigEApO2jL1Cw4i0AAAAASUVORK5CYII=",
+    "file" : true
+  },
+  "dexClasses" : 1928,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.hitherejoe.animate\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f0b0083\" android:label=\"Animate!\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Animate!\" android:name=\"com.hitherejoe.animate.ui.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Animated Vectors\" android:name=\"com.hitherejoe.animate.ui.activity.AnimatedVectorDrawablesActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Circular Reveal\" android:name=\"com.hitherejoe.animate.ui.activity.CircularRevealActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Interpolators\" android:name=\"com.hitherejoe.animate.ui.activity.InterpolatorActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Object Animator\" android:name=\"com.hitherejoe.animate.ui.activity.ObjectAnimatorActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0109\" android:name=\"com.hitherejoe.animate.ui.activity.PopupActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Shared\" android:name=\"com.hitherejoe.animate.ui.activity.SharedTransitionInToolbarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Shared\" android:name=\"com.hitherejoe.animate.ui.activity.SharedTransitionsInActionbarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Shared Elements\" android:name=\"com.hitherejoe.animate.ui.activity.SharedTransitionsActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Shared\" android:name=\"com.hitherejoe.animate.ui.activity.SharedTransitionToolbarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Window Content\" android:name=\"com.hitherejoe.animate.ui.activity.TransitionInActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"Morph transitions\" android:name=\"com.hitherejoe.animate.ui.activity.MorphTransitionsActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0084\" android:label=\"View Property Animator\" android:name=\"com.hitherejoe.animate.ui.activity.ViewPropertyAnimatorActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0087\" android:label=\"Window Content\" android:name=\"com.hitherejoe.animate.ui.activity.WindowTransitionsActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0b0086\" android:label=\"Explode Window Content\" android:name=\"com.hitherejoe.animate.ui.activity.WindowTransitionsActivityExplode\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3628888,
+  "crc32" : 2149429599,
+  "sha256" : "a93034e44e8b7922a5150fd5d06a37caa43ad1ab820b77b6c51fd2648700403f",
+  "buildTime" : 1541409320000
+}

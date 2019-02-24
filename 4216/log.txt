@@ -1,0 +1,287 @@
+2019-01-26 21:55:59,797 INFO  DownloadService - Downloading "https://github.com/kbiakov/CodeView-android/archive/master.zip", attempt 3
+2019-01-26 21:56:02,973 INFO  DownloadService - Downloaded https://github.com/kbiakov/CodeView-android/archive/master.zip, attempt 3
+2019-01-26 21:56:02,973 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/master.zip": 1 MB
+2019-01-26 21:56:02,973 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-26 21:56:02,974 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/master.zip: true
+2019-01-26 21:56:02,974 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src'.
+2019-01-26 21:56:03,050 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-01-26 21:56:03,050 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src]
+2019-01-26 21:56:03,081 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/.git/
+
+2019-01-26 21:56:03,086 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/gradlew
+2019-01-26 21:56:03,093 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/build.gradle
+2019-01-26 21:56:03,120 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle
+2019-01-26 21:56:03,121 INFO  ProjectBuildService - Remote scripts: none
+2019-01-26 21:56:03,121 INFO  ProjectFixService - Fixing project...
+2019-01-26 21:56:03,135 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/local.properties
+2019-01-26 21:56:03,137 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-26 21:56:03,137 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-26 21:56:03,138 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/local.properties
+2019-01-26 21:56:03,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-26 21:56:03,141 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-26 21:56:03,142 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/local.properties
+2019-01-26 21:56:03,143 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
+2019-01-26 21:56:03,143 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
+2019-01-26 21:56:03,145 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-01-26 21:56:03,146 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-01-26 21:56:03,147 INFO  ProjectFixService - Project was maybe fixed
+2019-01-26 21:56:03,147 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:56:03,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:56:15,367 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-01-26 21:56:15,369 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-26 21:56:15,369 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-26 21:57:05,390 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :codeview:preBuild UP-TO-DATE
+> Task :codeview:preDebugBuild UP-TO-DATE
+> Task :codeview:compileDebugAidl NO-SOURCE
+> Task :codeview:compileDebugRenderscript
+> Task :codeview:checkDebugManifest
+> Task :codeview:generateDebugBuildConfig
+> Task :codeview:generateDebugResValues
+> Task :codeview:generateDebugResources
+> Task :codeview:packageDebugResources
+> Task :codeview:processDebugManifest
+> Task :codeview:generateDebugRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/CodeView.kt: (216, 13): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/Utils.kt: (141, 9): Unsafe use of a nullable receiver of type Array<String!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (148, 13): Parameter 'mySyntaxColors' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (149, 13): Parameter 'myNumColor' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (150, 13): Parameter 'myBgContent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (151, 13): Parameter 'myBgNum' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (152, 13): Parameter 'myNoteColor' is never used
+> Task :codeview:compileDebugKotlin
+> Task :codeview:prepareLintJar
+> Task :codeview:generateDebugSources
+> Task :codeview:javaPreCompileDebug
+
+> Task :codeview:compileDebugJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/prettify/parser/Prettify.java:858: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    return (List<String>) getExtensionsMethod.invoke(null, null);
+                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/prettify/parser/Prettify.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :codeview:extractDebugAnnotations
+> Task :codeview:mergeDebugConsumerProguardFiles
+> Task :codeview:mergeDebugShaders
+> Task :codeview:compileDebugShaders
+> Task :codeview:generateDebugAssets
+> Task :codeview:packageDebugAssets
+> Task :codeview:packageDebugRenderscript NO-SOURCE
+> Task :codeview:processDebugJavaRes NO-SOURCE
+> Task :codeview:transformResourcesWithMergeJavaResForDebug
+> Task :codeview:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :codeview:compileDebugNdk NO-SOURCE
+> Task :codeview:mergeDebugJniLibFolders
+> Task :codeview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :codeview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :codeview:transformNativeLibsWithSyncJniLibsForDebug
+> Task :codeview:bundleDebugAar
+> Task :codeview:compileDebugSources
+> Task :codeview:assembleDebug
+> Task :codeview:preReleaseBuild UP-TO-DATE
+> Task :codeview:compileReleaseAidl NO-SOURCE
+> Task :codeview:compileReleaseRenderscript
+> Task :codeview:checkReleaseManifest
+> Task :codeview:generateReleaseBuildConfig
+> Task :codeview:generateReleaseResValues
+> Task :codeview:generateReleaseResources
+> Task :codeview:packageReleaseResources
+> Task :codeview:processReleaseManifest
+> Task :codeview:generateReleaseRFile
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/CodeView.kt: (216, 13): Unreachable code
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/Utils.kt: (141, 9): Unsafe use of a nullable receiver of type Array<String!>?
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (148, 13): Parameter 'mySyntaxColors' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (149, 13): Parameter 'myNumColor' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (150, 13): Parameter 'myBgContent' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (151, 13): Parameter 'myBgNum' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/CodeHighlighter.kt: (152, 13): Parameter 'myNoteColor' is never used
+> Task :codeview:compileReleaseKotlin
+> Task :codeview:generateReleaseSources
+> Task :codeview:javaPreCompileRelease
+
+> Task :codeview:compileReleaseJavaWithJavac
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/prettify/parser/Prettify.java:858: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+    return (List<String>) getExtensionsMethod.invoke(null, null);
+                                                           ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/codeview/src/main/java/io/github/kbiakov/codeview/highlight/prettify/parser/Prettify.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 warning
+
+> Task :codeview:extractReleaseAnnotations
+> Task :codeview:mergeReleaseConsumerProguardFiles
+> Task :codeview:mergeReleaseShaders
+> Task :codeview:compileReleaseShaders
+> Task :codeview:generateReleaseAssets
+> Task :codeview:packageReleaseAssets
+> Task :codeview:packageReleaseRenderscript NO-SOURCE
+> Task :codeview:processReleaseJavaRes NO-SOURCE
+> Task :codeview:transformResourcesWithMergeJavaResForRelease
+> Task :codeview:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :codeview:compileReleaseNdk NO-SOURCE
+> Task :codeview:mergeReleaseJniLibFolders
+> Task :codeview:transformNativeLibsWithMergeJniLibsForRelease
+> Task :codeview:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :codeview:transformNativeLibsWithSyncJniLibsForRelease
+> Task :codeview:bundleReleaseAar
+> Task :codeview:compileReleaseSources
+> Task :codeview:mergeReleaseResources
+> Task :codeview:verifyReleaseResources
+> Task :codeview:assembleRelease
+> Task :codeview:assemble
+> Task :codeview:build
+
+BUILD SUCCESSFUL in 49s
+47 actionable tasks: 47 executed
+
+2019-01-26 21:57:05,465 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-26 21:57:05,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-26 21:57:16,914 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-26 21:57:16,914 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-26 21:57:16,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-26 21:58:13,273 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :codeview:preBuild UP-TO-DATE
+> Task :codeview:preDebugBuild UP-TO-DATE
+> Task :codeview:compileDebugAidl NO-SOURCE
+> Task :codeview:compileDebugRenderscript UP-TO-DATE
+> Task :codeview:checkDebugManifest UP-TO-DATE
+> Task :codeview:generateDebugBuildConfig UP-TO-DATE
+> Task :codeview:generateDebugResValues UP-TO-DATE
+> Task :codeview:generateDebugResources UP-TO-DATE
+> Task :codeview:packageDebugResources UP-TO-DATE
+> Task :codeview:processDebugManifest UP-TO-DATE
+> Task :codeview:generateDebugRFile UP-TO-DATE
+> Task :codeview:compileDebugKotlin UP-TO-DATE
+> Task :codeview:prepareLintJar UP-TO-DATE
+> Task :codeview:generateDebugSources UP-TO-DATE
+> Task :codeview:javaPreCompileDebug UP-TO-DATE
+> Task :codeview:compileDebugJavaWithJavac UP-TO-DATE
+> Task :codeview:processDebugJavaRes NO-SOURCE
+> Task :codeview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :example:preBuild UP-TO-DATE
+> Task :example:preDebugBuild
+> Task :example:compileDebugAidl NO-SOURCE
+> Task :codeview:packageDebugRenderscript NO-SOURCE
+> Task :example:compileDebugRenderscript
+> Task :example:checkDebugManifest
+> Task :example:generateDebugBuildConfig
+> Task :example:mainApkListPersistenceDebug
+> Task :example:generateDebugResValues
+> Task :example:generateDebugResources
+> Task :example:mergeDebugResources
+> Task :example:createDebugCompatibleScreenManifests
+> Task :example:processDebugManifest
+> Task :example:processDebugResources
+> Task :example:compileDebugKotlin
+> Task :example:prepareLintJar
+> Task :example:generateDebugSources
+> Task :example:javaPreCompileDebug
+> Task :example:compileDebugJavaWithJavac
+> Task :example:compileDebugNdk NO-SOURCE
+> Task :example:compileDebugSources
+> Task :codeview:mergeDebugShaders UP-TO-DATE
+> Task :codeview:compileDebugShaders UP-TO-DATE
+> Task :codeview:generateDebugAssets UP-TO-DATE
+> Task :codeview:packageDebugAssets UP-TO-DATE
+> Task :example:mergeDebugShaders
+> Task :example:compileDebugShaders
+> Task :example:generateDebugAssets
+> Task :example:mergeDebugAssets
+> Task :codeview:createFullJarDebug
+> Transform full.jar (project :codeview) with IdentityTransform
+> Task :example:mergeExtDexDebug
+> Task :example:transformClassesWithDexBuilderForDebug
+> Task :example:validateSigningDebug
+> Task :example:signingConfigWriterDebug
+> Task :codeview:compileDebugNdk NO-SOURCE
+> Task :codeview:mergeDebugJniLibFolders UP-TO-DATE
+> Task :codeview:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :codeview:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :codeview:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :example:mergeDebugJniLibFolders
+> Transform full.jar (project :codeview) with DexingTransform
+> Task :example:transformNativeLibsWithMergeJniLibsForDebug
+> Task :example:mergeDexDebug
+> Task :example:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :example:processDebugJavaRes NO-SOURCE
+> Task :example:transformResourcesWithMergeJavaResForDebug
+> Task :example:packageDebug
+> Task :example:assembleDebug
+> Task :codeview:preReleaseBuild UP-TO-DATE
+> Task :codeview:compileReleaseAidl NO-SOURCE
+> Task :codeview:compileReleaseRenderscript UP-TO-DATE
+> Task :codeview:checkReleaseManifest UP-TO-DATE
+> Task :codeview:generateReleaseBuildConfig UP-TO-DATE
+> Task :codeview:generateReleaseResValues UP-TO-DATE
+> Task :codeview:generateReleaseResources UP-TO-DATE
+> Task :codeview:packageReleaseResources UP-TO-DATE
+> Task :codeview:processReleaseManifest UP-TO-DATE
+> Task :codeview:generateReleaseRFile UP-TO-DATE
+> Task :codeview:compileReleaseKotlin UP-TO-DATE
+> Task :codeview:generateReleaseSources UP-TO-DATE
+> Task :codeview:javaPreCompileRelease UP-TO-DATE
+> Task :codeview:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :codeview:processReleaseJavaRes NO-SOURCE
+> Task :codeview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :example:preReleaseBuild
+> Task :example:compileReleaseAidl NO-SOURCE
+> Task :codeview:packageReleaseRenderscript NO-SOURCE
+> Task :example:compileReleaseRenderscript
+> Task :example:checkReleaseManifest
+> Task :example:generateReleaseBuildConfig
+> Task :example:mainApkListPersistenceRelease
+> Task :example:generateReleaseResValues
+> Task :example:generateReleaseResources
+> Task :example:mergeReleaseResources
+> Task :example:createReleaseCompatibleScreenManifests
+> Task :example:processReleaseManifest
+> Task :example:processReleaseResources
+> Task :example:compileReleaseKotlin
+> Task :example:generateReleaseSources
+> Task :example:javaPreCompileRelease
+> Task :example:compileReleaseJavaWithJavac
+> Task :example:compileReleaseNdk NO-SOURCE
+> Task :example:compileReleaseSources
+
+> Task :example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/f833e9c540580bf8a05cf39cef40c41e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :codeview:createFullJarRelease
+> Transform full.jar (project :codeview) with IdentityTransform
+> Task :example:mergeExtDexRelease
+> Task :example:transformClassesWithDexBuilderForRelease
+> Task :codeview:mergeReleaseShaders UP-TO-DATE
+> Task :codeview:compileReleaseShaders UP-TO-DATE
+> Task :codeview:generateReleaseAssets UP-TO-DATE
+> Task :codeview:packageReleaseAssets UP-TO-DATE
+> Task :example:mergeReleaseShaders
+> Task :example:compileReleaseShaders
+> Task :example:generateReleaseAssets
+> Task :example:mergeReleaseAssets
+> Task :example:signingConfigWriterRelease
+> Task :codeview:compileReleaseNdk NO-SOURCE
+> Task :codeview:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :codeview:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :codeview:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :codeview:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :example:mergeReleaseJniLibFolders
+> Task :example:transformNativeLibsWithMergeJniLibsForRelease
+> Task :example:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :example:processReleaseJavaRes NO-SOURCE
+> Transform full.jar (project :codeview) with DexingTransform
+> Task :example:transformResourcesWithMergeJavaResForRelease
+> Task :example:mergeDexRelease
+> Task :example:packageRelease
+> Task :example:assembleRelease
+> Task :example:assemble
+> Task :example:build
+
+BUILD SUCCESSFUL in 55s
+92 actionable tasks: 59 executed, 33 up-to-date
+
+2019-01-26 21:58:13,482 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548514559791-0/src/CodeView-Android-master/example/build/outputs/apk/release/example-release-unsigned.apk

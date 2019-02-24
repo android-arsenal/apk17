@@ -1,0 +1,100 @@
+2018-10-30 17:08:09,207 INFO  DownloadService - Downloading "https://github.com/jackpocket/android-pulse-indicator/archive/master.zip", attempt 3
+2018-10-30 17:09:10,294 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-10-30 17:09:11,827 INFO  GithubDownloadService - Default branch of this repository: master
+2018-10-30 17:09:11,828 INFO  DownloadService - Downloading "https://github.com/jackpocket/android-pulse-indicator/archive/master.zip", attempt 3
+2018-10-30 17:10:14,507 DEBUG FullProcessService - Repository https://github.com/jackpocket/android-pulse-indicator available: true
+2018-10-30 17:10:14,507 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-10-30 17:10:14,507 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jackpocket/android-pulse-indicator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src]
+2018-10-30 17:10:21,400 INFO  SysUtils - 
+2018-10-30 17:10:21,416 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/.git": true
+2018-10-30 17:10:21,417 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-10-30 17:10:21,417 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src]
+2018-10-30 17:10:21,434 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/.git/
+
+2018-10-30 17:10:21,435 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/gradlew
+2018-10-30 17:10:21,437 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/build.gradle
+2018-10-30 17:10:21,438 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/build.gradle
+2018-10-30 17:10:21,438 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2018-10-30 17:10:21,537 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2018-10-30 17:10:21,537 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2018-10-30 17:10:21,635 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2018-10-30 17:10:21,635 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2018-10-30 17:10:21,635 INFO  ProjectFixService - Fixing project...
+2018-10-30 17:10:21,640 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/local.properties
+2018-10-30 17:10:21,640 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2018-10-30 17:10:21,641 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2018-10-30 17:10:21,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2018-10-30 17:10:21,641 INFO  ProjectFixService - Project was maybe fixed
+2018-10-30 17:10:21,641 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-30 17:10:21,641 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-30 17:10:37,190 INFO  ProjectTaskService - Detected possible tasks: 71
+2018-10-30 17:10:37,190 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-30 17:10:37,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-30 17:10:43,920 INFO  SysUtils - Configuration on demand is an incubating feature.
+:compileLint
+:copyDebugLint UP-TO-DATE
+:mergeDebugProguardFiles
+:preBuild UP-TO-DATE
+:preDebugBuild UP-TO-DATE
+:checkDebugManifest
+:prepareDebugDependencies
+:compileDebugAidl
+:compileDebugRenderscript
+:generateDebugBuildConfig
+:generateDebugAssets UP-TO-DATE
+:mergeDebugAssets
+:generateDebugResValues
+:generateDebugResources
+:packageDebugResources
+:processDebugManifest
+:processDebugResources
+:generateDebugSources
+:processDebugJavaRes UP-TO-DATE
+:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:packageDebugJar
+:compileDebugNdk UP-TO-DATE
+:packageDebugJniLibs UP-TO-DATE
+:packageDebugLocalJar UP-TO-DATE
+:packageDebugRenderscript UP-TO-DATE
+:bundleDebug
+:compileDebugSources
+:assembleDebug
+:copyReleaseLint UP-TO-DATE
+:mergeReleaseProguardFiles
+:preReleaseBuild UP-TO-DATE
+:checkReleaseManifest
+:prepareReleaseDependencies
+:compileReleaseAidl
+:compileReleaseRenderscript
+:generateReleaseBuildConfig
+:generateReleaseAssets UP-TO-DATE
+:mergeReleaseAssets
+:generateReleaseResValues
+:generateReleaseResources
+:packageReleaseResources
+:processReleaseManifest
+:processReleaseResources
+:generateReleaseSources
+:processReleaseJavaRes UP-TO-DATE
+:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540894089199-0/src/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:packageReleaseJar
+:compileReleaseNdk UP-TO-DATE
+:packageReleaseJniLibs UP-TO-DATE
+:packageReleaseLocalJar UP-TO-DATE
+:packageReleaseRenderscript UP-TO-DATE
+:bundleRelease
+:compileReleaseSources
+:assembleRelease
+:assemble
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 6.227 secs
+
+2018-10-30 17:10:43,927 ERROR FullProcessService - Project build has not produced APK file
+2018-10-30 17:10:43,934 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,7 @@
+{
+  "com.sherazkhilji.sample" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style" ],
+  "com.sherazkhilji.videffects" : [ "AutoFixEffect", "BlackAndWhiteEffect", "BrightnessEffect", "BuildConfig", "ContrastEffect", "CrossProcessEffect", "DocumentaryEffect", "DuotoneEffect", "FillLightEffect", "GammaEffect", "GrainEffect", "GreyScaleEffect", "HueEffect", "InvertColorsEffect", "LamoishEffect", "NoEffect", "PosterizeEffect", "R", "R$string", "SaturationEffect", "SepiaEffect", "SharpnessEffect", "TemperatureEffect", "TintEffect", "VignetteEffect" ],
+  "com.sherazkhilji.videffects.interfaces" : [ "ShaderInterface" ],
+  "com.sherazkhilji.videffects.view" : [ "VideoSurfaceView", "VideoSurfaceView$1", "VideoSurfaceView$VideoRender" ],
+  "com.videffects.sample" : [ "SamplePlayerActivity" ]
+}

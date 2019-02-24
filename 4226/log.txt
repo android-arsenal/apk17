@@ -1,0 +1,172 @@
+2019-01-28 11:01:56,070 INFO  DownloadService - Downloading "https://github.com/iamMehedi/Secured-Preference-Store/archive/master.zip", attempt 3
+2019-01-28 11:01:56,692 INFO  DownloadService - Downloaded https://github.com/iamMehedi/Secured-Preference-Store/archive/master.zip, attempt 3
+2019-01-28 11:01:56,692 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/master.zip": 123 KB
+2019-01-28 11:01:56,692 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-28 11:01:56,693 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/master.zip: true
+2019-01-28 11:01:56,693 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src'.
+2019-01-28 11:01:56,711 INFO  FullProcessService - Size of directory with sources: 187 KB
+2019-01-28 11:01:56,711 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src]
+2019-01-28 11:01:56,728 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/.git/
+
+2019-01-28 11:01:56,731 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/gradlew
+2019-01-28 11:01:56,734 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/build.gradle
+2019-01-28 11:01:56,737 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/settings.gradle
+2019-01-28 11:01:56,737 INFO  ProjectBuildService - Remote scripts: none
+2019-01-28 11:01:56,737 INFO  ProjectFixService - Fixing project...
+2019-01-28 11:01:56,744 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/local.properties
+2019-01-28 11:01:56,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-01-28 11:01:56,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/local.properties
+2019-01-28 11:01:56,745 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-01-28 11:01:56,745 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/local.properties
+2019-01-28 11:01:56,746 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-28 11:01:56,746 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-28 11:01:56,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=18,targetSdkVersion=27]
+2019-01-28 11:01:56,747 INFO  ProjectFixService - Project was maybe fixed
+2019-01-28 11:01:56,747 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-28 11:01:56,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-28 11:02:02,174 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-01-28 11:02:02,174 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-28 11:02:02,174 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-28 11:02:30,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:securedpreferencestore:preBuild UP-TO-DATE
+:securedpreferencestore:preDebugBuild UP-TO-DATE
+:securedpreferencestore:checkDebugManifest
+:securedpreferencestore:processDebugManifest
+:app:preDebugBuild
+:securedpreferencestore:compileDebugAidl
+:app:compileDebugAidl
+:securedpreferencestore:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:securedpreferencestore:compileDebugRenderscript
+:securedpreferencestore:generateDebugResValues
+:securedpreferencestore:generateDebugResources
+:securedpreferencestore:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:securedpreferencestore:platformAttrExtractor
+:securedpreferencestore:generateDebugBuildConfig
+:securedpreferencestore:prepareLintJar
+:securedpreferencestore:javaPreCompileDebug
+:securedpreferencestore:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:securedpreferencestore:mergeDebugShaders
+:securedpreferencestore:compileDebugShaders
+:securedpreferencestore:generateDebugAssets
+:securedpreferencestore:packageDebugAssets
+:app:mergeDebugAssets
+:app:extractTryWithResourcesSupportJarDebug
+:app:mergeDebugJniLibFolders
+:securedpreferencestore:compileDebugNdk NO-SOURCE
+:securedpreferencestore:mergeDebugJniLibFolders
+:securedpreferencestore:transformNativeLibsWithMergeJniLibsForDebug
+:securedpreferencestore:transformNativeLibsWithStripDebugSymbolForDebug
+:securedpreferencestore:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:securedpreferencestore:preReleaseBuild UP-TO-DATE
+:securedpreferencestore:checkReleaseManifest
+:securedpreferencestore:processReleaseManifest
+:app:preReleaseBuild
+:securedpreferencestore:compileReleaseAidl
+:app:compileReleaseAidl
+:securedpreferencestore:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:securedpreferencestore:compileReleaseRenderscript
+:securedpreferencestore:generateReleaseResValues
+:securedpreferencestore:generateReleaseResources
+:securedpreferencestore:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:securedpreferencestore:generateReleaseBuildConfig
+:securedpreferencestore:javaPreCompileRelease
+:securedpreferencestore:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:securedpreferencestore:mergeReleaseShaders
+:securedpreferencestore:compileReleaseShaders
+:securedpreferencestore:generateReleaseAssets
+:securedpreferencestore:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:extractTryWithResourcesSupportJarRelease
+:app:mergeReleaseJniLibFolders
+:securedpreferencestore:compileReleaseNdk NO-SOURCE
+:securedpreferencestore:mergeReleaseJniLibFolders
+:securedpreferencestore:transformNativeLibsWithMergeJniLibsForRelease
+:securedpreferencestore:transformNativeLibsWithStripDebugSymbolForRelease
+:securedpreferencestore:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:securedpreferencestore:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:securedpreferencestore:generateDebugSources
+:securedpreferencestore:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/src/main/java/devliving/online/securedpreferencestore/SecuredPreferenceStore.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:securedpreferencestore:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithStackFramesFixerForDebug
+:app:transformClassesWithDesugarForDebug
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:securedpreferencestore:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:securedpreferencestore:generateReleaseSources
+:securedpreferencestore:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/securedpreferencestore/src/main/java/devliving/online/securedpreferencestore/SecuredPreferenceStore.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:securedpreferencestore:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithStackFramesFixerForRelease
+:app:transformClassesWithDesugarForRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 27s
+97 actionable tasks: 97 executed
+
+2019-01-28 11:02:30,253 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648116066-0/src/Secured-Preference-Store-master/app/build/outputs/apk/debug/app-debug.apk

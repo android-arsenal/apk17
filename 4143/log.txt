@@ -1,0 +1,9 @@
+2016-12-12 23:24:22,032 INFO  DownloadService - Downloading "https://github.com/AndroidDeveloperLB/WebpifyYourAndroidApp/archive/master.zip", attempt 3
+2016-12-12 23:24:41,166 INFO  DownloadService - Downloaded https://github.com/AndroidDeveloperLB/WebpifyYourAndroidApp/archive/master.zip, attempt 3
+2016-12-12 23:24:41,166 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2016-12-12 23:24:41,171 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/3k/mymj0cx15f9c3m0kv4gch66h0000gn/T/1481563462026-0/master.zip: false
+2016-12-12 23:24:41,171 INFO  FullProcessService - Archive with sources does not contain any build script
+2016-12-12 23:24:41,171 ERROR FullProcessService - Could not find directory with sources
+2016-12-12 23:24:41,171 ERROR FullProcessService - Project will not be processed
+2016-12-12 23:24:41,171 ERROR FullProcessService - Project build has not produced APK file
+2016-12-12 23:24:41,172 ERROR FullProcessService - Could not find generated or existed APK file

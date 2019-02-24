@@ -1,0 +1,29 @@
+2016-08-13 16:06:24,827 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/inaka/lewis/archive/master.zip", attempt 3
+2016-08-13 16:06:27,976 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/inaka/lewis/archive/master.zip, attempt 3
+2016-08-13 16:06:28,381 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/4135/master.zip' into '/tmp/rdisk/4135/src'.
+2016-08-13 16:06:28,411 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 143 KB
+2016-08-13 16:06:28,415 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/4135/src]
+2016-08-13 16:06:28,503 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/4135/src/lewis-master/gradlew
+2016-08-13 16:06:28,511 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/4135/src/lewis-master/build.gradle
+2016-08-13 16:06:28,519 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/4135/src/lewis-master/build.gradle
+2016-08-13 16:06:28,526 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-13 16:06:28,527 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-13 16:06:28,544 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-13 16:06:28,544 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-13 16:06:28,547 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-13 16:06:28,550 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-13 16:06:28,554 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-13 16:06:28,558 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-13 16:06:28,587 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/4135/src/lewis-master/local.properties
+2016-08-13 16:06:28,603 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.10-all.zip)
+2016-08-13 16:06:28,604 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2016-08-13 16:06:28,614 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/4135/src/lewis-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-13 16:06:28,629 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/4135/src/lewis-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-13 16:06:28,632 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-13 16:06:28,637 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-13 16:06:28,638 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4135/src/lewis-master/gradlew, -b, /tmp/rdisk/4135/src/lewis-master/build.gradle, tasks]
+2016-08-13 16:06:36,421 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 44
+2016-08-13 16:06:36,422 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-13 16:06:36,422 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4135/src/lewis-master/gradlew, -b, /tmp/rdisk/4135/src/lewis-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-13 16:06:44,630 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-13 16:06:44,638 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

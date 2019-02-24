@@ -1,0 +1,177 @@
+2018-12-24 14:08:50,169 INFO  DownloadService - Downloading "https://github.com/djavan-bertrand/JCVD/archive/master.zip", attempt 3
+2018-12-24 14:09:50,805 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-24 14:09:51,687 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-24 14:09:51,687 INFO  DownloadService - Downloading "https://github.com/djavan-bertrand/JCVD/archive/master.zip", attempt 3
+2018-12-24 14:10:53,006 DEBUG FullProcessService - Repository https://github.com/djavan-bertrand/JCVD available: true
+2018-12-24 14:10:53,006 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-24 14:10:53,006 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/djavan-bertrand/JCVD, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src]
+2018-12-24 14:10:57,711 INFO  SysUtils - 
+2018-12-24 14:10:57,719 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/.git": true
+2018-12-24 14:10:57,722 INFO  FullProcessService - Size of directory with sources: 719 KB
+2018-12-24 14:10:57,722 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src]
+2018-12-24 14:10:57,738 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/.git/
+
+2018-12-24 14:10:57,742 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/gradlew
+2018-12-24 14:10:57,745 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/jcvd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/build.gradle
+2018-12-24 14:10:57,748 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/jcvd/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/settings.gradle
+2018-12-24 14:10:57,749 INFO  ProjectBuildService - Remote scripts: none
+2018-12-24 14:10:57,749 INFO  ProjectFixService - Fixing project...
+2018-12-24 14:10:57,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/local.properties
+2018-12-24 14:10:57,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-24 14:10:57,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/jcvd/local.properties
+2018-12-24 14:10:57,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/jcvd/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-24 14:10:57,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/local.properties
+2018-12-24 14:10:57,758 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-24 14:10:57,758 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-24 14:10:57,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-12-24 14:10:57,760 INFO  ProjectFixService - Project was maybe fixed
+2018-12-24 14:10:57,760 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-24 14:10:57,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-24 14:11:05,236 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-24 14:11:05,237 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-24 14:11:05,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-24 14:11:45,530 INFO  SysUtils - Configuration on demand is an incubating feature.
+:example:checkDebugClasspath
+Download https://dl.google.com/dl/android/maven2/com/google/android/gms/play-services-awareness/16.0.0/play-services-awareness-16.0.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.aar
+:example:preBuild UP-TO-DATE
+:jcvd:preBuild UP-TO-DATE
+:jcvd:preDebugBuild UP-TO-DATE
+:jcvd:checkDebugManifest
+:jcvd:processDebugManifest
+:example:preDebugBuild
+:jcvd:compileDebugAidl NO-SOURCE
+:example:compileDebugAidl NO-SOURCE
+:jcvd:packageDebugRenderscript NO-SOURCE
+:example:compileDebugRenderscript
+:example:checkDebugManifest
+:example:generateDebugBuildConfig
+:example:prepareLintJar
+:example:mainApkListPersistenceDebug
+:example:generateDebugResValues
+:example:generateDebugResources
+:jcvd:compileDebugRenderscript
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.0/runtime-1.0.0.aar
+:jcvd:generateDebugResValues
+:jcvd:generateDebugResources
+:jcvd:packageDebugResources
+:example:mergeDebugResources
+:example:createDebugCompatibleScreenManifests
+:example:processDebugManifest
+:example:splitsDiscoveryTaskDebug
+:jcvd:generateDebugRFile
+:example:processDebugResources
+:example:generateDebugSources
+:jcvd:generateDebugBuildConfig
+:jcvd:prepareLintJar
+:jcvd:generateDebugSources
+:jcvd:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.0/common-1.0.0.jar
+:jcvd:compileDebugJavaWithJavac
+:jcvd:processDebugJavaRes NO-SOURCE
+:jcvd:transformClassesWithJacocoForDebug
+:jcvd:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:example:javaPreCompileDebug
+:example:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/src/main/java/com/sousoum/jcvdexample/FenceChooserActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileDebugNdk NO-SOURCE
+:example:compileDebugSources
+:example:mergeDebugShaders
+:example:compileDebugShaders
+:example:generateDebugAssets
+:jcvd:mergeDebugShaders
+:jcvd:compileDebugShaders
+:jcvd:generateDebugAssets
+:jcvd:packageDebugAssets
+:example:mergeDebugAssets
+:example:transformClassesWithDexBuilderForDebug
+:example:transformDexArchiveWithExternalLibsDexMergerForDebug
+:example:transformDexArchiveWithDexMergerForDebug
+:example:mergeDebugJniLibFolders
+:jcvd:compileDebugNdk NO-SOURCE
+:jcvd:mergeDebugJniLibFolders
+:jcvd:transformNativeLibsWithMergeJniLibsForDebug
+:jcvd:transformNativeLibsWithStripDebugSymbolForDebug
+:jcvd:transformNativeLibsWithIntermediateJniLibsForDebug
+:example:transformNativeLibsWithMergeJniLibsForDebug
+:example:transformNativeLibsWithStripDebugSymbolForDebug
+:example:checkDebugLibraries
+:example:processDebugJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForDebug
+:example:validateSigningDebug
+:example:packageDebug
+:example:assembleDebug
+:example:checkReleaseClasspath
+:jcvd:preReleaseBuild UP-TO-DATE
+:jcvd:checkReleaseManifest
+:jcvd:processReleaseManifest
+:example:preReleaseBuild
+:jcvd:compileReleaseAidl NO-SOURCE
+:example:compileReleaseAidl NO-SOURCE
+:jcvd:packageReleaseRenderscript NO-SOURCE
+:example:compileReleaseRenderscript
+:example:checkReleaseManifest
+:example:generateReleaseBuildConfig
+:example:mainApkListPersistenceRelease
+:example:generateReleaseResValues
+:example:generateReleaseResources
+:jcvd:compileReleaseRenderscript
+:jcvd:generateReleaseResValues
+:jcvd:generateReleaseResources
+:jcvd:packageReleaseResources
+:example:mergeReleaseResources
+:example:createReleaseCompatibleScreenManifests
+:example:processReleaseManifest
+:example:splitsDiscoveryTaskRelease
+:jcvd:generateReleaseRFile
+:example:processReleaseResources
+:example:generateReleaseSources
+:jcvd:generateReleaseBuildConfig
+:jcvd:generateReleaseSources
+:jcvd:javaPreCompileRelease
+:jcvd:compileReleaseJavaWithJavac
+:jcvd:processReleaseJavaRes NO-SOURCE
+:jcvd:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:example:javaPreCompileRelease
+:example:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/src/main/java/com/sousoum/jcvdexample/FenceChooserActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:example:compileReleaseNdk NO-SOURCE
+:example:compileReleaseSources
+:example:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/b29876d310640ae077c24e8cbc615b14/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:example:mergeReleaseShaders
+:example:compileReleaseShaders
+:example:generateReleaseAssets
+:jcvd:mergeReleaseShaders
+:jcvd:compileReleaseShaders
+:jcvd:generateReleaseAssets
+:jcvd:packageReleaseAssets
+:example:mergeReleaseAssets
+:example:transformClassesWithDexBuilderForRelease
+:example:transformDexArchiveWithExternalLibsDexMergerForRelease
+:example:transformDexArchiveWithDexMergerForRelease
+:example:mergeReleaseJniLibFolders
+:jcvd:compileReleaseNdk NO-SOURCE
+:jcvd:mergeReleaseJniLibFolders
+:jcvd:transformNativeLibsWithMergeJniLibsForRelease
+:jcvd:transformNativeLibsWithStripDebugSymbolForRelease
+:jcvd:transformNativeLibsWithIntermediateJniLibsForRelease
+:example:transformNativeLibsWithMergeJniLibsForRelease
+:example:transformNativeLibsWithStripDebugSymbolForRelease
+:example:checkReleaseLibraries
+:example:processReleaseJavaRes NO-SOURCE
+:example:transformResourcesWithMergeJavaResForRelease
+:example:packageRelease
+:example:assembleRelease
+:example:assemble
+:example:build
+
+BUILD SUCCESSFUL in 39s
+91 actionable tasks: 91 executed
+
+2018-12-24 14:11:45,634 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545635330161-0/src/example/build/outputs/apk/release/example-release-unsigned.apk

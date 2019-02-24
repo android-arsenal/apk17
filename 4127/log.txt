@@ -1,0 +1,2152 @@
+2018-11-05 15:28:16,735 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
+2018-11-05 15:29:17,383 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-11-05 15:29:18,488 INFO  GithubDownloadService - Default branch of this repository: master
+2018-11-05 15:29:18,488 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
+2018-11-05 15:30:19,949 DEBUG FullProcessService - Repository https://github.com/badoo/Chateau available: true
+2018-11-05 15:30:19,949 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-11-05 15:30:19,949 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/badoo/Chateau, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src]
+2018-11-05 15:30:22,109 INFO  SysUtils - 
+2018-11-05 15:30:22,124 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/.git": true
+2018-11-05 15:30:22,139 INFO  FullProcessService - Size of directory with sources: 851 KB
+2018-11-05 15:30:22,139 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src]
+2018-11-05 15:30:22,159 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/.git/
+
+2018-11-05 15:30:22,171 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew
+2018-11-05 15:30:22,183 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle
+2018-11-05 15:30:22,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle
+2018-11-05 15:30:22,196 INFO  ProjectBuildService - Remote scripts: none
+2018-11-05 15:30:22,196 INFO  ProjectFixService - Fixing project...
+2018-11-05 15:30:22,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/local.properties
+2018-11-05 15:30:22,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-05 15:30:22,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/local.properties
+2018-11-05 15:30:22,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-05 15:30:22,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/local.properties
+2018-11-05 15:30:22,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-05 15:30:22,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/local.properties
+2018-11-05 15:30:22,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-05 15:30:22,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/local.properties
+2018-11-05 15:30:22,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=21]
+2018-11-05 15:30:22,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/local.properties
+2018-11-05 15:30:22,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-05 15:30:22,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-05 15:30:22,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2018-11-05 15:30:22,230 INFO  ProjectFixService - Project was maybe fixed
+2018-11-05 15:30:22,230 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:30:22,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:31:03,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-05 15:31:03,590 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-05 15:31:03,590 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-05 15:31:03,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-05 15:31:19,308 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:31:19,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:Barf:preBuild UP-TO-DATE
+:Barf:preDebugBuild UP-TO-DATE
+:Barf:compileDebugNdk UP-TO-DATE
+:Barf:compileLint
+:Barf:copyDebugLint UP-TO-DATE
+:Barf:checkDebugManifest
+:Barf:preDebugAndroidTestBuild UP-TO-DATE
+:Barf:preDebugUnitTestBuild UP-TO-DATE
+:Barf:preReleaseBuild UP-TO-DATE
+:Barf:preReleaseUnitTestBuild UP-TO-DATE
+:Barf:prepareComAndroidSupportAppcompatV72311Library
+:Barf:prepareComAndroidSupportSupportV42311Library
+:Barf:prepareIoReactivexRxandroid110Library
+:Barf:prepareDebugDependencies
+:Barf:compileDebugAidl
+:Barf:compileDebugRenderscript
+:Barf:generateDebugBuildConfig
+:Barf:mergeDebugShaders
+:Barf:compileDebugShaders
+:Barf:generateDebugAssets
+:Barf:mergeDebugAssets
+:Barf:generateDebugResValues
+:Barf:generateDebugResources
+:Barf:mergeDebugResources
+:Barf:processDebugManifest
+:Barf:processDebugResources
+:Barf:generateDebugSources
+:Barf:incrementalDebugJavaCompilationSafeguard
+:Barf:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:Barf:compileRetrolambdaDebug
+:Barf:extractDebugAnnotations
+:Barf:mergeDebugProguardFiles
+:Barf:packageDebugRenderscript UP-TO-DATE
+:Barf:packageDebugResources
+:Barf:processDebugJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForDebug
+:Barf:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Barf:mergeDebugJniLibFolders
+:Barf:transformNative_libsWithMergeJniLibsForDebug
+:Barf:transformNative_libsWithSyncJniLibsForDebug
+:Barf:bundleDebug
+:Barf:compileDebugSources
+:Barf:assembleDebug
+:Barf:compileReleaseNdk UP-TO-DATE
+:Barf:copyReleaseLint UP-TO-DATE
+:Barf:checkReleaseManifest
+:Barf:prepareReleaseDependencies
+:Barf:compileReleaseAidl
+:Barf:compileReleaseRenderscript
+:Barf:generateReleaseBuildConfig
+:Barf:mergeReleaseShaders
+:Barf:compileReleaseShaders
+:Barf:generateReleaseAssets
+:Barf:mergeReleaseAssets
+:Barf:generateReleaseResValues
+:Barf:generateReleaseResources
+:Barf:mergeReleaseResources
+:Barf:processReleaseManifest
+:Barf:processReleaseResources
+:Barf:generateReleaseSources
+:Barf:incrementalReleaseJavaCompilationSafeguard
+:Barf:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:Barf:compileRetrolambdaRelease
+:Barf:extractReleaseAnnotations
+:Barf:mergeReleaseProguardFiles
+:Barf:packageReleaseRenderscript UP-TO-DATE
+:Barf:packageReleaseResources
+:Barf:processReleaseJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForRelease
+:Barf:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Barf:mergeReleaseJniLibFolders
+:Barf:transformNative_libsWithMergeJniLibsForRelease
+:Barf:transformNative_libsWithSyncJniLibsForRelease
+:Barf:bundleRelease
+:Barf:compileReleaseSources
+:Barf:assembleRelease
+:Barf:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
+    public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
+    public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
+    protected abstract Observable<R> createObservable(P params);
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
+    protected abstract Observable<R> createObservable(P params);
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
+    public static <T> Transformer<T, T> io() {
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
+    public static <T> Transformer<T, T> io() {
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
+    public void manage(Subscription subscription) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
+    public Presenter init(@NonNull View v) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
+    public Presenter init(@NonNull View v) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
+    public Presenter get() {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
+     * {@link Query#getMode()}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
+    <Result> Observable<Result> query(@NonNull Query<Result> query);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
+    <Result> Observable<Result> query(@NonNull Query<Result> query);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
+ * <R> the expected return type for this query
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
+ * from local and/or remote sources, but if so, it should follow the mode specified by the {@link Query#getMode()}.
+                                                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+
+3 errors
+21 warnings
+:Barf:javadocJarDebug
+:Barf:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
+    public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
+    public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
+    protected abstract Observable<R> createObservable(P params);
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
+    protected abstract Observable<R> createObservable(P params);
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
+    public static <T> Transformer<T, T> io() {
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
+    public static <T> Transformer<T, T> io() {
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
+    public void manage(Subscription subscription) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
+    public Presenter init(@NonNull View v) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
+    public Presenter init(@NonNull View v) {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
+    public Presenter get() {
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
+    protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
+                                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
+     * {@link Query#getMode()}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
+    <Result> Observable<Result> query(@NonNull Query<Result> query);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
+    <Result> Observable<Result> query(@NonNull Query<Result> query);
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
+    public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
+                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
+ * <R> the expected return type for this query
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
+ * from local and/or remote sources, but if so, it should follow the mode specified by the {@link Query#getMode()}.
+                                                                                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+
+3 errors
+21 warnings
+:Barf:javadocJarRelease
+:Barf:sourcesJarDebug
+:Barf:sourcesJarRelease
+:Barf:assemble
+:Barf:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':Barf:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':Barf:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 15.169 secs
+
+2018-11-05 15:31:19,381 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:31:19,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:31:28,848 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-05 15:31:28,848 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-05 15:31:28,848 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-05 15:31:28,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-05 15:31:48,200 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:31:48,200 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:Chateau:preBuild UP-TO-DATE
+:Chateau:preDebugBuild UP-TO-DATE
+:Chateau:compileDebugNdk UP-TO-DATE
+:Chateau:compileLint
+:Chateau:copyDebugLint UP-TO-DATE
+:Barf:preBuild UP-TO-DATE
+:Barf:preReleaseBuild UP-TO-DATE
+:Barf:compileReleaseNdk UP-TO-DATE
+:Barf:compileLint
+:Barf:copyReleaseLint UP-TO-DATE
+:Barf:checkReleaseManifest
+:Barf:preDebugAndroidTestBuild UP-TO-DATE
+:Barf:preDebugBuild UP-TO-DATE
+:Barf:preDebugUnitTestBuild UP-TO-DATE
+:Barf:preReleaseUnitTestBuild UP-TO-DATE
+:Barf:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:Barf:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:Barf:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:Barf:prepareReleaseDependencies
+:Barf:compileReleaseAidl UP-TO-DATE
+:Barf:compileReleaseRenderscript UP-TO-DATE
+:Barf:generateReleaseBuildConfig UP-TO-DATE
+:Barf:mergeReleaseShaders UP-TO-DATE
+:Barf:compileReleaseShaders UP-TO-DATE
+:Barf:generateReleaseAssets UP-TO-DATE
+:Barf:mergeReleaseAssets UP-TO-DATE
+:Barf:generateReleaseResValues UP-TO-DATE
+:Barf:generateReleaseResources UP-TO-DATE
+:Barf:mergeReleaseResources UP-TO-DATE
+:Barf:processReleaseManifest UP-TO-DATE
+:Barf:processReleaseResources UP-TO-DATE
+:Barf:generateReleaseSources UP-TO-DATE
+:Barf:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Barf:compileReleaseJavaWithJavac UP-TO-DATE
+:Barf:compileRetrolambdaRelease UP-TO-DATE
+:Barf:extractReleaseAnnotations UP-TO-DATE
+:Barf:mergeReleaseProguardFiles UP-TO-DATE
+:Barf:packageReleaseRenderscript UP-TO-DATE
+:Barf:packageReleaseResources UP-TO-DATE
+:Barf:processReleaseJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Barf:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Barf:mergeReleaseJniLibFolders UP-TO-DATE
+:Barf:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Barf:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Barf:bundleRelease UP-TO-DATE
+:Chateau:checkDebugManifest
+:Chateau:preDebugAndroidTestBuild UP-TO-DATE
+:Chateau:preDebugUnitTestBuild UP-TO-DATE
+:Chateau:preReleaseBuild UP-TO-DATE
+:Chateau:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauCore:preBuild UP-TO-DATE
+:ChateauCore:preReleaseBuild UP-TO-DATE
+:ChateauCore:compileReleaseNdk UP-TO-DATE
+:ChateauCore:compileLint
+:ChateauCore:copyReleaseLint UP-TO-DATE
+:ChateauCore:checkReleaseManifest
+:ChateauCore:preDebugAndroidTestBuild UP-TO-DATE
+:ChateauCore:preDebugBuild UP-TO-DATE
+:ChateauCore:preDebugUnitTestBuild UP-TO-DATE
+:ChateauCore:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportAppcompatV72311Library
+:ChateauCore:prepareComAndroidSupportRecyclerviewV72311Library
+:ChateauCore:prepareComAndroidSupportSupportV42311Library
+:ChateauCore:prepareComBadooChateauBarf100Preview1Library
+:ChateauCore:prepareIoReactivexRxandroid110Library
+:ChateauCore:prepareReleaseDependencies
+:ChateauCore:compileReleaseAidl
+:ChateauCore:compileReleaseRenderscript
+:ChateauCore:generateReleaseBuildConfig
+:ChateauCore:mergeReleaseShaders
+:ChateauCore:compileReleaseShaders
+:ChateauCore:generateReleaseAssets
+:ChateauCore:mergeReleaseAssets
+:ChateauCore:generateReleaseResValues
+:ChateauCore:generateReleaseResources
+:ChateauCore:mergeReleaseResources
+:ChateauCore:processReleaseManifest
+:ChateauCore:processReleaseResources
+:ChateauCore:generateReleaseSources
+:ChateauCore:incrementalReleaseJavaCompilationSafeguard
+:ChateauCore:compileReleaseJavaWithJavac
+:ChateauCore:compileRetrolambdaRelease
+:ChateauCore:extractReleaseAnnotations
+:ChateauCore:mergeReleaseProguardFiles
+:ChateauCore:packageReleaseRenderscript UP-TO-DATE
+:ChateauCore:packageReleaseResources
+:ChateauCore:processReleaseJavaRes UP-TO-DATE
+:ChateauCore:transformResourcesWithMergeJavaResForRelease
+:ChateauCore:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ChateauCore:mergeReleaseJniLibFolders
+:ChateauCore:transformNative_libsWithMergeJniLibsForRelease
+:ChateauCore:transformNative_libsWithSyncJniLibsForRelease
+:ChateauCore:bundleRelease
+:Chateau:prepareComAndroidSupportAppcompatV72311Library
+:Chateau:prepareComAndroidSupportDesign2311Library
+:Chateau:prepareComAndroidSupportRecyclerviewV72311Library
+:Chateau:prepareComAndroidSupportSupportV42311Library
+:Chateau:prepareComBadooChateauBarf100Preview1Library
+:Chateau:prepareComBadooChateauChateauCore100Preview1Library
+:Chateau:prepareComFacebookFrescoDrawee090Library
+:Chateau:prepareComFacebookFrescoFbcore090Library
+:Chateau:prepareComFacebookFrescoFresco090Library
+:Chateau:prepareComFacebookFrescoImagepipeline090Library
+:Chateau:prepareComFacebookFrescoImagepipelineBase090Library
+:Chateau:prepareIoReactivexRxandroid110Library
+:Chateau:prepareDebugDependencies
+:Chateau:compileDebugAidl
+:Chateau:compileDebugRenderscript
+:Chateau:generateDebugBuildConfig
+:Chateau:mergeDebugShaders
+:Chateau:compileDebugShaders
+:Chateau:generateDebugAssets
+:Chateau:mergeDebugAssets
+:Chateau:generateDebugResValues
+:Chateau:generateDebugResources
+:Chateau:mergeDebugResources
+:Chateau:processDebugManifest
+:Chateau:processDebugResources
+:Chateau:generateDebugSources
+:Chateau:incrementalDebugJavaCompilationSafeguard
+:Chateau:compileDebugJavaWithJavac
+:Chateau:compileRetrolambdaDebug
+:Chateau:extractDebugAnnotations
+:Chateau:mergeDebugProguardFiles
+:Chateau:packageDebugRenderscript UP-TO-DATE
+:Chateau:packageDebugResources
+:Chateau:processDebugJavaRes UP-TO-DATE
+:Chateau:transformResourcesWithMergeJavaResForDebug
+:Chateau:transformClassesAndResourcesWithSyncLibJarsForDebug
+:Chateau:mergeDebugJniLibFolders
+:Chateau:transformNative_libsWithMergeJniLibsForDebug
+:Chateau:transformNative_libsWithSyncJniLibsForDebug
+:Chateau:bundleDebug
+:Chateau:compileDebugSources
+:Chateau:assembleDebug
+:Chateau:compileReleaseNdk UP-TO-DATE
+:Chateau:copyReleaseLint UP-TO-DATE
+:Chateau:checkReleaseManifest
+:Chateau:prepareReleaseDependencies
+:Chateau:compileReleaseAidl
+:Chateau:compileReleaseRenderscript
+:Chateau:generateReleaseBuildConfig
+:Chateau:mergeReleaseShaders
+:Chateau:compileReleaseShaders
+:Chateau:generateReleaseAssets
+:Chateau:mergeReleaseAssets
+:Chateau:generateReleaseResValues
+:Chateau:generateReleaseResources
+:Chateau:mergeReleaseResources
+:Chateau:processReleaseManifest
+:Chateau:processReleaseResources
+:Chateau:generateReleaseSources
+:Chateau:incrementalReleaseJavaCompilationSafeguard
+:Chateau:compileReleaseJavaWithJavac
+:Chateau:compileRetrolambdaRelease
+:Chateau:extractReleaseAnnotations
+:Chateau:mergeReleaseProguardFiles
+:Chateau:packageReleaseRenderscript UP-TO-DATE
+:Chateau:packageReleaseResources
+:Chateau:processReleaseJavaRes UP-TO-DATE
+:Chateau:transformResourcesWithMergeJavaResForRelease
+:Chateau:transformClassesAndResourcesWithSyncLibJarsForRelease
+:Chateau:mergeReleaseJniLibFolders
+:Chateau:transformNative_libsWithMergeJniLibsForRelease
+:Chateau:transformNative_libsWithSyncJniLibsForRelease
+:Chateau:bundleRelease
+:Chateau:compileReleaseSources
+:Chateau:assembleRelease
+:Chateau:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
+    void onResendClicked(@NonNull M message);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
+        void showLoadingMoreMessages(boolean show);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
+         * {@link #showMessage(BaseMessage)} should be called multiple times.
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
+        void showMessages(@NonNull List<M> messages);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
+        void showConversation(@NonNull C conversation);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
+    public boolean isFailedToSend() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
+    void onSendMessage(@NonNull M message);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
+    void onCreateGroupClicked(@NonNull String name);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
+        void requestOpenChat(@NonNull C conversationId);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
+    void onUsersSelected(List<U> userIds);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
+    protected void onShowConversations(@NonNull List<C> conversations) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
+    protected void onFatalError(Throwable throwable) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
+    void onConversationClicked(@NonNull C conversation);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
+    void onDeleteConversations(@NonNull List<C> conversations);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
+        void requestOpenConversation(@NonNull C conversation);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
+        void showConversations(List<C> conversations);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+
+1 error
+20 warnings
+:Chateau:javadocJarDebug
+:Chateau:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
+    void onResendClicked(@NonNull M message);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
+        void showLoadingMoreMessages(boolean show);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
+         * {@link #showMessage(BaseMessage)} should be called multiple times.
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
+        void showMessages(@NonNull List<M> messages);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
+        void showConversation(@NonNull C conversation);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
+    public boolean isFailedToSend() {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
+    void onSendMessage(@NonNull M message);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
+    void onCreateGroupClicked(@NonNull String name);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
+        void requestOpenChat(@NonNull C conversationId);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
+    void onUsersSelected(List<U> userIds);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
+    protected void onShowConversations(@NonNull List<C> conversations) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
+    protected void onFatalError(Throwable throwable) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
+    void onConversationClicked(@NonNull C conversation);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
+    void onDeleteConversations(@NonNull List<C> conversations);
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
+        void requestOpenConversation(@NonNull C conversation);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
+        void showConversations(List<C> conversations);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
+        void showError(boolean fatal, @Nullable Throwable throwable);
+             ^
+
+1 error
+20 warnings
+:Chateau:javadocJarRelease
+:Chateau:sourcesJarDebug
+:Chateau:sourcesJarRelease
+:Chateau:assemble
+:Chateau:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':Chateau:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':Chateau:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 18.811 secs
+
+2018-11-05 15:31:48,356 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:31:48,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:31:56,792 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-05 15:31:56,792 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-05 15:31:56,792 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-05 15:31:56,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-05 15:32:11,407 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:32:11,407 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:ChateauCore:preBuild UP-TO-DATE
+:ChateauCore:preDebugBuild UP-TO-DATE
+:ChateauCore:compileDebugNdk UP-TO-DATE
+:ChateauCore:compileLint
+:ChateauCore:copyDebugLint UP-TO-DATE
+:Barf:preBuild UP-TO-DATE
+:Barf:preReleaseBuild UP-TO-DATE
+:Barf:compileReleaseNdk UP-TO-DATE
+:Barf:compileLint
+:Barf:copyReleaseLint UP-TO-DATE
+:Barf:checkReleaseManifest
+:Barf:preDebugAndroidTestBuild UP-TO-DATE
+:Barf:preDebugBuild UP-TO-DATE
+:Barf:preDebugUnitTestBuild UP-TO-DATE
+:Barf:preReleaseUnitTestBuild UP-TO-DATE
+:Barf:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:Barf:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:Barf:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:Barf:prepareReleaseDependencies
+:Barf:compileReleaseAidl UP-TO-DATE
+:Barf:compileReleaseRenderscript UP-TO-DATE
+:Barf:generateReleaseBuildConfig UP-TO-DATE
+:Barf:mergeReleaseShaders UP-TO-DATE
+:Barf:compileReleaseShaders UP-TO-DATE
+:Barf:generateReleaseAssets UP-TO-DATE
+:Barf:mergeReleaseAssets UP-TO-DATE
+:Barf:generateReleaseResValues UP-TO-DATE
+:Barf:generateReleaseResources UP-TO-DATE
+:Barf:mergeReleaseResources UP-TO-DATE
+:Barf:processReleaseManifest UP-TO-DATE
+:Barf:processReleaseResources UP-TO-DATE
+:Barf:generateReleaseSources UP-TO-DATE
+:Barf:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Barf:compileReleaseJavaWithJavac UP-TO-DATE
+:Barf:compileRetrolambdaRelease UP-TO-DATE
+:Barf:extractReleaseAnnotations UP-TO-DATE
+:Barf:mergeReleaseProguardFiles UP-TO-DATE
+:Barf:packageReleaseRenderscript UP-TO-DATE
+:Barf:packageReleaseResources UP-TO-DATE
+:Barf:processReleaseJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Barf:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Barf:mergeReleaseJniLibFolders UP-TO-DATE
+:Barf:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Barf:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Barf:bundleRelease UP-TO-DATE
+:ChateauCore:checkDebugManifest
+:ChateauCore:preDebugAndroidTestBuild UP-TO-DATE
+:ChateauCore:preDebugUnitTestBuild UP-TO-DATE
+:ChateauCore:preReleaseBuild UP-TO-DATE
+:ChateauCore:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportRecyclerviewV72311Library UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:ChateauCore:prepareComBadooChateauBarf100Preview1Library UP-TO-DATE
+:ChateauCore:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:ChateauCore:prepareDebugDependencies
+:ChateauCore:compileDebugAidl
+:ChateauCore:compileDebugRenderscript
+:ChateauCore:generateDebugBuildConfig
+:ChateauCore:mergeDebugShaders
+:ChateauCore:compileDebugShaders
+:ChateauCore:generateDebugAssets
+:ChateauCore:mergeDebugAssets
+:ChateauCore:generateDebugResValues
+:ChateauCore:generateDebugResources
+:ChateauCore:mergeDebugResources
+:ChateauCore:processDebugManifest
+:ChateauCore:processDebugResources
+:ChateauCore:generateDebugSources
+:ChateauCore:incrementalDebugJavaCompilationSafeguard
+:ChateauCore:compileDebugJavaWithJavac
+:ChateauCore:compileRetrolambdaDebug
+:ChateauCore:extractDebugAnnotations
+:ChateauCore:mergeDebugProguardFiles
+:ChateauCore:packageDebugRenderscript UP-TO-DATE
+:ChateauCore:packageDebugResources
+:ChateauCore:processDebugJavaRes UP-TO-DATE
+:ChateauCore:transformResourcesWithMergeJavaResForDebug
+:ChateauCore:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ChateauCore:mergeDebugJniLibFolders
+:ChateauCore:transformNative_libsWithMergeJniLibsForDebug
+:ChateauCore:transformNative_libsWithSyncJniLibsForDebug
+:ChateauCore:bundleDebug
+:ChateauCore:compileDebugSources
+:ChateauCore:assembleDebug
+:ChateauCore:compileReleaseNdk UP-TO-DATE
+:ChateauCore:copyReleaseLint UP-TO-DATE
+:ChateauCore:checkReleaseManifest
+:ChateauCore:prepareReleaseDependencies
+:ChateauCore:compileReleaseAidl UP-TO-DATE
+:ChateauCore:compileReleaseRenderscript UP-TO-DATE
+:ChateauCore:generateReleaseBuildConfig UP-TO-DATE
+:ChateauCore:mergeReleaseShaders UP-TO-DATE
+:ChateauCore:compileReleaseShaders UP-TO-DATE
+:ChateauCore:generateReleaseAssets UP-TO-DATE
+:ChateauCore:mergeReleaseAssets UP-TO-DATE
+:ChateauCore:generateReleaseResValues UP-TO-DATE
+:ChateauCore:generateReleaseResources UP-TO-DATE
+:ChateauCore:mergeReleaseResources UP-TO-DATE
+:ChateauCore:processReleaseManifest UP-TO-DATE
+:ChateauCore:processReleaseResources UP-TO-DATE
+:ChateauCore:generateReleaseSources UP-TO-DATE
+:ChateauCore:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ChateauCore:compileReleaseJavaWithJavac UP-TO-DATE
+:ChateauCore:compileRetrolambdaRelease UP-TO-DATE
+:ChateauCore:extractReleaseAnnotations UP-TO-DATE
+:ChateauCore:mergeReleaseProguardFiles UP-TO-DATE
+:ChateauCore:packageReleaseRenderscript UP-TO-DATE
+:ChateauCore:packageReleaseResources UP-TO-DATE
+:ChateauCore:processReleaseJavaRes UP-TO-DATE
+:ChateauCore:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ChateauCore:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ChateauCore:mergeReleaseJniLibFolders UP-TO-DATE
+:ChateauCore:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ChateauCore:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ChateauCore:bundleRelease UP-TO-DATE
+:ChateauCore:compileReleaseSources UP-TO-DATE
+:ChateauCore:assembleRelease UP-TO-DATE
+:ChateauCore:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
+    Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
+    Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
+    Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
+    Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
+    Observable<Void> send(@NonNull SendQuery<M> query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
+    Observable<Void> send(@NonNull SendQuery<M> query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
+    Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
+    Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
+ * Defines a data source providing messages for the {@link MessageRepository}
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
+    Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
+    Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
+    Observable<Void> markRead(MarkConversationReadQuery query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
+    Observable<Void> markRead(MarkConversationReadQuery query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
+    Observable<List<C>> delete(DeleteConversationsQuery<C> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
+    Observable<List<C>> delete(DeleteConversationsQuery<C> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
+    Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
+    Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
+    Observable<C> get(GetConversationQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
+    Observable<C> get(GetConversationQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
+    Observable<C> create(CreateConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
+    Observable<C> create(CreateConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
+    Observable<C> create(CreateGroupConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
+    Observable<C> create(CreateGroupConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
+    Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
+    Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
+    Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
+    Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
+    Observable<List<U>> getAllUsers(GetAllUsersQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
+    Observable<List<U>> getAllUsers(GetAllUsersQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
+    Observable<U> getSingleUser(GetUserQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
+    Observable<U> getSingleUser(GetUserQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
+ * Defines a data source providing user data for the {@link UserRepository}
+                                                            ^
+
+2 errors
+33 warnings
+:ChateauCore:javadocJarDebug
+:ChateauCore:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
+    Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
+    Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
+    Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
+    Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
+    Observable<Void> send(@NonNull SendQuery<M> query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
+    Observable<Void> send(@NonNull SendQuery<M> query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
+    Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
+    Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
+ * Defines a data source providing messages for the {@link MessageRepository}
+                                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
+    Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
+    Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
+    Observable<Void> markRead(MarkConversationReadQuery query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
+    Observable<Void> markRead(MarkConversationReadQuery query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
+    Observable<List<C>> delete(DeleteConversationsQuery<C> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
+    Observable<List<C>> delete(DeleteConversationsQuery<C> query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
+    Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
+    Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
+    Observable<C> get(GetConversationQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
+    Observable<C> get(GetConversationQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
+    Observable<C> create(CreateConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
+    Observable<C> create(CreateConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
+    Observable<C> create(CreateGroupConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
+    Observable<C> create(CreateGroupConversationQuery<C> query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
+    Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
+    Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
+    Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
+    Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
+    Observable<List<U>> getAllUsers(GetAllUsersQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
+    Observable<List<U>> getAllUsers(GetAllUsersQuery query);
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
+    Observable<U> getSingleUser(GetUserQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
+    Observable<U> getSingleUser(GetUserQuery query);
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
+ * Defines a data source providing user data for the {@link UserRepository}
+                                                            ^
+
+2 errors
+33 warnings
+:ChateauCore:javadocJarRelease
+:ChateauCore:sourcesJarDebug
+:ChateauCore:sourcesJarRelease
+:ChateauCore:assemble
+:ChateauCore:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ChateauCore:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':ChateauCore:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 14.089 secs
+
+2018-11-05 15:32:11,593 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:32:11,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:32:20,225 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-11-05 15:32:20,225 INFO  ProjectTaskService - Detected possible tasks: 0
+2018-11-05 15:32:20,225 INFO  ProjectTaskService - Excluded tasks (0): none
+2018-11-05 15:32:20,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2018-11-05 15:32:37,409 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:32:37,409 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+:ChateauExtras:preBuild UP-TO-DATE
+:ChateauExtras:preDebugBuild UP-TO-DATE
+:ChateauExtras:compileDebugNdk UP-TO-DATE
+:ChateauExtras:compileLint
+:ChateauExtras:copyDebugLint UP-TO-DATE
+:Barf:preBuild UP-TO-DATE
+:Barf:preReleaseBuild UP-TO-DATE
+:Barf:compileReleaseNdk UP-TO-DATE
+:Barf:compileLint
+:Barf:copyReleaseLint UP-TO-DATE
+:Barf:checkReleaseManifest
+:Barf:preDebugAndroidTestBuild UP-TO-DATE
+:Barf:preDebugBuild UP-TO-DATE
+:Barf:preDebugUnitTestBuild UP-TO-DATE
+:Barf:preReleaseUnitTestBuild UP-TO-DATE
+:Barf:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:Barf:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:Barf:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:Barf:prepareReleaseDependencies
+:Barf:compileReleaseAidl UP-TO-DATE
+:Barf:compileReleaseRenderscript UP-TO-DATE
+:Barf:generateReleaseBuildConfig UP-TO-DATE
+:Barf:mergeReleaseShaders UP-TO-DATE
+:Barf:compileReleaseShaders UP-TO-DATE
+:Barf:generateReleaseAssets UP-TO-DATE
+:Barf:mergeReleaseAssets UP-TO-DATE
+:Barf:generateReleaseResValues UP-TO-DATE
+:Barf:generateReleaseResources UP-TO-DATE
+:Barf:mergeReleaseResources UP-TO-DATE
+:Barf:processReleaseManifest UP-TO-DATE
+:Barf:processReleaseResources UP-TO-DATE
+:Barf:generateReleaseSources UP-TO-DATE
+:Barf:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Barf:compileReleaseJavaWithJavac UP-TO-DATE
+:Barf:compileRetrolambdaRelease UP-TO-DATE
+:Barf:extractReleaseAnnotations UP-TO-DATE
+:Barf:mergeReleaseProguardFiles UP-TO-DATE
+:Barf:packageReleaseRenderscript UP-TO-DATE
+:Barf:packageReleaseResources UP-TO-DATE
+:Barf:processReleaseJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Barf:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Barf:mergeReleaseJniLibFolders UP-TO-DATE
+:Barf:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Barf:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Barf:bundleRelease UP-TO-DATE
+:ChateauExtras:checkDebugManifest
+:ChateauExtras:preDebugAndroidTestBuild UP-TO-DATE
+:ChateauExtras:preDebugUnitTestBuild UP-TO-DATE
+:ChateauExtras:preReleaseBuild UP-TO-DATE
+:ChateauExtras:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauExtras:prepareComAndroidSupportAppcompatV72311Library
+:ChateauExtras:prepareComAndroidSupportRecyclerviewV72311Library
+:ChateauExtras:prepareComAndroidSupportSupportV42311Library
+:ChateauExtras:prepareComBadooChateauBarf100Preview1Library
+:ChateauExtras:prepareIoReactivexRxandroid110Library
+:ChateauExtras:prepareDebugDependencies
+:ChateauExtras:compileDebugAidl
+:ChateauExtras:compileDebugRenderscript
+:ChateauExtras:generateDebugBuildConfig
+:ChateauExtras:mergeDebugShaders
+:ChateauExtras:compileDebugShaders
+:ChateauExtras:generateDebugAssets
+:ChateauExtras:mergeDebugAssets
+:ChateauExtras:generateDebugResValues
+:ChateauExtras:generateDebugResources
+:ChateauExtras:mergeDebugResources
+:ChateauExtras:processDebugManifest
+:ChateauExtras:processDebugResources
+:ChateauExtras:generateDebugSources
+:ChateauExtras:incrementalDebugJavaCompilationSafeguard
+:ChateauExtras:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ChateauExtras:compileRetrolambdaDebug
+:ChateauExtras:extractDebugAnnotations
+:ChateauExtras:mergeDebugProguardFiles
+:ChateauExtras:packageDebugRenderscript UP-TO-DATE
+:ChateauExtras:packageDebugResources
+:ChateauExtras:processDebugJavaRes UP-TO-DATE
+:ChateauExtras:transformResourcesWithMergeJavaResForDebug
+:ChateauExtras:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ChateauExtras:mergeDebugJniLibFolders
+:ChateauExtras:transformNative_libsWithMergeJniLibsForDebug
+:ChateauExtras:transformNative_libsWithSyncJniLibsForDebug
+:ChateauExtras:bundleDebug
+:ChateauExtras:compileDebugSources
+:ChateauExtras:assembleDebug
+:ChateauExtras:compileReleaseNdk UP-TO-DATE
+:ChateauExtras:copyReleaseLint UP-TO-DATE
+:ChateauExtras:checkReleaseManifest
+:ChateauExtras:prepareReleaseDependencies
+:ChateauExtras:compileReleaseAidl
+:ChateauExtras:compileReleaseRenderscript
+:ChateauExtras:generateReleaseBuildConfig
+:ChateauExtras:mergeReleaseShaders
+:ChateauExtras:compileReleaseShaders
+:ChateauExtras:generateReleaseAssets
+:ChateauExtras:mergeReleaseAssets
+:ChateauExtras:generateReleaseResValues
+:ChateauExtras:generateReleaseResources
+:ChateauExtras:mergeReleaseResources
+:ChateauExtras:processReleaseManifest
+:ChateauExtras:processReleaseResources
+:ChateauExtras:generateReleaseSources
+:ChateauExtras:incrementalReleaseJavaCompilationSafeguard
+:ChateauExtras:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ChateauExtras:compileRetrolambdaRelease
+:ChateauExtras:extractReleaseAnnotations
+:ChateauExtras:mergeReleaseProguardFiles
+:ChateauExtras:packageReleaseRenderscript UP-TO-DATE
+:ChateauExtras:packageReleaseResources
+:ChateauExtras:processReleaseJavaRes UP-TO-DATE
+:ChateauExtras:transformResourcesWithMergeJavaResForRelease
+:ChateauExtras:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ChateauExtras:mergeReleaseJniLibFolders
+:ChateauExtras:transformNative_libsWithMergeJniLibsForRelease
+:ChateauExtras:transformNative_libsWithSyncJniLibsForRelease
+:ChateauExtras:bundleRelease
+:ChateauExtras:compileReleaseSources
+:ChateauExtras:assembleRelease
+:ChateauExtras:javadocDebug/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
+import com.badoo.chateau.utils.R;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
+import com.badoo.chateau.utils.R;
+                              ^
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
+    public void setMode(@Mode int mode) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
+    public int getMode() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
+    public boolean onClick(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
+    public boolean onLongClick(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
+    public boolean isPositionSelected(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
+    public boolean isPositionSelected(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
+    public Set<Integer> getSelectedItems() {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
+        void onModeChanged(@Mode int multiSelect);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
+        public int convertPosition(int position) { return position;}
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
+        public int convertPosition(int position) { return position;}
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
+    public void setLoading(boolean loading) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
+    boolean isHandledByWrappedAdapter(int position);
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
+    boolean isHandledByWrappedAdapter(int position);
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
+    public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
+    public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
+    public int getIdForType(Class<?> type) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
+    public int getIdForType(Class<?> type) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
+    public ViewHolderFactory<? extends T> getFactoryForId(int id) {
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
+    public ViewHolderFactory<? extends T> getFactoryForId(int id) {
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
+    public ViewHolderFactoryResolver(int offset) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
+    public void reverseLayout(boolean reverseLayout) {
+                ^
+
+27 warnings
+:ChateauExtras:javadocJarDebug
+:ChateauExtras:javadocRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
+import com.badoo.chateau.utils.R;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
+import com.badoo.chateau.utils.R;
+                              ^
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
+    public void setMode(@Mode int mode) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
+    public int getMode() {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
+    public boolean onClick(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
+    public boolean onLongClick(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
+    public boolean isPositionSelected(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
+    public boolean isPositionSelected(int position) {
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
+    public Set<Integer> getSelectedItems() {
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
+        void onModeChanged(@Mode int multiSelect);
+             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
+        public int convertPosition(int position) { return position;}
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
+        public int convertPosition(int position) { return position;}
+                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
+    public void setLoading(boolean loading) {
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
+    boolean isHandledByWrappedAdapter(int position);
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
+    boolean isHandledByWrappedAdapter(int position);
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
+    public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
+    public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
+    public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
+    public int getIdForType(Class<?> type) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
+    public int getIdForType(Class<?> type) {
+               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
+    public ViewHolderFactory<? extends T> getFactoryForId(int id) {
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
+    public ViewHolderFactory<? extends T> getFactoryForId(int id) {
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
+    public ViewHolderFactoryResolver(int offset) {
+           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
+    public void reverseLayout(boolean reverseLayout) {
+                ^
+
+27 warnings
+:ChateauExtras:javadocJarRelease
+:ChateauExtras:sourcesJarDebug
+:ChateauExtras:sourcesJarRelease
+:ChateauExtras:assemble
+:ChateauExtras:lint FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ChateauExtras:lint'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':ChateauExtras:lint'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 16.671 secs
+
+2018-11-05 15:32:37,643 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-05 15:32:37,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-05 15:32:45,771 INFO  ProjectTaskService - Detected possible tasks: 76
+2018-11-05 15:32:45,771 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-05 15:32:45,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-05 15:33:15,313 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-05 15:33:15,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
+extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
+Jack is required to support java 8 language features.
+Jack is required to support java 8 language features.
+:Barf:preBuild UP-TO-DATE
+:Barf:preReleaseBuild UP-TO-DATE
+:Barf:compileReleaseNdk UP-TO-DATE
+:Barf:compileLint
+:Barf:copyReleaseLint UP-TO-DATE
+:Barf:checkReleaseManifest
+:Barf:preDebugAndroidTestBuild UP-TO-DATE
+:Barf:preDebugBuild UP-TO-DATE
+:Barf:preDebugUnitTestBuild UP-TO-DATE
+:Barf:preReleaseUnitTestBuild UP-TO-DATE
+:Barf:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:Barf:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:Barf:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:Barf:prepareReleaseDependencies
+:Barf:compileReleaseAidl UP-TO-DATE
+:Barf:compileReleaseRenderscript UP-TO-DATE
+:Barf:generateReleaseBuildConfig UP-TO-DATE
+:Barf:mergeReleaseShaders UP-TO-DATE
+:Barf:compileReleaseShaders UP-TO-DATE
+:Barf:generateReleaseAssets UP-TO-DATE
+:Barf:mergeReleaseAssets UP-TO-DATE
+:Barf:generateReleaseResValues UP-TO-DATE
+:Barf:generateReleaseResources UP-TO-DATE
+:Barf:mergeReleaseResources UP-TO-DATE
+:Barf:processReleaseManifest UP-TO-DATE
+:Barf:processReleaseResources UP-TO-DATE
+:Barf:generateReleaseSources UP-TO-DATE
+:Barf:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Barf:compileReleaseJavaWithJavac UP-TO-DATE
+:Barf:compileRetrolambdaRelease UP-TO-DATE
+:Barf:extractReleaseAnnotations UP-TO-DATE
+:Barf:mergeReleaseProguardFiles UP-TO-DATE
+:Barf:packageReleaseRenderscript UP-TO-DATE
+:Barf:packageReleaseResources UP-TO-DATE
+:Barf:processReleaseJavaRes UP-TO-DATE
+:Barf:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Barf:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Barf:mergeReleaseJniLibFolders UP-TO-DATE
+:Barf:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Barf:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Barf:bundleRelease UP-TO-DATE
+:Chateau:preBuild UP-TO-DATE
+:Chateau:preReleaseBuild UP-TO-DATE
+:Chateau:compileReleaseNdk UP-TO-DATE
+:Chateau:compileLint
+:Chateau:copyReleaseLint UP-TO-DATE
+:Chateau:checkReleaseManifest
+:Chateau:preDebugAndroidTestBuild UP-TO-DATE
+:Chateau:preDebugBuild UP-TO-DATE
+:Chateau:preDebugUnitTestBuild UP-TO-DATE
+:Chateau:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauCore:preBuild UP-TO-DATE
+:ChateauCore:preReleaseBuild UP-TO-DATE
+:ChateauCore:compileReleaseNdk UP-TO-DATE
+:ChateauCore:compileLint
+:ChateauCore:copyReleaseLint UP-TO-DATE
+:ChateauCore:checkReleaseManifest
+:ChateauCore:preDebugAndroidTestBuild UP-TO-DATE
+:ChateauCore:preDebugBuild UP-TO-DATE
+:ChateauCore:preDebugUnitTestBuild UP-TO-DATE
+:ChateauCore:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportRecyclerviewV72311Library UP-TO-DATE
+:ChateauCore:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:ChateauCore:prepareComBadooChateauBarf100Preview1Library UP-TO-DATE
+:ChateauCore:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:ChateauCore:prepareReleaseDependencies
+:ChateauCore:compileReleaseAidl UP-TO-DATE
+:ChateauCore:compileReleaseRenderscript UP-TO-DATE
+:ChateauCore:generateReleaseBuildConfig UP-TO-DATE
+:ChateauCore:mergeReleaseShaders UP-TO-DATE
+:ChateauCore:compileReleaseShaders UP-TO-DATE
+:ChateauCore:generateReleaseAssets UP-TO-DATE
+:ChateauCore:mergeReleaseAssets UP-TO-DATE
+:ChateauCore:generateReleaseResValues UP-TO-DATE
+:ChateauCore:generateReleaseResources UP-TO-DATE
+:ChateauCore:mergeReleaseResources UP-TO-DATE
+:ChateauCore:processReleaseManifest UP-TO-DATE
+:ChateauCore:processReleaseResources UP-TO-DATE
+:ChateauCore:generateReleaseSources UP-TO-DATE
+:ChateauCore:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ChateauCore:compileReleaseJavaWithJavac UP-TO-DATE
+:ChateauCore:compileRetrolambdaRelease UP-TO-DATE
+:ChateauCore:extractReleaseAnnotations UP-TO-DATE
+:ChateauCore:mergeReleaseProguardFiles UP-TO-DATE
+:ChateauCore:packageReleaseRenderscript UP-TO-DATE
+:ChateauCore:packageReleaseResources UP-TO-DATE
+:ChateauCore:processReleaseJavaRes UP-TO-DATE
+:ChateauCore:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ChateauCore:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ChateauCore:mergeReleaseJniLibFolders UP-TO-DATE
+:ChateauCore:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ChateauCore:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ChateauCore:bundleRelease UP-TO-DATE
+:Chateau:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:Chateau:prepareComAndroidSupportDesign2311Library UP-TO-DATE
+:Chateau:prepareComAndroidSupportRecyclerviewV72311Library UP-TO-DATE
+:Chateau:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:Chateau:prepareComBadooChateauBarf100Preview1Library UP-TO-DATE
+:Chateau:prepareComBadooChateauChateauCore100Preview1Library UP-TO-DATE
+:Chateau:prepareComFacebookFrescoDrawee090Library UP-TO-DATE
+:Chateau:prepareComFacebookFrescoFbcore090Library UP-TO-DATE
+:Chateau:prepareComFacebookFrescoFresco090Library UP-TO-DATE
+:Chateau:prepareComFacebookFrescoImagepipeline090Library UP-TO-DATE
+:Chateau:prepareComFacebookFrescoImagepipelineBase090Library UP-TO-DATE
+:Chateau:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:Chateau:prepareReleaseDependencies
+:Chateau:compileReleaseAidl UP-TO-DATE
+:Chateau:compileReleaseRenderscript UP-TO-DATE
+:Chateau:generateReleaseBuildConfig UP-TO-DATE
+:Chateau:mergeReleaseShaders UP-TO-DATE
+:Chateau:compileReleaseShaders UP-TO-DATE
+:Chateau:generateReleaseAssets UP-TO-DATE
+:Chateau:mergeReleaseAssets UP-TO-DATE
+:Chateau:generateReleaseResValues UP-TO-DATE
+:Chateau:generateReleaseResources UP-TO-DATE
+:Chateau:mergeReleaseResources UP-TO-DATE
+:Chateau:processReleaseManifest UP-TO-DATE
+:Chateau:processReleaseResources UP-TO-DATE
+:Chateau:generateReleaseSources UP-TO-DATE
+:Chateau:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:Chateau:compileReleaseJavaWithJavac UP-TO-DATE
+:Chateau:compileRetrolambdaRelease UP-TO-DATE
+:Chateau:extractReleaseAnnotations UP-TO-DATE
+:Chateau:mergeReleaseProguardFiles UP-TO-DATE
+:Chateau:packageReleaseRenderscript UP-TO-DATE
+:Chateau:packageReleaseResources UP-TO-DATE
+:Chateau:processReleaseJavaRes UP-TO-DATE
+:Chateau:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:Chateau:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:Chateau:mergeReleaseJniLibFolders UP-TO-DATE
+:Chateau:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:Chateau:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:Chateau:bundleRelease UP-TO-DATE
+:ChateauExtras:preBuild UP-TO-DATE
+:ChateauExtras:preReleaseBuild UP-TO-DATE
+:ChateauExtras:compileReleaseNdk UP-TO-DATE
+:ChateauExtras:compileLint
+:ChateauExtras:copyReleaseLint UP-TO-DATE
+:ChateauExtras:checkReleaseManifest
+:ChateauExtras:preDebugAndroidTestBuild UP-TO-DATE
+:ChateauExtras:preDebugBuild UP-TO-DATE
+:ChateauExtras:preDebugUnitTestBuild UP-TO-DATE
+:ChateauExtras:preReleaseUnitTestBuild UP-TO-DATE
+:ChateauExtras:prepareComAndroidSupportAppcompatV72311Library UP-TO-DATE
+:ChateauExtras:prepareComAndroidSupportRecyclerviewV72311Library UP-TO-DATE
+:ChateauExtras:prepareComAndroidSupportSupportV42311Library UP-TO-DATE
+:ChateauExtras:prepareComBadooChateauBarf100Preview1Library UP-TO-DATE
+:ChateauExtras:prepareIoReactivexRxandroid110Library UP-TO-DATE
+:ChateauExtras:prepareReleaseDependencies
+:ChateauExtras:compileReleaseAidl UP-TO-DATE
+:ChateauExtras:compileReleaseRenderscript UP-TO-DATE
+:ChateauExtras:generateReleaseBuildConfig UP-TO-DATE
+:ChateauExtras:mergeReleaseShaders UP-TO-DATE
+:ChateauExtras:compileReleaseShaders UP-TO-DATE
+:ChateauExtras:generateReleaseAssets UP-TO-DATE
+:ChateauExtras:mergeReleaseAssets UP-TO-DATE
+:ChateauExtras:generateReleaseResValues UP-TO-DATE
+:ChateauExtras:generateReleaseResources UP-TO-DATE
+:ChateauExtras:mergeReleaseResources UP-TO-DATE
+:ChateauExtras:processReleaseManifest UP-TO-DATE
+:ChateauExtras:processReleaseResources UP-TO-DATE
+:ChateauExtras:generateReleaseSources UP-TO-DATE
+:ChateauExtras:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:ChateauExtras:compileReleaseJavaWithJavac UP-TO-DATE
+:ChateauExtras:compileRetrolambdaRelease UP-TO-DATE
+:ChateauExtras:extractReleaseAnnotations UP-TO-DATE
+:ChateauExtras:mergeReleaseProguardFiles UP-TO-DATE
+:ChateauExtras:packageReleaseRenderscript UP-TO-DATE
+:ChateauExtras:packageReleaseResources UP-TO-DATE
+:ChateauExtras:processReleaseJavaRes UP-TO-DATE
+:ChateauExtras:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:ChateauExtras:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:ChateauExtras:mergeReleaseJniLibFolders UP-TO-DATE
+:ChateauExtras:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:ChateauExtras:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:ChateauExtras:bundleRelease UP-TO-DATE
+:ExampleApp:preBuild UP-TO-DATE
+:ExampleApp:preDebugBuild UP-TO-DATE
+:ExampleApp:checkDebugManifest
+:ExampleApp:preReleaseBuild UP-TO-DATE
+:ExampleApp:prepareComAndroidSupportAppcompatV72311Library
+:ExampleApp:prepareComAndroidSupportDesign2311Library
+:ExampleApp:prepareComAndroidSupportRecyclerviewV72311Library
+:ExampleApp:prepareComAndroidSupportSupportV42311Library
+:ExampleApp:prepareComBadooChateauBarf100Preview1Library
+:ExampleApp:prepareComBadooChateauChateau100Preview1Library
+:ExampleApp:prepareComBadooChateauChateauCore100Preview1Library
+:ExampleApp:prepareComBadooChateauChateauExtras100Preview1Library
+:ExampleApp:prepareComFacebookFrescoDrawee090Library
+:ExampleApp:prepareComFacebookFrescoFbcore090Library
+:ExampleApp:prepareComFacebookFrescoFresco090Library
+:ExampleApp:prepareComFacebookFrescoImagepipeline090Library
+:ExampleApp:prepareComFacebookFrescoImagepipelineBase090Library
+:ExampleApp:prepareComGoogleAndroidGmsPlayServicesAppindexing810Library
+:ExampleApp:prepareComGoogleAndroidGmsPlayServicesBasement810Library
+:ExampleApp:prepareIoReactivexRxandroid110Library
+:ExampleApp:prepareNetHockeyappAndroidHockeySDK401Library
+:ExampleApp:prepareDebugDependencies
+:ExampleApp:compileDebugAidl
+:ExampleApp:compileDebugRenderscript
+:ExampleApp:generateDebugBuildConfig
+:ExampleApp:mergeDebugShaders
+:ExampleApp:compileDebugShaders
+:ExampleApp:generateDebugAssets
+:ExampleApp:mergeDebugAssets
+:ExampleApp:generateDebugResValues
+:ExampleApp:generateDebugResources
+:ExampleApp:mergeDebugResources
+:ExampleApp:processDebugManifest
+:ExampleApp:processDebugResources
+:ExampleApp:generateDebugSources
+:ExampleApp:incrementalDebugJavaCompilationSafeguard
+:ExampleApp:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ExampleApp:compileRetrolambdaDebug
+:ExampleApp:compileDebugNdk UP-TO-DATE
+:ExampleApp:compileDebugSources
+:ExampleApp:prePackageMarkerForDebug
+:ExampleApp:unzipJacocoAgent
+:ExampleApp:transformClassesWithJacocoForDebug
+:ExampleApp:transformClassesWithDexForDebug
+Result compacted from 7336.3KiB to 5685.8KiB to save 1650.4KiB
+Merged dex #1 (36 defs/34.3KiB)
+Merged dex #2 (326 defs/529.1KiB)
+Merged dex #3 (166 defs/225.1KiB)
+Merged dex #4 (134 defs/290.3KiB)
+Merged dex #5 (745 defs/903.4KiB)
+Merged dex #6 (25 defs/15.6KiB)
+Merged dex #7 (59 defs/39.7KiB)
+Merged dex #8 (48 defs/32.5KiB)
+Merged dex #9 (19 defs/17.6KiB)
+Merged dex #10 (61 defs/104.0KiB)
+Merged dex #11 (108 defs/104.7KiB)
+Merged dex #12 (6 defs/11.6KiB)
+Merged dex #13 (310 defs/328.4KiB)
+Merged dex #14 (65 defs/60.7KiB)
+Merged dex #15 (80 defs/64.6KiB)
+Merged dex #16 (807 defs/766.8KiB)
+Merged dex #17 (317 defs/251.6KiB)
+Merged dex #18 (10 defs/7.0KiB)
+Merged dex #19 (128 defs/234.4KiB)
+Merged dex #20 (73 defs/100.8KiB)
+Merged dex #21 (366 defs/480.4KiB)
+Merged dex #22 (149 defs/229.9KiB)
+Merged dex #23 (650 defs/559.8KiB)
+Merged dex #24 (821 defs/668.7KiB)
+Merged dex #25 (41 defs/6.4KiB)
+Result is 5550 defs/5685.8KiB. Took 0.8s
+:ExampleApp:mergeDebugJniLibFolders
+:ExampleApp:transformNative_libsWithMergeJniLibsForDebug
+:ExampleApp:processDebugJavaRes UP-TO-DATE
+:ExampleApp:transformResourcesWithMergeJavaResForDebug
+:ExampleApp:validateDebugSigning
+:ExampleApp:packageDebug
+:ExampleApp:zipalignDebug
+:ExampleApp:assembleDebug
+:ExampleApp:checkReleaseManifest
+:ExampleApp:prepareReleaseDependencies
+:ExampleApp:compileReleaseAidl
+:ExampleApp:compileReleaseRenderscript
+:ExampleApp:generateReleaseBuildConfig
+:ExampleApp:mergeReleaseShaders
+:ExampleApp:compileReleaseShaders
+:ExampleApp:generateReleaseAssets
+:ExampleApp:mergeReleaseAssets
+:ExampleApp:generateReleaseResValues
+:ExampleApp:generateReleaseResources
+:ExampleApp:mergeReleaseResources
+:ExampleApp:processReleaseManifest
+:ExampleApp:processReleaseResources
+:ExampleApp:generateReleaseSources
+:ExampleApp:incrementalReleaseJavaCompilationSafeguard
+:ExampleApp:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ExampleApp:compileRetrolambdaRelease
+:ExampleApp:compileReleaseNdk UP-TO-DATE
+:ExampleApp:compileReleaseSources
+:ExampleApp:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':ExampleApp:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':ExampleApp:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 28.879 secs
+
+2018-11-05 15:33:15,692 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build/outputs/apk/ExampleApp-debug.apk

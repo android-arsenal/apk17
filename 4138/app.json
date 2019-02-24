@@ -1,0 +1,41 @@
+{
+  "meta" : {
+    "packageName" : "com.automattic.simplenote",
+    "label" : "Simplenote",
+    "icon" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "20",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ {
+      "name" : "android.hardware.type.watch",
+      "required" : false
+    } ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 940,
+  "locales" : [ "", "sl", "zh_HK", "zh_TW", "bg", "mr", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "es_�$", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "fr", "ka", "sq", "ur", "ja", "is", "si", "iw", "de", "es_US", "en_IN", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.automattic.simplenote\">\n\t<uses-sdk android:minSdkVersion=\"20\" android:targetSdkVersion=\"27\" />\n\t<uses-feature android:name=\"android.hardware.type.watch\" />\n\t<application android:theme=\"@android:style/Theme.DeviceDefault\" android:label=\"Simplenote\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\">\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.automattic.simplenote.CreateNoteActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"com.google.android.voicesearch.SELF_NOTE\" />\n\t\t\t\t<data android:mimeType=\"text/plain\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"android.support.wearable.activity.ConfirmationActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t\t<uses-library android:name=\"com.google.android.wearable\" android:required=\"false\" />\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 690187,
+  "crc32" : 2111171206,
+  "sha256" : "3ebe3cfdd698c89943a265a735e4928e8c3cbeb194abe957ad1143d1ae37b23a",
+  "buildTime" : 1548648415000
+}

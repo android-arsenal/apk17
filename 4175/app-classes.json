@@ -1,0 +1,4 @@
+{
+  "me.panpf.switchbutton" : [ "BuildConfig", "R", "R$attr", "R$drawable", "R$styleable", "SwitchButton", "SwitchButton$SwitchScroller" ],
+  "me.panpf.switchbutton.sample" : [ "BuildConfig", "MainActivity", "MainActivity$1", "R", "R$attr", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "R$styleable" ]
+}

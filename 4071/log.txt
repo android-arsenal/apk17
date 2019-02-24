@@ -1,0 +1,113 @@
+2018-11-11 17:23:33,591 INFO  DownloadService - Downloading "https://github.com/peter-tackage/refuge/archive/master.zip", attempt 3
+2018-11-11 17:23:35,537 INFO  DownloadService - Downloaded https://github.com/peter-tackage/refuge/archive/master.zip, attempt 3
+2018-11-11 17:23:35,537 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/master.zip": 256 KB
+2018-11-11 17:23:35,537 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-11 17:23:35,543 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/master.zip: true
+2018-11-11 17:23:35,543 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src'.
+2018-11-11 17:23:35,576 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-11-11 17:23:35,576 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src]
+2018-11-11 17:23:35,596 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/.git/
+
+2018-11-11 17:23:35,599 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/gradle/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/gradlew
+2018-11-11 17:23:35,603 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/build.gradle
+2018-11-11 17:23:35,606 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/settings.gradle
+2018-11-11 17:23:35,606 INFO  ProjectBuildService - Remote scripts: none
+2018-11-11 17:23:35,606 INFO  ProjectFixService - Fixing project...
+2018-11-11 17:23:35,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/local.properties
+2018-11-11 17:23:35,614 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-11-11 17:23:35,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/local.properties
+2018-11-11 17:23:35,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2018-11-11 17:23:35,615 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2018-11-11 17:23:35,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2018-11-11 17:23:35,615 INFO  ProjectFixService - Project was maybe fixed
+2018-11-11 17:23:35,615 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-11 17:23:35,615 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-11 17:23:41,160 INFO  ProjectTaskService - Detected possible tasks: 59
+2018-11-11 17:23:41,161 INFO  ProjectTaskService - Excluded tasks (17): lintDebug mockableAndroidJar deviceCheck lint uninstallRelease uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest installDebug lintRelease testDebug uninstallDebug
+2018-11-11 17:23:41,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, uninstallRelease, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, testDebug, -x, uninstallDebug, build]
+2018-11-11 17:25:07,120 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:compileDebugNdk UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:app:prepareComAndroidSupportAppcompatV72211Library
+:app:prepareComAndroidSupportSupportV132211Library
+:app:prepareComAndroidSupportSupportV42211Library
+:app:prepareComGoogleAndroidGmsPlayServices700Library
+:app:prepareComGoogleAndroidGmsPlayServicesAds700Library
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics700Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing700Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppstate700Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase700Library
+:app:prepareComGoogleAndroidGmsPlayServicesCast700Library
+:app:prepareComGoogleAndroidGmsPlayServicesDrive700Library
+:app:prepareComGoogleAndroidGmsPlayServicesFitness700Library
+:app:prepareComGoogleAndroidGmsPlayServicesGames700Library
+:app:prepareComGoogleAndroidGmsPlayServicesGcm700Library
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity700Library
+:app:prepareComGoogleAndroidGmsPlayServicesLocation700Library
+:app:prepareComGoogleAndroidGmsPlayServicesMaps700Library
+:app:prepareComGoogleAndroidGmsPlayServicesNearby700Library
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama700Library
+:app:prepareComGoogleAndroidGmsPlayServicesPlus700Library
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet700Library
+:app:prepareComGoogleAndroidGmsPlayServicesWallet700Library
+:app:prepareComGoogleAndroidGmsPlayServicesWearable700Library
+:app:prepareComSquareupLeakcanaryLeakcanaryAndroid13Library
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:generateDebugAssets UP-TO-DATE
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-mdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-xhdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-hdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:compileDebugJava
+:app:preDexDebug
+:app:dexDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareComSquareupLeakcanaryLeakcanaryAndroidNoOp13Library
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:generateReleaseAssets UP-TO-DATE
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+AAPT warning(Job{title=Cruncher ic_drawer.png, latch=BooleanLatch{signaled=false}, result=false}): /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-mdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT err(836406268) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-xhdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT err(967271235) : No Delegate set : lost message:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/src/main/res/drawable-hdpi/ic_drawer.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:compileReleaseJava
+:app:lintVitalRelease
+:app:compileReleaseNdk UP-TO-DATE
+:app:preDexRelease
+:app:dexRelease
+:app:processReleaseJavaRes UP-TO-DATE
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 25.407 secs
+
+2018-11-11 17:25:07,216 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931813584-0/src/refuge-master/app/build/outputs/apk/app-debug.apk

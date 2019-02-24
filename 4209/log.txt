@@ -1,0 +1,1936 @@
+2018-10-29 12:41:49,385 INFO  DownloadService - Downloading "https://github.com/RikkaW/MaterialPreference/archive/master.zip", attempt 3
+2018-10-29 12:42:09,336 INFO  DownloadService - Downloaded https://github.com/RikkaW/MaterialPreference/archive/master.zip, attempt 3
+2018-10-29 12:42:09,336 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/master.zip": 4 MB
+2018-10-29 12:42:09,336 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-29 12:42:09,343 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/master.zip: true
+2018-10-29 12:42:09,343 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src'.
+2018-10-29 12:42:09,425 INFO  FullProcessService - Size of directory with sources: 5 MB
+2018-10-29 12:42:09,425 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src]
+2018-10-29 12:42:09,442 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/.git/
+
+2018-10-29 12:42:09,448 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew
+2018-10-29 12:42:09,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/build.gradle
+2018-10-29 12:42:09,460 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle
+2018-10-29 12:42:09,461 INFO  ProjectBuildService - Remote scripts: none
+2018-10-29 12:42:09,461 INFO  ProjectFixService - Fixing project...
+2018-10-29 12:42:09,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/local.properties
+2018-10-29 12:42:09,477 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,477 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/local.properties
+2018-10-29 12:42:09,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/local.properties
+2018-10-29 12:42:09,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,486 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,487 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/local.properties
+2018-10-29 12:42:09,490 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,490 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,491 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/local.properties
+2018-10-29 12:42:09,493 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,493 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,494 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/local.properties
+2018-10-29 12:42:09,497 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,497 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,498 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/local.properties
+2018-10-29 12:42:09,499 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10-all.zip
+2018-10-29 12:42:09,499 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10-bin.zip)
+2018-10-29 12:42:09,501 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,501 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-10-29 12:42:09,502 INFO  ProjectFixService - Project was maybe fixed
+2018-10-29 12:42:09,502 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:42:09,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:42:18,680 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:42:18,680 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:42:18,681 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:49:07,217 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference-dialog-android:preBuild UP-TO-DATE
+> Task :preference-dialog-android:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-android:compileDebugRenderscript
+> Task :preference-dialog-android:checkDebugManifest
+> Task :preference-dialog-android:generateDebugBuildConfig
+> Task :preference-dialog-android:generateDebugResValues
+> Task :preference-dialog-android:generateDebugResources
+> Task :preference-dialog-android:packageDebugResources
+> Task :preference-dialog-android:processDebugManifest
+> Task :preference-dialog-android:generateDebugRFile
+> Task :preference-dialog-android:prepareLintJar
+> Task :preference-dialog-android:generateDebugSources
+> Task :preference-dialog-android:javaPreCompileDebug
+
+> Task :preference-dialog-android:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference-dialog-android:extractDebugAnnotations
+> Task :preference-dialog-android:mergeDebugConsumerProguardFiles
+> Task :preference-dialog-android:mergeDebugShaders
+> Task :preference-dialog-android:compileDebugShaders
+> Task :preference-dialog-android:generateDebugAssets
+> Task :preference-dialog-android:packageDebugAssets
+> Task :preference-dialog-android:packageDebugRenderscript NO-SOURCE
+> Task :preference-dialog-android:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformResourcesWithMergeJavaResForDebug
+> Task :preference-dialog-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :preference-dialog-android:compileDebugNdk NO-SOURCE
+> Task :preference-dialog-android:mergeDebugJniLibFolders
+> Task :preference-dialog-android:transformNativeLibsWithMergeJniLibsForDebug
+> Task :preference-dialog-android:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :preference-dialog-android:transformNativeLibsWithSyncJniLibsForDebug
+> Task :preference-dialog-android:bundleDebugAar
+> Task :preference-dialog-android:compileDebugSources
+> Task :preference-dialog-android:assembleDebug
+> Task :preference-dialog-android:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-android:compileReleaseRenderscript
+> Task :preference-dialog-android:checkReleaseManifest
+> Task :preference-dialog-android:generateReleaseBuildConfig
+> Task :preference-dialog-android:generateReleaseResValues
+> Task :preference-dialog-android:generateReleaseResources
+> Task :preference-dialog-android:packageReleaseResources
+> Task :preference-dialog-android:processReleaseManifest
+> Task :preference-dialog-android:generateReleaseRFile
+> Task :preference-dialog-android:generateReleaseSources
+> Task :preference-dialog-android:javaPreCompileRelease
+
+> Task :preference-dialog-android:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference-dialog-android:extractReleaseAnnotations
+> Task :preference-dialog-android:mergeReleaseConsumerProguardFiles
+> Task :preference-dialog-android:mergeReleaseShaders
+> Task :preference-dialog-android:compileReleaseShaders
+> Task :preference-dialog-android:generateReleaseAssets
+> Task :preference-dialog-android:packageReleaseAssets
+> Task :preference-dialog-android:packageReleaseRenderscript NO-SOURCE
+> Task :preference-dialog-android:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformResourcesWithMergeJavaResForRelease
+> Task :preference-dialog-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :preference-dialog-android:compileReleaseNdk NO-SOURCE
+> Task :preference-dialog-android:mergeReleaseJniLibFolders
+> Task :preference-dialog-android:transformNativeLibsWithMergeJniLibsForRelease
+> Task :preference-dialog-android:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :preference-dialog-android:transformNativeLibsWithSyncJniLibsForRelease
+> Task :preference-dialog-android:bundleReleaseAar
+> Task :preference-dialog-android:compileReleaseSources
+> Task :preference-dialog-android:mergeReleaseResources
+> Task :preference-dialog-android:verifyReleaseResources
+> Task :preference-dialog-android:assembleRelease
+
+> Task :preference-dialog-android:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:18: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:112: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
+     ^
+  symbol:   class RequiresApi
+  location: class PreferenceDialogBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-android/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:183: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class PreferenceDialogBuilder
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+15 warnings
+
+> Task :preference-dialog-android:javadocJar
+> Task :preference-dialog-android:sourcesJar
+> Task :preference-dialog-android:assemble
+> Task :preference-dialog-android:build
+
+BUILD SUCCESSFUL in 10s
+48 actionable tasks: 48 executed
+
+2018-10-29 12:49:07,236 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:49:07,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:49:17,235 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:49:17,235 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:49:17,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:49:29,683 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference-dialog-appcompat:preBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-appcompat:compileDebugRenderscript
+> Task :preference-dialog-appcompat:checkDebugManifest
+> Task :preference-dialog-appcompat:generateDebugBuildConfig
+> Task :preference-dialog-appcompat:generateDebugResValues
+> Task :preference-dialog-appcompat:generateDebugResources
+> Task :preference-dialog-appcompat:packageDebugResources
+> Task :preference-dialog-appcompat:processDebugManifest
+> Task :preference-dialog-appcompat:generateDebugRFile
+> Task :preference-dialog-appcompat:prepareLintJar
+> Task :preference-dialog-appcompat:generateDebugSources
+> Task :preference-dialog-appcompat:javaPreCompileDebug
+
+> Task :preference-dialog-appcompat:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference-dialog-appcompat:extractDebugAnnotations
+> Task :preference-dialog-appcompat:mergeDebugConsumerProguardFiles
+> Task :preference-dialog-appcompat:mergeDebugShaders
+> Task :preference-dialog-appcompat:compileDebugShaders
+> Task :preference-dialog-appcompat:generateDebugAssets
+> Task :preference-dialog-appcompat:packageDebugAssets
+> Task :preference-dialog-appcompat:packageDebugRenderscript NO-SOURCE
+> Task :preference-dialog-appcompat:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-appcompat:transformResourcesWithMergeJavaResForDebug
+> Task :preference-dialog-appcompat:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :preference-dialog-appcompat:compileDebugNdk NO-SOURCE
+> Task :preference-dialog-appcompat:mergeDebugJniLibFolders
+> Task :preference-dialog-appcompat:transformNativeLibsWithMergeJniLibsForDebug
+> Task :preference-dialog-appcompat:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :preference-dialog-appcompat:transformNativeLibsWithSyncJniLibsForDebug
+> Task :preference-dialog-appcompat:bundleDebugAar
+> Task :preference-dialog-appcompat:compileDebugSources
+> Task :preference-dialog-appcompat:assembleDebug
+> Task :preference-dialog-appcompat:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-appcompat:compileReleaseRenderscript
+> Task :preference-dialog-appcompat:checkReleaseManifest
+> Task :preference-dialog-appcompat:generateReleaseBuildConfig
+> Task :preference-dialog-appcompat:generateReleaseResValues
+> Task :preference-dialog-appcompat:generateReleaseResources
+> Task :preference-dialog-appcompat:packageReleaseResources
+> Task :preference-dialog-appcompat:processReleaseManifest
+> Task :preference-dialog-appcompat:generateReleaseRFile
+> Task :preference-dialog-appcompat:generateReleaseSources
+> Task :preference-dialog-appcompat:javaPreCompileRelease
+
+> Task :preference-dialog-appcompat:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference-dialog-appcompat:extractReleaseAnnotations
+> Task :preference-dialog-appcompat:mergeReleaseConsumerProguardFiles
+> Task :preference-dialog-appcompat:mergeReleaseShaders
+> Task :preference-dialog-appcompat:compileReleaseShaders
+> Task :preference-dialog-appcompat:generateReleaseAssets
+> Task :preference-dialog-appcompat:packageReleaseAssets
+> Task :preference-dialog-appcompat:packageReleaseRenderscript NO-SOURCE
+> Task :preference-dialog-appcompat:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-appcompat:transformResourcesWithMergeJavaResForRelease
+> Task :preference-dialog-appcompat:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :preference-dialog-appcompat:compileReleaseNdk NO-SOURCE
+> Task :preference-dialog-appcompat:mergeReleaseJniLibFolders
+> Task :preference-dialog-appcompat:transformNativeLibsWithMergeJniLibsForRelease
+> Task :preference-dialog-appcompat:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :preference-dialog-appcompat:transformNativeLibsWithSyncJniLibsForRelease
+> Task :preference-dialog-appcompat:bundleReleaseAar
+> Task :preference-dialog-appcompat:compileReleaseSources
+> Task :preference-dialog-appcompat:mergeReleaseResources
+> Task :preference-dialog-appcompat:verifyReleaseResources
+> Task :preference-dialog-appcompat:assembleRelease
+
+> Task :preference-dialog-appcompat:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:17: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:18: error: package androidx.appcompat.app does not exist
+import androidx.appcompat.app.AlertDialog;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:22: error: package AlertDialog does not exist
+    private AlertDialog.Builder mBuilder;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:112: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN_MR1)
+     ^
+  symbol:   class RequiresApi
+  location: class PreferenceDialogBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-dialog-appcompat/src/main/java/moe/shizuku/preference/PreferenceDialogBuilder.java:183: error: cannot find symbol
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+     ^
+  symbol:   class RequiresApi
+  location: class PreferenceDialogBuilder
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+17 warnings
+
+> Task :preference-dialog-appcompat:javadocJar
+> Task :preference-dialog-appcompat:sourcesJar
+> Task :preference-dialog-appcompat:assemble
+> Task :preference-dialog-appcompat:build
+
+BUILD SUCCESSFUL in 12s
+48 actionable tasks: 48 executed
+
+2018-10-29 12:49:29,747 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:49:29,747 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:49:36,907 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:49:36,908 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:49:36,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:49:50,648 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference:preBuild UP-TO-DATE
+> Task :preference:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:preBuild UP-TO-DATE
+> Task :preference-dialog-android:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:compileDebugAidl NO-SOURCE
+> Task :preference:compileDebugAidl NO-SOURCE
+> Task :preference-simplemenu:preBuild UP-TO-DATE
+> Task :preference-simplemenu:preDebugBuild UP-TO-DATE
+> Task :preference-simplemenu:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-android:packageDebugRenderscript NO-SOURCE
+> Task :preference:compileDebugRenderscript
+> Task :preference:checkDebugManifest
+> Task :preference:generateDebugBuildConfig
+> Task :preference:generateDebugResValues
+> Task :preference:generateDebugResources
+> Task :preference:packageDebugResources
+> Task :preference:processDebugManifest
+> Task :preference:generateDebugRFile
+> Task :preference:prepareLintJar
+> Task :preference:generateDebugSources
+> Task :preference-dialog-android:compileDebugRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResValues UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResources UP-TO-DATE
+> Task :preference-dialog-android:packageDebugResources UP-TO-DATE
+> Task :preference-dialog-android:processDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugRFile UP-TO-DATE
+> Task :preference-dialog-android:prepareLintJar UP-TO-DATE
+> Task :preference-dialog-android:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileDebug UP-TO-DATE
+> Task :preference-dialog-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :preference:javaPreCompileDebug
+
+> Task :preference:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference:processDebugJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :preference:packageDebugRenderscript NO-SOURCE
+> Task :preference-simplemenu:compileDebugRenderscript
+> Task :preference-simplemenu:checkDebugManifest
+> Task :preference-simplemenu:generateDebugBuildConfig
+> Task :preference-simplemenu:generateDebugResValues
+> Task :preference-simplemenu:generateDebugResources
+> Task :preference-simplemenu:packageDebugResources
+> Task :preference-simplemenu:processDebugManifest
+> Task :preference-simplemenu:generateDebugRFile
+> Task :preference-simplemenu:prepareLintJar
+> Task :preference-simplemenu:generateDebugSources
+> Task :preference-simplemenu:javaPreCompileDebug
+> Task :preference-simplemenu:compileDebugJavaWithJavac
+> Task :preference-simplemenu:extractDebugAnnotations
+> Task :preference-simplemenu:mergeDebugConsumerProguardFiles
+> Task :preference-simplemenu:mergeDebugShaders
+> Task :preference-simplemenu:compileDebugShaders
+> Task :preference-simplemenu:generateDebugAssets
+> Task :preference-simplemenu:packageDebugAssets
+> Task :preference-simplemenu:packageDebugRenderscript NO-SOURCE
+> Task :preference-simplemenu:processDebugJavaRes NO-SOURCE
+> Task :preference-simplemenu:transformResourcesWithMergeJavaResForDebug
+> Task :preference-simplemenu:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :preference-simplemenu:compileDebugNdk NO-SOURCE
+> Task :preference-simplemenu:mergeDebugJniLibFolders
+> Task :preference-simplemenu:transformNativeLibsWithMergeJniLibsForDebug
+> Task :preference-simplemenu:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :preference-simplemenu:transformNativeLibsWithSyncJniLibsForDebug
+> Task :preference-simplemenu:bundleDebugAar
+> Task :preference-simplemenu:compileDebugSources
+> Task :preference-simplemenu:assembleDebug
+> Task :preference:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseAidl NO-SOURCE
+> Task :preference:compileReleaseAidl NO-SOURCE
+> Task :preference-simplemenu:preReleaseBuild UP-TO-DATE
+> Task :preference-simplemenu:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-android:packageReleaseRenderscript NO-SOURCE
+> Task :preference:compileReleaseRenderscript
+> Task :preference:checkReleaseManifest
+> Task :preference:generateReleaseBuildConfig
+> Task :preference:generateReleaseResValues
+> Task :preference:generateReleaseResources
+> Task :preference:packageReleaseResources
+> Task :preference:processReleaseManifest
+> Task :preference:generateReleaseRFile
+> Task :preference:generateReleaseSources
+> Task :preference-dialog-android:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResValues UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:packageReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:processReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseRFile UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileRelease UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :preference:javaPreCompileRelease
+
+> Task :preference:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :preference:processReleaseJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :preference:packageReleaseRenderscript NO-SOURCE
+> Task :preference-simplemenu:compileReleaseRenderscript
+> Task :preference-simplemenu:checkReleaseManifest
+> Task :preference-simplemenu:generateReleaseBuildConfig
+> Task :preference-simplemenu:generateReleaseResValues
+> Task :preference-simplemenu:generateReleaseResources
+> Task :preference-simplemenu:packageReleaseResources
+> Task :preference-simplemenu:processReleaseManifest
+> Task :preference-simplemenu:generateReleaseRFile
+> Task :preference-simplemenu:generateReleaseSources
+> Task :preference-simplemenu:javaPreCompileRelease
+> Task :preference-simplemenu:compileReleaseJavaWithJavac
+> Task :preference-simplemenu:extractReleaseAnnotations
+> Task :preference-simplemenu:mergeReleaseConsumerProguardFiles
+> Task :preference-simplemenu:mergeReleaseShaders
+> Task :preference-simplemenu:compileReleaseShaders
+> Task :preference-simplemenu:generateReleaseAssets
+> Task :preference-simplemenu:packageReleaseAssets
+> Task :preference-simplemenu:packageReleaseRenderscript NO-SOURCE
+> Task :preference-simplemenu:processReleaseJavaRes NO-SOURCE
+> Task :preference-simplemenu:transformResourcesWithMergeJavaResForRelease
+> Task :preference-simplemenu:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :preference-simplemenu:compileReleaseNdk NO-SOURCE
+> Task :preference-simplemenu:mergeReleaseJniLibFolders
+> Task :preference-simplemenu:transformNativeLibsWithMergeJniLibsForRelease
+> Task :preference-simplemenu:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :preference-simplemenu:transformNativeLibsWithSyncJniLibsForRelease
+> Task :preference-simplemenu:bundleReleaseAar
+> Task :preference-simplemenu:compileReleaseSources
+> Task :preference-simplemenu:mergeReleaseResources
+> Task :preference-simplemenu:verifyReleaseResources
+> Task :preference-simplemenu:assembleRelease
+
+> Task :preference-simplemenu:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListAdapter.java:7: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListAdapter.java:8: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListAdapter.java:9: error: package moe.shizuku.preference.simplemenu does not exist
+import moe.shizuku.preference.simplemenu.R;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListAdapter.java:12: error: package RecyclerView does not exist
+public class SimpleMenuListAdapter extends RecyclerView.Adapter<SimpleMenuListItemHolder> {
+                                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListItemHolder.java:7: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListItemHolder.java:8: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:20: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:21: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.LinearLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:22: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:25: error: package moe.shizuku.preference.simplemenu does not exist
+import moe.shizuku.preference.simplemenu.R;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:35: error: cannot find symbol
+@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+ ^
+  symbol: class RequiresApi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListItemHolder.java:14: error: package RecyclerView does not exist
+public class SimpleMenuListItemHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
+                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListItemHolder.java:13: error: cannot find symbol
+@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+ ^
+  symbol: class RequiresApi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuListAdapter.java:11: error: cannot find symbol
+@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+ ^
+  symbol: class RequiresApi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:60: error: cannot find symbol
+    private RecyclerView mList;
+            ^
+  symbol:   class RecyclerView
+  location: class SimpleMenuPopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/SimpleMenuPopupWindow.java:152: error: cannot find symbol
+    public RecyclerView getContentView() {
+           ^
+  symbol:   class RecyclerView
+  location: class SimpleMenuPopupWindow
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:11: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:12: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/ForegroundCheckTextView.java:14: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/ForegroundCheckTextView.java:15: error: package moe.shizuku.preference.simplemenu does not exist
+import moe.shizuku.preference.simplemenu.R;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/animation/SimpleMenuAnimation.java:16: error: package androidx.interpolator.view.animation does not exist
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:9: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:10: error: cannot find symbol
+import androidx.annotation.RequiresApi;
+                          ^
+  symbol:   class RequiresApi
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:11: error: package moe.shizuku.preference.simplemenu does not exist
+import moe.shizuku.preference.simplemenu.R;
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:23: error: cannot find symbol
+public class SimpleMenuPreference extends ListPreference {
+                                          ^
+  symbol: class ListPreference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:22: error: cannot find symbol
+@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+ ^
+  symbol: class RequiresApi
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:109: error: cannot find symbol
+    public void onBindViewHolder(PreferenceViewHolder view) {
+                                 ^
+  symbol:   class PreferenceViewHolder
+  location: class SimpleMenuPreference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:35: error: cannot find symbol
+    public void setFixedBounds(@NonNull Rect bounds) {
+                                ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:45: error: cannot find symbol
+    public void getOutline(@NonNull Outline outline) {
+                            ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:50: error: cannot find symbol
+    public void draw(@NonNull Canvas canvas) {
+                      ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:61: error: cannot find symbol
+    public void setColorFilter(@Nullable ColorFilter colorFilter) {
+                                ^
+  symbol:   class Nullable
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:71: error: cannot find symbol
+    public void invalidateDrawable(@NonNull Drawable who) {
+                                    ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:79: error: cannot find symbol
+    public void scheduleDrawable(@NonNull Drawable who, @NonNull Runnable what, long when) {
+                                  ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:79: error: cannot find symbol
+    public void scheduleDrawable(@NonNull Drawable who, @NonNull Runnable what, long when) {
+                                                         ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:87: error: cannot find symbol
+    public void unscheduleDrawable(@NonNull Drawable who, @NonNull Runnable what) {
+                                    ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/drawable/FixedBoundsDrawable.java:87: error: cannot find symbol
+    public void unscheduleDrawable(@NonNull Drawable who, @NonNull Runnable what) {
+                                                           ^
+  symbol:   class NonNull
+  location: class FixedBoundsDrawable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/widget/ForegroundCheckTextView.java:189: error: cannot find symbol
+    public void draw(@NonNull Canvas canvas) {
+                      ^
+  symbol:   class NonNull
+  location: class ForegroundCheckTextView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:93: error: cannot find symbol
+    public void setEntries(@NonNull CharSequence[] entries) {
+                            ^
+  symbol:   class NonNull
+  location: class SimpleMenuPreference
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+javadoc: warning - Class RequiresApi not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:15: error: reference not found
+ * A version of {@link ListPreference} that use
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-simplemenu/src/main/java/moe/shizuku/preference/SimpleMenuPreference.java:19: error: reference not found
+ * On pre-Lollipop, it will fallback {@link ListPreference}.
+                                            ^
+2 errors
+100 warnings
+
+> Task :preference-simplemenu:javadocJar
+> Task :preference-simplemenu:sourcesJar
+> Task :preference-simplemenu:assemble
+> Task :preference-simplemenu:build
+
+BUILD SUCCESSFUL in 13s
+90 actionable tasks: 71 executed, 19 up-to-date
+
+2018-10-29 12:49:50,772 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:49:50,772 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:49:59,320 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:49:59,320 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:49:59,321 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:50:11,217 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference:preBuild UP-TO-DATE
+> Task :preference:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:preBuild UP-TO-DATE
+> Task :preference-dialog-android:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:compileDebugAidl NO-SOURCE
+> Task :preference:compileDebugAidl NO-SOURCE
+> Task :preference-switchcompat:preBuild UP-TO-DATE
+> Task :preference-switchcompat:preDebugBuild UP-TO-DATE
+> Task :preference-switchcompat:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-android:packageDebugRenderscript NO-SOURCE
+> Task :preference:compileDebugRenderscript UP-TO-DATE
+> Task :preference:checkDebugManifest UP-TO-DATE
+> Task :preference:generateDebugBuildConfig UP-TO-DATE
+> Task :preference:generateDebugResValues UP-TO-DATE
+> Task :preference:generateDebugResources UP-TO-DATE
+> Task :preference:packageDebugResources UP-TO-DATE
+> Task :preference:processDebugManifest UP-TO-DATE
+> Task :preference:generateDebugRFile UP-TO-DATE
+> Task :preference:prepareLintJar UP-TO-DATE
+> Task :preference:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:compileDebugRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResValues UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResources UP-TO-DATE
+> Task :preference-dialog-android:packageDebugResources UP-TO-DATE
+> Task :preference-dialog-android:processDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugRFile UP-TO-DATE
+> Task :preference-dialog-android:prepareLintJar UP-TO-DATE
+> Task :preference-dialog-android:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileDebug UP-TO-DATE
+> Task :preference-dialog-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :preference:javaPreCompileDebug UP-TO-DATE
+> Task :preference:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference:processDebugJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :preference:packageDebugRenderscript NO-SOURCE
+> Task :preference-switchcompat:compileDebugRenderscript
+> Task :preference-switchcompat:checkDebugManifest
+> Task :preference-switchcompat:generateDebugBuildConfig
+> Task :preference-switchcompat:generateDebugResValues
+> Task :preference-switchcompat:generateDebugResources
+> Task :preference-switchcompat:packageDebugResources
+> Task :preference-switchcompat:processDebugManifest
+> Task :preference-switchcompat:generateDebugRFile
+> Task :preference-switchcompat:prepareLintJar
+> Task :preference-switchcompat:generateDebugSources
+> Task :preference-switchcompat:javaPreCompileDebug
+> Task :preference-switchcompat:compileDebugJavaWithJavac
+> Task :preference-switchcompat:extractDebugAnnotations
+> Task :preference-switchcompat:mergeDebugConsumerProguardFiles
+> Task :preference-switchcompat:mergeDebugShaders
+> Task :preference-switchcompat:compileDebugShaders
+> Task :preference-switchcompat:generateDebugAssets
+> Task :preference-switchcompat:packageDebugAssets
+> Task :preference-switchcompat:packageDebugRenderscript NO-SOURCE
+> Task :preference-switchcompat:processDebugJavaRes NO-SOURCE
+> Task :preference-switchcompat:transformResourcesWithMergeJavaResForDebug
+> Task :preference-switchcompat:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :preference-switchcompat:compileDebugNdk NO-SOURCE
+> Task :preference-switchcompat:mergeDebugJniLibFolders
+> Task :preference-switchcompat:transformNativeLibsWithMergeJniLibsForDebug
+> Task :preference-switchcompat:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :preference-switchcompat:transformNativeLibsWithSyncJniLibsForDebug
+> Task :preference-switchcompat:bundleDebugAar
+> Task :preference-switchcompat:compileDebugSources
+> Task :preference-switchcompat:assembleDebug
+> Task :preference:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseAidl NO-SOURCE
+> Task :preference:compileReleaseAidl NO-SOURCE
+> Task :preference-switchcompat:preReleaseBuild UP-TO-DATE
+> Task :preference-switchcompat:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-android:packageReleaseRenderscript NO-SOURCE
+> Task :preference:compileReleaseRenderscript UP-TO-DATE
+> Task :preference:checkReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference:generateReleaseResValues UP-TO-DATE
+> Task :preference:generateReleaseResources UP-TO-DATE
+> Task :preference:packageReleaseResources UP-TO-DATE
+> Task :preference:processReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseRFile UP-TO-DATE
+> Task :preference:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResValues UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:packageReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:processReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseRFile UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileRelease UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :preference:javaPreCompileRelease UP-TO-DATE
+> Task :preference:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference:processReleaseJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :preference:packageReleaseRenderscript NO-SOURCE
+> Task :preference-switchcompat:compileReleaseRenderscript
+> Task :preference-switchcompat:checkReleaseManifest
+> Task :preference-switchcompat:generateReleaseBuildConfig
+> Task :preference-switchcompat:generateReleaseResValues
+> Task :preference-switchcompat:generateReleaseResources
+> Task :preference-switchcompat:packageReleaseResources
+> Task :preference-switchcompat:processReleaseManifest
+> Task :preference-switchcompat:generateReleaseRFile
+> Task :preference-switchcompat:generateReleaseSources
+> Task :preference-switchcompat:javaPreCompileRelease
+> Task :preference-switchcompat:compileReleaseJavaWithJavac
+> Task :preference-switchcompat:extractReleaseAnnotations
+> Task :preference-switchcompat:mergeReleaseConsumerProguardFiles
+> Task :preference-switchcompat:mergeReleaseShaders
+> Task :preference-switchcompat:compileReleaseShaders
+> Task :preference-switchcompat:generateReleaseAssets
+> Task :preference-switchcompat:packageReleaseAssets
+> Task :preference-switchcompat:packageReleaseRenderscript NO-SOURCE
+> Task :preference-switchcompat:processReleaseJavaRes NO-SOURCE
+> Task :preference-switchcompat:transformResourcesWithMergeJavaResForRelease
+> Task :preference-switchcompat:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :preference-switchcompat:compileReleaseNdk NO-SOURCE
+> Task :preference-switchcompat:mergeReleaseJniLibFolders
+> Task :preference-switchcompat:transformNativeLibsWithMergeJniLibsForRelease
+> Task :preference-switchcompat:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :preference-switchcompat:transformNativeLibsWithSyncJniLibsForRelease
+> Task :preference-switchcompat:bundleReleaseAar
+> Task :preference-switchcompat:compileReleaseSources
+> Task :preference-switchcompat:mergeReleaseResources
+> Task :preference-switchcompat:verifyReleaseResources
+> Task :preference-switchcompat:assembleRelease
+
+> Task :preference-switchcompat:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/src/main/java/moe/shizuku/preference/SwitchPreferenceCompat.java:6: error: package moe.shizuku.preference.switchcompat does not exist
+import moe.shizuku.preference.switchcompat.R;
+                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference-switchcompat/src/main/java/moe/shizuku/preference/SwitchPreferenceCompat.java:9: error: cannot find symbol
+public class SwitchPreferenceCompat extends SwitchPreference {
+                                            ^
+  symbol: class SwitchPreference
+2 warnings
+
+> Task :preference-switchcompat:javadocJar
+> Task :preference-switchcompat:sourcesJar
+> Task :preference-switchcompat:assemble
+> Task :preference-switchcompat:build
+
+BUILD SUCCESSFUL in 11s
+90 actionable tasks: 48 executed, 42 up-to-date
+
+2018-10-29 12:50:11,382 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:50:11,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:50:18,101 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:50:18,101 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:50:18,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:50:32,696 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference:preBuild UP-TO-DATE
+> Task :preference:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:preBuild UP-TO-DATE
+> Task :preference-dialog-android:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:compileDebugAidl NO-SOURCE
+> Task :preference:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-android:packageDebugRenderscript NO-SOURCE
+> Task :preference:compileDebugRenderscript UP-TO-DATE
+> Task :preference:checkDebugManifest UP-TO-DATE
+> Task :preference:generateDebugBuildConfig UP-TO-DATE
+> Task :preference:generateDebugResValues UP-TO-DATE
+> Task :preference:generateDebugResources UP-TO-DATE
+> Task :preference:packageDebugResources UP-TO-DATE
+> Task :preference:processDebugManifest UP-TO-DATE
+> Task :preference:generateDebugRFile UP-TO-DATE
+> Task :preference:prepareLintJar UP-TO-DATE
+> Task :preference:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:compileDebugRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResValues UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResources UP-TO-DATE
+> Task :preference-dialog-android:packageDebugResources UP-TO-DATE
+> Task :preference-dialog-android:processDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugRFile UP-TO-DATE
+> Task :preference-dialog-android:prepareLintJar UP-TO-DATE
+> Task :preference-dialog-android:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileDebug UP-TO-DATE
+> Task :preference-dialog-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :preference:javaPreCompileDebug UP-TO-DATE
+> Task :preference:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference:extractDebugAnnotations
+> Task :preference:mergeDebugConsumerProguardFiles
+> Task :preference:mergeDebugShaders
+> Task :preference:compileDebugShaders
+> Task :preference:generateDebugAssets
+> Task :preference:packageDebugAssets
+> Task :preference:packageDebugRenderscript NO-SOURCE
+> Task :preference:processDebugJavaRes NO-SOURCE
+> Task :preference:transformResourcesWithMergeJavaResForDebug
+> Task :preference:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :preference:compileDebugNdk NO-SOURCE
+> Task :preference:mergeDebugJniLibFolders
+> Task :preference:transformNativeLibsWithMergeJniLibsForDebug
+> Task :preference:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :preference:transformNativeLibsWithSyncJniLibsForDebug
+> Task :preference:bundleDebugAar
+> Task :preference:compileDebugSources UP-TO-DATE
+> Task :preference:assembleDebug
+> Task :preference:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseAidl NO-SOURCE
+> Task :preference:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-android:packageReleaseRenderscript NO-SOURCE
+> Task :preference:compileReleaseRenderscript UP-TO-DATE
+> Task :preference:checkReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference:generateReleaseResValues UP-TO-DATE
+> Task :preference:generateReleaseResources UP-TO-DATE
+> Task :preference:packageReleaseResources UP-TO-DATE
+> Task :preference:processReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseRFile UP-TO-DATE
+> Task :preference:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResValues UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:packageReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:processReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseRFile UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileRelease UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :preference:javaPreCompileRelease UP-TO-DATE
+> Task :preference:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference:extractReleaseAnnotations
+> Task :preference:mergeReleaseConsumerProguardFiles
+> Task :preference:mergeReleaseShaders
+> Task :preference:compileReleaseShaders
+> Task :preference:generateReleaseAssets
+> Task :preference:packageReleaseAssets
+> Task :preference:packageReleaseRenderscript NO-SOURCE
+> Task :preference:processReleaseJavaRes NO-SOURCE
+> Task :preference:transformResourcesWithMergeJavaResForRelease
+> Task :preference:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :preference:compileReleaseNdk NO-SOURCE
+> Task :preference:mergeReleaseJniLibFolders
+> Task :preference:transformNativeLibsWithMergeJniLibsForRelease
+> Task :preference:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :preference:transformNativeLibsWithSyncJniLibsForRelease
+> Task :preference:bundleReleaseAar
+> Task :preference:compileReleaseSources UP-TO-DATE
+> Task :preference:mergeReleaseResources
+> Task :preference:verifyReleaseResources
+> Task :preference:assembleRelease
+
+> Task :preference:javadoc
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:43: error: cannot find symbol
+import androidx.annotation.CallSuper;
+                          ^
+  symbol:   class CallSuper
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:44: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:45: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:46: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:47: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:48: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:49: error: package androidx.core.content does not exist
+import androidx.core.content.SharedPreferencesCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:50: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:51: error: package androidx.core.view.accessibility does not exist
+import androidx.core.view.accessibility.AccessibilityNodeInfoCompat;
+                                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:52: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:54: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:54: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:29: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:30: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:31: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:32: error: package androidx.core.content does not exist
+import androidx.core.content.SharedPreferencesCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:33: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:35: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:35: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDataStore.java:21: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:31: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:32: error: package androidx.collection does not exist
+import androidx.collection.SimpleArrayMap;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:33: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:34: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:36: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:36: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:22: error: cannot find symbol
+import androidx.annotation.IdRes;
+                          ^
+  symbol:   class IdRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:23: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:24: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:31: error: package RecyclerView does not exist
+public class PreferenceViewHolder extends RecyclerView.ViewHolder {
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:2066: error: cannot find symbol
+    public void onInitializeAccessibilityNodeInfo(AccessibilityNodeInfoCompat info) {
+                                                  ^
+  symbol:   class AccessibilityNodeInfoCompat
+  location: class Preference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:35: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:36: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:37: error: cannot find symbol
+import androidx.annotation.XmlRes;
+                          ^
+  symbol:   class XmlRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:38: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.DialogFragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:39: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.Fragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:40: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.LinearLayoutManager;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:41: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:43: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:43: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:152: error: cannot find symbol
+    @IntDef({DividerVisibility.UNSPECIFIED, DividerVisibility.ENFORCED, DividerVisibility.FORBIDDEN})
+     ^
+  symbol:   class IntDef
+  location: class Preference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:109: error: cannot find symbol
+public abstract class PreferenceFragment extends Fragment implements
+                                                 ^
+  symbol: class Fragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:26: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:27: error: package androidx.core.content does not exist
+import androidx.core.content.ContextCompat;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:28: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:29: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.DialogFragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceScreen.java:23: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceScreen.java:25: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceScreen.java:25: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:66: error: cannot find symbol
+    private final SimpleArrayMap<String, Long> mIdRecycleCache = new SimpleArrayMap<>();
+                  ^
+  symbol:   class SimpleArrayMap
+  location: class PreferenceGroup
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:128: error: cannot find symbol
+    private RecyclerView mList;
+            ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:804: error: package RecyclerView does not exist
+    public abstract class DividerDecoration extends RecyclerView.ItemDecoration {
+                                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:598: error: cannot find symbol
+    public final RecyclerView getListView() {
+                 ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:616: error: cannot find symbol
+    public RecyclerView onCreateRecyclerView(LayoutInflater inflater, ViewGroup parent,
+           ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:635: error: package RecyclerView does not exist
+    public RecyclerView.LayoutManager onCreateLayoutManager() {
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:645: error: package RecyclerView does not exist
+    protected RecyclerView.Adapter onCreateAdapter(PreferenceScreen preferenceScreen) {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:693: error: cannot find symbol
+    public Fragment getCallbackFragment() {
+           ^
+  symbol:   class Fragment
+  location: class PreferenceFragment
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:273: error: cannot find symbol
+    abstract protected DialogFragment onCreateDialogFragment(String key);
+                       ^
+  symbol:   class DialogFragment
+  location: class DialogPreference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:810: error: cannot find symbol
+        public final boolean shouldDrawDividerBelow(View view, RecyclerView parent) {
+                                                               ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.DividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:844: error: cannot find symbol
+        public abstract boolean shouldDrawDividerBelow(View view, RecyclerView parent,
+                                                                  ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.DividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:28: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:29: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.DiffUtil;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:30: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:32: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:32: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:41: error: package RecyclerView does not exist
+public class PreferenceGroupAdapter extends RecyclerView.Adapter<PreferenceViewHolder>
+                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:40: error: cannot find symbol
+@RestrictTo(LIBRARY_GROUP)
+ ^
+  symbol: class RestrictTo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:849: error: cannot find symbol
+        public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {
+                                         ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.DividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:849: error: package RecyclerView does not exist
+        public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {
+                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:866: error: cannot find symbol
+        public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
+                                                            ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.DividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:867: error: package RecyclerView does not exist
+                                   RecyclerView.State state) {
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:29: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:30: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:32: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:32: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/TwoStatePreference.java:28: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/TwoStatePreference.java:30: error: package androidx.annotation.RestrictTo does not exist
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/TwoStatePreference.java:30: error: static import only from classes and interfaces
+import static androidx.annotation.RestrictTo.Scope.LIBRARY_GROUP;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:744: error: package RecyclerView does not exist
+    private static class ScrollToPreferenceObserver extends RecyclerView.AdapterDataObserver {
+                                                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:745: error: package RecyclerView does not exist
+        private final RecyclerView.Adapter mAdapter;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:746: error: cannot find symbol
+        private final RecyclerView mList;
+                      ^
+  symbol:   class RecyclerView
+  location: class ScrollToPreferenceObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:750: error: package RecyclerView does not exist
+        public ScrollToPreferenceObserver(RecyclerView.Adapter adapter, RecyclerView list,
+                                                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:750: error: cannot find symbol
+        public ScrollToPreferenceObserver(RecyclerView.Adapter adapter, RecyclerView list,
+                                                                        ^
+  symbol:   class RecyclerView
+  location: class ScrollToPreferenceObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:911: error: cannot find symbol
+        public boolean shouldDrawDividerBelow(View view, RecyclerView parent, PreferenceGroupAdapter adapter,
+                                                         ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.DefaultDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:936: error: cannot find symbol
+        public boolean shouldDrawDividerBelow(View view, RecyclerView parent, PreferenceGroupAdapter adapter,
+                                                         ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.CategoryDivideDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:944: error: cannot find symbol
+        public void getItemOffsets(Rect outRect, View view, RecyclerView parent,
+                                                            ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.CategoryDivideDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:945: error: package RecyclerView does not exist
+                                   RecyclerView.State state) {
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:962: error: cannot find symbol
+        public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {
+                                         ^
+  symbol:   class RecyclerView
+  location: class PreferenceFragment.CategoryDivideDividerDecoration
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:962: error: package RecyclerView does not exist
+        public void onDrawOver(Canvas c, RecyclerView parent, RecyclerView.State state) {
+                                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:31: error: cannot find symbol
+import androidx.annotation.ArrayRes;
+                          ^
+  symbol:   class ArrayRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:32: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:33: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:34: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.DialogFragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:86: error: cannot find symbol
+    protected DialogFragment onCreateDialogFragment(String key) {
+              ^
+  symbol:   class DialogFragment
+  location: class MultiSelectListPreference
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/RingtonePreference.java:29: error: package androidx.core.content.res does not exist
+import androidx.core.content.res.TypedArrayUtils;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/ListPreferenceDialogFragment.java:24: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:34: error: cannot find symbol
+import androidx.annotation.LayoutRes;
+                          ^
+  symbol:   class LayoutRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:35: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:36: error: cannot find symbol
+import androidx.annotation.RestrictTo;
+                          ^
+  symbol:   class RestrictTo
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:37: error: package androidx.fragment.app does not exist
+import androidx.fragment.app.DialogFragment;
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/CheckBoxPreference.java:102: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/TwoStatePreference.java:208: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1029: error: unknown tag: attr
+     * @attr ref R.styleable#Preference_android_singleLineTitle
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1040: error: unknown tag: attr
+     * @attr ref R.styleable#Preference_android_singleLineTitle
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1053: error: unknown tag: attr
+     * @attr ref R.styleable#Preference_android_iconSpaceReserved
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1064: error: unknown tag: attr
+     * @attr ref R.styleable#Preference_android_iconSpaceReserved
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1123: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1133: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1287: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1337: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:1346: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/CheckBoxPreference.java:39: error: unknown tag: attr
+ * @attr name android:summaryOff
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/CheckBoxPreference.java:40: error: unknown tag: attr
+ * @attr name android:summaryOn
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/CheckBoxPreference.java:41: error: unknown tag: attr
+ * @attr name android:disableDependentsState
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:36: error: unknown tag: attr
+ * @attr name android:dialogTitle
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:37: error: unknown tag: attr
+ * @attr name android:dialogMessage
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:38: error: unknown tag: attr
+ * @attr name android:dialogIcon
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:39: error: unknown tag: attr
+ * @attr name android:dialogLayout
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:40: error: unknown tag: attr
+ * @attr name android:positiveButtonText
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DialogPreference.java:41: error: unknown tag: attr
+ * @attr name android:negativeButtonText
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/DropDownPreference.java:103: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:189: error: reference not found
+     * Do not {@link PreferenceDialogBuilder#create()} or
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:190: error: reference not found
+     * {@link PreferenceDialogBuilder#show()}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDialogFragment.java:200: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/ListPreference.java:40: error: unknown tag: attr
+ * @attr name android:entries
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/ListPreference.java:41: error: unknown tag: attr
+ * @attr name android:entryValues
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:44: error: unknown tag: attr
+ * @attr name android:entries
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/MultiSelectListPreference.java:45: error: unknown tag: attr
+ * @attr name android:entryValues
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:59: error: reference not found
+ * {@link RecyclerView}. This class provides data for the
+          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:78: error: unknown tag: attr
+ * @attr name android:icon
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:79: error: unknown tag: attr
+ * @attr name android:key
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:80: error: unknown tag: attr
+ * @attr name android:title
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:81: error: unknown tag: attr
+ * @attr name android:summary
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:82: error: unknown tag: attr
+ * @attr name android:order
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:83: error: unknown tag: attr
+ * @attr name android:fragment
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:84: error: unknown tag: attr
+ * @attr name android:layout
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:85: error: unknown tag: attr
+ * @attr name android:widgetLayout
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:86: error: unknown tag: attr
+ * @attr name android:enabled
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:87: error: unknown tag: attr
+ * @attr name android:selectable
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:88: error: unknown tag: attr
+ * @attr name android:dependency
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:89: error: unknown tag: attr
+ * @attr name android:persistent
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:90: error: unknown tag: attr
+ * @attr name android:defaultValue
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:91: error: unknown tag: attr
+ * @attr name android:shouldDisableView
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:92: error: unknown tag: attr
+ * @attr name android:singleLineTitle
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/Preference.java:93: error: unknown tag: attr
+ * @attr name android:iconSpaceReserved
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:333: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDataStore.java:65: error: type arguments not allowed here
+     * @see #getStringSet(String, Set<String>)
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceDataStore.java:142: error: type arguments not allowed here
+     * @see #putStringSet(String, Set<String>)
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:333: error: unknown tag: attr
+     * @attr ref R.styleable#PreferenceFragmentCompat_android_divider
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:344: error: unknown tag: attr
+     * @attr ref R.styleable#PreferenceFragmentCompat_android_dividerHeight
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:585: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:592: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:603: error: reference not found
+     * Creates the {@link RecyclerView} used to display the preferences.
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:605: error: reference not found
+     * {@link RecyclerView}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:608: error: reference not found
+     *                           {@link RecyclerView}.
+                                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:630: error: reference not found
+     * {@link RecyclerView.LayoutManager} for the created
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:631: error: reference not found
+     * {@link RecyclerView}.
+              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:633: error: reference not found
+     * @return A new {@link RecyclerView.LayoutManager} instance.
+                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:690: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:67: error: tag not allowed here: <li>
+ * <li> From an XML file specifying the hierarchy
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:68: error: tag not allowed here: <li>
+ * <li> From different {@link android.app.Activity Activities} that each specify its own
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:70: error: tag not allowed here: <li>
+ * <li> From an object hierarchy rooted with {@link PreferenceScreen}
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:97: error: unknown tag: sample
+ * {@sample frameworks/support/samples/SupportPreferenceDemos/res/xml/preferences.xml preferences}
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceFragment.java:103: error: unknown tag: sample
+ * {@sample frameworks/support/samples/SupportPreferenceDemos/src/com/example/android/supportpreference/FragmentSupportPreferencesCompat.java
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:50: error: unknown tag: attr
+ * @attr name android:orderingFromXml
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:422: error: reference not found
+         * {@link RecyclerView#NO_POSITION} if not found
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroup.java:431: error: reference not found
+         * {@link RecyclerView#NO_POSITION} if not found
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceGroupAdapter.java:38: error: unknown tag: hide
+ * @hide
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:182: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:683: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:700: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:824: error: reference not found
+     * Callback class to be used by the {@link RecyclerView.Adapter}
+                                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceManager.java:148: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceRecyclerViewAccessibilityDelegate.java:33: error: unknown tag: hide
+ * @hide
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceScreen.java:32: error: text not allowed in <ul> element
+ * <ul>
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceScreen.java:86: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:47: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/PreferenceViewHolder.java:27: error: reference not found
+ * A {@link RecyclerView.ViewHolder} class which caches views associated
+            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/RingtonePreference.java:41: error: unknown tag: attr
+ * @attr ref android.R.styleable#RingtonePreference_ringtoneType
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/RingtonePreference.java:42: error: unknown tag: attr
+ * @attr ref android.R.styleable#RingtonePreference_showDefault
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/RingtonePreference.java:43: error: unknown tag: attr
+ * @attr ref android.R.styleable#RingtonePreference_showSilent
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:205: error: unknown tag: hide
+     * @hide
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:39: error: unknown tag: attr
+ * @attr name android:summaryOff
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:40: error: unknown tag: attr
+ * @attr name android:summaryOn
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:41: error: unknown tag: attr
+ * @attr name android:switchTextOff
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:42: error: unknown tag: attr
+ * @attr name android:switchTextOn
+   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/preference/src/main/java/moe/shizuku/preference/SwitchPreference.java:43: error: unknown tag: attr
+ * @attr name android:disableDependentsState
+   ^
+87 errors
+100 warnings
+
+> Task :preference:javadocJar
+> Task :preference:sourcesJar
+> Task :preference:assemble
+> Task :preference:build
+
+BUILD SUCCESSFUL in 14s
+69 actionable tasks: 29 executed, 40 up-to-date
+
+2018-10-29 12:50:32,887 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:50:32,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:50:40,627 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:50:40,628 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-29 12:50:40,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-29 12:51:17,310 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preference:preBuild UP-TO-DATE
+> Task :preference:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:preBuild UP-TO-DATE
+> Task :preference-dialog-android:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-android:compileDebugAidl NO-SOURCE
+> Task :preference:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-android:packageDebugRenderscript NO-SOURCE
+> Task :preference:compileDebugRenderscript UP-TO-DATE
+> Task :preference:checkDebugManifest UP-TO-DATE
+> Task :preference:generateDebugBuildConfig UP-TO-DATE
+> Task :preference:generateDebugResValues UP-TO-DATE
+> Task :preference:generateDebugResources UP-TO-DATE
+> Task :preference:packageDebugResources UP-TO-DATE
+> Task :preference:processDebugManifest UP-TO-DATE
+> Task :preference:generateDebugRFile UP-TO-DATE
+> Task :preference:prepareLintJar UP-TO-DATE
+> Task :preference:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:compileDebugRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResValues UP-TO-DATE
+> Task :preference-dialog-android:generateDebugResources UP-TO-DATE
+> Task :preference-dialog-android:packageDebugResources UP-TO-DATE
+> Task :preference-dialog-android:processDebugManifest UP-TO-DATE
+> Task :preference-dialog-android:generateDebugRFile UP-TO-DATE
+> Task :preference-dialog-android:prepareLintJar UP-TO-DATE
+> Task :preference-dialog-android:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileDebug UP-TO-DATE
+> Task :preference-dialog-android:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :preference:javaPreCompileDebug UP-TO-DATE
+> Task :preference:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference:processDebugJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :preference-dialog-appcompat:preBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:preDebugBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-appcompat:compileDebugRenderscript UP-TO-DATE
+> Task :preference-dialog-appcompat:checkDebugManifest UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugResValues UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugResources UP-TO-DATE
+> Task :preference-dialog-appcompat:packageDebugResources UP-TO-DATE
+> Task :preference-dialog-appcompat:processDebugManifest UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugRFile UP-TO-DATE
+> Task :preference-dialog-appcompat:prepareLintJar UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugSources UP-TO-DATE
+> Task :preference-dialog-appcompat:javaPreCompileDebug UP-TO-DATE
+> Task :preference-dialog-appcompat:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-appcompat:processDebugJavaRes NO-SOURCE
+> Task :preference-dialog-appcompat:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :preference-simplemenu:preBuild UP-TO-DATE
+> Task :preference-simplemenu:preDebugBuild UP-TO-DATE
+> Task :preference-simplemenu:compileDebugAidl NO-SOURCE
+> Task :preference:packageDebugRenderscript NO-SOURCE
+> Task :preference-simplemenu:compileDebugRenderscript UP-TO-DATE
+> Task :preference-simplemenu:checkDebugManifest UP-TO-DATE
+> Task :preference-simplemenu:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-simplemenu:generateDebugResValues UP-TO-DATE
+> Task :preference-simplemenu:generateDebugResources UP-TO-DATE
+> Task :preference-simplemenu:packageDebugResources UP-TO-DATE
+> Task :preference-simplemenu:processDebugManifest UP-TO-DATE
+> Task :preference-simplemenu:generateDebugRFile UP-TO-DATE
+> Task :preference-simplemenu:prepareLintJar UP-TO-DATE
+> Task :preference-simplemenu:generateDebugSources UP-TO-DATE
+> Task :preference-simplemenu:javaPreCompileDebug UP-TO-DATE
+> Task :preference-simplemenu:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-simplemenu:processDebugJavaRes NO-SOURCE
+> Task :preference-simplemenu:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :preference-switchcompat:preBuild UP-TO-DATE
+> Task :preference-switchcompat:preDebugBuild UP-TO-DATE
+> Task :preference-switchcompat:compileDebugAidl NO-SOURCE
+> Task :preference-switchcompat:compileDebugRenderscript UP-TO-DATE
+> Task :preference-switchcompat:checkDebugManifest UP-TO-DATE
+> Task :preference-switchcompat:generateDebugBuildConfig UP-TO-DATE
+> Task :preference-switchcompat:generateDebugResValues UP-TO-DATE
+> Task :preference-switchcompat:generateDebugResources UP-TO-DATE
+> Task :preference-switchcompat:packageDebugResources UP-TO-DATE
+> Task :preference-switchcompat:processDebugManifest UP-TO-DATE
+> Task :preference-switchcompat:generateDebugRFile UP-TO-DATE
+> Task :preference-switchcompat:prepareLintJar UP-TO-DATE
+> Task :preference-switchcompat:generateDebugSources UP-TO-DATE
+> Task :preference-switchcompat:javaPreCompileDebug UP-TO-DATE
+> Task :preference-switchcompat:compileDebugJavaWithJavac UP-TO-DATE
+> Task :preference-switchcompat:processDebugJavaRes NO-SOURCE
+> Task :preference-switchcompat:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :preference-dialog-appcompat:packageDebugRenderscript NO-SOURCE
+> Task :preference-simplemenu:packageDebugRenderscript NO-SOURCE
+> Task :preference-switchcompat:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+
+> Task :sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/src/main/java/moe/shizuku/preference/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :preference:mergeDebugShaders UP-TO-DATE
+> Task :preference:compileDebugShaders UP-TO-DATE
+> Task :preference:generateDebugAssets UP-TO-DATE
+> Task :preference:packageDebugAssets UP-TO-DATE
+> Task :preference-dialog-appcompat:mergeDebugShaders UP-TO-DATE
+> Task :preference-dialog-appcompat:compileDebugShaders UP-TO-DATE
+> Task :preference-dialog-appcompat:generateDebugAssets UP-TO-DATE
+> Task :preference-dialog-appcompat:packageDebugAssets UP-TO-DATE
+> Task :preference-simplemenu:mergeDebugShaders UP-TO-DATE
+> Task :preference-simplemenu:compileDebugShaders UP-TO-DATE
+> Task :preference-simplemenu:generateDebugAssets UP-TO-DATE
+> Task :preference-simplemenu:packageDebugAssets UP-TO-DATE
+> Task :preference-switchcompat:mergeDebugShaders UP-TO-DATE
+> Task :preference-switchcompat:compileDebugShaders UP-TO-DATE
+> Task :preference-switchcompat:generateDebugAssets UP-TO-DATE
+> Task :preference-switchcompat:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :preference:compileDebugNdk NO-SOURCE
+> Task :preference:mergeDebugJniLibFolders UP-TO-DATE
+> Task :preference:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :preference:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :preference:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :preference-dialog-appcompat:compileDebugNdk NO-SOURCE
+> Task :preference-dialog-appcompat:mergeDebugJniLibFolders UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :preference-simplemenu:compileDebugNdk NO-SOURCE
+> Task :preference-simplemenu:mergeDebugJniLibFolders UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :preference-switchcompat:compileDebugNdk NO-SOURCE
+> Task :preference-switchcompat:mergeDebugJniLibFolders UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :preference:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseAidl NO-SOURCE
+> Task :preference:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-android:packageReleaseRenderscript NO-SOURCE
+> Task :preference:compileReleaseRenderscript UP-TO-DATE
+> Task :preference:checkReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference:generateReleaseResValues UP-TO-DATE
+> Task :preference:generateReleaseResources UP-TO-DATE
+> Task :preference:packageReleaseResources UP-TO-DATE
+> Task :preference:processReleaseManifest UP-TO-DATE
+> Task :preference:generateReleaseRFile UP-TO-DATE
+> Task :preference:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-dialog-android:checkReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResValues UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:packageReleaseResources UP-TO-DATE
+> Task :preference-dialog-android:processReleaseManifest UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseRFile UP-TO-DATE
+> Task :preference-dialog-android:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-android:javaPreCompileRelease UP-TO-DATE
+> Task :preference-dialog-android:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-android:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-android:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :preference:javaPreCompileRelease UP-TO-DATE
+> Task :preference:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference:processReleaseJavaRes NO-SOURCE
+> Task :preference:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :preference-dialog-appcompat:preReleaseBuild UP-TO-DATE
+> Task :preference-dialog-appcompat:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-appcompat:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-dialog-appcompat:checkReleaseManifest UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseResValues UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseResources UP-TO-DATE
+> Task :preference-dialog-appcompat:packageReleaseResources UP-TO-DATE
+> Task :preference-dialog-appcompat:processReleaseManifest UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseRFile UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseSources UP-TO-DATE
+> Task :preference-dialog-appcompat:javaPreCompileRelease UP-TO-DATE
+> Task :preference-dialog-appcompat:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-dialog-appcompat:processReleaseJavaRes NO-SOURCE
+> Task :preference-dialog-appcompat:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :preference-simplemenu:preReleaseBuild UP-TO-DATE
+> Task :preference-simplemenu:compileReleaseAidl NO-SOURCE
+> Task :preference:packageReleaseRenderscript NO-SOURCE
+> Task :preference-simplemenu:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-simplemenu:checkReleaseManifest UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseResValues UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseResources UP-TO-DATE
+> Task :preference-simplemenu:packageReleaseResources UP-TO-DATE
+> Task :preference-simplemenu:processReleaseManifest UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseRFile UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseSources UP-TO-DATE
+> Task :preference-simplemenu:javaPreCompileRelease UP-TO-DATE
+> Task :preference-simplemenu:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-simplemenu:processReleaseJavaRes NO-SOURCE
+> Task :preference-simplemenu:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :preference-switchcompat:preReleaseBuild UP-TO-DATE
+> Task :preference-switchcompat:compileReleaseAidl NO-SOURCE
+> Task :preference-switchcompat:compileReleaseRenderscript UP-TO-DATE
+> Task :preference-switchcompat:checkReleaseManifest UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseBuildConfig UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseResValues UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseResources UP-TO-DATE
+> Task :preference-switchcompat:packageReleaseResources UP-TO-DATE
+> Task :preference-switchcompat:processReleaseManifest UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseRFile UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseSources UP-TO-DATE
+> Task :preference-switchcompat:javaPreCompileRelease UP-TO-DATE
+> Task :preference-switchcompat:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :preference-switchcompat:processReleaseJavaRes NO-SOURCE
+> Task :preference-switchcompat:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :preference-dialog-appcompat:packageReleaseRenderscript NO-SOURCE
+> Task :preference-simplemenu:packageReleaseRenderscript NO-SOURCE
+> Task :preference-switchcompat:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+
+> Task :sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/src/main/java/moe/shizuku/preference/sample/MainActivity.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/f647c16c59804b57fb4d116fd09fb1c7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :preference:mergeReleaseShaders UP-TO-DATE
+> Task :preference:compileReleaseShaders UP-TO-DATE
+> Task :preference:generateReleaseAssets UP-TO-DATE
+> Task :preference:packageReleaseAssets UP-TO-DATE
+> Task :preference-dialog-appcompat:mergeReleaseShaders UP-TO-DATE
+> Task :preference-dialog-appcompat:compileReleaseShaders UP-TO-DATE
+> Task :preference-dialog-appcompat:generateReleaseAssets UP-TO-DATE
+> Task :preference-dialog-appcompat:packageReleaseAssets UP-TO-DATE
+> Task :preference-simplemenu:mergeReleaseShaders UP-TO-DATE
+> Task :preference-simplemenu:compileReleaseShaders UP-TO-DATE
+> Task :preference-simplemenu:generateReleaseAssets UP-TO-DATE
+> Task :preference-simplemenu:packageReleaseAssets UP-TO-DATE
+> Task :preference-switchcompat:mergeReleaseShaders UP-TO-DATE
+> Task :preference-switchcompat:compileReleaseShaders UP-TO-DATE
+> Task :preference-switchcompat:generateReleaseAssets UP-TO-DATE
+> Task :preference-switchcompat:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :preference:compileReleaseNdk NO-SOURCE
+> Task :preference:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :preference:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :preference:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :preference:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :preference-dialog-appcompat:compileReleaseNdk NO-SOURCE
+> Task :preference-dialog-appcompat:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :preference-dialog-appcompat:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :preference-simplemenu:compileReleaseNdk NO-SOURCE
+> Task :preference-simplemenu:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :preference-simplemenu:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :preference-switchcompat:compileReleaseNdk NO-SOURCE
+> Task :preference-switchcompat:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :preference-switchcompat:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+BUILD SUCCESSFUL in 36s
+210 actionable tasks: 63 executed, 147 up-to-date
+
+2018-10-29 12:51:17,554 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540791709376-0/src/MaterialPreference-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

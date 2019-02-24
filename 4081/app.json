@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.hanuor.pearl_demonstration",
+    "label" : "Pearl_Demonstration",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.MANAGE_ACCOUNTS", "android.permission.USE_CREDENTIALS", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2241,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.hanuor.pearl_demonstration\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.MANAGE_ACCOUNTS\" />\n\t<uses-permission android:name=\"android.permission.USE_CREDENTIALS\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"Pearl_Demonstration\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f08008e\" android:name=\"com.hanuor.pearl_demonstration.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.hanuor.pearl_demonstration.DisplayActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1599456,
+  "crc32" : 484325432,
+  "sha256" : "9ae0c1720123d27610314404a340e8974141f574018bb9e2c728cf30fd168dbe",
+  "buildTime" : 1522119472000
+}

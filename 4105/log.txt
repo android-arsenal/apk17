@@ -1,0 +1,10 @@
+2018-11-06 19:48:20,751 INFO  DownloadService - Downloading "https://github.com/avraampiperidis/log4jhttpPost/archive/master.zip", attempt 3
+2018-11-06 19:48:23,688 INFO  DownloadService - Downloaded https://github.com/avraampiperidis/log4jhttpPost/archive/master.zip, attempt 3
+2018-11-06 19:48:23,688 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508500749-0/master.zip": 2 MB
+2018-11-06 19:48:23,688 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-06 19:48:23,696 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508500749-0/master.zip: false
+2018-11-06 19:48:23,696 INFO  FullProcessService - Archive with sources does not contain any build script
+2018-11-06 19:48:23,696 ERROR FullProcessService - Could not find directory with sources
+2018-11-06 19:48:23,696 ERROR FullProcessService - Project will not be processed
+2018-11-06 19:48:23,696 ERROR FullProcessService - Project build has not produced APK file
+2018-11-06 19:48:23,697 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.github.ybq.nougatbootanimation",
+    "label" : "NougatBootAnimation",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "24",
+    "platformBuildVersionName" : "7.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 1700,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.github.ybq.nougatbootanimation\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"NougatBootAnimation\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:debuggable=\"true\">\n\t\t<activity android:name=\"com.github.ybq.nougatbootanimation.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1304495,
+  "crc32" : 1439199925,
+  "sha256" : "a84fa76b8a493fc15402069dec6da0a66ee9be66064db33380be4a4f4bc2c366",
+  "buildTime" : 1541944054000
+}

@@ -1,0 +1,623 @@
+2018-10-29 12:56:58,045 INFO  DownloadService - Downloading "https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip", attempt 3
+2018-10-29 12:57:15,835 INFO  DownloadService - Downloaded https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip, attempt 3
+2018-10-29 12:57:15,835 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip": 9 MB
+2018-10-29 12:57:15,835 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-29 12:57:15,836 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip: true
+2018-10-29 12:57:15,836 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src'.
+2018-10-29 12:57:15,979 INFO  FullProcessService - Size of directory with sources: 9 MB
+2018-10-29 12:57:15,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src]
+2018-10-29 12:57:16,000 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/.git/
+
+2018-10-29 12:57:16,005 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew
+2018-10-29 12:57:16,010 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle
+2018-10-29 12:57:16,015 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/settings.gradle
+2018-10-29 12:57:16,016 INFO  ProjectBuildService - Remote scripts: none
+2018-10-29 12:57:16,016 INFO  ProjectFixService - Fixing project...
+2018-10-29 12:57:16,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/local.properties
+2018-10-29 12:57:16,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-29 12:57:16,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/local.properties
+2018-10-29 12:57:16,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-29 12:57:16,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/local.properties
+2018-10-29 12:57:16,033 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-29 12:57:16,033 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-29 12:57:16,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2018-10-29 12:57:16,036 INFO  ProjectFixService - Project was maybe fixed
+2018-10-29 12:57:16,036 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:57:16,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:57:30,517 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-10-29 12:57:30,517 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-29 12:57:30,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-29 12:57:55,591 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottomsheetbuilder:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:22: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomSheetBehavior;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:28: error: cannot find symbol
+    public static void delayDismiss(final BottomSheetBehavior behavior) {
+                                          ^
+  symbol:   class BottomSheetBehavior
+  location: class BottomSheetBuilderUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:37: error: cannot find symbol
+    public static void saveState(Bundle outState, BottomSheetBehavior behavior) {
+                                                  ^
+  symbol:   class BottomSheetBehavior
+  location: class BottomSheetBuilderUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:44: error: cannot find symbol
+                                    final BottomSheetBehavior behavior) {
+                                          ^
+  symbol:   class BottomSheetBehavior
+  location: class BottomSheetBuilderUtils
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:23: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:24: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:25: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:26: error: package android.support.annotation does not exist
+import android.support.annotation.MenuRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:27: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:28: error: package android.support.annotation does not exist
+import android.support.annotation.StyleRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:29: error: package android.support.design.widget does not exist
+import android.support.design.widget.AppBarLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:30: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomSheetBehavior;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:31: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:32: error: package android.support.v4.content does not exist
+import android.support.v4.content.ContextCompat;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:33: error: package android.support.v4.content.res does not exist
+import android.support.v4.content.res.ResourcesCompat;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:34: error: package android.support.v4.view does not exist
+import android.support.v4.view.ViewCompat;
+                              ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:35: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.PopupMenu;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:23: error: package android.support.v7.view.menu does not exist
+import android.support.v7.view.menu.MenuBuilder;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:24: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.GridLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:25: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.LinearLayoutManager;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:26: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:35: error: cannot find symbol
+import com.github.rubensousa.bottomsheetbuilder.R;
+                                               ^
+  symbol:   class R
+  location: package com.github.rubensousa.bottomsheetbuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:72: error: cannot find symbol
+    private CoordinatorLayout mCoordinatorLayout;
+            ^
+  symbol:   class CoordinatorLayout
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:73: error: cannot find symbol
+    private AppBarLayout mAppBarLayout;
+            ^
+  symbol:   class AppBarLayout
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:77: error: cannot find symbol
+    public BottomSheetBuilder(Context context, CoordinatorLayout coordinatorLayout) {
+                                               ^
+  symbol:   class CoordinatorLayout
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:214: error: cannot find symbol
+    public BottomSheetBuilder setAppBarLayout(AppBarLayout appbar) {
+                                              ^
+  symbol:   class AppBarLayout
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.NonNull;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:22: error: package android.support.design.widget does not exist
+import android.support.design.widget.AppBarLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:23: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomSheetBehavior;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:24: error: package android.support.design.widget does not exist
+import android.support.design.widget.BottomSheetDialog;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:25: error: package android.support.design.widget does not exist
+import android.support.design.widget.CoordinatorLayout;
+                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:33: error: cannot find symbol
+public class BottomSheetMenuDialog extends BottomSheetDialog implements BottomSheetItemClickListener {
+                                           ^
+  symbol: class BottomSheetDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:35: error: package BottomSheetBehavior does not exist
+    BottomSheetBehavior.BottomSheetCallback mCallback;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:36: error: cannot find symbol
+    BottomSheetBehavior mBehavior;
+    ^
+  symbol:   class BottomSheetBehavior
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:38: error: cannot find symbol
+    private AppBarLayout mAppBarLayout;
+            ^
+  symbol:   class AppBarLayout
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:44: error: cannot find symbol
+    OnCancelListener mOnCancelListener;
+    ^
+  symbol:   class OnCancelListener
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:64: error: cannot find symbol
+    public void setOnCancelListener(OnCancelListener listener) {
+                                    ^
+  symbol:   class OnCancelListener
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:141: error: cannot find symbol
+    public void setAppBar(AppBarLayout appBar) {
+                          ^
+  symbol:   class AppBarLayout
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:149: error: package BottomSheetBehavior does not exist
+    public void setBottomSheetCallback(BottomSheetBehavior.BottomSheetCallback callback) {
+                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:157: error: cannot find symbol
+    public BottomSheetBehavior getBehavior() {
+           ^
+  symbol:   class BottomSheetBehavior
+  location: class BottomSheetMenuDialog
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:177: error: package BottomSheetBehavior does not exist
+    private BottomSheetBehavior.BottomSheetCallback mBottomSheetCallback
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:19: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.AppCompatImageView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:20: error: package android.support.v7.widget does not exist
+import android.support.v7.widget.RecyclerView;
+                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:27: error: cannot find symbol
+import com.github.rubensousa.bottomsheetbuilder.R;
+                                               ^
+  symbol:   class R
+  location: package com.github.rubensousa.bottomsheetbuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:32: error: package RecyclerView does not exist
+class BottomSheetItemAdapter extends RecyclerView.Adapter<BottomSheetItemAdapter.ViewHolder> {
+                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:130: error: package RecyclerView does not exist
+    class ViewHolder extends RecyclerView.ViewHolder {
+                                         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:19: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:177: error: cannot find symbol
+        public AppCompatImageView imageView;
+               ^
+  symbol:   class AppCompatImageView
+  location: class BottomSheetItemAdapter.ItemViewHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:20: error: package android.support.annotation does not exist
+import android.support.annotation.ColorInt;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:21: error: package android.support.annotation does not exist
+import android.support.annotation.DrawableRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:22: error: package android.support.v4.graphics.drawable does not exist
+import android.support.v4.graphics.drawable.DrawableCompat;
+                                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:51: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:54: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:57: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:60: error: cannot find symbol
+    @StyleRes
+     ^
+  symbol:   class StyleRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:87: error: cannot find symbol
+    public BottomSheetBuilder(Context context, @StyleRes int theme) {
+                                                ^
+  symbol:   class StyleRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:108: error: cannot find symbol
+    public BottomSheetBuilder setMenu(@MenuRes int menu) {
+                                       ^
+  symbol:   class MenuRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:122: error: cannot find symbol
+    public BottomSheetBuilder addTitleItem(@StringRes int title) {
+                                            ^
+  symbol:   class StringRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:144: error: cannot find symbol
+    public BottomSheetBuilder addItem(int id, @StringRes int title, @DrawableRes int icon) {
+                                               ^
+  symbol:   class StringRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:144: error: cannot find symbol
+    public BottomSheetBuilder addItem(int id, @StringRes int title, @DrawableRes int icon) {
+                                                                     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:148: error: cannot find symbol
+    public BottomSheetBuilder addItem(int id, @StringRes int title, Drawable icon) {
+                                               ^
+  symbol:   class StringRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:152: error: cannot find symbol
+    public BottomSheetBuilder addItem(int id, String title, @DrawableRes int icon) {
+                                                             ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:161: error: cannot find symbol
+    public BottomSheetBuilder setItemTextColor(@ColorInt int color) {
+                                                ^
+  symbol:   class ColorInt
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:166: error: cannot find symbol
+    public BottomSheetBuilder setTitleTextColor(@ColorInt int color) {
+                                                 ^
+  symbol:   class ColorInt
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:171: error: cannot find symbol
+    public BottomSheetBuilder setBackgroundColor(@ColorInt int color) {
+                                                  ^
+  symbol:   class ColorInt
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:176: error: cannot find symbol
+    public BottomSheetBuilder setItemTextColorResource(@ColorRes int color) {
+                                                        ^
+  symbol:   class ColorRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:182: error: cannot find symbol
+    public BottomSheetBuilder setTitleTextColorResource(@ColorRes int color) {
+                                                         ^
+  symbol:   class ColorRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:188: error: cannot find symbol
+    public BottomSheetBuilder setBackground(@DrawableRes int background) {
+                                             ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:193: error: cannot find symbol
+    public BottomSheetBuilder setBackgroundColorResource(@ColorRes int background) {
+                                                          ^
+  symbol:   class ColorRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:199: error: cannot find symbol
+    public BottomSheetBuilder setDividerBackground(@DrawableRes int background) {
+                                                    ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:204: error: cannot find symbol
+    public BottomSheetBuilder setItemBackground(@DrawableRes int background) {
+                                                 ^
+  symbol:   class DrawableRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:219: error: cannot find symbol
+    public BottomSheetBuilder setIconTintColorResource(@ColorRes int color) {
+                                                        ^
+  symbol:   class ColorRes
+  location: class BottomSheetBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:25: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetDivider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:28: error: cannot find symbol
+    public BottomSheetDivider(@DrawableRes int background) {
+                               ^
+  symbol:   class DrawableRes
+  location: class BottomSheetDivider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:32: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetDivider
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:25: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class BottomSheetHeader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:28: error: cannot find symbol
+    public BottomSheetHeader(String title, @ColorInt int color) {
+                                            ^
+  symbol:   class ColorInt
+  location: class BottomSheetHeader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:33: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class BottomSheetHeader
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:28: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:31: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:39: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:42: error: cannot find symbol
+    public BottomSheetMenuItem(MenuItem item, @ColorInt int textColor, @DrawableRes int background,
+                                               ^
+  symbol:   class ColorInt
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:42: error: cannot find symbol
+    public BottomSheetMenuItem(MenuItem item, @ColorInt int textColor, @DrawableRes int background,
+                                                                        ^
+  symbol:   class DrawableRes
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:43: error: cannot find symbol
+                               @ColorInt int tintColor) {
+                                ^
+  symbol:   class ColorInt
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:67: error: cannot find symbol
+    @DrawableRes
+     ^
+  symbol:   class DrawableRes
+  location: class BottomSheetMenuItem
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:76: error: cannot find symbol
+    @ColorInt
+     ^
+  symbol:   class ColorInt
+  location: class BottomSheetMenuItem
+javadoc: warning - Class MenuRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorInt not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class DrawableRes not found.
+javadoc: warning - Class ColorRes not found.
+
+100 warnings
+:bottomsheetbuilder:androidJavadocsJar
+:bottomsheetbuilder:androidSourcesJar
+:bottomsheetbuilder:preBuild UP-TO-DATE
+:bottomsheetbuilder:preDebugBuild UP-TO-DATE
+:bottomsheetbuilder:compileDebugAidl
+:bottomsheetbuilder:compileDebugRenderscript
+:bottomsheetbuilder:checkDebugManifest
+:bottomsheetbuilder:generateDebugBuildConfig
+:bottomsheetbuilder:generateDebugResValues
+:bottomsheetbuilder:generateDebugResources
+:bottomsheetbuilder:packageDebugResources
+:bottomsheetbuilder:platformAttrExtractor
+:bottomsheetbuilder:processDebugManifest
+:bottomsheetbuilder:prepareLintJar
+:bottomsheetbuilder:javaPreCompileDebug
+:bottomsheetbuilder:mergeDebugConsumerProguardFiles
+:bottomsheetbuilder:mergeDebugShaders
+:bottomsheetbuilder:compileDebugShaders
+:bottomsheetbuilder:generateDebugAssets
+:bottomsheetbuilder:packageDebugAssets
+:bottomsheetbuilder:packageDebugRenderscript NO-SOURCE
+:bottomsheetbuilder:processDebugJavaRes NO-SOURCE
+:bottomsheetbuilder:compileDebugNdk NO-SOURCE
+:bottomsheetbuilder:mergeDebugJniLibFolders
+:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForDebug
+:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForDebug
+:bottomsheetbuilder:transformNativeLibsWithSyncJniLibsForDebug
+:bottomsheetbuilder:preReleaseBuild UP-TO-DATE
+:bottomsheetbuilder:compileReleaseAidl
+:bottomsheetbuilder:compileReleaseRenderscript
+:bottomsheetbuilder:checkReleaseManifest
+:bottomsheetbuilder:generateReleaseBuildConfig
+:bottomsheetbuilder:generateReleaseResValues
+:bottomsheetbuilder:generateReleaseResources
+:bottomsheetbuilder:packageReleaseResources
+:bottomsheetbuilder:processReleaseManifest
+:bottomsheetbuilder:javaPreCompileRelease
+:bottomsheetbuilder:mergeReleaseConsumerProguardFiles
+:bottomsheetbuilder:mergeReleaseShaders
+:bottomsheetbuilder:compileReleaseShaders
+:bottomsheetbuilder:generateReleaseAssets
+:bottomsheetbuilder:packageReleaseAssets
+:bottomsheetbuilder:packageReleaseRenderscript NO-SOURCE
+:bottomsheetbuilder:processReleaseJavaRes NO-SOURCE
+:bottomsheetbuilder:compileReleaseNdk NO-SOURCE
+:bottomsheetbuilder:mergeReleaseJniLibFolders
+:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForRelease
+:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForRelease
+:bottomsheetbuilder:transformNativeLibsWithSyncJniLibsForRelease
+:bottomsheetbuilder:mergeReleaseResources
+:bottomsheetbuilder:verifyReleaseResources
+:bottomsheetbuilder:generateDebugRFile
+:bottomsheetbuilder:generateDebugSources
+:bottomsheetbuilder:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottomsheetbuilder:extractDebugAnnotations
+:bottomsheetbuilder:transformResourcesWithMergeJavaResForDebug
+:bottomsheetbuilder:transformClassesAndResourcesWithSyncLibJarsForDebug
+:bottomsheetbuilder:bundleDebug
+:bottomsheetbuilder:compileDebugSources
+:bottomsheetbuilder:assembleDebug
+:bottomsheetbuilder:generateReleaseRFile
+:bottomsheetbuilder:generateReleaseSources
+:bottomsheetbuilder:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:bottomsheetbuilder:extractReleaseAnnotations
+:bottomsheetbuilder:transformResourcesWithMergeJavaResForRelease
+:bottomsheetbuilder:transformClassesAndResourcesWithSyncLibJarsForRelease
+:bottomsheetbuilder:bundleRelease
+:bottomsheetbuilder:compileReleaseSources
+:bottomsheetbuilder:assembleRelease
+:bottomsheetbuilder:signArchives SKIPPED
+:bottomsheetbuilder:assemble
+:bottomsheetbuilder:build
+
+BUILD SUCCESSFUL in 24s
+51 actionable tasks: 51 executed
+
+2018-10-29 12:57:55,658 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-29 12:57:55,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-29 12:58:03,812 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-29 12:58:03,812 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-29 12:58:03,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-29 12:58:50,004 INFO  SysUtils - Configuration on demand is an incubating feature.
+:bottomsheetbuilder:preBuild UP-TO-DATE
+:bottomsheetbuilder:preDebugBuild UP-TO-DATE
+:bottomsheetbuilder:compileDebugAidl UP-TO-DATE
+:bottomsheetbuilder:compileDebugRenderscript UP-TO-DATE
+:bottomsheetbuilder:checkDebugManifest UP-TO-DATE
+:bottomsheetbuilder:generateDebugBuildConfig UP-TO-DATE
+:bottomsheetbuilder:generateDebugResValues UP-TO-DATE
+:bottomsheetbuilder:generateDebugResources UP-TO-DATE
+:bottomsheetbuilder:packageDebugResources UP-TO-DATE
+:bottomsheetbuilder:platformAttrExtractor UP-TO-DATE
+:bottomsheetbuilder:processDebugManifest UP-TO-DATE
+:bottomsheetbuilder:generateDebugRFile UP-TO-DATE
+:bottomsheetbuilder:prepareLintJar UP-TO-DATE
+:bottomsheetbuilder:generateDebugSources UP-TO-DATE
+:bottomsheetbuilder:javaPreCompileDebug UP-TO-DATE
+:bottomsheetbuilder:compileDebugJavaWithJavac UP-TO-DATE
+:bottomsheetbuilder:processDebugJavaRes NO-SOURCE
+:bottomsheetbuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl
+:bottomsheetbuilder:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:bottomsheetbuilder:mergeDebugShaders UP-TO-DATE
+:bottomsheetbuilder:compileDebugShaders UP-TO-DATE
+:bottomsheetbuilder:generateDebugAssets UP-TO-DATE
+:bottomsheetbuilder:packageDebugAssets UP-TO-DATE
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:bottomsheetbuilder:compileDebugNdk NO-SOURCE
+:bottomsheetbuilder:mergeDebugJniLibFolders UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:mergeDebugJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:bottomsheetbuilder:preReleaseBuild UP-TO-DATE
+:bottomsheetbuilder:compileReleaseAidl UP-TO-DATE
+:bottomsheetbuilder:compileReleaseRenderscript UP-TO-DATE
+:bottomsheetbuilder:checkReleaseManifest UP-TO-DATE
+:bottomsheetbuilder:generateReleaseBuildConfig UP-TO-DATE
+:bottomsheetbuilder:generateReleaseResValues UP-TO-DATE
+:bottomsheetbuilder:generateReleaseResources UP-TO-DATE
+:bottomsheetbuilder:packageReleaseResources UP-TO-DATE
+:bottomsheetbuilder:processReleaseManifest UP-TO-DATE
+:bottomsheetbuilder:generateReleaseRFile UP-TO-DATE
+:bottomsheetbuilder:generateReleaseSources UP-TO-DATE
+:bottomsheetbuilder:javaPreCompileRelease UP-TO-DATE
+:bottomsheetbuilder:compileReleaseJavaWithJavac UP-TO-DATE
+:bottomsheetbuilder:processReleaseJavaRes NO-SOURCE
+:bottomsheetbuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:preReleaseBuild
+:sample:compileReleaseAidl
+:bottomsheetbuilder:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+:bottomsheetbuilder:mergeReleaseShaders UP-TO-DATE
+:bottomsheetbuilder:compileReleaseShaders UP-TO-DATE
+:bottomsheetbuilder:generateReleaseAssets UP-TO-DATE
+:bottomsheetbuilder:packageReleaseAssets UP-TO-DATE
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:bottomsheetbuilder:compileReleaseNdk NO-SOURCE
+:bottomsheetbuilder:mergeReleaseJniLibFolders UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:bottomsheetbuilder:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:mergeReleaseJniLibFolders
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 45s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-10-29 12:58:50,148 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

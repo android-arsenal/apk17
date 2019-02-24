@@ -1,0 +1,182 @@
+2018-11-11 23:32:16,956 INFO  DownloadService - Downloading "https://github.com/pdrogfer/MidiDroid/archive/master.zip", attempt 3
+2018-11-11 23:32:17,536 INFO  DownloadService - Downloaded https://github.com/pdrogfer/MidiDroid/archive/master.zip, attempt 3
+2018-11-11 23:32:17,536 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip": 145 KB
+2018-11-11 23:32:17,536 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-11 23:32:17,541 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip: true
+2018-11-11 23:32:17,542 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src'.
+2018-11-11 23:32:17,566 INFO  FullProcessService - Size of directory with sources: 222 KB
+2018-11-11 23:32:17,566 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src]
+2018-11-11 23:32:17,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/.git/
+
+2018-11-11 23:32:17,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew
+2018-11-11 23:32:17,592 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle
+2018-11-11 23:32:17,596 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/settings.gradle
+2018-11-11 23:32:17,596 INFO  ProjectBuildService - Remote scripts: none
+2018-11-11 23:32:17,596 INFO  ProjectFixService - Fixing project...
+2018-11-11 23:32:17,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/local.properties
+2018-11-11 23:32:17,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-11 23:32:17,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-11 23:32:17,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/local.properties
+2018-11-11 23:32:17,606 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-11 23:32:17,607 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-11 23:32:17,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-11 23:32:17,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-11 23:32:17,609 INFO  ProjectFixService - Project was maybe fixed
+2018-11-11 23:32:17,609 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-11 23:32:17,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-11 23:32:24,200 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-11-11 23:32:24,200 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-11 23:32:24,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-11 23:32:38,673 INFO  SysUtils - Configuration on demand is an incubating feature.
+:midi:preBuild UP-TO-DATE
+:midi:preDebugBuild UP-TO-DATE
+:midi:compileDebugAidl NO-SOURCE
+:midi:compileDebugRenderscript
+:midi:checkDebugManifest
+:midi:generateDebugBuildConfig
+:midi:generateDebugResValues
+:midi:generateDebugResources
+:midi:packageDebugResources
+:midi:processDebugManifest
+:midi:generateDebugRFile
+:midi:prepareLintJar
+:midi:generateDebugSources
+:midi:javaPreCompileDebug
+:midi:compileDebugJavaWithJavac
+:midi:extractDebugAnnotations
+:midi:mergeDebugConsumerProguardFiles
+:midi:mergeDebugShaders
+:midi:compileDebugShaders
+:midi:generateDebugAssets
+:midi:packageDebugAssets
+:midi:packageDebugRenderscript NO-SOURCE
+:midi:processDebugJavaRes NO-SOURCE
+:midi:transformResourcesWithMergeJavaResForDebug
+:midi:transformClassesAndResourcesWithSyncLibJarsForDebug
+:midi:compileDebugNdk NO-SOURCE
+:midi:mergeDebugJniLibFolders
+:midi:transformNativeLibsWithMergeJniLibsForDebug
+:midi:transformNativeLibsWithStripDebugSymbolForDebug
+:midi:transformNativeLibsWithSyncJniLibsForDebug
+:midi:bundleDebugAar
+:midi:compileDebugSources
+:midi:assembleDebug
+:midi:preReleaseBuild UP-TO-DATE
+:midi:compileReleaseAidl NO-SOURCE
+:midi:compileReleaseRenderscript
+:midi:checkReleaseManifest
+:midi:generateReleaseBuildConfig
+:midi:generateReleaseResValues
+:midi:generateReleaseResources
+:midi:packageReleaseResources
+:midi:processReleaseManifest
+:midi:generateReleaseRFile
+:midi:generateReleaseSources
+:midi:javaPreCompileRelease
+:midi:compileReleaseJavaWithJavac
+:midi:extractReleaseAnnotations
+:midi:mergeReleaseConsumerProguardFiles
+:midi:mergeReleaseShaders
+:midi:compileReleaseShaders
+:midi:generateReleaseAssets
+:midi:packageReleaseAssets
+:midi:packageReleaseRenderscript NO-SOURCE
+:midi:processReleaseJavaRes NO-SOURCE
+:midi:transformResourcesWithMergeJavaResForRelease
+:midi:transformClassesAndResourcesWithSyncLibJarsForRelease
+:midi:compileReleaseNdk NO-SOURCE
+:midi:mergeReleaseJniLibFolders
+:midi:transformNativeLibsWithMergeJniLibsForRelease
+:midi:transformNativeLibsWithStripDebugSymbolForRelease
+:midi:transformNativeLibsWithSyncJniLibsForRelease
+:midi:bundleReleaseAar
+:midi:compileReleaseSources
+:midi:mergeReleaseResources
+:midi:verifyReleaseResources
+:midi:assembleRelease
+:midi:assemble
+:midi:build
+
+BUILD SUCCESSFUL in 14s
+45 actionable tasks: 45 executed
+
+2018-11-11 23:32:38,731 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-11 23:32:38,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-11 23:32:45,242 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-11-11 23:32:45,242 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-11-11 23:32:45,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-11-11 23:32:54,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+:midi:preBuild UP-TO-DATE
+:midi:preDebugBuild UP-TO-DATE
+:midi:compileDebugAidl NO-SOURCE
+:midi:compileDebugRenderscript UP-TO-DATE
+:midi:checkDebugManifest UP-TO-DATE
+:midi:generateDebugBuildConfig UP-TO-DATE
+:midi:generateDebugResValues UP-TO-DATE
+:midi:generateDebugResources UP-TO-DATE
+:midi:packageDebugResources UP-TO-DATE
+:midi:processDebugManifest UP-TO-DATE
+:midi:generateDebugRFile UP-TO-DATE
+:midi:prepareLintJar UP-TO-DATE
+:midi:generateDebugSources UP-TO-DATE
+:midi:javaPreCompileDebug UP-TO-DATE
+:midi:compileDebugJavaWithJavac UP-TO-DATE
+:midi:extractDebugAnnotations UP-TO-DATE
+:midi:mergeDebugConsumerProguardFiles UP-TO-DATE
+:midi:mergeDebugShaders UP-TO-DATE
+:midi:compileDebugShaders UP-TO-DATE
+:midi:generateDebugAssets UP-TO-DATE
+:midi:packageDebugAssets UP-TO-DATE
+:midi:packageDebugRenderscript NO-SOURCE
+:midi:processDebugJavaRes NO-SOURCE
+:midi:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:midi:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:midi:compileDebugNdk NO-SOURCE
+:midi:mergeDebugJniLibFolders UP-TO-DATE
+:midi:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:midi:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:midi:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:midi:bundleDebugAar UP-TO-DATE
+:midi:compileDebugSources UP-TO-DATE
+:midi:assembleDebug UP-TO-DATE
+:midi:preReleaseBuild UP-TO-DATE
+:midi:compileReleaseAidl NO-SOURCE
+:midi:compileReleaseRenderscript UP-TO-DATE
+:midi:checkReleaseManifest UP-TO-DATE
+:midi:generateReleaseBuildConfig UP-TO-DATE
+:midi:generateReleaseResValues UP-TO-DATE
+:midi:generateReleaseResources UP-TO-DATE
+:midi:packageReleaseResources UP-TO-DATE
+:midi:processReleaseManifest UP-TO-DATE
+:midi:generateReleaseRFile UP-TO-DATE
+:midi:generateReleaseSources UP-TO-DATE
+:midi:javaPreCompileRelease UP-TO-DATE
+:midi:compileReleaseJavaWithJavac UP-TO-DATE
+:midi:extractReleaseAnnotations UP-TO-DATE
+:midi:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:midi:mergeReleaseShaders UP-TO-DATE
+:midi:compileReleaseShaders UP-TO-DATE
+:midi:generateReleaseAssets UP-TO-DATE
+:midi:packageReleaseAssets UP-TO-DATE
+:midi:packageReleaseRenderscript NO-SOURCE
+:midi:processReleaseJavaRes NO-SOURCE
+:midi:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:midi:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:midi:compileReleaseNdk NO-SOURCE
+:midi:mergeReleaseJniLibFolders UP-TO-DATE
+:midi:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:midi:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:midi:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:midi:bundleReleaseAar UP-TO-DATE
+:midi:compileReleaseSources UP-TO-DATE
+:midi:mergeReleaseResources UP-TO-DATE
+:midi:verifyReleaseResources
+:midi:assembleRelease
+:midi:assemble
+:midi:build
+
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 1 executed, 44 up-to-date
+
+2018-11-11 23:32:54,322 ERROR FullProcessService - Project build has not produced APK file
+2018-11-11 23:32:54,386 ERROR FullProcessService - Could not find generated or existed APK file

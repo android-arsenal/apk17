@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.webianks.popupbubble",
+    "label" : "PopupBubble",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1874,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.webianks.popupbubble\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"PopupBubble\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.webianks.popupbubble.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1707875,
+  "crc32" : 2728550296,
+  "sha256" : "f14caa370e51705c4a839c6533ecad4ac0d7e6ff10263b315941450e70d39106",
+  "buildTime" : 1522115066000
+}

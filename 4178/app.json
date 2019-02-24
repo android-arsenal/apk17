@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "uk.co.samuelwall.materialtaptargetprompt.sample",
+    "label" : "Material Tap Target Prompt Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.14.0",
+    "versionCode" : 57,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : "57",
+    "platformBuildVersionName" : "2.14.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2924,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "en_US", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"57\" android:versionName=\"2.14.0\" package=\"uk.co.samuelwall.materialtaptargetprompt.sample\" platformBuildVersionCode=\"57\" platformBuildVersionName=\"2.14.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"27\" />\n\t<application android:theme=\"resourceId:0x7f0e0006\" android:label=\"Material Tap Target Prompt Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.Mttp\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0e0009\" android:label=\"Material Tap Target Prompt Sample\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0008\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.DialogStyleActivity\" android:parentActivityName=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\".MainActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0006\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.KotlinActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0009\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.CentrePositionActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0e0009\" android:label=\"Card Example\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.CardActivity\" android:parentActivityName=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\" />\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0e0009\" android:label=\"List Example\" android:name=\"uk.co.samuelwall.materialtaptargetprompt.sample.ListActivity\" android:parentActivityName=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\">\n\t\t\t<meta-data android:name=\"android.support.PARENT_ACTIVITY\" android:value=\"uk.co.samuelwall.materialtaptargetprompt.sample.MainActivity\" />\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2270044,
+  "crc32" : 673700331,
+  "sha256" : "3494db5277f7511cf8912eb0e8db9733b5cd81b1fe92d71e434acf7b00ac84ed",
+  "buildTime" : 1544967231000
+}

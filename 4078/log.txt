@@ -1,0 +1,145 @@
+2018-12-16 21:23:26,542 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
+2018-12-16 21:24:27,092 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-16 21:24:27,928 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-16 21:24:27,928 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
+2018-12-16 21:25:29,601 DEBUG FullProcessService - Repository https://github.com/linkedin/test-butler available: true
+2018-12-16 21:25:29,601 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-12-16 21:25:29,601 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/linkedin/test-butler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src]
+2018-12-16 21:25:31,454 INFO  SysUtils - 
+2018-12-16 21:25:31,463 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/.git": true
+2018-12-16 21:25:31,467 INFO  FullProcessService - Size of directory with sources: 196 KB
+2018-12-16 21:25:31,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src]
+2018-12-16 21:25:31,485 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/.git/
+
+2018-12-16 21:25:31,489 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew
+2018-12-16 21:25:31,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle
+2018-12-16 21:25:31,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/settings.gradle
+2018-12-16 21:25:31,497 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 21:25:31,497 INFO  ProjectFixService - Fixing project...
+2018-12-16 21:25:31,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/local.properties
+2018-12-16 21:25:31,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:25:31,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/local.properties
+2018-12-16 21:25:31,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:25:31,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/local.properties
+2018-12-16 21:25:31,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:25:31,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/local.properties
+2018-12-16 21:25:31,513 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2018-12-16 21:25:31,514 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2018-12-16 21:25:31,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:25:31,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/local.properties
+2018-12-16 21:25:31,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:25:31,516 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 21:25:31,516 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:25:31,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:25:44,419 INFO  ProjectTaskService - Detected possible tasks: 83
+2018-12-16 21:25:44,419 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 21:25:44,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 21:25:59,297 INFO  SysUtils - > Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+Configuration on demand is an incubating feature.
+> Task :test-butler-app:checkDebugClasspath
+> Task :test-butler-app:preBuild UP-TO-DATE
+> Task :test-butler-app:preDebugBuild
+> Task :test-butler-app:compileDebugAidl
+> Task :test-butler-app:compileDebugRenderscript
+> Task :test-butler-app:checkDebugManifest
+> Task :test-butler-app:generateDebugBuildConfig
+> Task :test-butler-app:prepareLintJar
+> Task :test-butler-app:mainApkListPersistenceDebug
+> Task :test-butler-app:generateDebugResValues
+> Task :test-butler-app:generateDebugResources
+> Task :test-butler-app:mergeDebugResources
+> Task :test-butler-app:createDebugCompatibleScreenManifests
+> Task :test-butler-app:processDebugManifest
+> Task :test-butler-app:splitsDiscoveryTaskDebug
+> Task :test-butler-app:processDebugResources
+> Task :test-butler-app:generateDebugSources
+> Task :test-butler-app:javaPreCompileDebug
+
+> Task :test-butler-app:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :test-butler-app:compileDebugNdk NO-SOURCE
+> Task :test-butler-app:compileDebugSources
+> Task :test-butler-app:mergeDebugShaders
+> Task :test-butler-app:compileDebugShaders
+> Task :test-butler-app:generateDebugAssets
+> Task :test-butler-app:mergeDebugAssets
+> Task :test-butler-app:transformClassesWithDexBuilderForDebug
+> Task :test-butler-app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :test-butler-app:transformDexArchiveWithDexMergerForDebug
+> Task :test-butler-app:mergeDebugJniLibFolders
+> Task :test-butler-app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :test-butler-app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :test-butler-app:checkDebugLibraries
+> Task :test-butler-app:processDebugJavaRes NO-SOURCE
+> Task :test-butler-app:transformResourcesWithMergeJavaResForDebug
+> Task :test-butler-app:validateSigningDebug
+> Task :test-butler-app:packageDebug
+> Task :test-butler-app:assembleDebug
+> Task :test-butler-app:checkReleaseClasspath
+> Task :test-butler-app:preReleaseBuild
+> Task :test-butler-app:compileReleaseAidl
+> Task :test-butler-app:compileReleaseRenderscript
+> Task :test-butler-app:checkReleaseManifest
+> Task :test-butler-app:generateReleaseBuildConfig
+> Task :test-butler-app:mainApkListPersistenceRelease
+> Task :test-butler-app:generateReleaseResValues
+> Task :test-butler-app:generateReleaseResources
+> Task :test-butler-app:mergeReleaseResources
+> Task :test-butler-app:createReleaseCompatibleScreenManifests
+> Task :test-butler-app:processReleaseManifest
+> Task :test-butler-app:splitsDiscoveryTaskRelease
+> Task :test-butler-app:processReleaseResources
+> Task :test-butler-app:generateReleaseSources
+> Task :test-butler-app:javaPreCompileRelease
+
+> Task :test-butler-app:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :test-butler-app:compileReleaseNdk NO-SOURCE
+> Task :test-butler-app:compileReleaseSources
+
+> Task :test-butler-app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/2b67920642cb5248c71d54c9495dfd65/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :test-butler-app:mergeReleaseShaders
+> Task :test-butler-app:compileReleaseShaders
+> Task :test-butler-app:generateReleaseAssets
+> Task :test-butler-app:mergeReleaseAssets
+> Task :test-butler-app:transformClassesWithDexBuilderForRelease
+> Task :test-butler-app:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :test-butler-app:transformDexArchiveWithDexMergerForRelease
+> Task :test-butler-app:mergeReleaseJniLibFolders
+> Task :test-butler-app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :test-butler-app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :test-butler-app:checkReleaseLibraries
+> Task :test-butler-app:processReleaseJavaRes NO-SOURCE
+> Task :test-butler-app:transformResourcesWithMergeJavaResForRelease
+> Task :test-butler-app:validateSigningRelease
+> Task :test-butler-app:packageRelease
+> Task :test-butler-app:assembleRelease
+> Task :test-butler-app:assemble
+> Task :test-butler-app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 14s
+58 actionable tasks: 58 executed
+
+2018-12-16 21:25:59,319 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build/outputs/apk/release/test-butler-app-release.apk

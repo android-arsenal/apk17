@@ -1,0 +1,1536 @@
+2018-12-16 21:03:53,323 INFO  DownloadService - Downloading "https://github.com/vimeo/stag-java/archive/master.zip", attempt 3
+2018-12-16 21:03:53,982 INFO  DownloadService - Downloaded https://github.com/vimeo/stag-java/archive/master.zip, attempt 3
+2018-12-16 21:03:53,982 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip": 349 KB
+2018-12-16 21:03:53,982 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-16 21:03:53,988 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip: true
+2018-12-16 21:03:53,989 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src'.
+2018-12-16 21:03:54,070 INFO  FullProcessService - Size of directory with sources: 624 KB
+2018-12-16 21:03:54,071 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src]
+2018-12-16 21:03:54,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/.git/
+
+2018-12-16 21:03:54,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew
+2018-12-16 21:03:54,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle
+2018-12-16 21:03:54,124 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle
+2018-12-16 21:03:54,125 INFO  ProjectBuildService - Remote scripts: none
+2018-12-16 21:03:54,125 INFO  ProjectFixService - Fixing project...
+2018-12-16 21:03:54,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/local.properties
+2018-12-16 21:03:54,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/local.properties
+2018-12-16 21:03:54,155 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/local.properties
+2018-12-16 21:03:54,156 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-16 21:03:54,156 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-16 21:03:54,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/local.properties
+2018-12-16 21:03:54,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,162 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/local.properties
+2018-12-16 21:03:54,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/local.properties
+2018-12-16 21:03:54,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/local.properties
+2018-12-16 21:03:54,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/local.properties
+2018-12-16 21:03:54,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-12-16 21:03:54,179 INFO  ProjectFixService - Project was maybe fixed
+2018-12-16 21:03:54,179 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:03:54,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:04:03,221 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-16 21:04:03,221 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-16 21:04:03,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-16 21:04:23,362 INFO  SysUtils - Configuration on demand is an incubating feature.
+:integration-test-android:preBuild UP-TO-DATE
+:integration-test-android:preDebugBuild UP-TO-DATE
+:integration-test-android:compileDebugAidl NO-SOURCE
+:integration-test-android:compileDebugRenderscript
+:integration-test-android:checkDebugManifest
+:integration-test-android:generateDebugBuildConfig
+:integration-test-android:generateDebugResValues
+:integration-test-android:generateDebugResources
+:integration-test-android:packageDebugResources
+:integration-test-android:processDebugManifest
+:integration-test-android:generateDebugRFile
+:integration-test-android:prepareLintJar
+:integration-test-android:generateDebugSources
+:stag-library:compileKotlin
+Download https://jcenter.bintray.com/org/jetbrains/annotations-java5/16.0.2/annotations-java5-16.0.2.jar
+:stag-library:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+:stag-library:processResources NO-SOURCE
+:stag-library:classes
+:stag-library:inspectClassesForKotlinIC
+:stag-library:jar
+:stag-library-compiler:compileKotlin
+Download https://jcenter.bintray.com/com/google/auto/auto-common/0.3/auto-common-0.3.jar
+:stag-library-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
+
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes
+:stag-library-compiler:inspectClassesForKotlinIC
+:stag-library-compiler:jar
+:integration-test-android:javaPreCompileDebug
+:integration-test-android:compileDebugJavaWithJavac
+Stag: 
+Beginning @UseStag annotation processing
+
+Stag: Annotated type: com.vimeo.integration_test_android.ComplexGenericClass<T>
+
+Stag:AnnotatedClass: 		Member variables - T
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>>
+Stag:AnnotatedClass: 		Member variables - android.webkit.ValueCallback<T>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.ComplexGenericClassExtended
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.integration_test_android.ComplexGenericClass<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: Inherited concrete type: com.vimeo.integration_test_android.ComplexGenericClass<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: Inherited generic type: com.vimeo.integration_test_android.ComplexGenericClass<T>
+Stag:TypeUtils: 		Evaluating member - T
+Stag:TypeUtils: 			Generic Type - T resolved to - com.vimeo.integration_test_android.TestModel
+Stag:TypeUtils: 		Evaluating member - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>>
+Stag:TypeUtils: 			Generic Parameterized Type - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>> resolved to - java.util.Map<java.lang.String,java.util.Map<java.lang.String,com.vimeo.integration_test_android.TestModel>>
+Stag:TypeUtils: 		Evaluating member - android.webkit.ValueCallback<T>
+Stag:TypeUtils: 			Generic Parameterized Type - android.webkit.ValueCallback<T> resolved to - android.webkit.ValueCallback<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: 		Evaluating member - java.util.Map<java.lang.String,java.lang.String>
+Stag:TypeUtils: 			Concrete Type: java.util.Map<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.ClassWithMapTypes
+
+Stag:AnnotatedClass: 		Member variables - java.util.HashMap<java.lang.String,com.vimeo.integration_test_android.TestModel>
+Stag:AnnotatedClass: 		Member variables - java.util.LinkedHashMap<java.lang.String,java.lang.Integer>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.Integer,java.lang.String>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<com.vimeo.integration_test_android.TestModel,java.lang.String>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.util.List<com.vimeo.integration_test_android.TestModel>>
+Stag:AnnotatedClass: 		Member variables - android.support.v4.util.ArrayMap<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.TestModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.integration_test_android.UnserializablePlatformType<T>
+
+Stag:AnnotatedClass: 		Member variables - android.webkit.ValueCallback<T>
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Resource not found: StagTypeAdapterFactory.list
+Stag: Wrote to resource 'StagTypeAdapterFactory.list':
+com.vimeo.integration_test_android.ComplexGenericClass<T>
+com.vimeo.integration_test_android.ComplexGenericClassExtended
+com.vimeo.integration_test_android.ClassWithMapTypes
+com.vimeo.integration_test_android.TestModel
+com.vimeo.integration_test_android.UnserializablePlatformType<T>
+
+Stag: 
+Successfully processed @UseStag annotations
+
+:integration-test-android:extractDebugAnnotations
+:integration-test-android:mergeDebugConsumerProguardFiles
+:integration-test-android:mergeDebugShaders
+:integration-test-android:compileDebugShaders
+:integration-test-android:generateDebugAssets
+:integration-test-android:packageDebugAssets
+:integration-test-android:packageDebugRenderscript NO-SOURCE
+:integration-test-android:processDebugJavaRes NO-SOURCE
+:integration-test-android:transformResourcesWithMergeJavaResForDebug
+:integration-test-android:transformClassesAndResourcesWithSyncLibJarsForDebug
+:integration-test-android:compileDebugNdk NO-SOURCE
+:integration-test-android:mergeDebugJniLibFolders
+:integration-test-android:transformNativeLibsWithMergeJniLibsForDebug
+:integration-test-android:transformNativeLibsWithStripDebugSymbolForDebug
+:integration-test-android:transformNativeLibsWithSyncJniLibsForDebug
+:integration-test-android:bundleDebugAar
+:integration-test-android:compileDebugSources
+:integration-test-android:assembleDebug
+:integration-test-android:preReleaseBuild UP-TO-DATE
+:integration-test-android:compileReleaseAidl NO-SOURCE
+:integration-test-android:compileReleaseRenderscript
+:integration-test-android:checkReleaseManifest
+:integration-test-android:generateReleaseBuildConfig
+:integration-test-android:generateReleaseResValues
+:integration-test-android:generateReleaseResources
+:integration-test-android:packageReleaseResources
+:integration-test-android:processReleaseManifest
+:integration-test-android:generateReleaseRFile
+:integration-test-android:generateReleaseSources
+:integration-test-android:javaPreCompileRelease
+:integration-test-android:compileReleaseJavaWithJavac
+Stag: 
+Beginning @UseStag annotation processing
+
+Stag: Annotated type: com.vimeo.integration_test_android.ComplexGenericClass<T>
+
+Stag:AnnotatedClass: 		Member variables - T
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>>
+Stag:AnnotatedClass: 		Member variables - android.webkit.ValueCallback<T>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.ComplexGenericClassExtended
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.integration_test_android.ComplexGenericClass<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: Inherited concrete type: com.vimeo.integration_test_android.ComplexGenericClass<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: Inherited generic type: com.vimeo.integration_test_android.ComplexGenericClass<T>
+Stag:TypeUtils: 		Evaluating member - T
+Stag:TypeUtils: 			Generic Type - T resolved to - com.vimeo.integration_test_android.TestModel
+Stag:TypeUtils: 		Evaluating member - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>>
+Stag:TypeUtils: 			Generic Parameterized Type - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>> resolved to - java.util.Map<java.lang.String,java.util.Map<java.lang.String,com.vimeo.integration_test_android.TestModel>>
+Stag:TypeUtils: 		Evaluating member - android.webkit.ValueCallback<T>
+Stag:TypeUtils: 			Generic Parameterized Type - android.webkit.ValueCallback<T> resolved to - android.webkit.ValueCallback<com.vimeo.integration_test_android.TestModel>
+Stag:TypeUtils: 		Evaluating member - java.util.Map<java.lang.String,java.lang.String>
+Stag:TypeUtils: 			Concrete Type: java.util.Map<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.ClassWithMapTypes
+
+Stag:AnnotatedClass: 		Member variables - java.util.HashMap<java.lang.String,com.vimeo.integration_test_android.TestModel>
+Stag:AnnotatedClass: 		Member variables - java.util.LinkedHashMap<java.lang.String,java.lang.Integer>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.Integer,java.lang.String>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<com.vimeo.integration_test_android.TestModel,java.lang.String>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.util.List<com.vimeo.integration_test_android.TestModel>>
+Stag:AnnotatedClass: 		Member variables - android.support.v4.util.ArrayMap<java.lang.String,java.lang.String>
+Stag: Annotated type: com.vimeo.integration_test_android.TestModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.integration_test_android.UnserializablePlatformType<T>
+
+Stag:AnnotatedClass: 		Member variables - android.webkit.ValueCallback<T>
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Resource not found: StagTypeAdapterFactory.list
+Stag: Wrote to resource 'StagTypeAdapterFactory.list':
+com.vimeo.integration_test_android.ComplexGenericClass<T>
+com.vimeo.integration_test_android.ComplexGenericClassExtended
+com.vimeo.integration_test_android.ClassWithMapTypes
+com.vimeo.integration_test_android.TestModel
+com.vimeo.integration_test_android.UnserializablePlatformType<T>
+
+Stag: 
+Successfully processed @UseStag annotations
+
+:integration-test-android:extractReleaseAnnotations
+:integration-test-android:mergeReleaseConsumerProguardFiles
+:integration-test-android:mergeReleaseShaders
+:integration-test-android:compileReleaseShaders
+:integration-test-android:generateReleaseAssets
+:integration-test-android:packageReleaseAssets
+:integration-test-android:packageReleaseRenderscript NO-SOURCE
+:integration-test-android:processReleaseJavaRes NO-SOURCE
+:integration-test-android:transformResourcesWithMergeJavaResForRelease
+:integration-test-android:transformClassesAndResourcesWithSyncLibJarsForRelease
+:integration-test-android:compileReleaseNdk NO-SOURCE
+:integration-test-android:mergeReleaseJniLibFolders
+:integration-test-android:transformNativeLibsWithMergeJniLibsForRelease
+:integration-test-android:transformNativeLibsWithStripDebugSymbolForRelease
+:integration-test-android:transformNativeLibsWithSyncJniLibsForRelease
+:integration-test-android:bundleReleaseAar
+:integration-test-android:compileReleaseSources
+:integration-test-android:mergeReleaseResources
+:integration-test-android:verifyReleaseResources
+:integration-test-android:assembleRelease
+:integration-test-android:assemble
+:integration-test-android:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 19s
+53 actionable tasks: 53 executed
+
+2018-12-16 21:04:23,427 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:04:23,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:04:29,506 INFO  ProjectTaskService - Detected possible tasks: 73
+2018-12-16 21:04:29,506 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 21:04:29,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 21:04:43,725 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-16 21:04:43,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild
+:sample:compileDebugAidl NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:sample:processDebugResources
+:sample:generateDebugSources
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+Stag: 
+Beginning @UseStag annotation processing
+
+Stag: Annotated type: com.vimeo.sample.model.Stats
+
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Annotated type: com.vimeo.sample.model.Video
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.User
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.util.Date
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.Stats
+Stag: Annotated type: com.vimeo.sample.model.User
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.VideoList
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.Paging
+Stag:AnnotatedClass: 		Member variables - int
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<com.vimeo.sample.model.Video>
+Stag: Annotated type: com.vimeo.sample.model.Paging
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Resource not found: StagTypeAdapterFactory.list
+Stag: Wrote to resource 'StagTypeAdapterFactory.list':
+com.vimeo.sample.model.Stats
+com.vimeo.sample.model.Video
+com.vimeo.sample.model.User
+com.vimeo.sample.model.VideoList
+com.vimeo.sample.model.Paging
+
+Stag: 
+Successfully processed @UseStag annotations
+
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithJacocoForDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:transformClassesWithJacocoForDebug'.
+> There was a failure while executing work items
+   > java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:transformClassesWithJacocoForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.workers.WorkerExecutionException: There was a failure while executing work items
+	at org.gradle.workers.internal.DefaultWorkerExecutor.workerExecutionException(DefaultWorkerExecutor.java:171)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.await(DefaultWorkerExecutor.java:165)
+	at com.android.build.gradle.internal.transforms.JacocoTransform.transform(JacocoTransform.java:145)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: org.gradle.internal.UncheckedException: java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:63)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:40)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$2.waitForCompletion(DefaultWorkerExecutor.java:148)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:99)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:87)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.await(DefaultWorkerExecutor.java:163)
+	... 46 more
+Caused by: java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$2.waitForCompletion(DefaultWorkerExecutor.java:141)
+	... 49 more
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:107)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:99)
+	... 3 more
+Caused by: java.lang.ExceptionInInitializerError
+	at org.gradle.api.internal.classloading.GroovySystemLoaderFactory.forClassLoader(GroovySystemLoaderFactory.java:44)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory.executeInWorkerClassLoader(IsolatedClassloaderWorkerFactory.java:106)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory.access$200(IsolatedClassloaderWorkerFactory.java:56)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1$1.call(IsolatedClassloaderWorkerFactory.java:84)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1$1.call(IsolatedClassloaderWorkerFactory.java:81)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:350)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:340)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:120)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1.execute(IsolatedClassloaderWorkerFactory.java:81)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:105)
+	... 4 more
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-all is loaded in version 2.4.4 and you are trying to load version 2.4.12
+	... 15 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 13s
+27 actionable tasks: 19 executed, 8 up-to-date
+
+2018-12-16 21:04:43,822 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:04:43,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:04:52,882 INFO  ProjectTaskService - Detected possible tasks: 86
+2018-12-16 21:04:52,882 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-16 21:04:52,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-16 21:05:14,880 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-12-16 21:05:14,880 INFO  SysUtils - Configuration on demand is an incubating feature.
+:integration-test-android:preBuild UP-TO-DATE
+:integration-test-android:preDebugBuild UP-TO-DATE
+:integration-test-android:compileDebugAidl NO-SOURCE
+:integration-test-android:compileDebugRenderscript UP-TO-DATE
+:integration-test-android:checkDebugManifest UP-TO-DATE
+:integration-test-android:generateDebugBuildConfig UP-TO-DATE
+:integration-test-android:generateDebugResValues UP-TO-DATE
+:integration-test-android:generateDebugResources UP-TO-DATE
+:integration-test-android:packageDebugResources UP-TO-DATE
+:integration-test-android:processDebugManifest UP-TO-DATE
+:integration-test-android:generateDebugRFile UP-TO-DATE
+:integration-test-android:prepareLintJar UP-TO-DATE
+:integration-test-android:generateDebugSources UP-TO-DATE
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:integration-test-android:javaPreCompileDebug UP-TO-DATE
+:integration-test-android:compileDebugJavaWithJavac UP-TO-DATE
+:integration-test-android:extractDebugAnnotations UP-TO-DATE
+:integration-test-android:mergeDebugConsumerProguardFiles UP-TO-DATE
+:integration-test-android:mergeDebugShaders UP-TO-DATE
+:integration-test-android:compileDebugShaders UP-TO-DATE
+:integration-test-android:generateDebugAssets UP-TO-DATE
+:integration-test-android:packageDebugAssets UP-TO-DATE
+:integration-test-android:packageDebugRenderscript NO-SOURCE
+:integration-test-android:processDebugJavaRes NO-SOURCE
+:integration-test-android:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:integration-test-android:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:integration-test-android:compileDebugNdk NO-SOURCE
+:integration-test-android:mergeDebugJniLibFolders UP-TO-DATE
+:integration-test-android:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:integration-test-android:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:integration-test-android:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:integration-test-android:bundleDebugAar UP-TO-DATE
+:integration-test-android:compileDebugSources UP-TO-DATE
+:integration-test-android:assembleDebug UP-TO-DATE
+:integration-test-android:preReleaseBuild UP-TO-DATE
+:integration-test-android:compileReleaseAidl NO-SOURCE
+:integration-test-android:compileReleaseRenderscript UP-TO-DATE
+:integration-test-android:checkReleaseManifest UP-TO-DATE
+:integration-test-android:generateReleaseBuildConfig UP-TO-DATE
+:integration-test-android:generateReleaseResValues UP-TO-DATE
+:integration-test-android:generateReleaseResources UP-TO-DATE
+:integration-test-android:packageReleaseResources UP-TO-DATE
+:integration-test-android:processReleaseManifest UP-TO-DATE
+:integration-test-android:generateReleaseRFile UP-TO-DATE
+:integration-test-android:generateReleaseSources UP-TO-DATE
+:integration-test-android:javaPreCompileRelease UP-TO-DATE
+:integration-test-android:compileReleaseJavaWithJavac UP-TO-DATE
+:integration-test-android:extractReleaseAnnotations UP-TO-DATE
+:integration-test-android:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:integration-test-android:mergeReleaseShaders UP-TO-DATE
+:integration-test-android:compileReleaseShaders UP-TO-DATE
+:integration-test-android:generateReleaseAssets UP-TO-DATE
+:integration-test-android:packageReleaseAssets UP-TO-DATE
+:integration-test-android:packageReleaseRenderscript NO-SOURCE
+:integration-test-android:processReleaseJavaRes NO-SOURCE
+:integration-test-android:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:integration-test-android:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:integration-test-android:compileReleaseNdk NO-SOURCE
+:integration-test-android:mergeReleaseJniLibFolders UP-TO-DATE
+:integration-test-android:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:integration-test-android:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:integration-test-android:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:integration-test-android:bundleReleaseAar UP-TO-DATE
+:integration-test-android:compileReleaseSources UP-TO-DATE
+:integration-test-android:mergeReleaseResources UP-TO-DATE
+:integration-test-android:verifyReleaseResources
+:integration-test-android:assembleRelease
+:integration-test-android:assemble
+:integration-test-android:build
+:integration-test-java:compileJava
+Stag: 
+Beginning @UseStag annotation processing
+
+Stag: Annotated type: com.vimeo.sample_java_model.AlternateNameModel1
+
+Stag: Annotated type: com.vimeo.sample_java_model.ExternalModelGeneric<T>
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - T
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.EnumWithFieldsModel
+
+Stag: Annotated type: com.vimeo.sample_java_model.DynamicallyTypedModel<T,V>
+
+Stag:AnnotatedClass: 		Member variables - T
+Stag:AnnotatedClass: 		Member variables - V
+Stag: Annotated type: com.vimeo.sample_java_model.RawGenericField
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric
+Stag:AnnotatedClass: 		Member variables - java.util.Map
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.Nested
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.NestedExtension
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: 		Evaluating member - java.lang.String
+Stag:TypeUtils: 			Concrete Type: java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.NestedExtensionFromNoAnnotation
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.NativeJavaModel.NestedWithoutAnnotation
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.NativeJavaModel.NestedWithoutAnnotation
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.NativeJavaModel.NestedWithoutAnnotation
+Stag:TypeUtils: 		Evaluating member - java.lang.String
+Stag:TypeUtils: 			Concrete Type: java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.Nested
+
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.NestedExtension
+
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModel.NestedExtensionFromNoAnnotation
+
+Stag: Annotated type: com.vimeo.sample_java_model.DynamicallyTypedWildcard
+
+Stag:AnnotatedClass: 		Member variables - java.util.List<com.vimeo.sample_java_model.DynamicallyTypedModel<?,?>>
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample_java_model.ExternalModel2
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.WrapperTypeAdapterModel
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.WrapperTypeAdapterModel.InnerType
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.WrapperTypeAdapterModel.InnerType
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.WrapperTypeAdapterModel.InnerType
+
+Stag: Annotated type: com.vimeo.sample_java_model.WildcardModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<?>
+Stag: Annotated type: com.vimeo.sample_java_model.NullFields
+
+Stag:AnnotatedClass: 		Member variables - java.lang.Object
+Stag: Annotated type: com.vimeo.sample_java_model.PrivateMembers
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Object
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.AlternateNameModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.AbstractDataList<T>
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.SuperAbstractDataList<com.vimeo.sample_java_model.BaseExternalModel,java.util.ArrayList<T>>
+Stag:AnnotatedClass: 		Member variables - T
+Stag:AnnotatedClass: 		Member variables - K
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.SuperAbstractDataList<com.vimeo.sample_java_model.BaseExternalModel,java.util.ArrayList<T>>
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.SuperAbstractDataList<T,K>
+Stag:TypeUtils: 		Evaluating member - T
+Stag:TypeUtils: 			Generic Type - T resolved to - com.vimeo.sample_java_model.BaseExternalModel
+Stag:TypeUtils: 		Evaluating member - K
+Stag:TypeUtils: 			Generic Type - K resolved to - java.util.ArrayList<T>
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Annotated type: com.vimeo.sample_java_model.NativeJavaModelExtension
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.NativeJavaModel
+Stag:TypeUtils: 		Evaluating member - java.lang.String
+Stag:TypeUtils: 			Concrete Type: java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.ExternalModelGeneric1<T>
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - T
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - T
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.PublicFieldsNoHungarian
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample_java_model.BooleanFields
+
+Stag:AnnotatedClass: 		Member variables - boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.NativeArrayTypes
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String[]
+Stag:AnnotatedClass: 		Member variables - java.lang.Integer[]
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean[]
+Stag:AnnotatedClass: 		Member variables - int[]
+Stag:AnnotatedClass: 		Member variables - boolean[]
+Stag: Annotated type: com.vimeo.sample_java_model.SwappableParserExampleModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.SwappableParserExampleModel.TestObject
+Stag: Annotated type: com.vimeo.sample_java_model.ExternalModel1
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<java.lang.String>
+Stag: Annotated type: com.vimeo.sample_java_model.ModelWithNestedInterface
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample_java_model.SuperAbstractDataList<T,K>
+
+Stag: Annotated type: com.vimeo.sample_java_model.ConcreteDataList
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.AbstractDataList<com.vimeo.sample_java_model.BaseExternalModel>
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.AbstractDataList<com.vimeo.sample_java_model.BaseExternalModel>
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.AbstractDataList<T>
+Stag:TypeUtils: 		Evaluating member - com.vimeo.sample_java_model.BaseExternalModel
+Stag:TypeUtils: 			Concrete Type: com.vimeo.sample_java_model.BaseExternalModel
+Stag:TypeUtils: 		Evaluating member - java.util.ArrayList<T>
+Stag:TypeUtils: 			Generic Parameterized Type - java.util.ArrayList<T> resolved to - java.util.ArrayList<com.vimeo.sample_java_model.BaseExternalModel>
+Stag:TypeUtils: 		Evaluating member - int
+Stag:TypeUtils: 			Concrete Type: int
+Stag: Annotated type: com.vimeo.sample_java_model.BaseExternalModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample_java_model.ExternalAbstractClass
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModel2
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Resource not found: StagTypeAdapterFactory.list
+Stag: Wrote to resource 'StagTypeAdapterFactory.list':
+com.vimeo.sample_java_model.AlternateNameModel1
+com.vimeo.sample_java_model.ExternalModelGeneric<T>
+com.vimeo.sample_java_model.EnumWithFieldsModel
+com.vimeo.sample_java_model.DynamicallyTypedModel<T,V>
+com.vimeo.sample_java_model.RawGenericField
+com.vimeo.sample_java_model.NativeJavaModel
+com.vimeo.sample_java_model.NativeJavaModel.Nested
+com.vimeo.sample_java_model.NativeJavaModel.NestedExtension
+com.vimeo.sample_java_model.NativeJavaModel.NestedExtensionFromNoAnnotation
+com.vimeo.sample_java_model.DynamicallyTypedWildcard
+com.vimeo.sample_java_model.ExternalModel2
+com.vimeo.sample_java_model.WrapperTypeAdapterModel
+com.vimeo.sample_java_model.WrapperTypeAdapterModel.InnerType
+com.vimeo.sample_java_model.WildcardModel
+com.vimeo.sample_java_model.NullFields
+com.vimeo.sample_java_model.PrivateMembers
+com.vimeo.sample_java_model.AlternateNameModel
+com.vimeo.sample_java_model.AbstractDataList<T>
+com.vimeo.sample_java_model.NativeJavaModelExtension
+com.vimeo.sample_java_model.ExternalModelGeneric1<T>
+com.vimeo.sample_java_model.PublicFieldsNoHungarian
+com.vimeo.sample_java_model.BooleanFields
+com.vimeo.sample_java_model.NativeArrayTypes
+com.vimeo.sample_java_model.SwappableParserExampleModel
+com.vimeo.sample_java_model.ExternalModel1
+com.vimeo.sample_java_model.ModelWithNestedInterface
+com.vimeo.sample_java_model.SuperAbstractDataList<T,K>
+com.vimeo.sample_java_model.ConcreteDataList
+com.vimeo.sample_java_model.BaseExternalModel
+com.vimeo.sample_java_model.ExternalAbstractClass
+
+Stag: 
+Successfully processed @UseStag annotations
+
+:integration-test-java:processResources NO-SOURCE
+:integration-test-java:classes
+:integration-test-java:jar
+:integration-test-java:assemble
+:integration-test-java:build
+:integration-test-java-cross-module:compileJava
+Stag: 
+Beginning @UseStag annotation processing
+
+Stag: Annotated type: com.vimeo.sample.model1.DuplicateName
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model1.ParameterizedData<java.lang.String>
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample.model.ExternalModelExample1<T>
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModel1
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<java.lang.String>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<T>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.GenericClass<T>
+Stag:AnnotatedClass: 		Member variables - T
+Stag: Annotated type: com.vimeo.sample.model.NestedEnum
+
+Stag: Annotated type: com.vimeo.sample.model.NestedEnum.NestedWithAnnotation
+
+Stag: Annotated type: com.vimeo.sample.model.NestedEnum.NestedWithAnnotation
+
+Stag: Annotated type: com.vimeo.sample.model.KnownTypeAdaptersExample
+
+Stag:AnnotatedClass: 		Member variables - com.google.gson.JsonElement
+Stag:AnnotatedClass: 		Member variables - com.google.gson.JsonObject
+Stag:AnnotatedClass: 		Member variables - com.google.gson.JsonArray
+Stag:AnnotatedClass: 		Member variables - com.google.gson.JsonPrimitive
+Stag: Annotated type: com.vimeo.sample.model.FieldOptionsSerializedName
+
+Stag:AnnotatedClass: 		Member variables - float
+Stag:AnnotatedClass: 		Member variables - short
+Stag:AnnotatedClass: 		Member variables - long
+Stag:AnnotatedClass: 		Member variables - double
+Stag: Annotated type: com.vimeo.sample.model.NestedClass
+
+Stag: Annotated type: com.vimeo.sample.model.NestedClass.NestedWithAnnotation
+
+Stag: Annotated type: com.vimeo.sample.model.NestedClass.NestedWithAnnotation
+
+Stag: Annotated type: com.vimeo.sample.model.ClassWithNestedInterface
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - boolean
+Stag: Annotated type: com.vimeo.sample.model.FieldOptionsSerializedName2
+
+Stag:AnnotatedClass: 		Member variables - float
+Stag:AnnotatedClass: 		Member variables - short
+Stag:AnnotatedClass: 		Member variables - long
+Stag:AnnotatedClass: 		Member variables - double
+Stag: Annotated type: com.vimeo.sample.model.TestExternalExample
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.GenericClass<com.vimeo.sample_java_model.ExternalModel1>
+Stag: Annotated type: com.vimeo.sample.model.OuterClassWithInnerModel.InnerModel
+
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Annotated type: com.vimeo.sample.model.ExternalModelExample<T>
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModel1
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<java.lang.String>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<T>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.GenericClass<T>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,com.vimeo.sample_java_model.ExternalModel1>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,com.vimeo.sample_java_model.ExternalModelGeneric<java.lang.String>>
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,com.vimeo.sample_java_model.ExternalModelGeneric<T>>
+Stag: Annotated type: com.vimeo.sample.model.SampleInterface.NestedClassAnnotated
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.SampleInterface.NestedClassAnnotated
+
+Stag: Annotated type: com.vimeo.sample.model.basic.BasicModel2
+
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.Integer
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample.model.basic.BasicModel1
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.util.List<java.lang.String>
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.ConcreteClass.NestedModel.DoublyNestedModel
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass.NestedModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass.NestedModel.DoublyNestedModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass.NestedModel
+
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass.NestedModel.DoublyNestedModel
+
+Stag: Annotated type: com.vimeo.sample.model.ConcreteClass.NestedModel.DoublyNestedModel
+
+Stag: Annotated type: com.vimeo.sample.model.PrimitiveTypesExample
+
+Stag:AnnotatedClass: 		Member variables - int
+Stag:AnnotatedClass: 		Member variables - float
+Stag:AnnotatedClass: 		Member variables - short
+Stag:AnnotatedClass: 		Member variables - long
+Stag:AnnotatedClass: 		Member variables - double
+Stag: Annotated type: com.vimeo.sample.model.FieldOptionsSerializedName3
+
+Stag:AnnotatedClass: 		Member variables - float
+Stag:AnnotatedClass: 		Member variables - short
+Stag:AnnotatedClass: 		Member variables - long
+Stag:AnnotatedClass: 		Member variables - double
+Stag: Annotated type: com.vimeo.sample.model.ExternalModelDerivedExample
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.BaseExternalModel
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.BaseExternalModel
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.BaseExternalModel
+Stag:TypeUtils: 		Evaluating member - java.lang.String
+Stag:TypeUtils: 			Concrete Type: java.lang.String
+Stag:TypeUtils: 		Evaluating member - int
+Stag:TypeUtils: 			Concrete Type: int
+Stag:AnnotatedClass: 		Member variables - java.lang.Boolean
+Stag: Annotated type: com.vimeo.sample.model.EnumExample
+
+Stag: Annotated type: com.vimeo.sample.model.ObjectExample
+
+Stag:AnnotatedClass: 		Member variables - java.lang.Object
+Stag: Annotated type: com.vimeo.sample.model.GenericClass<T>
+
+Stag:AnnotatedClass: 		Member variables - T
+Stag:AnnotatedClass: 		Member variables - java.util.Map<java.lang.String,java.util.Map<java.lang.String,T>>
+Stag:AnnotatedClass: 		Member variables - java.util.HashMap<java.lang.Integer,T>
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<T>
+Stag: Annotated type: com.vimeo.sample.model.SubClassWithSameVariableName
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample.model.ClassWithArrayTypes
+Stag:AnnotatedClass: 		Member variables - java.util.List<java.lang.String>
+Stag:AnnotatedClass: 		Member variables - java.util.Collection<java.lang.Integer>
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<java.lang.Long>
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample.model.ClassWithArrayTypes
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample.model.ClassWithArrayTypes
+Stag:TypeUtils: 		Evaluating member - java.util.List<java.lang.String>
+Stag:TypeUtils: 			Concrete Type: java.util.List<java.lang.String>
+Stag:TypeUtils: 		Evaluating member - java.util.Collection<java.lang.Integer>
+Stag:TypeUtils: 			Concrete Type: java.util.Collection<java.lang.Integer>
+Stag:TypeUtils: 		Evaluating member - java.util.ArrayList<java.lang.Long>
+Stag:TypeUtils: 			Concrete Type: java.util.ArrayList<java.lang.Long>
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<java.lang.String>
+Stag: Ignoring inherited Member variable with the same variable name in classcom.vimeo.stag.processor.generators.model.accessor.DirectFieldAccessor@6f1fc3b9, with variable name java.util.List<java.lang.String>
+Stag: Annotated type: com.vimeo.sample.model.AccessModifiers
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.NestedModel
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.NestedModel.NestedEnum
+Stag: Annotated type: com.vimeo.sample.model.NestedModel.NestedEnum
+
+Stag: Annotated type: com.vimeo.sample.model.NestedModel.NestedEnum
+
+Stag: Annotated type: com.vimeo.sample.model.json_adapter.JsonAdapterExample
+
+Stag:AnnotatedClass: 		Member variables - java.util.Date
+Stag:AnnotatedClass: 		Member variables - java.util.Date
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.AlternateNameModel
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.AlternateNameModel
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel2
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel2
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel2
+Stag: Annotated type: com.vimeo.sample.model.FieldOptionNoneExample
+
+Stag: Annotated type: com.vimeo.sample.model.ExternalModelExample3
+
+Stag:AnnotatedClass: 		Inherited Type - com.vimeo.sample_java_model.ExternalAbstractClass
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModel2
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:TypeUtils: Inherited concrete type: com.vimeo.sample_java_model.ExternalAbstractClass
+Stag:TypeUtils: Inherited generic type: com.vimeo.sample_java_model.ExternalAbstractClass
+Stag:TypeUtils: 		Evaluating member - java.lang.String
+Stag:TypeUtils: 			Concrete Type: java.lang.String
+Stag:TypeUtils: 		Evaluating member - com.vimeo.sample_java_model.ExternalModel2
+Stag:TypeUtils: 			Concrete Type: com.vimeo.sample_java_model.ExternalModel2
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Annotated type: com.vimeo.sample.model.ClassWithArrayTypes
+
+Stag: Annotated type: com.vimeo.sample.model.IdenticalFieldTypes
+
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel2
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel2
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<com.vimeo.sample.model.basic.BasicModel2>
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<com.vimeo.sample.model.basic.BasicModel2>
+Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<com.vimeo.sample.model.basic.BasicModel1>
+Stag:AnnotatedClass: 		Member variables - java.util.List<java.util.List<com.vimeo.sample.model.basic.BasicModel1>>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel1
+Stag: Annotated type: com.vimeo.sample.model.FieldOptionAllExample
+
+Stag:AnnotatedClass: 		Member variables - int
+Stag:AnnotatedClass: 		Member variables - float
+Stag:AnnotatedClass: 		Member variables - short
+Stag:AnnotatedClass: 		Member variables - long
+Stag:AnnotatedClass: 		Member variables - double
+Stag: Annotated type: com.vimeo.sample.model.DuplicateName
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - int
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model1.DuplicateName
+Stag: Looking for setter
+Stag: Found setter
+Stag: Looking for getter
+Stag: Found getter
+Stag: Annotated type: com.vimeo.sample.model.ExternalModelExample2<T>
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModel1
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<java.lang.String>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample_java_model.ExternalModelGeneric<T>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.GenericClass<T>
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.ExternalModelExample2<T>
+Stag: Annotated type: com.vimeo.sample.model.RecursiveClass
+
+Stag:AnnotatedClass: 		Member variables - java.lang.String
+Stag:AnnotatedClass: 		Member variables - java.lang.String[]
+Stag:AnnotatedClass: 		Member variables - java.lang.Integer
+Stag:AnnotatedClass: 		Member variables - java.util.List<java.lang.Integer>
+Stag:AnnotatedClass: 		Member variables - java.util.Collection<java.lang.Integer>
+Stag:AnnotatedClass: 		Member variables - int[]
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.RecursiveClass
+Stag:AnnotatedClass: 		Member variables - java.lang.Integer[]
+Stag:AnnotatedClass: 		Member variables - com.vimeo.sample.model.basic.BasicModel1[]
+Stag: Resource not found: StagTypeAdapterFactory.list
+Stag: Wrote to resource 'StagTypeAdapterFactory.list':
+com.vimeo.sample.model1.DuplicateName
+com.vimeo.sample.model.ExternalModelExample1<T>
+com.vimeo.sample.model.NestedEnum
+com.vimeo.sample.model.NestedEnum.NestedWithAnnotation
+com.vimeo.sample.model.KnownTypeAdaptersExample
+com.vimeo.sample.model.FieldOptionsSerializedName
+com.vimeo.sample.model.NestedClass
+com.vimeo.sample.model.NestedClass.NestedWithAnnotation
+com.vimeo.sample.model.ClassWithNestedInterface
+com.vimeo.sample.model.FieldOptionsSerializedName2
+com.vimeo.sample.model.TestExternalExample
+com.vimeo.sample.model.OuterClassWithInnerModel.InnerModel
+com.vimeo.sample.model.ExternalModelExample<T>
+com.vimeo.sample.model.SampleInterface.NestedClassAnnotated
+com.vimeo.sample.model.basic.BasicModel2
+com.vimeo.sample.model.basic.BasicModel1
+com.vimeo.sample.model.ConcreteClass
+com.vimeo.sample.model.ConcreteClass.NestedModel
+com.vimeo.sample.model.ConcreteClass.NestedModel.DoublyNestedModel
+com.vimeo.sample.model.PrimitiveTypesExample
+com.vimeo.sample.model.FieldOptionsSerializedName3
+com.vimeo.sample.model.ExternalModelDerivedExample
+com.vimeo.sample.model.EnumExample
+com.vimeo.sample.model.ObjectExample
+com.vimeo.sample.model.GenericClass<T>
+com.vimeo.sample.model.SubClassWithSameVariableName
+com.vimeo.sample.model.AccessModifiers
+com.vimeo.sample.model.NestedModel
+com.vimeo.sample.model.NestedModel.NestedEnum
+com.vimeo.sample.model.json_adapter.JsonAdapterExample
+com.vimeo.sample.model.FieldOptionNoneExample
+com.vimeo.sample.model.ExternalModelExample3
+com.vimeo.sample.model.ClassWithArrayTypes
+com.vimeo.sample.model.IdenticalFieldTypes
+com.vimeo.sample.model.FieldOptionAllExample
+com.vimeo.sample.model.DuplicateName
+com.vimeo.sample.model.ExternalModelExample2<T>
+com.vimeo.sample.model.RecursiveClass
+
+Stag: 
+Successfully processed @UseStag annotations
+
+:integration-test-java-cross-module:processResources NO-SOURCE
+:integration-test-java-cross-module:classes
+:integration-test-java-cross-module:jar
+:integration-test-java-cross-module:assemble
+:integration-test-java-cross-module:build
+:integration-test-kotlin:kaptGenerateStubsKotlin
+:integration-test-kotlin:kaptKotlin
+:integration-test-kotlin:compileKotlin
+:integration-test-kotlin:compileJava
+:integration-test-kotlin:processResources NO-SOURCE
+:integration-test-kotlin:classes
+:integration-test-kotlin:inspectClassesForKotlinIC
+:integration-test-kotlin:jar
+:integration-test-kotlin:assemble
+:integration-test-kotlin:build
+:sample:checkDebugClasspath UP-TO-DATE
+:sample:preBuild UP-TO-DATE
+:sample:preDebugBuild UP-TO-DATE
+:sample:compileDebugAidl NO-SOURCE
+:sample:compileDebugRenderscript UP-TO-DATE
+:sample:checkDebugManifest UP-TO-DATE
+:sample:generateDebugBuildConfig UP-TO-DATE
+:sample:prepareLintJar UP-TO-DATE
+:sample:mainApkListPersistenceDebug UP-TO-DATE
+:sample:generateDebugResValues UP-TO-DATE
+:sample:generateDebugResources UP-TO-DATE
+:sample:mergeDebugResources UP-TO-DATE
+:sample:createDebugCompatibleScreenManifests UP-TO-DATE
+:sample:processDebugManifest UP-TO-DATE
+:sample:splitsDiscoveryTaskDebug UP-TO-DATE
+:sample:processDebugResources UP-TO-DATE
+:sample:generateDebugSources UP-TO-DATE
+:sample:javaPreCompileDebug UP-TO-DATE
+:sample:compileDebugJavaWithJavac UP-TO-DATE
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources UP-TO-DATE
+:sample:mergeDebugShaders UP-TO-DATE
+:sample:compileDebugShaders UP-TO-DATE
+:sample:generateDebugAssets UP-TO-DATE
+:sample:mergeDebugAssets UP-TO-DATE
+:sample:transformClassesWithJacocoForDebug FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':sample:transformClassesWithJacocoForDebug'.
+> There was a failure while executing work items
+   > java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':sample:transformClassesWithJacocoForDebug'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.workers.WorkerExecutionException: There was a failure while executing work items
+	at org.gradle.workers.internal.DefaultWorkerExecutor.workerExecutionException(DefaultWorkerExecutor.java:171)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.await(DefaultWorkerExecutor.java:165)
+	at com.android.build.gradle.internal.transforms.JacocoTransform.transform(JacocoTransform.java:145)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:239)
+	at com.android.build.gradle.internal.pipeline.TransformTask$2.call(TransformTask.java:235)
+	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:102)
+	at com.android.build.gradle.internal.pipeline.TransformTask.transform(TransformTask.java:230)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+Caused by: org.gradle.internal.UncheckedException: java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:63)
+	at org.gradle.internal.UncheckedException.throwAsUncheckedException(UncheckedException.java:40)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$2.waitForCompletion(DefaultWorkerExecutor.java:148)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:99)
+	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:87)
+	at org.gradle.workers.internal.DefaultWorkerExecutor.await(DefaultWorkerExecutor.java:163)
+	... 46 more
+Caused by: java.util.concurrent.ExecutionException: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$2.waitForCompletion(DefaultWorkerExecutor.java:141)
+	... 49 more
+Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.internal.transforms.JacocoTransform$JacocoWorkerAction
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:107)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:99)
+	... 3 more
+Caused by: java.lang.ExceptionInInitializerError
+	at org.gradle.api.internal.classloading.GroovySystemLoaderFactory.forClassLoader(GroovySystemLoaderFactory.java:44)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory.executeInWorkerClassLoader(IsolatedClassloaderWorkerFactory.java:106)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory.access$200(IsolatedClassloaderWorkerFactory.java:56)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1$1.call(IsolatedClassloaderWorkerFactory.java:84)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1$1.call(IsolatedClassloaderWorkerFactory.java:81)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:350)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:340)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:120)
+	at org.gradle.workers.internal.IsolatedClassloaderWorkerFactory$1.execute(IsolatedClassloaderWorkerFactory.java:81)
+	at org.gradle.workers.internal.DefaultWorkerExecutor$1.call(DefaultWorkerExecutor.java:105)
+	... 4 more
+Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Module [groovy-all is loaded in version 2.4.4 and you are trying to load version 2.4.12
+	... 15 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 21s
+82 actionable tasks: 12 executed, 70 up-to-date
+
+2018-12-16 21:05:14,985 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:05:14,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:05:19,335 INFO  ProjectTaskService - Detected possible tasks: 42
+2018-12-16 21:05:19,335 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-16 21:05:19,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-16 21:05:24,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:integration-test-java:compileJava UP-TO-DATE
+:integration-test-java:processResources NO-SOURCE
+:integration-test-java:classes UP-TO-DATE
+:integration-test-java:jar UP-TO-DATE
+:integration-test-java-cross-module:compileJava UP-TO-DATE
+:integration-test-java-cross-module:processResources NO-SOURCE
+:integration-test-java-cross-module:classes UP-TO-DATE
+:integration-test-java-cross-module:jar UP-TO-DATE
+:integration-test-java-cross-module:assemble UP-TO-DATE
+:integration-test-java-cross-module:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+12 actionable tasks: 12 up-to-date
+
+2018-12-16 21:05:24,885 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:05:24,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:05:28,805 INFO  ProjectTaskService - Detected possible tasks: 42
+2018-12-16 21:05:28,805 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-16 21:05:28,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-16 21:05:35,150 INFO  SysUtils - Configuration on demand is an incubating feature.
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:integration-test-java:compileJava UP-TO-DATE
+:integration-test-java:processResources NO-SOURCE
+:integration-test-java:classes UP-TO-DATE
+:integration-test-java:jar UP-TO-DATE
+:integration-test-java:assemble UP-TO-DATE
+:integration-test-java:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 6s
+10 actionable tasks: 10 up-to-date
+
+2018-12-16 21:05:35,253 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:05:35,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:05:39,270 INFO  ProjectTaskService - Detected possible tasks: 42
+2018-12-16 21:05:39,270 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-16 21:05:39,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-16 21:05:44,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:integration-test-kotlin:kaptGenerateStubsKotlin UP-TO-DATE
+:integration-test-kotlin:kaptKotlin UP-TO-DATE
+:integration-test-kotlin:compileKotlin UP-TO-DATE
+:integration-test-kotlin:compileJava UP-TO-DATE
+:integration-test-kotlin:processResources NO-SOURCE
+:integration-test-kotlin:classes UP-TO-DATE
+:integration-test-kotlin:inspectClassesForKotlinIC UP-TO-DATE
+:integration-test-kotlin:jar UP-TO-DATE
+:integration-test-kotlin:assemble UP-TO-DATE
+:integration-test-kotlin:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+14 actionable tasks: 14 up-to-date
+
+2018-12-16 21:05:45,070 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:05:45,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:05:50,093 INFO  ProjectTaskService - Detected possible tasks: 48
+2018-12-16 21:05:50,093 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-16 21:05:50,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-16 21:05:55,596 INFO  SysUtils - Configuration on demand is an incubating feature.
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library-compiler:compileKotlin UP-TO-DATE
+:stag-library-compiler:compileJava UP-TO-DATE
+:stag-library-compiler:processResources NO-SOURCE
+:stag-library-compiler:classes UP-TO-DATE
+:stag-library-compiler:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library-compiler:jar UP-TO-DATE
+:stag-library-compiler:javadocJar
+:stag-library-compiler:sourcesJar
+:stag-library-compiler:assemble
+:stag-library-compiler:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 5s
+10 actionable tasks: 2 executed, 8 up-to-date
+
+2018-12-16 21:05:55,703 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-16 21:05:55,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-16 21:06:00,152 INFO  ProjectTaskService - Detected possible tasks: 48
+2018-12-16 21:06:00,152 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2018-12-16 21:06:00,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2018-12-16 21:06:05,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+:stag-library:compileKotlin UP-TO-DATE
+:stag-library:compileJava UP-TO-DATE
+:stag-library:processResources NO-SOURCE
+:stag-library:classes UP-TO-DATE
+:stag-library:inspectClassesForKotlinIC UP-TO-DATE
+:stag-library:jar UP-TO-DATE
+:stag-library:javadocJar
+:stag-library:sourcesJar
+:stag-library:assemble
+:stag-library:build
+
+BUILD SUCCESSFUL in 4s
+6 actionable tasks: 2 executed, 4 up-to-date
+
+2018-12-16 21:06:05,290 ERROR FullProcessService - Project build has not produced APK file
+2018-12-16 21:06:05,387 ERROR FullProcessService - Could not find generated or existed APK file

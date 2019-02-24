@@ -1,0 +1,161 @@
+2019-01-19 18:33:22,898 INFO  DownloadService - Downloading "https://github.com/nekocode/ItemPool/archive/master.zip", attempt 3
+2019-01-19 18:33:23,747 INFO  DownloadService - Downloaded https://github.com/nekocode/ItemPool/archive/master.zip, attempt 3
+2019-01-19 18:33:23,747 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/master.zip": 168 KB
+2019-01-19 18:33:23,747 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-19 18:33:23,749 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/master.zip: true
+2019-01-19 18:33:23,749 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src'.
+2019-01-19 18:33:23,776 INFO  FullProcessService - Size of directory with sources: 218 KB
+2019-01-19 18:33:23,776 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src]
+2019-01-19 18:33:23,794 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/.git/
+
+2019-01-19 18:33:23,798 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/gradlew
+2019-01-19 18:33:23,802 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsProcessor/build.gradle
+2019-01-19 18:33:23,806 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsLib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsProcessor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle
+2019-01-19 18:33:23,806 INFO  ProjectBuildService - Remote scripts: none
+2019-01-19 18:33:23,806 INFO  ProjectFixService - Fixing project...
+2019-01-19 18:33:23,816 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/local.properties
+2019-01-19 18:33:23,818 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,818 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/local.properties
+2019-01-19 18:33:23,820 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2019-01-19 18:33:23,820 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2019-01-19 18:33:23,823 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,823 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,825 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsLib/local.properties
+2019-01-19 18:33:23,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsLib/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,827 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsLib/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsProcessor/local.properties
+2019-01-19 18:33:23,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsProcessor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,830 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/itemsProcessor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-01-19 18:33:23,831 INFO  ProjectFixService - Project was maybe fixed
+2019-01-19 18:33:23,831 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-19 18:33:23,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-19 18:33:36,762 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-19 18:33:36,762 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-19 18:33:36,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-19 18:34:29,321 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :itemsLib:compileJava
+> Task :itemsLib:processResources NO-SOURCE
+> Task :itemsLib:classes
+> Task :itemsLib:jar
+> Transform itemsLib.jar (project :itemsLib) with IdentityTransform
+> Task :exampleApp:checkDebugClasspath
+> Task :exampleApp:preBuild UP-TO-DATE
+> Transform itemsLib.jar with IdentityTransform
+> Task :exampleApp:preDebugBuild
+> Task :exampleApp:compileDebugAidl NO-SOURCE
+> Task :exampleApp:compileDebugRenderscript
+> Task :exampleApp:checkDebugManifest
+> Task :exampleApp:generateDebugBuildConfig
+> Task :itemsProcessor:discoverMainScriptsExtensions
+> Task :itemsProcessor:compileKotlin
+> Task :itemsProcessor:compileJava NO-SOURCE
+> Task :itemsProcessor:processResources
+> Task :itemsProcessor:classes
+> Task :itemsProcessor:inspectClassesForKotlinIC
+> Task :itemsProcessor:jar
+> Transform itemsProcessor.jar (project :itemsProcessor) with IdentityTransform
+> Task :exampleApp:mainApkListPersistenceDebug
+> Task :exampleApp:generateDebugResValues
+> Task :exampleApp:generateDebugResources
+> Task :exampleApp:mergeDebugResources
+> Task :exampleApp:createDebugCompatibleScreenManifests
+> Task :exampleApp:processDebugManifest
+> Task :exampleApp:splitsDiscoveryTaskDebug
+> Task :exampleApp:processDebugResources
+> Task :exampleApp:kaptGenerateStubsDebugKotlin
+> Task :exampleApp:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/src/main/java/cn/nekocode/items/example/kotlin/KtTestAdapter.kt: (22, 31): Parameter 'position' is never used
+> Task :exampleApp:compileDebugKotlin
+> Task :exampleApp:prepareLintJar
+> Task :exampleApp:generateDebugSources
+> Task :exampleApp:javaPreCompileDebug
+
+> Task :exampleApp:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :exampleApp:compileDebugNdk NO-SOURCE
+> Task :exampleApp:compileDebugSources
+> Task :exampleApp:mergeDebugShaders
+> Task :exampleApp:compileDebugShaders
+> Task :exampleApp:generateDebugAssets
+> Task :exampleApp:mergeDebugAssets
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.10/b178c1501609c6e4ee8be635513cb023a466457d/kotlin-stdlib-1.3.10.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.invokeSuspend(java.lang.Object)
+  Attempt to read local this but no local information was associated with the value being read.
+> Task :exampleApp:transformClassesWithDexBuilderForDebug
+> Task :exampleApp:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :exampleApp:transformDexArchiveWithDexMergerForDebug
+> Transform itemsLib.jar (project :itemsLib) with IdentityTransform
+> Task :exampleApp:mergeDebugJniLibFolders
+> Transform itemsLib.jar with IdentityTransform
+> Task :exampleApp:checkDebugLibraries
+> Task :exampleApp:transformNativeLibsWithMergeJniLibsForDebug
+> Task :exampleApp:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :exampleApp:processDebugJavaRes NO-SOURCE
+> Task :exampleApp:transformResourcesWithMergeJavaResForDebug
+> Task :exampleApp:validateSigningDebug
+> Task :exampleApp:packageDebug
+> Task :exampleApp:assembleDebug
+> Task :exampleApp:checkReleaseClasspath
+> Task :exampleApp:preReleaseBuild
+> Task :exampleApp:compileReleaseAidl NO-SOURCE
+> Task :exampleApp:compileReleaseRenderscript
+> Task :exampleApp:checkReleaseManifest
+> Task :exampleApp:generateReleaseBuildConfig
+> Task :exampleApp:mainApkListPersistenceRelease
+> Task :exampleApp:generateReleaseResValues
+> Task :exampleApp:generateReleaseResources
+> Task :exampleApp:mergeReleaseResources
+> Task :exampleApp:createReleaseCompatibleScreenManifests
+> Task :exampleApp:processReleaseManifest
+> Task :exampleApp:splitsDiscoveryTaskRelease
+> Task :exampleApp:processReleaseResources
+> Task :exampleApp:kaptGenerateStubsReleaseKotlin
+> Task :exampleApp:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/src/main/java/cn/nekocode/items/example/kotlin/KtTestAdapter.kt: (22, 31): Parameter 'position' is never used
+> Task :exampleApp:compileReleaseKotlin
+> Task :exampleApp:generateReleaseSources
+> Task :exampleApp:javaPreCompileRelease
+
+> Task :exampleApp:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :exampleApp:compileReleaseNdk NO-SOURCE
+> Task :exampleApp:compileReleaseSources
+
+> Task :exampleApp:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/aeb3ac33d62a615b2414350c5a33854b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
+
+> Task :exampleApp:mergeReleaseShaders
+> Task :exampleApp:compileReleaseShaders
+> Task :exampleApp:generateReleaseAssets
+> Task :exampleApp:mergeReleaseAssets
+> Task :exampleApp:transformClassesWithDexBuilderForRelease
+> Task :exampleApp:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :exampleApp:transformDexArchiveWithDexMergerForRelease
+> Task :exampleApp:mergeReleaseJniLibFolders
+> Task :exampleApp:transformNativeLibsWithMergeJniLibsForRelease
+> Task :exampleApp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :exampleApp:checkReleaseLibraries
+> Task :exampleApp:processReleaseJavaRes NO-SOURCE
+> Task :exampleApp:transformResourcesWithMergeJavaResForRelease
+> Task :exampleApp:packageRelease
+> Task :exampleApp:assembleRelease
+> Task :exampleApp:assemble
+> Task :exampleApp:build
+
+BUILD SUCCESSFUL in 51s
+68 actionable tasks: 68 executed
+
+2019-01-19 18:34:29,402 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897602895-0/src/Items-master/exampleApp/build/outputs/apk/release/exampleApp-release-unsigned.apk

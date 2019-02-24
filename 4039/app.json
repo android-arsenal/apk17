@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.sdsmdg.demoexample",
+    "label" : "Demo Example",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.1.2",
+    "versionCode" : 3,
+    "installLocation" : null,
+    "minSdkVersion" : "11",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABTVBMVEUAAAD61Env1nDpz2bpz2n30kf5x1HvzXTpxm7pxmvvyXTpw2j6x1P/21H/4m7/13L/zVv/21P/zV341Ez212L0zGr4xlX/4m3/13P61k/43Gb4zmr4yVf41kz42WT4yVX0zGf22WL2zGr73mb70G36y1f/4G3/13H9zVv/zAv9uhr/3ln/ywf/2ET9yU78uBT5y1z//7n/2EP/0R/9vSr3xUjRuYv/6ab/1C7/1j7//6r+yUv+xTn/4E32yRj8zRvs0HHsxnv6vCf4vS7/yWT23Hv/0zL910n94Gr71W/2v0n+xUD224n/6or/21P/30D/v0D4yVb/35X//wD71XH012L/427/ywT9uBH/12//11H/1jn/zQ/7uRv9x0X/xmP/1kn6yxr3vTLxzGv/ywT/ygX9uRL9uBP/ywP9uBH9uBD/ygP9txD9txH9uBIwNUNnAAAAZHRSTlMAmlBQUJ+gUVFRUVGaa3Jya2tra3N0bHNza3NzbGtzbHRzdHNzbHNza/j3ivx1dvyKC6SKjKQLF7ypA6u8IcPiGxvixCEdu2xzc2y6HBhxCAhxGAFzc23+/mwTferpehI4wcI3vueKrwAAAT9JREFUSMdjYBicIAUTpKalY4JhpyEDBlA1ZGZBQCa6hgxGJiZmJiYmFlYUDZls7Byc7Oxc3DyZaBqyeaFsvmxkDTn8UGGBXHQNgvg1CFGsIUMYyhbJQPGDKFRYLBOXDeKoNkhQzUmk+0ESypZC8UOuNFRYBt0PGbJQthx2DfKZdPcD1SJOgWDEDUI/KKL6QQmXH+AxrYwacSpQYVX6+wGep9VQnaQOFdZA0aBJXMRpwTVo66Rk6OJ3kl5uur4BXIOhUUaGMX4NJnl5pmaI8t7cIsXSCp8GK+t0G3PkGsLWzt4Bnx8cnZxdUOsUVzd3CMMDNZQ8IaJe3j7otZCvnz9uJwUEBmHWW8H4/BCMu75Dc1IIwQoyFHvE4QY44gE3CAtH1hARSVBDVHQMXENebFw84Vo+OCERpiEpOZhhCAAARxaLO9/drNcAAAAASUVORK5CYII="
+  },
+  "dexClasses" : 1724,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"3\" android:versionName=\"1.1.2\" package=\"com.sdsmdg.demoexample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"11\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Demo Example\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.sdsmdg.demoexample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1472302,
+  "crc32" : 4220488733,
+  "sha256" : "e4e870bba564a63031e2e28d1cc5f65785790254470ec821dbfa08f4a6d14fb2",
+  "buildTime" : 1522125964000
+}

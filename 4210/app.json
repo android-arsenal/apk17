@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "rikka.smscodehelper",
+    "label" : "SmsCodeHelper",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.7",
+    "versionCode" : 10006,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECEIVE_SMS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAGS0lEQVRo3tWaT4wT1xnAf++P7VnbxbjbCkVQstQrpSogWMQWciiCVj1WRCJKpJyiVI2CIjVRqkpVrz1UPZXS9hDl0Kr/VNoTPfQCBZRLkNp0mwASEUux0W7jRQa8MF6P7Zl5PdieHXs9tpeMV+VJtsffjGZ+33vfn/d9tjDG8DQPyVM+nnoFxATuJydw3+4wgB86ju1BAhDz8/Ops2fPziml8r7vx6qElNKkUil/cXFx4dSpUxXAA0xcD5EnT55Mnzlz5tda6xejAkMcAUMI8ahYLH772LFjHwCuiGn2kwsLC69PT0+fjVz7GKOdMWZpZmbmq0BdxhQIEp7n7dkK+M4q7AIsQMmYVkC5riu3Aj40koCOK4wKYzb604STpADQk7q7MYZSqcTq6iq5XI6dO3eitaZcLrOysoJlWRQKhUBWLpexLIvZ2dlIWd9oAp6cFPzy8jK2bbN7926q1SrlchnbtimVShQKBZRS3Lx5E9u2KRaLAWSUbMBoAZ6eBDxALpdjenoay7JYWVkBIJvNcuTIEQAsy8JxHLLZLEePHh0qq9frUUnN6EnAd2EBbNumUqlQKBSCc1euXAHg8OHDQ2WXL18GYH5+fuReSACq4xNP9PK8jeZo2zY3btzgwIEDPTZ8/Phx9u3bx+Li4lDZiRMn2L9/P7du3YpUQHfg9fR7n3zTb9YVnS1AdzJN35ptOHZqyr//X6u4xrNfGgC/d+/eYDUqlQrFYpGDBw/iOA5a60jZnTt3mJubC2TDFJBAkkzuVfWFXS+H4cOgPfDh856LfKbAdbfC1/sUsCyL27dvY4whm80yOzuLbdtcv34drTUzMzNks9lI2bVr19Bas2fPnkhT7ZpOJnXs5Wezb/7qzySmvjI2PIDnQqPG6c9XOL0vN/Htcxd+ZmYmD9hdu/Ub75976Fz6/Y/wvcdjw4flgi2D73divxNT12rvvr3gLn74003Bb1HhEpXVZYehBawBj1d/eOKPfnXl/HjwZksU6YdvNBrL/WE0rESt9u5bPzaNtU/+H+Gbzebj8+fPvzGoIus6dBrIpV//2XzyW9/5DVJ9rh/yT4dawbHnetTXauQaD3lux/beXN9qUSwWEUIgxPqjLt2XXLq/Xnl273289LfvTU1NOUopf8AW2iil/AsXLnx88eLFT4FHgCMGFSdABsht++VHP5DPzJ7un/nSN9YVcF2XWq1GtVoln8/3zNzdu3dxXRetdaCAEILfLkl+t6y6ZIECzjtfOwTUOuXioK1DC3CAOtAAXB1xUR1IILU3yGyuVkUwbZ4nqdckuaYgH7r2H3fvc8+WpKztKDRSqM6ECx6mJGTkOrwI3h50FHAjFPC6m7huTawjLnSBlpEy2OSHbf6lD3UokQlwNG9+UfLcjrbs6qc1XvtnC1J5TCoNSoGQHX/q3NESg9oKNcCOUGBgVyJKge6FZoPDjginVafFW1dXIZFpw+sESIVpNy5CZmPCM9/9dEOvscbI3egg+Ofz61LjGby6YUeq/f29j+7x5W1JVDqJTCmEFB02E3AuNWDJ6YV/0kimR3WRxICZP3fI7XPiFo8eGR48eMAru+C7mQTptCKZNAjhIYQfODDAL0qKn99RvfDiyVK5HC8WD8+8UkqUUrRaLTKZDFNTUyQSiZ7w2fspYoEfz4QGwL/0L71uQr7AtMBvSXx/G/guQifacyMEgrYJrZf8gmVHDIAXE1AgYuY/eBiyWaPAB+NJkO3kZGrOSIfthzdCTM4HTLRebUChOh2aDkgqDU1nPQhMCH7MKLTx+19CThzV+jFG02w4vLKgxoOfxApEKfN83ozVuPL9ZCjvxA+/KQU2+MBY3XkJSQmtZlvZofATXIH+eX4xvJUYcS0CjE6C24wdfmQeMIMADePDB+WmBJ0aCm8mmcg+E3w4WulkNPykFfhM8EH5JEAlYoMf3wfigA+tBFKD8WPJxMNWwMjV8lKs8GFzkrIHXjTXluNUwACe+skL5xL3/vPXYLbigA/kou3cbfjH+v0/vPEk/QExRJ4EMqlUKqdf+P6cmcpux0T/qmkGCEbSCGGQ0vcXLnzc/Pffg0I9oibelAIEPdN2lyINJIj/l/2BhfpmVkKMOCc64IlOy0VMQIENhXocJtR/zZb+fWBTCjztf7f5Hw+yIpzd1IBhAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1466,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10006\" android:versionName=\"1.0.7\" package=\"rikka.smscodehelper\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"23\" />\n\t<uses-permission android:name=\"android.permission.RECEIVE_SMS\" />\n\t<application android:theme=\"resourceId:0x7f090082\" android:label=\"SmsCodeHelper\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0900f4\" android:label=\"SmsCodeHelper\" android:name=\"rikka.smscodehelper.MainActivity\" android:excludeFromRecents=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<receiver android:name=\"rikka.smscodehelper.receiver.SMSBroadcastReceiver\">\n\t\t\t<intent-filter android:priority=\"1000\">\n\t\t\t\t<action android:name=\"android.provider.Telephony.SMS_RECEIVED\" />\n\t\t\t</intent-filter>\n\t\t</receiver>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1141623,
+  "crc32" : 141178596,
+  "sha256" : "25d68c21acecaeb776631629de1c934b5f2f72f999a2271d04d4e63fd4e6981d",
+  "buildTime" : 1522098743000
+}

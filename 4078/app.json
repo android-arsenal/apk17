@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.linkedin.android.testbutler",
+    "label" : "Test Butler",
+    "icon" : null,
+    "versionName" : "2.0.1-SNAPSHOT",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "2.0.1-SNAPSHOT",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.SET_ACTIVITY_WATCHER", "android.permission.GRANT_REVOKE_PERMISSIONS", "android.permission.SET_ANIMATION_SCALE", "android.permission.CHANGE_CONFIGURATION", "android.permission.WRITE_SECURE_SETTINGS", "android.permission.DISABLE_KEYGUARD", "android.permission.WAKE_LOCK", "android.permission.ACCESS_WIFI_STATE", "android.permission.CHANGE_WIFI_STATE", "android.permission.WRITE_SETTINGS" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 22,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:sharedUserId=\"android.uid.system\" android:versionCode=\"1\" android:versionName=\"2.0.1-SNAPSHOT\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.linkedin.android.testbutler\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"2.0.1-SNAPSHOT\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.SET_ACTIVITY_WATCHER\" />\n\t<uses-permission android:name=\"android.permission.GRANT_REVOKE_PERMISSIONS\" />\n\t<uses-permission android:name=\"android.permission.SET_ANIMATION_SCALE\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_CONFIGURATION\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SECURE_SETTINGS\" />\n\t<uses-permission android:name=\"android.permission.DISABLE_KEYGUARD\" />\n\t<uses-permission android:name=\"android.permission.WAKE_LOCK\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_SETTINGS\" />\n\t<application android:label=\"Test Butler\" android:allowBackup=\"true\">\n\t\t<service android:name=\"com.linkedin.android.testbutler.ButlerService\" android:exported=\"true\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 19291,
+  "crc32" : 1379710790,
+  "sha256" : "2a674df0be1d90cc812d66ac081426bc43772f23e6a49760b9bc0293ce5b3983",
+  "buildTime" : 1544970359000
+}

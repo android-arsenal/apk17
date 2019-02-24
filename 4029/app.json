@@ -1,0 +1,37 @@
+{
+  "meta" : {
+    "packageName" : "com.sherazkhilji.sample",
+    "label" : "VidEffects",
+    "icon" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.READ_EXTERNAL_STORAGE", "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/drawable-ldpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAB10lEQVR42mNgGISA+ebNm0f//v37f6AAyG6QG0BuATmIG8j5b7fr9X/jba+ojpsufSLKUSA3gNwCcpAQiGO+/dX/uKPv/s+8/ZVq2Grna1IdJARykDDMQZ1XP1M1Khx3k+wg4VEHjTpo1EGjDkIHT7/9+X/94++Bd9A/IN74+Du4SrEBlrgHXvwYOAe9/fn3f/HZjyh1kilQftn9bwPjIP8Db3FWlt1ANX//QQz5+uff/5UPvv3PPvXh/8k3P2nnIKfdb/DW4EXA0Jtw/ct/h92IFoIJEJee+/j/GTDN0d1B+LA1ML2BQm3QOAiE0068H+YOijz87r/3/jdk48rzH4dGSX3/yx9wLj366idxDoo/9v7/bGDTk1oYvQl77PVPcJTOAsoRdJDljtfgwo/auOUymQ4ClnE0wbBClGQH0QMMqINefP/7/yEwESNjUGUNq37Q5fZfuEZbByUff09S2aU/5zhtHbQU2DIAFSPIuPDMB7DloA4pulzZ1vMjLA0NLwddvHjx/+/fvwfMQSC7QW6AO2jt2rVgAZAraYlXnLjyX3v28f/Nuy6giIPsBrkB5iDB9vb2Ex0dHf97enoGBIPsBrkB5BYG6CCRChCbAbHVAGEzqBu4AQcHfYbz0efyAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 38,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.sherazkhilji.sample\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f040001\" android:label=\"VidEffects\" android:icon=\"res/drawable-ldpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:hardwareAccelerated=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:label=\"VidEffects\" android:name=\"com.videffects.sample.SamplePlayerActivity\" android:screenOrientation=\"landscape\" android:configChanges=\"0xcf0\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1627511,
+  "crc32" : 2102064791,
+  "sha256" : "63b4a2058499187612a0db61abba6a1f4d3ba1fdfa75a39ae7b4db9a0d9bbf21",
+  "buildTime" : 1522127405000
+}

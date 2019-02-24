@@ -1,0 +1,402 @@
+2018-11-04 01:03:23,111 INFO  DownloadService - Downloading "https://github.com/asifshaikh86/googlemaproute/archive/master.zip", attempt 3
+2018-11-04 01:03:24,240 INFO  DownloadService - Downloaded https://github.com/asifshaikh86/googlemaproute/archive/master.zip, attempt 3
+2018-11-04 01:03:24,240 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip": 107 KB
+2018-11-04 01:03:24,240 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-04 01:03:24,245 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip: true
+2018-11-04 01:03:24,245 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src'.
+2018-11-04 01:03:24,264 INFO  FullProcessService - Size of directory with sources: 114 KB
+2018-11-04 01:03:24,264 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src]
+2018-11-04 01:03:24,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/.git/
+
+2018-11-04 01:03:24,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew
+2018-11-04 01:03:24,294 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle
+2018-11-04 01:03:24,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/settings.gradle
+2018-11-04 01:03:24,297 INFO  ProjectBuildService - Remote scripts: none
+2018-11-04 01:03:24,298 INFO  ProjectFixService - Fixing project...
+2018-11-04 01:03:24,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/local.properties
+2018-11-04 01:03:24,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2018-11-04 01:03:24,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/local.properties
+2018-11-04 01:03:24,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2018-11-04 01:03:24,308 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/local.properties
+2018-11-04 01:03:24,308 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2018-11-04 01:03:24,308 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2018-11-04 01:03:24,309 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2018-11-04 01:03:24,309 INFO  ProjectFixService - Project was maybe fixed
+2018-11-04 01:03:24,309 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-04 01:03:24,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-04 01:04:52,285 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-04 01:04:52,285 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-04 01:04:52,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-04 01:05:37,077 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-11-04 01:05:37,077 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:app:checkDebugManifest
+:app:preReleaseBuild UP-TO-DATE
+:googlemaproute:preBuild UP-TO-DATE
+:googlemaproute:preReleaseBuild UP-TO-DATE
+:googlemaproute:compileReleaseNdk UP-TO-DATE
+:googlemaproute:compileLint
+:googlemaproute:copyReleaseLint UP-TO-DATE
+:googlemaproute:checkReleaseManifest
+:googlemaproute:preDebugAndroidTestBuild UP-TO-DATE
+:googlemaproute:preDebugBuild UP-TO-DATE
+:googlemaproute:preDebugUnitTestBuild UP-TO-DATE
+:googlemaproute:preReleaseUnitTestBuild UP-TO-DATE
+:googlemaproute:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:googlemaproute:prepareComAndroidSupportAppcompatV72340Library
+:googlemaproute:prepareComAndroidSupportMediarouterV72300Library
+:googlemaproute:prepareComAndroidSupportSupportV42340Library
+:googlemaproute:prepareComAndroidSupportSupportVectorDrawable2340Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServices902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAds902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAdsLite902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAnalytics902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAppindexing902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAppinvite902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAuth902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesAuthBase902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesBase902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesBasement902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesCast902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesDrive902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesFitness902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesGames902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesGcm902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesIdentity902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesIid902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesLocation902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesMaps902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesNearby902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesPanorama902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesPlus902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesSafetynet902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesTagmanager902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesTasks902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesVision902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesWallet902Library
+:googlemaproute:prepareComGoogleAndroidGmsPlayServicesWearable902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseAnalytics902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseAnalyticsImpl902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseAuth902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseAuthCommon902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseAuthModule902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseCommon902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseConfig902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseCrash902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseDatabase902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseDatabaseConnection902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseIid902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseMessaging902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseStorage902Library
+:googlemaproute:prepareComGoogleFirebaseFirebaseStorageCommon902Library
+:googlemaproute:prepareReleaseDependencies
+:googlemaproute:compileReleaseAidl
+:googlemaproute:compileReleaseRenderscript
+:googlemaproute:generateReleaseBuildConfig
+:googlemaproute:mergeReleaseShaders
+:googlemaproute:compileReleaseShaders
+:googlemaproute:generateReleaseAssets
+:googlemaproute:mergeReleaseAssets
+:googlemaproute:generateReleaseResValues
+:googlemaproute:generateReleaseResources
+:googlemaproute:mergeReleaseResources
+:googlemaproute:processReleaseManifest
+:googlemaproute:processReleaseResources
+:googlemaproute:generateReleaseSources
+:googlemaproute:incrementalReleaseJavaCompilationSafeguard
+:googlemaproute:compileReleaseJavaWithJavac
+:googlemaproute:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:googlemaproute:extractReleaseAnnotations
+:googlemaproute:mergeReleaseProguardFiles
+:googlemaproute:packageReleaseRenderscript UP-TO-DATE
+:googlemaproute:packageReleaseResources
+:googlemaproute:processReleaseJavaRes UP-TO-DATE
+:googlemaproute:transformResourcesWithMergeJavaResForRelease
+:googlemaproute:transformClassesAndResourcesWithSyncLibJarsForRelease
+:googlemaproute:mergeReleaseJniLibFolders
+:googlemaproute:transformNative_libsWithMergeJniLibsForRelease
+:googlemaproute:transformNative_libsWithSyncJniLibsForRelease
+:googlemaproute:bundleRelease
+:app:prepareComAndroidSupportAnimatedVectorDrawable2340Library
+:app:prepareComAndroidSupportAppcompatV72340Library
+:app:prepareComAndroidSupportMediarouterV72300Library
+:app:prepareComAndroidSupportSupportV42340Library
+:app:prepareComAndroidSupportSupportVectorDrawable2340Library
+:app:prepareComGoogleAndroidGmsPlayServices902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAds902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAdsLite902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAnalytics902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAnalyticsImpl902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppindexing902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAppinvite902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAuth902Library
+:app:prepareComGoogleAndroidGmsPlayServicesAuthBase902Library
+:app:prepareComGoogleAndroidGmsPlayServicesBase902Library
+:app:prepareComGoogleAndroidGmsPlayServicesBasement902Library
+:app:prepareComGoogleAndroidGmsPlayServicesCast902Library
+:app:prepareComGoogleAndroidGmsPlayServicesDrive902Library
+:app:prepareComGoogleAndroidGmsPlayServicesFitness902Library
+:app:prepareComGoogleAndroidGmsPlayServicesGames902Library
+:app:prepareComGoogleAndroidGmsPlayServicesGcm902Library
+:app:prepareComGoogleAndroidGmsPlayServicesIdentity902Library
+:app:prepareComGoogleAndroidGmsPlayServicesIid902Library
+:app:prepareComGoogleAndroidGmsPlayServicesLocation902Library
+:app:prepareComGoogleAndroidGmsPlayServicesMaps902Library
+:app:prepareComGoogleAndroidGmsPlayServicesNearby902Library
+:app:prepareComGoogleAndroidGmsPlayServicesPanorama902Library
+:app:prepareComGoogleAndroidGmsPlayServicesPlus902Library
+:app:prepareComGoogleAndroidGmsPlayServicesSafetynet902Library
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanager902Library
+:app:prepareComGoogleAndroidGmsPlayServicesTagmanagerApi902Library
+:app:prepareComGoogleAndroidGmsPlayServicesTasks902Library
+:app:prepareComGoogleAndroidGmsPlayServicesVision902Library
+:app:prepareComGoogleAndroidGmsPlayServicesWallet902Library
+:app:prepareComGoogleAndroidGmsPlayServicesWearable902Library
+:app:prepareComGoogleFirebaseFirebaseAnalytics902Library
+:app:prepareComGoogleFirebaseFirebaseAnalyticsImpl902Library
+:app:prepareComGoogleFirebaseFirebaseAuth902Library
+:app:prepareComGoogleFirebaseFirebaseAuthCommon902Library
+:app:prepareComGoogleFirebaseFirebaseAuthModule902Library
+:app:prepareComGoogleFirebaseFirebaseCommon902Library
+:app:prepareComGoogleFirebaseFirebaseConfig902Library
+:app:prepareComGoogleFirebaseFirebaseCrash902Library
+:app:prepareComGoogleFirebaseFirebaseDatabase902Library
+:app:prepareComGoogleFirebaseFirebaseDatabaseConnection902Library
+:app:prepareComGoogleFirebaseFirebaseIid902Library
+:app:prepareComGoogleFirebaseFirebaseMessaging902Library
+:app:prepareComGoogleFirebaseFirebaseStorage902Library
+:app:prepareComGoogleFirebaseFirebaseStorageCommon902Library
+:app:prepareGooglemaprouteMasterGooglemaprouteUnspecifiedLibrary
+:app:prepareDebugDependencies
+:app:compileDebugAidl
+:app:compileDebugRenderscript
+:app:generateDebugBuildConfig
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:processDebugManifest
+:app:processDebugResources
+:app:generateDebugSources
+:app:incrementalDebugJavaCompilationSafeguard
+:app:compileDebugJavaWithJavac
+:app:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileDebugNdk UP-TO-DATE
+:app:compileDebugSources
+:app:prePackageMarkerForDebug
+:app:transformClassesWithDexForDebug
+Result compacted from 9847.1KiB to 7684.7KiB to save 2162.3KiB
+Merged dex #1 (5 defs/15.3KiB)
+Merged dex #2 (330 defs/538.0KiB)
+Merged dex #3 (107 defs/147.7KiB)
+Merged dex #4 (770 defs/937.1KiB)
+Merged dex #5 (17 defs/48.5KiB)
+Merged dex #6 (699 defs/939.3KiB)
+Merged dex #7 (380 defs/277.8KiB)
+Merged dex #8 (2 defs/2.1KiB)
+Merged dex #9 (344 defs/320.0KiB)
+Merged dex #10 (81 defs/67.9KiB)
+Merged dex #11 (27 defs/25.3KiB)
+Merged dex #12 (119 defs/80.1KiB)
+Merged dex #13 (23 defs/30.9KiB)
+Merged dex #14 (266 defs/240.5KiB)
+Merged dex #15 (555 defs/536.9KiB)
+Merged dex #16 (176 defs/184.8KiB)
+Merged dex #17 (465 defs/319.9KiB)
+Merged dex #18 (339 defs/287.7KiB)
+Merged dex #19 (831 defs/570.5KiB)
+Merged dex #20 (27 defs/40.6KiB)
+Merged dex #21 (26 defs/19.6KiB)
+Merged dex #22 (8 defs/24.0KiB)
+Merged dex #23 (233 defs/200.9KiB)
+Merged dex #24 (282 defs/235.0KiB)
+Merged dex #25 (228 defs/163.2KiB)
+Merged dex #26 (19 defs/10.8KiB)
+Merged dex #27 (93 defs/96.7KiB)
+Merged dex #28 (31 defs/17.2KiB)
+Merged dex #29 (275 defs/199.5KiB)
+Merged dex #30 (33 defs/20.9KiB)
+Merged dex #31 (29 defs/20.5KiB)
+Merged dex #32 (116 defs/89.1KiB)
+Merged dex #33 (165 defs/132.2KiB)
+Merged dex #34 (271 defs/199.9KiB)
+Merged dex #35 (3 defs/3.6KiB)
+Merged dex #36 (115 defs/203.0KiB)
+Merged dex #37 (54 defs/52.0KiB)
+Merged dex #38 (20 defs/11.1KiB)
+Merged dex #39 (22 defs/21.9KiB)
+Merged dex #40 (24 defs/23.9KiB)
+Merged dex #41 (55 defs/53.7KiB)
+Merged dex #42 (21 defs/19.9KiB)
+Merged dex #43 (299 defs/272.9KiB)
+Merged dex #44 (111 defs/100.9KiB)
+Merged dex #45 (15 defs/33.6KiB)
+Merged dex #46 (10 defs/22.6KiB)
+Merged dex #47 (53 defs/70.5KiB)
+Merged dex #48 (7 defs/11.8KiB)
+Merged dex #49 (75 defs/179.5KiB)
+Merged dex #50 (4 defs/9.1KiB)
+Merged dex #51 (20 defs/16.1KiB)
+Merged dex #52 (335 defs/262.9KiB)
+Merged dex #53 (41 defs/6.5KiB)
+Result is 8656 defs/7684.7KiB. Took 1.0s
+:app:mergeDebugJniLibFolders
+:app:transformNative_libsWithMergeJniLibsForDebug
+:app:processDebugJavaRes UP-TO-DATE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateDebugSigning
+:app:packageDebug
+:app:zipalignDebug
+:app:assembleDebug
+:app:checkReleaseManifest
+:app:prepareReleaseDependencies
+:app:compileReleaseAidl
+:app:compileReleaseRenderscript
+:app:generateReleaseBuildConfig
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:processReleaseManifest
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:incrementalReleaseJavaCompilationSafeguard
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:app:compileReleaseNdk UP-TO-DATE
+:app:compileReleaseSources
+:app:lintVitalRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:lintVitalRelease'.
+> No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+
+* Try:
+Run with --info or --debug option to get more log output.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:lintVitalRelease'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:69)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:66)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:50)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:25)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:154)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:52)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:151)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:99)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:93)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:62)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:93)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:82)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:48)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:51)
+	at org.gradle.launcher.exec.DaemonUsageSuggestingBuildActionExecuter.execute(DaemonUsageSuggestingBuildActionExecuter.java:28)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:43)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:170)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:237)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:210)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:35)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains folder for ABI with prefix: mipsel-linux-android
+	at com.android.build.gradle.internal.NdkHandler.getDefaultToolchainVersion(NdkHandler.java:375)
+	at com.android.build.gradle.internal.NdkHandler.getToolchainPath(NdkHandler.java:273)
+	at com.android.build.gradle.internal.NdkHandler.getCCompiler(NdkHandler.java:461)
+	at com.android.build.gradle.internal.model.ModelBuilder.createNativeToolchainModelMap(ModelBuilder.java:227)
+	at com.android.build.gradle.internal.model.ModelBuilder.buildAll(ModelBuilder.java:166)
+	at org.gradle.tooling.provider.model.ToolingModelBuilder$buildAll.call(Unknown Source)
+	at com.android.build.gradle.tasks.Lint.createAndroidProject(Lint.groovy:256)
+	at com.android.build.gradle.tasks.Lint.lint(Lint.groovy:73)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.doExecute(AnnotationProcessingTaskFactory.java:227)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:220)
+	at org.gradle.api.internal.project.taskfactory.AnnotationProcessingTaskFactory$StandardTaskAction.execute(AnnotationProcessingTaskFactory.java:209)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:585)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:568)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	... 60 more
+
+
+BUILD FAILED
+
+Total time: 44.115 secs
+
+2018-11-04 01:05:37,368 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build/outputs/apk/app-debug.apk

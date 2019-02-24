@@ -1,0 +1,166 @@
+2018-11-17 20:51:26,341 INFO  DownloadService - Downloading "https://github.com/DroidNinja/Android-FilePicker/archive/master.zip", attempt 3
+2018-11-17 20:51:27,185 INFO  DownloadService - Downloaded https://github.com/DroidNinja/Android-FilePicker/archive/master.zip, attempt 3
+2018-11-17 20:51:27,185 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/master.zip": 228 KB
+2018-11-17 20:51:27,185 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-11-17 20:51:27,191 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/master.zip: true
+2018-11-17 20:51:27,191 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src'.
+2018-11-17 20:51:27,231 INFO  FullProcessService - Size of directory with sources: 361 KB
+2018-11-17 20:51:27,231 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src]
+2018-11-17 20:51:27,248 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/.git/
+
+2018-11-17 20:51:27,253 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/gradlew
+2018-11-17 20:51:27,258 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/build.gradle
+2018-11-17 20:51:27,263 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/settings.gradle
+2018-11-17 20:51:27,263 INFO  ProjectBuildService - Remote scripts: none
+2018-11-17 20:51:27,263 INFO  ProjectFixService - Fixing project...
+2018-11-17 20:51:27,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/local.properties
+2018-11-17 20:51:27,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-17 20:51:27,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/local.properties
+2018-11-17 20:51:27,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-17 20:51:27,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/local.properties
+2018-11-17 20:51:27,277 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-11-17 20:51:27,277 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-11-17 20:51:27,278 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-11-17 20:51:27,278 INFO  ProjectFixService - Project was maybe fixed
+2018-11-17 20:51:27,278 INFO  ProjectTaskService - Detecting possible tasks...
+2018-11-17 20:51:27,278 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-11-17 20:51:33,217 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-11-17 20:51:33,217 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-11-17 20:51:33,218 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-11-17 20:52:26,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+filepicker: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.github.bumptech.glide:compiler:4.7.1' and apply the kapt plugin: "apply plugin: 'kotlin-kapt'".
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:filepicker:preBuild UP-TO-DATE
+:filepicker:preDebugBuild UP-TO-DATE
+:filepicker:checkDebugManifest
+:filepicker:processDebugManifest
+:app:preDebugBuild
+:filepicker:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:filepicker:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:filepicker:compileDebugRenderscript
+:filepicker:generateDebugResValues
+:filepicker:generateDebugResources
+:filepicker:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:filepicker:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:filepicker:generateDebugBuildConfig
+:filepicker:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/src/main/java/droidninja/filepicker/adapters/FileListAdapter.kt: (122, 54): Unchecked cast: Any! to List<Document>
+:filepicker:prepareLintJar
+:filepicker:generateDebugSources
+:filepicker:javaPreCompileDebug
+:filepicker:compileDebugJavaWithJavac
+:filepicker:processDebugJavaRes NO-SOURCE
+:filepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:filepicker:mergeDebugShaders
+:filepicker:compileDebugShaders
+:filepicker:generateDebugAssets
+:filepicker:packageDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:filepicker:compileDebugNdk NO-SOURCE
+:filepicker:mergeDebugJniLibFolders
+:filepicker:transformNativeLibsWithMergeJniLibsForDebug
+:filepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:filepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:filepicker:preReleaseBuild UP-TO-DATE
+:filepicker:checkReleaseManifest
+:filepicker:processReleaseManifest
+:app:preReleaseBuild
+:filepicker:compileReleaseAidl NO-SOURCE
+:app:compileReleaseAidl NO-SOURCE
+:filepicker:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:filepicker:compileReleaseRenderscript
+:filepicker:generateReleaseResValues
+:filepicker:generateReleaseResources
+:filepicker:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:filepicker:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:filepicker:generateReleaseBuildConfig
+:filepicker:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/filepicker/src/main/java/droidninja/filepicker/adapters/FileListAdapter.kt: (122, 54): Unchecked cast: Any! to List<Document>
+:filepicker:generateReleaseSources
+:filepicker:javaPreCompileRelease
+:filepicker:compileReleaseJavaWithJavac
+:filepicker:processReleaseJavaRes NO-SOURCE
+:filepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:filepicker:mergeReleaseShaders
+:filepicker:compileReleaseShaders
+:filepicker:generateReleaseAssets
+:filepicker:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:filepicker:compileReleaseNdk NO-SOURCE
+:filepicker:mergeReleaseJniLibFolders
+:filepicker:transformNativeLibsWithMergeJniLibsForRelease
+:filepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:filepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 52s
+92 actionable tasks: 92 executed
+
+2018-11-17 20:52:26,423 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1542462686338-0/src/Android-FilePicker-master/app/build/outputs/apk/debug/app-debug.apk

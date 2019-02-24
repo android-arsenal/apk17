@@ -1,0 +1,17 @@
+2019-01-28 11:01:53,747 INFO  DownloadService - Downloading "https://github.com/LouisCAD/Splitties/archive/master.zip", attempt 3
+2019-01-28 11:01:55,713 INFO  DownloadService - Downloaded https://github.com/LouisCAD/Splitties/archive/master.zip, attempt 3
+2019-01-28 11:01:55,713 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/master.zip": 905 KB
+2019-01-28 11:01:55,713 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-28 11:01:55,717 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/master.zip: true
+2019-01-28 11:01:55,717 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/src'.
+2019-01-28 11:01:55,860 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-28 11:01:55,860 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/src]
+2019-01-28 11:01:55,882 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/src/.git/
+
+2019-01-28 11:01:55,906 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/src/Splitties-master/gradlew
+2019-01-28 11:01:55,926 INFO  ProjectBuildService - Build script(s): none
+2019-01-28 11:01:55,945 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648113744-0/src/Splitties-master/publish.gradle
+2019-01-28 11:01:55,946 INFO  ProjectBuildService - Remote scripts: none
+2019-01-28 11:01:55,946 ERROR FullProcessService - Project is not correct Gradle project
+2019-01-28 11:01:55,946 ERROR FullProcessService - Project build has not produced APK file
+2019-01-28 11:01:55,964 ERROR FullProcessService - Could not find generated or existed APK file

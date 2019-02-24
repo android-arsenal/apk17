@@ -1,0 +1,1234 @@
+2019-01-22 19:28:08,659 INFO  DownloadService - Downloading "https://github.com/airbnb/epoxy/archive/master.zip", attempt 3
+2019-01-22 19:28:12,492 INFO  DownloadService - Downloaded https://github.com/airbnb/epoxy/archive/master.zip, attempt 3
+2019-01-22 19:28:12,493 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/master.zip": 2 MB
+2019-01-22 19:28:12,493 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-22 19:28:12,500 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/master.zip: true
+2019-01-22 19:28:12,501 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src'.
+2019-01-22 19:28:12,696 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-01-22 19:28:12,696 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src]
+2019-01-22 19:28:12,725 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/.git/
+
+2019-01-22 19:28:12,742 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew
+2019-01-22 19:28:12,760 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/build.gradle
+2019-01-22 19:28:12,776 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/build.workaround-missing-resource.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradle/gradle-maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/blessedDeps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/build.workaround-missing-resource.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-litho/build.gradle
+2019-01-22 19:28:12,778 INFO  ProjectBuildService - Remote scripts: none
+2019-01-22 19:28:12,778 INFO  ProjectFixService - Fixing project...
+2019-01-22 19:28:12,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/local.properties
+2019-01-22 19:28:12,837 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,837 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,838 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/local.properties
+2019-01-22 19:28:12,846 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,846 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/local.properties
+2019-01-22 19:28:12,854 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,854 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-litho/local.properties
+2019-01-22 19:28:12,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/local.properties
+2019-01-22 19:28:12,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,871 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/local.properties
+2019-01-22 19:28:12,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,879 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-pagingsample/local.properties
+2019-01-22 19:28:12,887 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,887 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,888 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/local.properties
+2019-01-22 19:28:12,895 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest2/local.properties
+2019-01-22 19:28:12,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,904 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-sample/local.properties
+2019-01-22 19:28:12,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-01-22 19:28:12,912 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-01-22 19:28:12,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/kotlinsample/local.properties
+2019-01-22 19:28:12,920 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,921 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,922 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/local.properties
+2019-01-22 19:28:12,922 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-01-22 19:28:12,923 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-01-22 19:28:12,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-annotations/local.properties
+2019-01-22 19:28:12,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,938 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/local.properties
+2019-01-22 19:28:12,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-01-22 19:28:12,946 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-01-22 19:28:12,947 INFO  ProjectFixService - Project was maybe fixed
+2019-01-22 19:28:12,947 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:28:12,947 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:28:21,126 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-22 19:28:21,126 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 19:28:21,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 19:29:02,244 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :epoxy-adapter:androidJavadocs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/WrappedEpoxyModelClickListener.java:8: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/WrappedEpoxyModelClickListener.java:9: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/WrappedEpoxyModelClickListener.java:10: error: package androidx.recyclerview.widget.RecyclerView does not exist
+import androidx.recyclerview.widget.RecyclerView.ViewHolder;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:15: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:16: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:17: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:18: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:19: error: package androidx.recyclerview.widget.GridLayoutManager does not exist
+import androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ControllerHelperLookup.java:8: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/VisibilityState.java:6: error: cannot find symbol
+import androidx.annotation.IntDef;
+                          ^
+  symbol:   class IntDef
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyModel.java:12: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyModel.java:13: error: cannot find symbol
+import androidx.annotation.LayoutRes;
+                          ^
+  symbol:   class LayoutRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyModel.java:14: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyModel.java:15: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyModel.java:16: error: cannot find symbol
+import androidx.annotation.Px;
+                          ^
+  symbol:   class Px
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ViewHolderState.java:10: error: package com.airbnb.viewmodeladapter does not exist
+import com.airbnb.viewmodeladapter.R;
+                                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ViewHolderState.java:14: error: package androidx.collection does not exist
+import androidx.collection.LongSparseArray;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ViewHolderState.java:33: error: cannot find symbol
+class ViewHolderState extends LongSparseArray<ViewState> implements Parcelable {
+                              ^
+  symbol: class LongSparseArray
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyViewHolder.java:10: error: cannot find symbol
+import androidx.annotation.FloatRange;
+                          ^
+  symbol:   class FloatRange
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyViewHolder.java:11: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyViewHolder.java:12: error: cannot find symbol
+import androidx.annotation.Px;
+                          ^
+  symbol:   class Px
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyViewHolder.java:13: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyViewHolder.java:16: error: package RecyclerView does not exist
+public class EpoxyViewHolder extends RecyclerView.ViewHolder {
+                                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/WrappedEpoxyModelClickListener.java:94: error: cannot find symbol
+  private static RecyclerView findParentRecyclerView(@Nullable View v) {
+                 ^
+  symbol:   class RecyclerView
+  location: class WrappedEpoxyModelClickListener<T,V>
+  where T,V are type-variables:
+    T extends EpoxyModel<?> declared in class WrappedEpoxyModelClickListener
+    V extends Object declared in class WrappedEpoxyModelClickListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:9: error: cannot find symbol
+import androidx.annotation.AnyThread;
+                          ^
+  symbol:   class AnyThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:10: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:11: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:12: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.DiffUtil;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:13: error: package androidx.recyclerview.widget.DiffUtil does not exist
+import androidx.recyclerview.widget.DiffUtil.ItemCallback;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:10: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:11: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:12: error: cannot find symbol
+import androidx.annotation.UiThread;
+                          ^
+  symbol:   class UiThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:13: error: package androidx.recyclerview.widget.DiffUtil does not exist
+import androidx.recyclerview.widget.DiffUtil.ItemCallback;
+                                            ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:14: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:10: error: cannot find symbol
+import androidx.annotation.CallSuper;
+                          ^
+  symbol:   class CallSuper
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:11: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:12: error: package androidx.recyclerview.widget.GridLayoutManager does not exist
+import androidx.recyclerview.widget.GridLayoutManager.SpanSizeLookup;
+                                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:13: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:15: error: package RecyclerView does not exist
+abstract class BaseEpoxyAdapter extends RecyclerView.Adapter<EpoxyViewHolder> {
+                                                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyDiffLogger.java:5: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyDiffLogger.java:6: error: package androidx.recyclerview.widget.RecyclerView does not exist
+import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyDiffLogger.java:19: error: cannot find symbol
+public class EpoxyDiffLogger extends AdapterDataObserver {
+                                     ^
+  symbol: class AdapterDataObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ModelList.java:12: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/OnModelBuildFinishedListener.java:3: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:695: error: cannot find symbol
+  public SpanSizeLookup getSpanSizeLookup() {
+         ^
+  symbol:   class SpanSizeLookup
+  location: class EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:780: error: cannot find symbol
+  void onAttachedToRecyclerViewInternal(RecyclerView recyclerView) {
+                                        ^
+  symbol:   class RecyclerView
+  location: class EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:809: error: cannot find symbol
+  void onDetachedFromRecyclerViewInternal(RecyclerView recyclerView) {
+                                          ^
+  symbol:   class RecyclerView
+  location: class EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:815: error: cannot find symbol
+  protected void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
+                                                   ^
+  symbol:   class RecyclerView
+  location: class EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyController.java:820: error: cannot find symbol
+  protected void onDetachedFromRecyclerView(@NonNull RecyclerView recyclerView) {
+                                                     ^
+  symbol:   class RecyclerView
+  location: class EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyHolder.java:5: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/NotifyBlocker.java:3: error: package androidx.recyclerview.widget.RecyclerView does not exist
+import androidx.recyclerview.widget.RecyclerView.AdapterDataObserver;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/NotifyBlocker.java:12: error: cannot find symbol
+class NotifyBlocker extends AdapterDataObserver {
+                            ^
+  symbol: class AdapterDataObserver
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:6: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:7: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:8: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.AdapterListUpdateCallback;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:9: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.DiffUtil;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:10: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.ListUpdateCallback;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:11: error: package androidx.recyclerview.widget.RecyclerView does not exist
+import androidx.recyclerview.widget.RecyclerView.Adapter;
+                                                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:91: error: cannot find symbol
+  public void onAttachedToRecyclerView(@NonNull RecyclerView recyclerView) {
+                                                ^
+  symbol:   class RecyclerView
+  location: class EpoxyControllerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:96: error: cannot find symbol
+  public void onDetachedFromRecyclerView(@NonNull RecyclerView recyclerView) {
+                                                  ^
+  symbol:   class RecyclerView
+  location: class EpoxyControllerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BoundViewHolders.java:7: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BoundViewHolders.java:8: error: package androidx.collection does not exist
+import androidx.collection.LongSparseArray;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyControllerAdapter.java:191: error: cannot find symbol
+  private static final ItemCallback<EpoxyModel<?>> ITEM_CALLBACK =
+                       ^
+  symbol:   class ItemCallback
+  location: class EpoxyControllerAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:29: error: cannot find symbol
+  private final ItemCallback<EpoxyModel<?>> diffCallback;
+                ^
+  symbol:   class ItemCallback
+  location: class AsyncEpoxyDiffer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/AsyncEpoxyDiffer.java:35: error: cannot find symbol
+      @NonNull ItemCallback<EpoxyModel<?>> diffCallback
+               ^
+  symbol:   class ItemCallback
+  location: class AsyncEpoxyDiffer
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ViewTypeManager.java:6: error: cannot find symbol
+import androidx.annotation.VisibleForTesting;
+                          ^
+  symbol:   class VisibleForTesting
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:28: error: cannot find symbol
+  private final SpanSizeLookup spanSizeLookup = new SpanSizeLookup() {
+                ^
+  symbol:   class SpanSizeLookup
+  location: class BaseEpoxyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BaseEpoxyAdapter.java:263: error: cannot find symbol
+  public SpanSizeLookup getSpanSizeLookup() {
+         ^
+  symbol:   class SpanSizeLookup
+  location: class BaseEpoxyAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:25: error: package DiffUtil does not exist
+  @Nullable final DiffUtil.DiffResult differResult;
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:54: error: package DiffUtil does not exist
+      @NonNull DiffUtil.DiffResult differResult
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:62: error: package DiffUtil does not exist
+      @Nullable DiffUtil.DiffResult differResult
+                        ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:69: error: cannot find symbol
+  public void dispatchTo(Adapter adapter) {
+                         ^
+  symbol:   class Adapter
+  location: class DiffResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/DiffResult.java:73: error: cannot find symbol
+  public void dispatchTo(ListUpdateCallback callback) {
+                         ^
+  symbol:   class ListUpdateCallback
+  location: class DiffResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/BoundViewHolders.java:13: error: cannot find symbol
+  private final LongSparseArray<EpoxyViewHolder> holders = new LongSparseArray<>();
+                ^
+  symbol:   class LongSparseArray
+  location: class BoundViewHolders
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyAsyncUtil.java:10: error: cannot find symbol
+import androidx.annotation.MainThread;
+                          ^
+  symbol:   class MainThread
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/HandlerExecutor.java:8: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:10: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.ItemTouchHelper;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:11: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.RecyclerView;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:13: error: package androidx.recyclerview.widget.ItemTouchHelper does not exist
+import static androidx.recyclerview.widget.ItemTouchHelper.Callback.makeMovementFlags;
+                                                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:13: error: static import only from classes and interfaces
+import static androidx.recyclerview.widget.ItemTouchHelper.Callback.makeMovementFlags;
+^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:276: error: cannot find symbol
+  public static SwipeBuilder initSwiping(RecyclerView recyclerView) {
+                                         ^
+  symbol:   class RecyclerView
+  location: class EpoxyTouchHelper
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:63: error: cannot find symbol
+    public DragBuilder2 withRecyclerView(RecyclerView recyclerView) {
+                                         ^
+  symbol:   class RecyclerView
+  location: class DragBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:282: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:284: error: cannot find symbol
+    private SwipeBuilder(RecyclerView recyclerView) {
+                         ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:71: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class DragBuilder2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:73: error: cannot find symbol
+    private DragBuilder2(EpoxyController controller, RecyclerView recyclerView) {
+                                                     ^
+  symbol:   class RecyclerView
+  location: class DragBuilder2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:319: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:322: error: cannot find symbol
+    private SwipeBuilder2(RecyclerView recyclerView,
+                          ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder2
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:111: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class DragBuilder3
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:114: error: cannot find symbol
+    private DragBuilder3(EpoxyController controller, RecyclerView recyclerView, int movementFlags) {
+                                                     ^
+  symbol:   class RecyclerView
+  location: class DragBuilder3
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:365: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder3<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class SwipeBuilder3
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:371: error: cannot find symbol
+        RecyclerView recyclerView, int movementFlags,
+        ^
+  symbol:   class RecyclerView
+  location: class SwipeBuilder3<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class SwipeBuilder3
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxySwipeCallback.java:6: error: package androidx.recyclerview.widget does not exist
+import androidx.recyclerview.widget.ItemTouchHelper;
+                                   ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:393: error: cannot find symbol
+    public ItemTouchHelper andCallbacks(final SwipeCallbacks<U> callbacks) {
+           ^
+  symbol:   class ItemTouchHelper
+  location: class SwipeBuilder3<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class SwipeBuilder3
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:157: error: cannot find symbol
+    private final RecyclerView recyclerView;
+                  ^
+  symbol:   class RecyclerView
+  location: class DragBuilder4<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class DragBuilder4
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:163: error: cannot find symbol
+        RecyclerView recyclerView, int movementFlags,
+        ^
+  symbol:   class RecyclerView
+  location: class DragBuilder4<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class DragBuilder4
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyTouchHelper.java:187: error: cannot find symbol
+    public ItemTouchHelper andCallbacks(final DragCallbacks<U> callbacks) {
+           ^
+  symbol:   class ItemTouchHelper
+  location: class DragBuilder4<U>
+  where U is a type-variable:
+    U extends EpoxyModel declared in class DragBuilder4
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/QuantityStringResAttribute.java:7: error: cannot find symbol
+import androidx.annotation.Nullable;
+                          ^
+  symbol:   class Nullable
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/QuantityStringResAttribute.java:8: error: cannot find symbol
+import androidx.annotation.PluralsRes;
+                          ^
+  symbol:   class PluralsRes
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/EpoxyVisibilityItem.java:6: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+100 warnings
+
+> Task :epoxy-adapter:androidJavadocsJar
+> Task :epoxy-adapter:androidSourcesJar
+> Task :epoxy-adapter:preBuild UP-TO-DATE
+> Task :epoxy-adapter:preDebugBuild UP-TO-DATE
+> Task :epoxy-adapter:compileDebugAidl NO-SOURCE
+warning: [options] bootstrap class path not set in conjunction with -source 1.7
+1 warning
+
+> Task :epoxy-annotations:compileJava
+
+> Task :epoxy-annotations:processResources NO-SOURCE
+> Task :epoxy-annotations:classes
+> Task :epoxy-annotations:jar
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:compileDebugRenderscript
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:checkDebugManifest
+> Task :epoxy-adapter:generateDebugBuildConfig
+> Task :epoxy-adapter:generateDebugResValues
+> Task :epoxy-adapter:generateDebugResources
+> Task :epoxy-adapter:packageDebugResources
+> Task :epoxy-adapter:processDebugManifest
+> Task :epoxy-adapter:generateDebugRFile
+w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.71/4ce93f539e2133f172f1167291a911f83400a5d0/kotlin-stdlib-jdk7-1.2.71.jar (version 1.2)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.3.11/aae7b33412715e9ed441934c4ffaad1bb80e9d36/kotlin-reflect-1.3.11.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar (version 1.3)
+    /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar (version 1.3)
+w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
+> Task :epoxy-processor:compileKotlin
+
+> Task :epoxy-processor:compileJava
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-processor/src/main/java/com/airbnb/epoxy/BaseModelAttributeInfo.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-processor:processResources
+> Task :epoxy-processor:classes
+> Task :epoxy-processor:inspectClassesForKotlinIC
+> Task :epoxy-processor:jar
+> Transform epoxy-processor.jar (project :epoxy-processor) with IdentityTransform
+> Task :epoxy-adapter:prepareLintJar
+> Task :epoxy-adapter:kaptGenerateStubsDebugKotlin
+> Task :epoxy-adapter:kaptDebugKotlin
+> Task :epoxy-adapter:compileDebugKotlin
+> Task :epoxy-adapter:generateDebugSources
+> Task :epoxy-adapter:javaPreCompileDebug
+
+> Task :epoxy-adapter:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-adapter:extractDebugAnnotations
+> Task :epoxy-adapter:mergeDebugConsumerProguardFiles
+> Task :epoxy-adapter:mergeDebugShaders
+> Task :epoxy-adapter:compileDebugShaders
+> Task :epoxy-adapter:generateDebugAssets
+> Task :epoxy-adapter:packageDebugAssets
+> Task :epoxy-adapter:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-adapter:processDebugJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformResourcesWithMergeJavaResForDebug
+> Task :epoxy-adapter:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :epoxy-adapter:compileDebugNdk NO-SOURCE
+> Task :epoxy-adapter:mergeDebugJniLibFolders
+> Task :epoxy-adapter:transformNativeLibsWithMergeJniLibsForDebug
+> Task :epoxy-adapter:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :epoxy-adapter:transformNativeLibsWithSyncJniLibsForDebug
+> Task :epoxy-adapter:bundleDebugAar
+> Task :epoxy-adapter:compileDebugSources
+> Task :epoxy-adapter:assembleDebug
+> Task :epoxy-adapter:preReleaseBuild UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseAidl NO-SOURCE
+> Task :epoxy-adapter:compileReleaseRenderscript
+> Task :epoxy-adapter:checkReleaseManifest
+> Task :epoxy-adapter:generateReleaseBuildConfig
+> Task :epoxy-adapter:generateReleaseResValues
+> Task :epoxy-adapter:generateReleaseResources
+> Task :epoxy-adapter:packageReleaseResources
+> Task :epoxy-adapter:processReleaseManifest
+> Task :epoxy-adapter:generateReleaseRFile
+> Task :epoxy-adapter:kaptGenerateStubsReleaseKotlin
+> Task :epoxy-adapter:kaptReleaseKotlin
+> Task :epoxy-adapter:compileReleaseKotlin
+> Task :epoxy-adapter:generateReleaseSources
+> Task :epoxy-adapter:javaPreCompileRelease
+
+> Task :epoxy-adapter:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-adapter:extractReleaseAnnotations
+> Task :epoxy-adapter:mergeReleaseConsumerProguardFiles
+> Task :epoxy-adapter:mergeReleaseShaders
+> Task :epoxy-adapter:compileReleaseShaders
+> Task :epoxy-adapter:generateReleaseAssets
+> Task :epoxy-adapter:packageReleaseAssets
+> Task :epoxy-adapter:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-adapter:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformResourcesWithMergeJavaResForRelease
+> Task :epoxy-adapter:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :epoxy-adapter:compileReleaseNdk NO-SOURCE
+> Task :epoxy-adapter:mergeReleaseJniLibFolders
+> Task :epoxy-adapter:transformNativeLibsWithMergeJniLibsForRelease
+> Task :epoxy-adapter:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :epoxy-adapter:transformNativeLibsWithSyncJniLibsForRelease
+> Task :epoxy-adapter:bundleReleaseAar
+> Task :epoxy-adapter:compileReleaseSources
+> Task :epoxy-adapter:mergeReleaseResources
+> Task :epoxy-adapter:verifyReleaseResources
+> Task :epoxy-adapter:assembleRelease
+> Task :epoxy-adapter:signArchives SKIPPED
+> Task :epoxy-adapter:assemble
+> Task :epoxy-adapter:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 40s
+61 actionable tasks: 61 executed
+
+2019-01-22 19:29:02,338 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:29:02,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:29:08,817 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-01-22 19:29:08,817 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-01-22 19:29:08,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-01-22 19:29:24,657 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :epoxy-databinding:androidJavadocs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:11: error: cannot find symbol
+import androidx.annotation.NonNull;
+                          ^
+  symbol:   class NonNull
+  location: package androidx.annotation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:12: error: package androidx.databinding does not exist
+import androidx.databinding.DataBindingUtil;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:13: error: package androidx.databinding does not exist
+import androidx.databinding.ViewDataBinding;
+                           ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: error: cannot find symbol
+public abstract class DataBindingEpoxyModel extends EpoxyModelWithHolder<DataBindingHolder> {
+                                                    ^
+  symbol: class EpoxyModelWithHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:102: error: cannot find symbol
+  public static class DataBindingHolder extends EpoxyHolder {
+                                                ^
+  symbol:   class EpoxyHolder
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:54: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder, @NonNull EpoxyModel<?> previouslyBoundModel) {
+                                                               ^
+  symbol:   class EpoxyModel
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:73: error: cannot find symbol
+  protected abstract void setDataBindingVariables(ViewDataBinding binding);
+                                                  ^
+  symbol:   class ViewDataBinding
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:83: error: cannot find symbol
+  protected void setDataBindingVariables(ViewDataBinding dataBinding,
+                                         ^
+  symbol:   class ViewDataBinding
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:84: error: cannot find symbol
+      EpoxyModel<?> previouslyBoundModel) {
+      ^
+  symbol:   class EpoxyModel
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:88: error: cannot find symbol
+  protected void setDataBindingVariables(ViewDataBinding dataBinding, List<Object> payloads) {
+                                         ^
+  symbol:   class ViewDataBinding
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:103: error: cannot find symbol
+    private ViewDataBinding dataBinding;
+            ^
+  symbol:   class ViewDataBinding
+  location: class DataBindingHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:105: error: cannot find symbol
+    public ViewDataBinding getDataBinding() {
+           ^
+  symbol:   class ViewDataBinding
+  location: class DataBindingHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:39: error: cannot find symbol
+  protected View buildView(@NonNull ViewGroup parent) {
+                            ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:48: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder) {
+                    ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:54: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder, @NonNull EpoxyModel<?> previouslyBoundModel) {
+                    ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:54: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder, @NonNull EpoxyModel<?> previouslyBoundModel) {
+                                                       ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:60: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder, @NonNull List<Object> payloads) {
+                    ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:60: error: cannot find symbol
+  public void bind(@NonNull DataBindingHolder holder, @NonNull List<Object> payloads) {
+                                                       ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:93: error: cannot find symbol
+  public void unbind(@NonNull DataBindingHolder holder) {
+                      ^
+  symbol:   class NonNull
+  location: class DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:110: error: cannot find symbol
+    protected void bindView(@NonNull View itemView) {
+                             ^
+  symbol:   class NonNull
+  location: class DataBindingHolder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: can't find getDefaultLayout() in com.airbnb.epoxy.DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: can't find setDataBindingVariables(ViewDataBinding,
+ EpoxyModel) in com.airbnb.epoxy.DataBindingEpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: com.airbnb.epoxy.EpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: EpoxyModelClass
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: EpoxyAttribute
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: EpoxyController
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:83: warning - Tag @link: can't find bind(DataBindingHolder,
+ EpoxyModel) in com.airbnb.epoxy.DataBindingEpoxyModel
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:73: warning - Tag @link: reference not found: ViewDataBinding#executePendingBindings()
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:83: warning - Tag @link: reference not found: EpoxyController
+javadoc: warning - Class NonNull not found.
+javadoc: warning - Class NonNull not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: com.airbnb.epoxy.EpoxyModel
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-databinding/src/main/java/com/airbnb/epoxy/DataBindingEpoxyModel.java:36: warning - Tag @link: reference not found: com.airbnb.epoxy.EpoxyModel
+37 warnings
+
+> Task :epoxy-databinding:androidJavadocsJar
+> Task :epoxy-databinding:androidSourcesJar
+> Task :epoxy-adapter:preBuild UP-TO-DATE
+> Task :epoxy-adapter:preDebugBuild UP-TO-DATE
+> Task :epoxy-adapter:compileDebugAidl NO-SOURCE
+> Task :epoxy-databinding:preBuild UP-TO-DATE
+> Task :epoxy-databinding:preDebugBuild UP-TO-DATE
+> Task :epoxy-databinding:compileDebugAidl NO-SOURCE
+> Task :epoxy-annotations:compileJava UP-TO-DATE
+> Task :epoxy-annotations:processResources NO-SOURCE
+> Task :epoxy-annotations:classes UP-TO-DATE
+> Task :epoxy-annotations:jar UP-TO-DATE
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:compileDebugRenderscript UP-TO-DATE
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:checkDebugManifest UP-TO-DATE
+> Task :epoxy-adapter:generateDebugBuildConfig UP-TO-DATE
+> Task :epoxy-adapter:generateDebugResValues UP-TO-DATE
+> Task :epoxy-adapter:generateDebugResources UP-TO-DATE
+> Task :epoxy-adapter:packageDebugResources UP-TO-DATE
+> Task :epoxy-adapter:processDebugManifest UP-TO-DATE
+> Task :epoxy-adapter:generateDebugRFile UP-TO-DATE
+> Task :epoxy-processor:compileKotlin UP-TO-DATE
+> Task :epoxy-processor:compileJava UP-TO-DATE
+> Task :epoxy-processor:processResources UP-TO-DATE
+> Task :epoxy-processor:classes UP-TO-DATE
+> Task :epoxy-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :epoxy-processor:jar UP-TO-DATE
+> Transform epoxy-processor.jar (project :epoxy-processor) with IdentityTransform
+> Task :epoxy-adapter:prepareLintJar UP-TO-DATE
+> Task :epoxy-adapter:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:kaptDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:compileDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:generateDebugSources UP-TO-DATE
+> Task :epoxy-adapter:javaPreCompileDebug UP-TO-DATE
+> Task :epoxy-adapter:compileDebugJavaWithJavac UP-TO-DATE
+> Task :epoxy-adapter:processDebugJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :epoxy-adapter:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-databinding:compileDebugRenderscript
+> Task :epoxy-databinding:checkDebugManifest
+> Task :epoxy-databinding:generateDebugBuildConfig
+> Task :epoxy-databinding:generateDebugResValues
+> Task :epoxy-databinding:generateDebugResources
+> Task :epoxy-databinding:packageDebugResources
+> Task :epoxy-databinding:processDebugManifest
+> Task :epoxy-databinding:generateDebugRFile
+> Task :epoxy-databinding:prepareLintJar
+> Task :epoxy-databinding:generateDebugSources
+> Task :epoxy-databinding:dataBindingExportBuildInfoDebug
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsDebug
+> Task :epoxy-databinding:mergeDebugResources
+> Task :epoxy-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :epoxy-databinding:dataBindingGenBaseClassesDebug
+> Task :epoxy-databinding:javaPreCompileDebug
+> Task :epoxy-databinding:compileDebugJavaWithJavac
+> Task :epoxy-databinding:extractDebugAnnotations
+> Task :epoxy-databinding:mergeDebugConsumerProguardFiles
+> Task :epoxy-databinding:mergeDebugShaders
+> Task :epoxy-databinding:compileDebugShaders
+> Task :epoxy-databinding:generateDebugAssets
+> Task :epoxy-databinding:packageDebugAssets
+> Task :epoxy-databinding:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-databinding:processDebugJavaRes NO-SOURCE
+> Task :epoxy-databinding:transformResourcesWithMergeJavaResForDebug
+> Task :epoxy-databinding:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :epoxy-databinding:compileDebugNdk NO-SOURCE
+> Task :epoxy-databinding:mergeDebugJniLibFolders
+> Task :epoxy-databinding:transformNativeLibsWithMergeJniLibsForDebug
+> Task :epoxy-databinding:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :epoxy-databinding:transformNativeLibsWithSyncJniLibsForDebug
+> Task :epoxy-databinding:bundleDebugAar
+> Task :epoxy-databinding:compileDebugSources
+> Task :epoxy-databinding:assembleDebug
+> Task :epoxy-adapter:preReleaseBuild UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseAidl NO-SOURCE
+> Task :epoxy-databinding:preReleaseBuild UP-TO-DATE
+> Task :epoxy-databinding:compileReleaseAidl NO-SOURCE
+> Task :epoxy-adapter:compileReleaseRenderscript UP-TO-DATE
+> Task :epoxy-adapter:checkReleaseManifest UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseBuildConfig UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseResValues UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseResources UP-TO-DATE
+> Task :epoxy-adapter:packageReleaseResources UP-TO-DATE
+> Task :epoxy-adapter:processReleaseManifest UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseRFile UP-TO-DATE
+> Task :epoxy-adapter:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:kaptReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseSources UP-TO-DATE
+> Task :epoxy-adapter:javaPreCompileRelease UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :epoxy-adapter:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :epoxy-adapter:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-databinding:compileReleaseRenderscript
+> Task :epoxy-databinding:checkReleaseManifest
+> Task :epoxy-databinding:generateReleaseBuildConfig
+> Task :epoxy-databinding:generateReleaseResValues
+> Task :epoxy-databinding:generateReleaseResources
+> Task :epoxy-databinding:packageReleaseResources
+> Task :epoxy-databinding:processReleaseManifest
+> Task :epoxy-databinding:generateReleaseRFile
+> Task :epoxy-databinding:generateReleaseSources
+> Task :epoxy-databinding:dataBindingExportBuildInfoRelease
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsRelease
+> Task :epoxy-databinding:mergeReleaseResources
+> Task :epoxy-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+> Task :epoxy-databinding:dataBindingGenBaseClassesRelease
+> Task :epoxy-databinding:javaPreCompileRelease
+> Task :epoxy-databinding:compileReleaseJavaWithJavac
+> Task :epoxy-databinding:extractReleaseAnnotations
+> Task :epoxy-databinding:mergeReleaseConsumerProguardFiles
+> Task :epoxy-databinding:mergeReleaseShaders
+> Task :epoxy-databinding:compileReleaseShaders
+> Task :epoxy-databinding:generateReleaseAssets
+> Task :epoxy-databinding:packageReleaseAssets
+> Task :epoxy-databinding:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-databinding:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-databinding:transformResourcesWithMergeJavaResForRelease
+> Task :epoxy-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :epoxy-databinding:compileReleaseNdk NO-SOURCE
+> Task :epoxy-databinding:mergeReleaseJniLibFolders
+> Task :epoxy-databinding:transformNativeLibsWithMergeJniLibsForRelease
+> Task :epoxy-databinding:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :epoxy-databinding:transformNativeLibsWithSyncJniLibsForRelease
+> Task :epoxy-databinding:bundleReleaseAar
+> Task :epoxy-databinding:compileReleaseSources
+> Task :epoxy-databinding:verifyReleaseResources
+> Task :epoxy-databinding:assembleRelease
+> Task :epoxy-databinding:signArchives SKIPPED
+> Task :epoxy-databinding:assemble
+> Task :epoxy-databinding:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 15s
+91 actionable tasks: 59 executed, 32 up-to-date
+
+2019-01-22 19:29:24,818 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-22 19:29:24,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-22 19:29:30,663 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-01-22 19:29:30,663 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-22 19:29:30,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-22 19:30:23,907 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :epoxy-annotations:compileJava UP-TO-DATE
+> Task :epoxy-annotations:processResources NO-SOURCE
+> Task :epoxy-annotations:classes UP-TO-DATE
+> Task :epoxy-annotations:jar UP-TO-DATE
+> Task :epoxy-adapter:preBuild UP-TO-DATE
+> Task :epoxy-adapter:preDebugBuild UP-TO-DATE
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:compileDebugAidl NO-SOURCE
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:compileDebugRenderscript UP-TO-DATE
+> Task :epoxy-adapter:checkDebugManifest UP-TO-DATE
+> Task :epoxy-adapter:generateDebugBuildConfig UP-TO-DATE
+> Task :epoxy-adapter:generateDebugResValues UP-TO-DATE
+> Task :epoxy-adapter:generateDebugResources UP-TO-DATE
+> Task :epoxy-adapter:packageDebugResources UP-TO-DATE
+> Task :epoxy-adapter:processDebugManifest UP-TO-DATE
+> Task :epoxy-adapter:generateDebugRFile UP-TO-DATE
+> Task :epoxy-processor:compileKotlin UP-TO-DATE
+> Task :epoxy-processor:compileJava UP-TO-DATE
+> Task :epoxy-processor:processResources UP-TO-DATE
+> Task :epoxy-processor:classes UP-TO-DATE
+> Task :epoxy-processor:inspectClassesForKotlinIC UP-TO-DATE
+> Task :epoxy-processor:jar UP-TO-DATE
+> Transform epoxy-processor.jar (project :epoxy-processor) with IdentityTransform
+> Task :epoxy-adapter:prepareLintJar UP-TO-DATE
+> Task :epoxy-adapter:kaptGenerateStubsDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:kaptDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:compileDebugKotlin UP-TO-DATE
+> Task :epoxy-adapter:generateDebugSources UP-TO-DATE
+> Task :epoxy-adapter:javaPreCompileDebug UP-TO-DATE
+> Task :epoxy-adapter:compileDebugJavaWithJavac UP-TO-DATE
+> Task :epoxy-adapter:processDebugJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :epoxy-databinding:preBuild UP-TO-DATE
+> Task :epoxy-databinding:preDebugBuild UP-TO-DATE
+> Task :epoxy-databinding:compileDebugAidl NO-SOURCE
+> Task :epoxy-adapter:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-databinding:compileDebugRenderscript UP-TO-DATE
+> Task :epoxy-databinding:checkDebugManifest UP-TO-DATE
+> Task :epoxy-databinding:generateDebugBuildConfig UP-TO-DATE
+> Task :epoxy-databinding:generateDebugResValues UP-TO-DATE
+> Task :epoxy-databinding:generateDebugResources UP-TO-DATE
+> Task :epoxy-databinding:packageDebugResources UP-TO-DATE
+> Task :epoxy-databinding:processDebugManifest UP-TO-DATE
+> Task :epoxy-databinding:generateDebugRFile UP-TO-DATE
+> Task :epoxy-databinding:prepareLintJar UP-TO-DATE
+> Task :epoxy-databinding:generateDebugSources UP-TO-DATE
+> Task :epoxy-databinding:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :epoxy-databinding:mergeDebugResources UP-TO-DATE
+> Task :epoxy-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :epoxy-databinding:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :epoxy-databinding:javaPreCompileDebug UP-TO-DATE
+> Task :epoxy-databinding:compileDebugJavaWithJavac UP-TO-DATE
+> Task :epoxy-databinding:processDebugJavaRes NO-SOURCE
+> Task :epoxy-databinding:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :epoxy-integrationtest:checkDebugClasspath
+> Task :epoxy-integrationtest:preBuild UP-TO-DATE
+> Task :epoxy-paging:preBuild UP-TO-DATE
+> Task :epoxy-paging:preDebugBuild UP-TO-DATE
+> Task :epoxy-paging:checkDebugManifest
+> Task :epoxy-paging:processDebugManifest
+> Task :epoxy-integrationtest:preDebugBuild
+> Task :epoxy-paging:compileDebugAidl NO-SOURCE
+> Task :epoxy-integrationtest:compileDebugAidl NO-SOURCE
+> Task :epoxy-databinding:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-paging:packageDebugRenderscript NO-SOURCE
+> Task :epoxy-integrationtest:compileDebugRenderscript
+> Task :epoxy-integrationtest:checkDebugManifest
+> Task :epoxy-integrationtest:generateDebugBuildConfig
+> Task :epoxy-integrationtest:prepareLintJar
+> Task :epoxy-integrationtest:mainApkListPersistenceDebug
+> Task :epoxy-integrationtest:generateDebugResValues
+> Task :epoxy-integrationtest:generateDebugResources
+> Task :epoxy-paging:compileDebugRenderscript
+> Task :epoxy-paging:generateDebugResValues
+> Task :epoxy-paging:generateDebugResources
+> Task :epoxy-paging:packageDebugResources
+> Task :epoxy-integrationtest:mergeDebugResources
+> Task :epoxy-integrationtest:createDebugCompatibleScreenManifests
+> Task :epoxy-integrationtest:processDebugManifest
+> Task :epoxy-integrationtest:splitsDiscoveryTaskDebug
+> Task :epoxy-paging:generateDebugRFile
+> Task :epoxy-integrationtest:processDebugResources
+> Task :epoxy-integrationtest:generateDebugSources
+> Task :epoxy-integrationtest:dataBindingExportBuildInfoDebug
+> Task :epoxy-integrationtest:dataBindingMergeDependencyArtifactsDebug
+> Task :epoxy-integrationtest:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :epoxy-integrationtest:dataBindingGenBaseClassesDebug
+> Task :epoxy-integrationtest:dataBindingExportFeaturePackageIdsDebug
+> Task :epoxy-paging:generateDebugBuildConfig
+> Task :epoxy-paging:kaptGenerateStubsDebugKotlin
+> Task :epoxy-paging:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (58, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
+> Task :epoxy-paging:compileDebugKotlin
+> Task :epoxy-paging:prepareLintJar
+> Task :epoxy-paging:generateDebugSources
+> Task :epoxy-paging:javaPreCompileDebug
+> Task :epoxy-paging:compileDebugJavaWithJavac
+> Task :epoxy-paging:processDebugJavaRes NO-SOURCE
+> Task :epoxy-paging:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :epoxy-integrationtest:kaptGenerateStubsDebugKotlin
+> Task :epoxy-integrationtest:kaptDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (97, 26): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (98, 24): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
+> Task :epoxy-integrationtest:compileDebugKotlin
+> Task :epoxy-integrationtest:javaPreCompileDebug
+
+> Task :epoxy-integrationtest:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-integrationtest:compileDebugNdk NO-SOURCE
+> Task :epoxy-integrationtest:compileDebugSources
+> Task :epoxy-adapter:mergeDebugShaders UP-TO-DATE
+> Task :epoxy-adapter:compileDebugShaders UP-TO-DATE
+> Task :epoxy-adapter:generateDebugAssets UP-TO-DATE
+> Task :epoxy-adapter:packageDebugAssets UP-TO-DATE
+> Task :epoxy-databinding:mergeDebugShaders UP-TO-DATE
+> Task :epoxy-databinding:compileDebugShaders UP-TO-DATE
+> Task :epoxy-databinding:generateDebugAssets UP-TO-DATE
+> Task :epoxy-databinding:packageDebugAssets UP-TO-DATE
+> Task :epoxy-integrationtest:mergeDebugShaders
+> Task :epoxy-integrationtest:compileDebugShaders
+> Task :epoxy-integrationtest:generateDebugAssets
+> Task :epoxy-paging:mergeDebugShaders
+> Task :epoxy-paging:compileDebugShaders
+> Task :epoxy-paging:generateDebugAssets
+> Task :epoxy-paging:packageDebugAssets
+> Task :epoxy-integrationtest:mergeDebugAssets
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.71/d9717625bb3c731561251f8dd2c67a1011d6764c/kotlin-stdlib-1.2.71.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+> Task :epoxy-integrationtest:transformClassesWithDexBuilderForDebug
+> Task :epoxy-integrationtest:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :epoxy-integrationtest:transformDexArchiveWithDexMergerForDebug
+> Transform epoxy-annotations.jar (project :epoxy-annotations) with IdentityTransform
+> Task :epoxy-adapter:compileDebugNdk NO-SOURCE
+> Task :epoxy-adapter:mergeDebugJniLibFolders UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :epoxy-databinding:compileDebugNdk NO-SOURCE
+> Task :epoxy-databinding:mergeDebugJniLibFolders UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :epoxy-integrationtest:mergeDebugJniLibFolders
+> Task :epoxy-paging:compileDebugNdk NO-SOURCE
+> Task :epoxy-paging:mergeDebugJniLibFolders
+> Task :epoxy-paging:transformNativeLibsWithMergeJniLibsForDebug
+> Task :epoxy-paging:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :epoxy-paging:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :epoxy-integrationtest:transformNativeLibsWithMergeJniLibsForDebug
+> Task :epoxy-integrationtest:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :epoxy-integrationtest:checkDebugLibraries
+> Task :epoxy-integrationtest:processDebugJavaRes NO-SOURCE
+> Task :epoxy-integrationtest:transformResourcesWithMergeJavaResForDebug
+> Task :epoxy-integrationtest:validateSigningDebug
+> Task :epoxy-integrationtest:packageDebug
+> Task :epoxy-integrationtest:assembleDebug
+> Task :epoxy-adapter:preReleaseBuild UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseAidl NO-SOURCE
+> Task :epoxy-adapter:compileReleaseRenderscript UP-TO-DATE
+> Task :epoxy-adapter:checkReleaseManifest UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseBuildConfig UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseResValues UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseResources UP-TO-DATE
+> Task :epoxy-adapter:packageReleaseResources UP-TO-DATE
+> Task :epoxy-adapter:processReleaseManifest UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseRFile UP-TO-DATE
+> Task :epoxy-adapter:kaptGenerateStubsReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:kaptReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseKotlin UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseSources UP-TO-DATE
+> Task :epoxy-adapter:javaPreCompileRelease UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :epoxy-adapter:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-adapter:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :epoxy-databinding:preReleaseBuild UP-TO-DATE
+> Task :epoxy-databinding:compileReleaseAidl NO-SOURCE
+> Task :epoxy-adapter:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-databinding:compileReleaseRenderscript UP-TO-DATE
+> Task :epoxy-databinding:checkReleaseManifest UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseBuildConfig UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseResValues UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseResources UP-TO-DATE
+> Task :epoxy-databinding:packageReleaseResources UP-TO-DATE
+> Task :epoxy-databinding:processReleaseManifest UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseRFile UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseSources UP-TO-DATE
+> Task :epoxy-databinding:dataBindingExportBuildInfoRelease UP-TO-DATE
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsRelease UP-TO-DATE
+> Task :epoxy-databinding:mergeReleaseResources UP-TO-DATE
+> Task :epoxy-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease UP-TO-DATE
+> Task :epoxy-databinding:dataBindingGenBaseClassesRelease UP-TO-DATE
+> Task :epoxy-databinding:javaPreCompileRelease UP-TO-DATE
+> Task :epoxy-databinding:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :epoxy-databinding:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-databinding:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :epoxy-integrationtest:checkReleaseClasspath
+> Task :epoxy-paging:preReleaseBuild UP-TO-DATE
+> Task :epoxy-paging:checkReleaseManifest
+> Task :epoxy-paging:processReleaseManifest
+> Task :epoxy-integrationtest:preReleaseBuild
+> Task :epoxy-paging:compileReleaseAidl NO-SOURCE
+> Task :epoxy-integrationtest:compileReleaseAidl NO-SOURCE
+> Task :epoxy-databinding:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-paging:packageReleaseRenderscript NO-SOURCE
+> Task :epoxy-integrationtest:compileReleaseRenderscript
+> Task :epoxy-integrationtest:checkReleaseManifest
+> Task :epoxy-integrationtest:generateReleaseBuildConfig
+> Task :epoxy-integrationtest:mainApkListPersistenceRelease
+> Task :epoxy-integrationtest:generateReleaseResValues
+> Task :epoxy-integrationtest:generateReleaseResources
+> Task :epoxy-paging:compileReleaseRenderscript
+> Task :epoxy-paging:generateReleaseResValues
+> Task :epoxy-paging:generateReleaseResources
+> Task :epoxy-paging:packageReleaseResources
+> Task :epoxy-integrationtest:mergeReleaseResources
+> Task :epoxy-integrationtest:createReleaseCompatibleScreenManifests
+> Task :epoxy-integrationtest:processReleaseManifest
+> Task :epoxy-integrationtest:splitsDiscoveryTaskRelease
+> Task :epoxy-paging:generateReleaseRFile
+> Task :epoxy-integrationtest:processReleaseResources
+> Task :epoxy-integrationtest:generateReleaseSources
+> Task :epoxy-integrationtest:dataBindingExportBuildInfoRelease
+> Task :epoxy-integrationtest:dataBindingMergeDependencyArtifactsRelease
+> Task :epoxy-integrationtest:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForRelease
+> Task :epoxy-integrationtest:dataBindingGenBaseClassesRelease
+> Task :epoxy-integrationtest:dataBindingExportFeaturePackageIdsRelease
+> Task :epoxy-paging:generateReleaseBuildConfig
+> Task :epoxy-paging:kaptGenerateStubsReleaseKotlin
+> Task :epoxy-paging:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (58, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
+> Task :epoxy-paging:compileReleaseKotlin
+> Task :epoxy-paging:generateReleaseSources
+> Task :epoxy-paging:javaPreCompileRelease
+> Task :epoxy-paging:compileReleaseJavaWithJavac
+> Task :epoxy-paging:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-paging:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :epoxy-integrationtest:kaptGenerateStubsReleaseKotlin
+> Task :epoxy-integrationtest:kaptReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (97, 26): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (98, 24): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
+> Task :epoxy-integrationtest:compileReleaseKotlin
+> Task :epoxy-integrationtest:javaPreCompileRelease
+
+> Task :epoxy-integrationtest:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-integrationtest:compileReleaseNdk NO-SOURCE
+> Task :epoxy-integrationtest:compileReleaseSources
+> Task :epoxy-integrationtest:lintVitalRelease
+> Task :epoxy-adapter:mergeReleaseShaders UP-TO-DATE
+> Task :epoxy-adapter:compileReleaseShaders UP-TO-DATE
+> Task :epoxy-adapter:generateReleaseAssets UP-TO-DATE
+> Task :epoxy-adapter:packageReleaseAssets UP-TO-DATE
+> Task :epoxy-databinding:mergeReleaseShaders UP-TO-DATE
+> Task :epoxy-databinding:compileReleaseShaders UP-TO-DATE
+> Task :epoxy-databinding:generateReleaseAssets UP-TO-DATE
+> Task :epoxy-databinding:packageReleaseAssets UP-TO-DATE
+> Task :epoxy-integrationtest:mergeReleaseShaders
+> Task :epoxy-integrationtest:compileReleaseShaders
+> Task :epoxy-integrationtest:generateReleaseAssets
+> Task :epoxy-paging:mergeReleaseShaders
+> Task :epoxy-paging:compileReleaseShaders
+> Task :epoxy-paging:generateReleaseAssets
+> Task :epoxy-paging:packageReleaseAssets
+> Task :epoxy-integrationtest:mergeReleaseAssets
+> Task :epoxy-integrationtest:transformClassesWithDexBuilderForRelease
+> Task :epoxy-integrationtest:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :epoxy-integrationtest:transformDexArchiveWithDexMergerForRelease
+> Task :epoxy-adapter:compileReleaseNdk NO-SOURCE
+> Task :epoxy-adapter:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :epoxy-adapter:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :epoxy-databinding:compileReleaseNdk NO-SOURCE
+> Task :epoxy-databinding:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :epoxy-databinding:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :epoxy-integrationtest:mergeReleaseJniLibFolders
+> Task :epoxy-paging:compileReleaseNdk NO-SOURCE
+> Task :epoxy-paging:mergeReleaseJniLibFolders
+> Task :epoxy-paging:transformNativeLibsWithMergeJniLibsForRelease
+> Task :epoxy-paging:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :epoxy-paging:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :epoxy-integrationtest:transformNativeLibsWithMergeJniLibsForRelease
+> Task :epoxy-integrationtest:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :epoxy-integrationtest:checkReleaseLibraries
+> Task :epoxy-integrationtest:processReleaseJavaRes NO-SOURCE
+> Task :epoxy-integrationtest:transformResourcesWithMergeJavaResForRelease
+> Task :epoxy-integrationtest:packageRelease
+> Task :epoxy-integrationtest:assembleRelease
+> Task :epoxy-integrationtest:assemble
+> Task :epoxy-integrationtest:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 52s
+205 actionable tasks: 118 executed, 87 up-to-date
+
+2019-01-22 19:30:24,212 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548160088656-0/src/epoxy-master/epoxy-integrationtest/build/outputs/apk/release/epoxy-integrationtest-release-unsigned.apk

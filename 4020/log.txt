@@ -1,0 +1,28 @@
+2016-08-03 01:55:35,611 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/tbroyer/gradle-errorprone-plugin/archive/master.zip", attempt 3
+2016-08-03 01:55:37,766 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/tbroyer/gradle-errorprone-plugin/archive/master.zip, attempt 3
+2016-08-03 01:55:38,139 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/4020/master.zip' into '/tmp/rdisk/4020/src'.
+2016-08-03 01:55:38,182 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 95 KB
+2016-08-03 01:55:38,187 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/4020/src]
+2016-08-03 01:55:38,279 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/gradlew
+2016-08-03 01:55:38,289 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle
+2016-08-03 01:55:38,296 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/settings.gradle
+2016-08-03 01:55:38,306 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-03 01:55:38,307 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-03 01:55:38,329 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-03 01:55:38,329 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-03 01:55:38,333 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-03 01:55:38,335 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-03 01:55:38,339 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-03 01:55:38,341 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-03 01:55:38,372 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/local.properties
+2016-08-03 01:55:38,388 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: false (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2016-08-03 01:55:38,403 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-03 01:55:38,418 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-03 01:55:38,424 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-03 01:55:38,433 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-03 01:55:38,434 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4020/src/gradle-errorprone-plugin-master/gradlew, -b, /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle, tasks]
+2016-08-03 01:57:09,854 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 51
+2016-08-03 01:57:09,860 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-03 01:57:09,862 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4020/src/gradle-errorprone-plugin-master/gradlew, -b, /tmp/rdisk/4020/src/gradle-errorprone-plugin-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-03 01:57:20,984 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-03 01:57:20,999 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

@@ -1,0 +1,403 @@
+2019-01-28 11:03:55,584 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/master.zip", attempt 3
+2019-01-28 11:04:01,058 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/master.zip", attempt 2
+2019-01-28 11:04:06,944 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/master.zip", attempt 1
+2019-01-28 11:05:07,203 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-01-28 11:05:08,891 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-01-28 11:05:08,892 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/develop.zip", attempt 3
+2019-01-28 11:06:10,501 DEBUG FullProcessService - Repository https://github.com/Automattic/simplenote-android available: true
+2019-01-28 11:06:10,501 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-01-28 11:06:10,501 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Automattic/simplenote-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src]
+2019-01-28 11:06:14,632 INFO  SysUtils - 
+2019-01-28 11:06:14,646 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/.git": true
+2019-01-28 11:06:14,658 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-01-28 11:06:14,658 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src]
+2019-01-28 11:06:14,676 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/.git/
+
+2019-01-28 11:06:14,684 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/gradlew
+2019-01-28 11:06:14,693 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/build.gradle
+2019-01-28 11:06:14,702 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build.gradle
+2019-01-28 11:06:14,702 INFO  ProjectBuildService - Remote scripts: none
+2019-01-28 11:06:14,702 INFO  ProjectFixService - Fixing project...
+2019-01-28 11:06:14,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/local.properties
+2019-01-28 11:06:14,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-01-28 11:06:14,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/local.properties
+2019-01-28 11:06:14,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=20,targetSdkVersion=27]
+2019-01-28 11:06:14,722 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/local.properties
+2019-01-28 11:06:14,722 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-01-28 11:06:14,722 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-01-28 11:06:14,723 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-01-28 11:06:14,723 INFO  ProjectFixService - Project was maybe fixed
+2019-01-28 11:06:14,723 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-28 11:06:14,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-28 11:06:23,322 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-01-28 11:06:23,322 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-28 11:06:23,322 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-28 11:07:16,013 INFO  SysUtils - Configuration on demand is an incubating feature.
+:Simplenote:preBuild UP-TO-DATE
+:Simplenote:preDebugBuild
+:Simplenote:compileDebugAidl
+:Simplenote:compileDebugRenderscript
+:Simplenote:checkDebugManifest
+:Simplenote:generateCrashlyticsConfig
+:Simplenote:generateDebugBuildConfig
+:Simplenote:prepareLintJar
+:Simplenote:mainApkListPersistenceDebug
+:Simplenote:mergeDebugShaders
+:Simplenote:compileDebugShaders
+:Simplenote:generateDebugAssets
+:Simplenote:mergeDebugAssets
+:Simplenote:createDebugCompatibleScreenManifests
+:Simplenote:processDebugManifest
+:Simplenote:fabricGenerateResourcesDebug
+:Simplenote:generateDebugResValues
+:Simplenote:generateDebugResources
+:Simplenote:mergeDebugResources
+:Simplenote:splitsDiscoveryTaskDebug
+:Simplenote:processDebugResources
+:Simplenote:generateDebugSources
+:Simplenote:javaPreCompileDebug
+:Simplenote:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:Simplenote:compileDebugNdk NO-SOURCE
+:Simplenote:compileDebugSources
+:Simplenote:transformClassesWithDexBuilderForDebug
+:Simplenote:transformDexArchiveWithExternalLibsDexMergerForDebug
+:Simplenote:transformDexArchiveWithDexMergerForDebug
+:Simplenote:mergeDebugJniLibFolders
+:Simplenote:transformNativeLibsWithMergeJniLibsForDebug
+:Simplenote:transformNativeLibsWithStripDebugSymbolForDebug
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:Simplenote:processDebugJavaRes NO-SOURCE
+:Simplenote:transformResourcesWithMergeJavaResForDebug
+:Simplenote:validateSigningDebug
+:Simplenote:packageDebug
+:Simplenote:assembleDebug
+:Simplenote:extractProguardFiles
+:Simplenote:preReleaseBuild
+:Simplenote:compileReleaseAidl
+:Simplenote:compileReleaseRenderscript
+:Simplenote:checkReleaseManifest
+:Simplenote:generateReleaseBuildConfig
+:Simplenote:mainApkListPersistenceRelease
+:Simplenote:mergeReleaseShaders
+:Simplenote:compileReleaseShaders
+:Simplenote:generateReleaseAssets
+:Simplenote:mergeReleaseAssets
+:Simplenote:createReleaseCompatibleScreenManifests
+:Wear:preBuild UP-TO-DATE
+:Wear:extractProguardFiles
+:Wear:preReleaseBuild
+:Wear:compileReleaseAidl
+:Wear:compileReleaseRenderscript
+:Wear:checkReleaseManifest
+:Wear:generateReleaseBuildConfig
+:Wear:prepareLintJar
+:Wear:mainApkListPersistenceRelease
+:Wear:generateReleaseResValues
+:Wear:generateReleaseResources
+:Wear:mergeReleaseResources
+:Wear:createReleaseCompatibleScreenManifests
+:Wear:processReleaseManifest
+:Wear:splitsDiscoveryTaskRelease
+:Wear:processReleaseResources
+:Wear:generateReleaseSources
+:Wear:javaPreCompileRelease
+:Wear:compileReleaseJavaWithJavac
+:Wear:mergeReleaseShaders
+:Wear:compileReleaseShaders
+:Wear:generateReleaseAssets
+:Wear:mergeReleaseAssets
+:Wear:processReleaseJavaRes NO-SOURCE
+:Wear:transformResourcesWithMergeJavaResForRelease
+:Wear:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/wearable-2.3.0.aar/c4a1fc5990fbc3e0d180411f2ae4220f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-wearable-15.0.1.aar/f6732e69649e4b42b9af96752991ac89/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/56915eec815ec57c348633439dc8ee19/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/92aa0397258535d80569b9dfea4f0720/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/f97dd7450e134c97aa8d378ab8ce3e54/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/a1837e95192de0fef17d24ba39f69771/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/07adcbbe2aab962004acccb5ac50168a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4c1f025a8c6953ef7140c214e67db062/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/e050dad7c98f0e931bf7739966c38171/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/08ff4c78808d360e2d234fc503d08785/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a6d5791c593b6dd201452567b30d5bf4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/dac0929036705c38f7c53e8105467159/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8132f3f7c1e1b13504a2b649cd046fc6/jars/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.android.wearable/wearable/2.3.0/c992787c16c39fdea0042bb10ff7873fee224c0a/wearable-2.3.0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
+Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
+Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.api.internal.LifecycleCallback { com.google.android.gms.common.api.internal.LifecycleFragment getChimeraLifecycleFragmentImpl(com.google.android.gms.common.api.internal.LifecycleActivity); }', but not the descriptor class 'com.google.android.gms.common.api.internal.LifecycleActivity'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.images.internal.LoadingImageView { void setOnImageLoadedListener(com.google.android.gms.common.images.ImageManager$OnImageLoadedListener); }', but not the descriptor class 'com.google.android.gms.common.images.ImageManager$OnImageLoadedListener'
+Note: the configuration keeps the entry point 'com.google.android.gms.common.images.internal.LoadingImageView { void setClipPathProvider(com.google.android.gms.common.images.internal.LoadingImageView$ClipPathProvider); }', but not the descriptor class 'com.google.android.gms.common.images.internal.LoadingImageView$ClipPathProvider'
+Note: there were 1 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 references to unknown class members.
+      You should check your configuration for typos.
+Note: there were 3 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Note: there were 1 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4616
+  Final number of library classes:    1194
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 2842
+  Final number of program classes:    940
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/wearable-2.3.0.aar/c4a1fc5990fbc3e0d180411f2ae4220f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-wearable-15.0.1.aar/f6732e69649e4b42b9af96752991ac89/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/percent-26.0.2.aar/56915eec815ec57c348633439dc8ee19/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-26.0.2.aar/92aa0397258535d80569b9dfea4f0720/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.0.2.aar/f97dd7450e134c97aa8d378ab8ce3e54/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.0.2.aar/a1837e95192de0fef17d24ba39f69771/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-26.0.2.aar/07adcbbe2aab962004acccb5ac50168a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.0.2.aar/4c1f025a8c6953ef7140c214e67db062/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.0.2.aar/e050dad7c98f0e931bf7739966c38171/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-26.0.2.aar/08ff4c78808d360e2d234fc503d08785/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.0.2/8b68a849722b44f584e2d68c451c5e3844c10380/support-annotations-26.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a6d5791c593b6dd201452567b30d5bf4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/dac0929036705c38f7c53e8105467159/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8132f3f7c1e1b13504a2b649cd046fc6/jars/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Wear/build/outputs/mapping/release/dump.txt]...
+:Wear:transformClassesWithDexBuilderForRelease
+:Wear:transformDexArchiveWithDexMergerForRelease
+:Wear:compileReleaseNdk NO-SOURCE
+:Wear:mergeReleaseJniLibFolders
+:Wear:transformNativeLibsWithMergeJniLibsForRelease
+:Wear:transformNativeLibsWithStripDebugSymbolForRelease
+:Wear:packageRelease
+:Simplenote:handleReleaseMicroApk
+:Simplenote:processReleaseManifest
+:Simplenote:fabricGenerateResourcesRelease
+:Simplenote:generateReleaseResValues
+:Simplenote:generateReleaseResources
+:Simplenote:mergeReleaseResources
+:Simplenote:splitsDiscoveryTaskRelease
+:Simplenote:processReleaseResources
+:Simplenote:generateReleaseSources
+:Simplenote:javaPreCompileRelease
+:Simplenote:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:Simplenote:compileReleaseNdk NO-SOURCE
+:Simplenote:compileReleaseSources
+:Simplenote:processReleaseJavaRes NO-SOURCE
+:Simplenote:transformResourcesWithMergeJavaResForRelease
+:Simplenote:transformClassesAndResourcesWithProguardForRelease
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/simperium-0.7.1.aar/970fa1cf512da01a265bd0676defe5a9/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tracks-1.1.4.aar/6ec751687c1eaf4900f6b0f204b7dd61/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/passcodelock-1.5.1.aar/c7d7a27154ec6d88739a74d732cc852a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/7d76e2346b18282804f64e58e10f7afa/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83381ace5002ca5d2d1837e98142e2ed/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.1.aar/a23b8ed1255af24cbb8d73c2c41eae86/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/de5a926b6f111abf156d289043dfd9a3/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/93d0a78441ede1106d18fc62650afb52/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1ca56cd9f40b0c0db2a43cb10e9cc6bc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/42643e61d964f26030525cd3c26bd1a1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cb9b683599e7d81c31c43536f56a1ef8/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-wearable-15.0.1.aar/f6732e69649e4b42b9af96752991ac89/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anddown-0.4.0.aar/f1fd6232c81629b17b401ab8e53fa564/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/6d4538e94f342611aea0dc317317eac6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/337ea956a088e5b92bcd05d4208556de/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/a8ee24c6b45ba8eeee30c4494cefc656/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.3/52aed89a155265a48984ecc06aa8dec12674edad/androidasync-2.1.3.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/AndroidPinning-1.0.0.aar/abb43a0108a29f79028016805838c466/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a6d5791c593b6dd201452567b30d5bf4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/dac0929036705c38f7c53e8105467159/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8132f3f7c1e1b13504a2b649cd046fc6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/02d062377823bbf16ad1290e96608197/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b7e2ae487fb015af6214e182190e9e8d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/fd00fb8f060c4ef87178be72c654fcff/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ffbc48c63aded8f59c59468f026720d4/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cc45751d7c267c93f47ca9b1fb86d44b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3a585f2d48455f02d42b35ebd1bbaaa7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b62a9733401601e62a623da33b7ecad5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/72bf4fbb7782d40e4f4ca8e3d883ab08/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.4.aar/2ec0051965deb581a6d71d9e246cb680/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/answers-1.4.3.aar/4a5181a94a35cfedb8681f6d9b4758d5/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/d2dcd9cfc22fd5124b6c91363eb1d002/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/1c938bcce382391aa7089f4be4d5817f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0dcb561b34e51c1edd02088e7016f570/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cf721a21a39e5db97f3587f03f8c3e58/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/43215e0d6f257200e6c447cf4aa93a4a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a37d8762b5b721fed8e51dfa27a58daf/jars/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
+Note: the configuration refers to the unknown class 'com.google.android.gms.ads.identifier.AdvertisingIdClient'
+Note: the configuration refers to the unknown class 'com.google.android.gms.ads.identifier.AdvertisingIdClient$Info'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement'
+Note: the configuration refers to the unknown class 'com.google.android.gms.measurement.AppMeasurement$OnEventListener'
+Note: the configuration refers to the unknown class 'com.google.firebase.FirebaseApp'
+      Maybe you meant the fully qualified name 'io.fabric.sdk.android.services.common.FirebaseApp'?
+Note: the configuration refers to the unknown class 'com.google.firebase.FirebaseApp'
+      Maybe you meant the fully qualified name 'io.fabric.sdk.android.services.common.FirebaseApp'?
+Note: com.crashlytics.android.core.CrashlyticsController: can't find dynamically referenced class com.google.firebase.crash.FirebaseCrash
+Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
+Note: io.fabric.sdk.android.FabricKitsFinder: can't find dynamically referenced class com.google.android.gms.ads.AdView
+Note: io.fabric.sdk.android.services.common.AdvertisingInfoReflectionStrategy: can't find dynamically referenced class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
+Note: io.fabric.sdk.android.services.common.AdvertisingInfoReflectionStrategy: can't find dynamically referenced class com.google.android.gms.ads.identifier.AdvertisingIdClient$Info
+Note: io.fabric.sdk.android.services.common.AdvertisingInfoReflectionStrategy: can't find dynamically referenced class com.google.android.gms.ads.identifier.AdvertisingIdClient
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
+Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
+Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
+Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
+Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
+Note: there were 9 references to unknown classes.
+      You should check your configuration for typos.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
+Note: there were 1 references to unknown class members.
+      You should check your configuration for typos.
+Note: there were 11 unresolved dynamic references to classes or interfaces.
+      You should check if you need to specify additional program jars.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1521
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 5111
+  Final number of program classes:    5111
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/simperium-0.7.1.aar/970fa1cf512da01a265bd0676defe5a9/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/tracks-1.1.4.aar/6ec751687c1eaf4900f6b0f204b7dd61/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/passcodelock-1.5.1.aar/c7d7a27154ec6d88739a74d732cc852a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/dexter-5.0.0.aar/7d76e2346b18282804f64e58e10f7afa/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/83381ace5002ca5d2d1837e98142e2ed/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.1.aar/a23b8ed1255af24cbb8d73c2c41eae86/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v14-27.1.1.aar/de5a926b6f111abf156d289043dfd9a3/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/preference-v7-27.1.1.aar/93d0a78441ede1106d18fc62650afb52/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1ca56cd9f40b0c0db2a43cb10e9cc6bc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/42643e61d964f26030525cd3c26bd1a1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cb9b683599e7d81c31c43536f56a1ef8/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-wearable-15.0.1.aar/f6732e69649e4b42b9af96752991ac89/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.11.0/75966e05a49046ca2ae734e5626f28837a8d1e82/okhttp-3.11.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/anddown-0.4.0.aar/f1fd6232c81629b17b401ab8e53fa564/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appauth-0.7.0.aar/6d4538e94f342611aea0dc317317eac6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-2.9.5.aar/337ea956a088e5b92bcd05d4208556de/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customtabs-27.1.1.aar/a8ee24c6b45ba8eeee30c4494cefc656/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/2.1.3/52aed89a155265a48984ecc06aa8dec12674edad/androidasync-2.1.3.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/AndroidPinning-1.0.0.aar/abb43a0108a29f79028016805838c466/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/a6d5791c593b6dd201452567b30d5bf4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/dac0929036705c38f7c53e8105467159/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/play-services-basement-15.0.1.aar/8132f3f7c1e1b13504a2b649cd046fc6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/02d062377823bbf16ad1290e96608197/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b7e2ae487fb015af6214e182190e9e8d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/fd00fb8f060c4ef87178be72c654fcff/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/ffbc48c63aded8f59c59468f026720d4/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/cc45751d7c267c93f47ca9b1fb86d44b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/3a585f2d48455f02d42b35ebd1bbaaa7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/b62a9733401601e62a623da33b7ecad5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/72bf4fbb7782d40e4f4ca8e3d883ab08/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.6.4.aar/2ec0051965deb581a6d71d9e246cb680/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/answers-1.4.3.aar/4a5181a94a35cfedb8681f6d9b4758d5/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/beta-1.2.10.aar/d2dcd9cfc22fd5124b6c91363eb1d002/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/fabric-1.4.4.aar/1c938bcce382391aa7089f4be4d5817f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/0dcb561b34e51c1edd02088e7016f570/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/cf721a21a39e5db97f3587f03f8c3e58/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/43215e0d6f257200e6c447cf4aa93a4a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/a37d8762b5b721fed8e51dfa27a58daf/jars/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/outputs/mapping/release/dump.txt]...
+:Simplenote:transformClassesWithDexBuilderForRelease
+:Simplenote:transformDexArchiveWithDexMergerForRelease
+:Simplenote:mergeReleaseJniLibFolders
+:Simplenote:transformNativeLibsWithMergeJniLibsForRelease
+:Simplenote:transformNativeLibsWithStripDebugSymbolForRelease
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+:Simplenote:packageRelease
+:Simplenote:crashlyticsStoreDeobsRelease
+:Simplenote:crashlyticsUploadDeobsRelease
+:Simplenote:assembleRelease
+:Simplenote:assemble
+:Simplenote:build
+
+BUILD SUCCESSFUL in 52s
+86 actionable tasks: 86 executed
+
+2019-01-28 11:07:16,122 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648235582-0/src/Simplenote/build/generated/res/microapk/release/raw/android_wear_micro_apk.apk

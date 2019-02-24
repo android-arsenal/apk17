@@ -1,0 +1,37 @@
+2016-08-23 06:54:22,170 INFO  c.g.v.a.s.n.DownloadService - Downloading "https://github.com/peter-tackage/assert-rx/archive/master.zip", attempt 3
+2016-08-23 06:54:25,329 INFO  c.g.v.a.s.n.DownloadService - Downloaded https://github.com/peter-tackage/assert-rx/archive/master.zip, attempt 3
+2016-08-23 06:54:25,722 DEBUG o.z.z.ZipUtil - Extracting '/tmp/rdisk/4069/master.zip' into '/tmp/rdisk/4069/src'.
+2016-08-23 06:54:25,757 INFO  c.g.v.a.s.FullProcessService - Size of directory with sources: 107 KB
+2016-08-23 06:54:25,761 INFO  c.g.v.a.u.SysUtils - Execute command: [git, init, /tmp/rdisk/4069/src]
+2016-08-23 06:54:25,887 INFO  c.g.v.a.s.a.ProjectBuildService - Gradle wrapper(s): /tmp/rdisk/4069/src/assert-rx-master/gradlew
+2016-08-23 06:54:25,895 INFO  c.g.v.a.s.a.ProjectBuildService - Build script(s): /tmp/rdisk/4069/src/assert-rx-master/build.gradle /tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle
+2016-08-23 06:54:25,904 INFO  c.g.v.a.s.a.ProjectBuildService - All script(s): /tmp/rdisk/4069/src/assert-rx-master/build.gradle /tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle /tmp/rdisk/4069/src/assert-rx-master/settings.gradle
+2016-08-23 06:54:25,912 INFO  c.g.v.a.s.a.ProjectBuildService - Remote scripts: none
+2016-08-23 06:54:25,913 INFO  c.g.v.a.s.a.ProjectFixService - Fixing project...
+2016-08-23 06:54:25,932 INFO  c.g.v.a.s.AndroidToolsService - ANDROID_HOME: /Users/vbauer/Library/Android/sdk
+2016-08-23 06:54:25,933 INFO  c.g.v.a.s.AndroidToolsService - NDK_HOME: /Users/vbauer/Library/Android/ndk
+2016-08-23 06:54:25,936 INFO  c.g.v.a.s.AndroidToolsService - Available build tools: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-23 06:54:25,939 INFO  c.g.v.a.s.AndroidToolsService - Available build tools after clean up: 19.1.0 20.0.0 21.1.1 21.1.2 22.0.0 22.0.1 23.0.1 23.0.2 23.0.3 24.0.0 24.0.1
+2016-08-23 06:54:25,943 INFO  c.g.v.a.s.AndroidToolsService - Available platforms: 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 7 8 9 24
+2016-08-23 06:54:25,946 INFO  c.g.v.a.s.AndroidToolsService - Available platforms after clean up: 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+2016-08-23 06:54:25,976 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/4069/src/assert-rx-master/local.properties
+2016-08-23 06:54:25,991 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Project uses full gradle wrapper: true (https://services.gradle.org/distributions/gradle-2.14.1-all.zip)
+2016-08-23 06:54:25,993 INFO  c.g.v.a.s.a.f.WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2016-08-23 06:54:26,007 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/4069/src/assert-rx-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-23 06:54:26,025 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/4069/src/assert-rx-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-23 06:54:26,028 INFO  c.g.v.a.s.a.f.LocalPropertiesFixService - Created fake /tmp/rdisk/4069/src/assert-rx-master/samples/local.properties
+2016-08-23 06:54:26,036 INFO  c.g.v.a.s.a.ProjectFixService - Build info for "/tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2016-08-23 06:54:26,036 INFO  c.g.v.a.s.a.ProjectFixService - Fixed build info for "/tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=24,targetSdkVersion=24]
+2016-08-23 06:54:26,038 INFO  c.g.v.a.s.a.ProjectFixService - Project was maybe fixed
+2016-08-23 06:54:26,046 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-23 06:54:26,046 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4069/src/assert-rx-master/gradlew, -b, /tmp/rdisk/4069/src/assert-rx-master/build.gradle, tasks]
+2016-08-23 06:54:33,153 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 43
+2016-08-23 06:54:33,154 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-23 06:54:33,155 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4069/src/assert-rx-master/gradlew, -b, /tmp/rdisk/4069/src/assert-rx-master/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-23 06:54:41,334 INFO  c.g.v.a.s.a.ProjectTaskService - Detecting possible tasks...
+2016-08-23 06:54:41,334 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4069/src/assert-rx-master/gradlew, -b, /tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle, tasks]
+2016-08-23 06:54:47,237 INFO  c.g.v.a.s.a.ProjectTaskService - Detected possible tasks: 38
+2016-08-23 06:54:47,237 INFO  c.g.v.a.s.a.ProjectTaskService - Excluded tasks: test check javadoc
+2016-08-23 06:54:47,237 INFO  c.g.v.a.u.SysUtils - Execute command: [/tmp/rdisk/4069/src/assert-rx-master/gradlew, -b, /tmp/rdisk/4069/src/assert-rx-master/samples/build.gradle, --stacktrace, -x, test, -x, check, -x, javadoc, build]
+2016-08-23 06:54:53,850 ERROR c.g.v.a.s.FullProcessService - Project build has not produced APK file
+2016-08-23 06:54:53,856 ERROR c.g.v.a.s.FullProcessService - Could not find generated or existed APK file

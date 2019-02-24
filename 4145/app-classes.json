@@ -1,0 +1,6 @@
+{
+  "com.inqbarna.tablefixheaders" : [ "BuildConfig", "R", "R$color", "R$dimen", "R$drawable", "R$id", "Recycler", "TableFixHeaders", "TableFixHeaders$1", "TableFixHeaders$Flinger", "TableFixHeaders$TableAdapterDataSetObserver" ],
+  "com.inqbarna.tablefixheaders.adapters" : [ "BaseTableAdapter", "TableAdapter" ],
+  "com.inqbarna.tablefixheaders.samples" : [ "BuildConfig", "FamilyTable", "FamilyTable$1", "FamilyTable$FamilyNexusAdapter", "FamilyTable$Nexus", "FamilyTable$NexusTypes", "MainActivity", "MainActivity$B", "R", "R$attr", "R$color", "R$dimen", "R$drawable", "R$id", "R$layout", "R$string", "R$style", "SimpleTable", "StyleTable", "StyleTable$MyAdapter" ],
+  "com.inqbarna.tablefixheaders.samples.adapters" : [ "MatrixTableAdapter", "SampleTableAdapter" ]
+}

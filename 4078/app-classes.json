@@ -1,0 +1,5 @@
+{
+  "android.app" : [ "IActivityController", "IActivityController$Stub", "IActivityController$Stub$Proxy" ],
+  "com.linkedin.android.testbutler" : [ "AlwaysFinishActivitiesChanger", "AnimationDisabler", "BuildConfig", "ButlerApi", "ButlerApi$Stub", "ButlerApi$Stub$Proxy", "ButlerService", "ButlerService$1", "GsmDataDisabler", "ImmersiveModeConfirmationDisabler", "LocationServicesChanger", "NoDialogActivityController", "PermissionGranter", "R", "R$string", "RotationChanger", "ShowImeWithHardKeyboardHelper", "SpellCheckerDisabler" ],
+  "com.linkedin.android.testbutler.utils" : [ "ExceptionCreator" ]
+}
