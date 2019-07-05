@@ -1,434 +1,57 @@
-2019-01-18 14:34:06,638 INFO  DownloadService - Downloading "https://github.com/drakeet/MultiType/archive/master.zip", attempt 3
-2019-01-18 14:35:07,207 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-18 14:35:08,135 INFO  GithubDownloadService - Default branch of this repository: 3.x
-2019-01-18 14:35:08,135 INFO  DownloadService - Downloading "https://github.com/drakeet/MultiType/archive/3.x.zip", attempt 3
-2019-01-18 14:36:09,458 DEBUG FullProcessService - Repository https://github.com/drakeet/MultiType available: true
-2019-01-18 14:36:09,458 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-18 14:36:09,458 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/drakeet/MultiType, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src]
-2019-01-18 14:36:13,177 INFO  SysUtils - 
-2019-01-18 14:36:13,186 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/.git": true
-2019-01-18 14:36:13,193 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-18 14:36:13,193 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src]
-2019-01-18 14:36:13,210 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/.git/
+2019-07-06 04:55:21,722 INFO  DownloadService - Downloading "https://github.com/drakeet/MultiType/archive/master.zip", attempt 3
+2019-07-06 04:56:22,293 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 04:56:23,112 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 04:56:23,112 INFO  DownloadService - Downloading "https://github.com/drakeet/MultiType/archive/master.zip", attempt 3
+2019-07-06 04:57:24,523 DEBUG FullProcessService - Repository https://github.com/drakeet/MultiType available: true
+2019-07-06 04:57:24,524 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 04:57:24,524 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/drakeet/MultiType, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src]
+2019-07-06 04:57:27,102 INFO  SysUtils - 
+2019-07-06 04:57:27,110 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/.git": true
+2019-07-06 04:57:27,113 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 04:57:27,113 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src]
+2019-07-06 04:57:27,129 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/.git/
 
-2019-01-18 14:36:13,216 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew
-2019-01-18 14:36:13,221 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/build.gradle
-2019-01-18 14:36:13,226 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/settings.gradle
-2019-01-18 14:36:13,227 INFO  ProjectBuildService - Remote scripts: none
-2019-01-18 14:36:13,227 INFO  ProjectFixService - Fixing project...
-2019-01-18 14:36:13,242 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/local.properties
-2019-01-18 14:36:13,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-18 14:36:13,246 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-18 14:36:13,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/local.properties
-2019-01-18 14:36:13,251 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-18 14:36:13,251 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-18 14:36:13,252 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/local.properties
-2019-01-18 14:36:13,255 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-18 14:36:13,255 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-18 14:36:13,256 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/local.properties
-2019-01-18 14:36:13,256 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.3-all.zip
-2019-01-18 14:36:13,257 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.3-bin.zip)
-2019-01-18 14:36:13,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-18 14:36:13,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-18 14:36:13,260 INFO  ProjectFixService - Project was maybe fixed
-2019-01-18 14:36:13,260 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 14:36:13,261 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 14:36:26,510 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-01-18 14:36:26,510 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-18 14:36:26,510 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library-ktx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-18 14:36:43,516 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :library:checkStyle UP-TO-DATE
-> Task :library-ktx:androidSourcesJar
-> Transform print.aar (androidx.print:print:1.0.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with IdentityTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with IdentityTransform
-> Transform core.aar (androidx.core:core:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with IdentityTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with IdentityTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with IdentityTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with IdentityTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with IdentityTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with IdentityTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with IdentityTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with IdentityTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with IdentityTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with IdentityTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with IdentityTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
+2019-07-06 04:57:27,133 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradlew
+2019-07-06 04:57:27,136 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/build.gradle
+2019-07-06 04:57:27,139 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradle/publish-docs.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/settings.gradle
+2019-07-06 04:57:27,140 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 04:57:27,140 INFO  ProjectFixService - Fixing project...
+2019-07-06 04:57:27,149 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/local.properties
+2019-07-06 04:57:27,152 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 04:57:27,152 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 04:57:27,153 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/local.properties
+2019-07-06 04:57:27,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 04:57:27,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 04:57:27,157 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/local.properties
+2019-07-06 04:57:27,157 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-06 04:57:27,157 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-06 04:57:27,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 04:57:27,160 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 04:57:27,161 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 04:57:27,161 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:57:27,161 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:57:36,092 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-06 04:57:36,092 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 04:57:36,092 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 04:58:02,427 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library-ktx:preBuild UP-TO-DATE
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Task :library-ktx:preDebugBuild UP-TO-DATE
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
 > Task :library:compileDebugAidl NO-SOURCE
-> Task :library-ktx:compileDebugAidl NO-SOURCE
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:checkDebugManifest
-> Task :library:compileDebugRenderscript
 > Task :library:generateDebugBuildConfig SKIPPED
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
 > Task :library:processDebugManifest
 > Task :library:generateDebugRFile
+> Task :library:compileDebugKotlin
 > Task :library:prepareLintJar
 > Task :library:generateDebugSources
 > Task :library:javaPreCompileDebug
-> Task :library:compileDebugJavaWithJavac
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library-ktx:compileDebugRenderscript
-> Task :library-ktx:checkDebugManifest
-> Task :library-ktx:generateDebugBuildConfig SKIPPED
-> Task :library-ktx:generateDebugResValues
-> Task :library-ktx:generateDebugResources
-> Task :library-ktx:packageDebugResources
-> Task :library-ktx:processDebugManifest
-> Task :library-ktx:generateDebugRFile
-> Task :library-ktx:compileDebugKotlin
-> Task :library-ktx:prepareLintJar
-> Task :library-ktx:generateDebugSources
-> Task :library-ktx:javaPreCompileDebug
-> Task :library-ktx:compileDebugJavaWithJavac
-> Task :library-ktx:extractDebugAnnotations
-> Task :library-ktx:mergeDebugConsumerProguardFiles
-> Task :library-ktx:mergeDebugShaders
-> Task :library-ktx:compileDebugShaders
-> Task :library-ktx:generateDebugAssets
-> Task :library-ktx:packageDebugAssets
-> Task :library-ktx:packageDebugRenderscript NO-SOURCE
-> Task :library-ktx:processDebugJavaRes NO-SOURCE
-> Task :library-ktx:transformResourcesWithMergeJavaResForDebug
-> Task :library-ktx:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library-ktx:compileDebugNdk NO-SOURCE
-> Task :library-ktx:mergeDebugJniLibFolders
-> Task :library-ktx:transformNativeLibsWithMergeJniLibsForDebug
-> Task :library-ktx:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :library-ktx:transformNativeLibsWithSyncJniLibsForDebug
-> Task :library-ktx:bundleDebugAar
-> Task :library-ktx:compileDebugSources
-> Task :library-ktx:assembleDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:compileReleaseAidl NO-SOURCE
-> Task :library-ktx:preReleaseBuild UP-TO-DATE
-> Task :library-ktx:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript
-> Task :library:checkReleaseManifest
-> Task :library:generateReleaseBuildConfig SKIPPED
-> Task :library:generateReleaseResValues
-> Task :library:generateReleaseResources
-> Task :library:packageReleaseResources
-> Task :library:processReleaseManifest
-> Task :library:generateReleaseRFile
-> Task :library:generateReleaseSources
-> Task :library:javaPreCompileRelease
-> Task :library:compileReleaseJavaWithJavac
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :library-ktx:compileReleaseRenderscript
-> Task :library-ktx:checkReleaseManifest
-> Task :library-ktx:generateReleaseBuildConfig SKIPPED
-> Task :library-ktx:generateReleaseResValues
-> Task :library-ktx:generateReleaseResources
-> Task :library-ktx:packageReleaseResources
-> Task :library-ktx:processReleaseManifest
-> Task :library-ktx:generateReleaseRFile
-> Task :library-ktx:compileReleaseKotlin
-> Task :library-ktx:generateReleaseSources
-> Task :library-ktx:javaPreCompileRelease
-> Task :library-ktx:compileReleaseJavaWithJavac
-> Task :library-ktx:extractReleaseAnnotations
-> Task :library-ktx:mergeReleaseConsumerProguardFiles
-> Task :library-ktx:mergeReleaseShaders
-> Task :library-ktx:compileReleaseShaders
-> Task :library-ktx:generateReleaseAssets
-> Task :library-ktx:packageReleaseAssets
-> Task :library-ktx:packageReleaseRenderscript NO-SOURCE
-> Task :library-ktx:processReleaseJavaRes NO-SOURCE
-> Task :library-ktx:transformResourcesWithMergeJavaResForRelease
-> Task :library-ktx:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library-ktx:compileReleaseNdk NO-SOURCE
-> Task :library-ktx:mergeReleaseJniLibFolders
-> Task :library-ktx:transformNativeLibsWithMergeJniLibsForRelease
-> Task :library-ktx:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :library-ktx:transformNativeLibsWithSyncJniLibsForRelease
-> Task :library-ktx:bundleReleaseAar
-> Task :library-ktx:compileReleaseSources
-> Task :library-ktx:mergeReleaseResources
-> Task :library-ktx:verifyReleaseResources
-> Task :library-ktx:assembleRelease
-> Task :library-ktx:releaseJavadoc NO-SOURCE
-> Task :library-ktx:javadocJar
-> Task :library-ktx:signArchives SKIPPED
-> Task :library-ktx:assemble
-> Task :library-ktx:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 16s
-67 actionable tasks: 66 executed, 1 up-to-date
-
-2019-01-18 14:36:43,554 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 14:36:43,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 14:36:51,236 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-01-18 14:36:51,236 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-01-18 14:36:51,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-01-18 14:37:01,117 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :library:checkStyle UP-TO-DATE
-> Task :library:androidSourcesJar
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with IdentityTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with IdentityTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with IdentityTransform
-> Transform core.aar (androidx.core:core:1.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with IdentityTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with IdentityTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with IdentityTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with IdentityTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with IdentityTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with IdentityTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with IdentityTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with IdentityTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with IdentityTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Task :library:preBuild UP-TO-DATE
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Task :library:preDebugBuild UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Task :library:checkDebugManifest UP-TO-DATE
-> Task :library:compileDebugRenderscript UP-TO-DATE
-> Task :library:generateDebugBuildConfig SKIPPED
-> Task :library:generateDebugResValues UP-TO-DATE
-> Task :library:generateDebugResources UP-TO-DATE
-> Task :library:packageDebugResources UP-TO-DATE
-> Task :library:processDebugManifest UP-TO-DATE
-> Task :library:generateDebugRFile UP-TO-DATE
-> Task :library:prepareLintJar UP-TO-DATE
-> Task :library:generateDebugSources UP-TO-DATE
-> Task :library:javaPreCompileDebug UP-TO-DATE
-> Task :library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :library:compileDebugJavaWithJavac NO-SOURCE
 > Task :library:extractDebugAnnotations
 > Task :library:mergeDebugConsumerProguardFiles
 > Task :library:mergeDebugShaders
@@ -436,10 +59,10 @@ BUILD SUCCESSFUL in 16s
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug
@@ -450,17 +73,18 @@ BUILD SUCCESSFUL in 16s
 > Task :library:assembleDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript UP-TO-DATE
-> Task :library:checkReleaseManifest UP-TO-DATE
+> Task :library:compileReleaseRenderscript NO-SOURCE
+> Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig SKIPPED
-> Task :library:generateReleaseResValues UP-TO-DATE
-> Task :library:generateReleaseResources UP-TO-DATE
-> Task :library:packageReleaseResources UP-TO-DATE
-> Task :library:processReleaseManifest UP-TO-DATE
-> Task :library:generateReleaseRFile UP-TO-DATE
-> Task :library:generateReleaseSources UP-TO-DATE
-> Task :library:javaPreCompileRelease UP-TO-DATE
-> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:processReleaseManifest
+> Task :library:generateReleaseRFile
+> Task :library:compileReleaseKotlin
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac NO-SOURCE
 > Task :library:extractReleaseAnnotations
 > Task :library:mergeReleaseConsumerProguardFiles
 > Task :library:mergeReleaseShaders
@@ -471,7 +95,6 @@ BUILD SUCCESSFUL in 16s
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForRelease
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:compileReleaseNdk NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease
@@ -482,204 +105,129 @@ BUILD SUCCESSFUL in 16s
 > Task :library:verifyReleaseResources
 > Task :library:assembleRelease
 
-> Task :library:releaseJavadoc
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/src/main/java/me/drakeet/multitype/ItemViewBinder.java:195: warning - Tag @link: can't find onBindViewHolder(ViewHolder, Object) in me.drakeet.multitype.ItemViewBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/src/main/java/me/drakeet/multitype/MultiTypeAdapter.java:280: warning - Tag @see: can't find onViewRecycled(ViewHolder) in me.drakeet.multitype.ItemViewBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/src/main/java/me/drakeet/multitype/MultiTypeAdapter.java:300: warning - Tag @see: can't find onFailedToRecycleView(ViewHolder) in me.drakeet.multitype.ItemViewBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/src/main/java/me/drakeet/multitype/MultiTypeAdapter.java:314: warning - Tag @see: can't find onViewAttachedToWindow(ViewHolder) in me.drakeet.multitype.ItemViewBinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/library/src/main/java/me/drakeet/multitype/MultiTypeAdapter.java:328: warning - Tag @see: can't find onViewDetachedFromWindow(ViewHolder) in me.drakeet.multitype.ItemViewBinder
-5 warnings
+> Task :library:dokka
+warning: duplicate source root: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/library/src/main/kotlin
+No documentation for com.drakeet.multitype.ItemViewBinder$onCreateViewHolder(android.view.LayoutInflater, android.view.ViewGroup) (ItemViewBinder.kt:59)
+Unresolved link to .onBindViewHolder in doc comment of com.drakeet.multitype.ItemViewBinder$onFailedToRecycleView(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:155)
+Unresolved link to .onViewDetachedFromWindow in doc comment of com.drakeet.multitype.ItemViewBinder$onViewAttachedToWindow(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:194)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$register(com.drakeet.multitype.ItemViewBinder((com.drakeet.multitype.MultiTypeAdapter.register.T, androidx.recyclerview.widget.RecyclerView.ViewHolder))) (MultiTypeAdapter.kt:64)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$register(kotlin.reflect.KClass((com.drakeet.multitype.MultiTypeAdapter.register.T)), com.drakeet.multitype.ItemViewBinder((com.drakeet.multitype.MultiTypeAdapter.register.T, androidx.recyclerview.widget.RecyclerView.ViewHolder))) (MultiTypeAdapter.kt:68)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$register(kotlin.reflect.KClass((com.drakeet.multitype.MultiTypeAdapter.register.T))) (MultiTypeAdapter.kt:96)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$getItemViewType(kotlin.Int) (MultiTypeAdapter.kt:123)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$onCreateViewHolder(android.view.ViewGroup, kotlin.Int) (MultiTypeAdapter.kt:127)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$onBindViewHolder(androidx.recyclerview.widget.RecyclerView.ViewHolder, kotlin.Int) (MultiTypeAdapter.kt:133)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$onBindViewHolder(androidx.recyclerview.widget.RecyclerView.ViewHolder, kotlin.Int, kotlin.collections.List((kotlin.Any))) (MultiTypeAdapter.kt:137)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$getItemCount() (MultiTypeAdapter.kt:142)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$initialCapacity (MultiTypeAdapter.kt:42)
+No documentation for com.drakeet.multitype.MultiTypeAdapter$types (MultiTypeAdapter.kt:43)
+No documentation for com.drakeet.multitype.MutableTypes$register(com.drakeet.multitype.Type((com.drakeet.multitype.MutableTypes.register.T))) (MutableTypes.kt:31)
+No documentation for com.drakeet.multitype.MutableTypes$initialCapacity (MutableTypes.kt:25)
+No documentation for com.drakeet.multitype.MutableTypes$types (MutableTypes.kt:26)
+No documentation for com.drakeet.multitype.OneToManyEndpoint$withLinker(kotlin.Function2((kotlin.Int, com.drakeet.multitype.OneToManyEndpoint.T, ))) (OneToManyEndpoint.kt:36)
+No documentation for com.drakeet.multitype.OneToManyEndpoint$withKotlinClassLinker(com.drakeet.multitype.KotlinClassLinker((com.drakeet.multitype.OneToManyEndpoint.T))) (OneToManyEndpoint.kt:60)
+No documentation for com.drakeet.multitype.OneToManyEndpoint$withKotlinClassLinker(kotlin.Function2((kotlin.Int, com.drakeet.multitype.OneToManyEndpoint.T, kotlin.reflect.KClass((com.drakeet.multitype.ItemViewBinder((, androidx.recyclerview.widget.RecyclerView.ViewHolder))))))) (OneToManyEndpoint.kt:64)
+No documentation for com.drakeet.multitype.Type$clazz (Type.kt:23)
+No documentation for com.drakeet.multitype.Type$binder (Type.kt:24)
+No documentation for com.drakeet.multitype.Type$linker (Type.kt:25)
+No documentation for com.drakeet.multitype.Types$register(com.drakeet.multitype.Type((com.drakeet.multitype.Types.register.T))) (Types.kt:31)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$hasStableIds(), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:61)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:61)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$notifyItemRangeChanged(kotlin.Int, kotlin.Int), referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$hasStableIds(), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$setHasStableIds(kotlin.Boolean), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.LayoutManager, referenced at com.drakeet.multitype.ItemViewBinder$onViewRecycled(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:137)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView, referenced at com.drakeet.multitype.ItemViewBinder$onViewRecycled(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:137)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ItemAnimator, referenced at com.drakeet.multitype.ItemViewBinder$onFailedToRecycleView(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:155)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$register(java.lang.Class((com.drakeet.multitype.MultiTypeAdapter.register.T)), com.drakeet.multitype.ItemViewBinder((com.drakeet.multitype.MultiTypeAdapter.register.T, androidx.recyclerview.widget.RecyclerView.ViewHolder))) (MultiTypeAdapter.kt:46)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$register(java.lang.Class((com.drakeet.multitype.MultiTypeAdapter.register.T))) (MultiTypeAdapter.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$registerAll(com.drakeet.multitype.Types) (MultiTypeAdapter.kt:101)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$setHasStableIds(kotlin.Boolean), referenced at com.drakeet.multitype.MultiTypeAdapter$getItemId(kotlin.Int) (MultiTypeAdapter.kt:144)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewRecycled(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewRecycled(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:159)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:171)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:189)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:201)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$notifyDataSetChanged(), referenced at com.drakeet.multitype.MultiTypeAdapter$items (MultiTypeAdapter.kt:32)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$hasStableIds(), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:61)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:61)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$itemView, referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$notifyItemRangeChanged(kotlin.Int, kotlin.Int), referenced at com.drakeet.multitype.ItemViewBinder$onBindViewHolder(com.drakeet.multitype.ItemViewBinder.VH, com.drakeet.multitype.ItemViewBinder.T, kotlin.collections.List((kotlin.Any))) (ItemViewBinder.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ViewHolder$getAdapterPosition(), referenced at com.drakeet.multitype.ItemViewBinder$getPosition(androidx.recyclerview.widget.RecyclerView.ViewHolder) (ItemViewBinder.kt:107)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$hasStableIds(), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$NO_ID, referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$setHasStableIds(kotlin.Boolean), referenced at com.drakeet.multitype.ItemViewBinder$getItemId(com.drakeet.multitype.ItemViewBinder.T) (ItemViewBinder.kt:124)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.LayoutManager, referenced at com.drakeet.multitype.ItemViewBinder$onViewRecycled(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:137)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView, referenced at com.drakeet.multitype.ItemViewBinder$onViewRecycled(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:137)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.ItemAnimator, referenced at com.drakeet.multitype.ItemViewBinder$onFailedToRecycleView(com.drakeet.multitype.ItemViewBinder.VH) (ItemViewBinder.kt:155)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$register(java.lang.Class((com.drakeet.multitype.MultiTypeAdapter.register.T)), com.drakeet.multitype.ItemViewBinder((com.drakeet.multitype.MultiTypeAdapter.register.T, androidx.recyclerview.widget.RecyclerView.ViewHolder))) (MultiTypeAdapter.kt:46)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$register(java.lang.Class((com.drakeet.multitype.MultiTypeAdapter.register.T))) (MultiTypeAdapter.kt:77)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView$setAdapter(androidx.recyclerview.widget.RecyclerView.Adapter((androidx.recyclerview.widget.RecyclerView.ViewHolder))), referenced at com.drakeet.multitype.MultiTypeAdapter$registerAll(com.drakeet.multitype.Types) (MultiTypeAdapter.kt:101)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$setHasStableIds(kotlin.Boolean), referenced at com.drakeet.multitype.MultiTypeAdapter$getItemId(kotlin.Int) (MultiTypeAdapter.kt:144)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewRecycled(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewRecycled(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:159)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onFailedToRecycleView(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:171)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewAttachedToWindow(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:189)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView.Adapter.VH), referenced at com.drakeet.multitype.MultiTypeAdapter$onViewDetachedFromWindow(androidx.recyclerview.widget.RecyclerView.ViewHolder) (MultiTypeAdapter.kt:201)
+Can't find node by signature androidx.recyclerview.widget.RecyclerView.Adapter$notifyDataSetChanged(), referenced at com.drakeet.multitype.MultiTypeAdapter$items (MultiTypeAdapter.kt:32)
 
-> Task :library:javadocJar
+> Task :library:docJar
+> Task :library:sourceJar
 > Task :library:signArchives SKIPPED
 > Task :library:assemble
 > Task :library:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 9s
-48 actionable tasks: 30 executed, 18 up-to-date
+BUILD SUCCESSFUL in 25s
+46 actionable tasks: 46 executed
 
-2019-01-18 14:37:01,183 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-18 14:37:01,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-18 14:37:07,918 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-18 14:37:07,919 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-18 14:37:07,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-18 14:37:52,370 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :library:checkStyle UP-TO-DATE
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with IdentityTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with IdentityTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with ExtractAarTransform
-> Transform lifecycle-common.jar (androidx.lifecycle:lifecycle-common:2.0.0) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with ExtractAarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with ExtractAarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with ExtractAarTransform
-> Transform annotation.jar (androidx.annotation:annotation:1.0.1) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with ExtractAarTransform
-> Transform core-common.jar (androidx.arch.core:core-common:2.0.0) with IdentityTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with IdentityTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with IdentityTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with IdentityTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with IdentityTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with IdentityTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with ExtractAarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with ExtractAarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with IdentityTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with ExtractAarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with ExtractAarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with IdentityTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with IdentityTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with IdentityTransform
-> Transform collection.jar (androidx.collection:collection:1.0.0) with IdentityTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with IdentityTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with IdentityTransform
-> Transform core.aar (androidx.core:core:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with IdentityTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with IdentityTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with ExtractAarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with ExtractAarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with ExtractAarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with ExtractAarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with IdentityTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with IdentityTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with IdentityTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with ExtractAarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with ExtractAarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with IdentityTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with IdentityTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with ExtractAarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with ExtractAarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+2019-07-06 04:58:02,456 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:58:02,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:58:09,906 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-06 04:58:09,907 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 04:58:09,907 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 04:58:59,630 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.4.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
 > Task :library:compileDebugAidl NO-SOURCE
-> Transform lifecycle-viewmodel.aar (androidx.lifecycle:lifecycle-viewmodel:2.0.0) with AarTransform
-> Transform localbroadcastmanager.aar (androidx.localbroadcastmanager:localbroadcastmanager:1.0.0) with AarTransform
-> Transform print.aar (androidx.print:print:1.0.0) with AarTransform
-> Transform documentfile.aar (androidx.documentfile:documentfile:1.0.0) with AarTransform
-> Transform core-runtime.aar (androidx.arch.core:core-runtime:2.0.0) with AarTransform
-> Transform lifecycle-livedata-core.aar (androidx.lifecycle:lifecycle-livedata-core:2.0.0) with AarTransform
-> Transform lifecycle-livedata.aar (androidx.lifecycle:lifecycle-livedata:2.0.0) with AarTransform
-> Transform cursoradapter.aar (androidx.cursoradapter:cursoradapter:1.0.0) with AarTransform
-> Transform interpolator.aar (androidx.interpolator:interpolator:1.0.0) with AarTransform
-> Transform versionedparcelable.aar (androidx.versionedparcelable:versionedparcelable:1.0.0) with AarTransform
-> Transform lifecycle-runtime.aar (androidx.lifecycle:lifecycle-runtime:2.0.0) with AarTransform
-> Transform core.aar (androidx.core:core:1.0.0) with AarTransform
-> Transform loader.aar (androidx.loader:loader:1.0.0) with AarTransform
-> Transform asynclayoutinflater.aar (androidx.asynclayoutinflater:asynclayoutinflater:1.0.0) with AarTransform
-> Transform swiperefreshlayout.aar (androidx.swiperefreshlayout:swiperefreshlayout:1.0.0) with AarTransform
-> Transform customview.aar (androidx.customview:customview:1.0.0) with AarTransform
-> Transform slidingpanelayout.aar (androidx.slidingpanelayout:slidingpanelayout:1.0.0) with AarTransform
-> Transform drawerlayout.aar (androidx.drawerlayout:drawerlayout:1.0.0) with AarTransform
-> Transform coordinatorlayout.aar (androidx.coordinatorlayout:coordinatorlayout:1.0.0) with AarTransform
-> Transform viewpager.aar (androidx.viewpager:viewpager:1.0.0) with AarTransform
-> Transform legacy-support-core-utils.aar (androidx.legacy:legacy-support-core-utils:1.0.0) with AarTransform
-> Transform legacy-support-core-ui.aar (androidx.legacy:legacy-support-core-ui:1.0.0) with AarTransform
-> Transform recyclerview.aar (androidx.recyclerview:recyclerview:1.0.0) with AarTransform
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:checkDebugManifest UP-TO-DATE
-> Task :library:compileDebugRenderscript UP-TO-DATE
 > Task :library:generateDebugBuildConfig SKIPPED
 > Task :library:generateDebugResValues UP-TO-DATE
 > Task :library:generateDebugResources UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
 > Task :library:processDebugManifest UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:compileDebugKotlin UP-TO-DATE
 > Task :library:prepareLintJar UP-TO-DATE
 > Task :library:generateDebugSources UP-TO-DATE
 > Task :library:javaPreCompileDebug UP-TO-DATE
-> Task :library:compileDebugJavaWithJavac UP-TO-DATE
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
-> Task :library-ktx:preBuild UP-TO-DATE
-> Transform annotations.jar (org.jetbrains:annotations:13.0) with IdentityTransform
-> Transform kotlin-stdlib-common.jar (org.jetbrains.kotlin:kotlin-stdlib-common:1.3.11) with IdentityTransform
-> Transform kotlin-stdlib.jar (org.jetbrains.kotlin:kotlin-stdlib:1.3.11) with IdentityTransform
-> Task :library-ktx:preDebugBuild UP-TO-DATE
-> Task :library-ktx:compileDebugAidl NO-SOURCE
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :library-ktx:compileDebugRenderscript UP-TO-DATE
-> Task :library-ktx:checkDebugManifest UP-TO-DATE
-> Task :library-ktx:generateDebugBuildConfig SKIPPED
-> Task :library-ktx:generateDebugResValues UP-TO-DATE
-> Task :library-ktx:generateDebugResources UP-TO-DATE
-> Task :library-ktx:packageDebugResources UP-TO-DATE
-> Task :library-ktx:processDebugManifest UP-TO-DATE
-> Task :library-ktx:generateDebugRFile UP-TO-DATE
-> Task :library-ktx:compileDebugKotlin UP-TO-DATE
-> Task :library-ktx:prepareLintJar UP-TO-DATE
-> Task :library-ktx:generateDebugSources UP-TO-DATE
-> Task :library-ktx:javaPreCompileDebug UP-TO-DATE
-> Task :library-ktx:compileDebugJavaWithJavac UP-TO-DATE
-> Task :library-ktx:processDebugJavaRes NO-SOURCE
-> Task :library-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :sample:checkDebugClasspath
+> Task :library:compileDebugJavaWithJavac NO-SOURCE
+> Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :library-ktx:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
 > Task :sample:mainApkListPersistenceDebug
@@ -688,56 +236,49 @@ BUILD SUCCESSFUL in 9s
 > Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
-> Task :sample:splitsDiscoveryTaskDebug
 > Task :sample:processDebugResources
+
 > Task :sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (69, 13): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (76, 16): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (83, 15): Parameter 'view' is never used
+
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
 > Task :sample:javaPreCompileDebug
-
 > Task :sample:compileDebugJavaWithJavac
-
-> Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:compileDebugSources
 > Task :library:mergeDebugShaders UP-TO-DATE
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
 > Task :library:compileDebugShaders UP-TO-DATE
 > Task :library:generateDebugAssets UP-TO-DATE
 > Task :library:packageDebugAssets UP-TO-DATE
-> Task :library-ktx:mergeDebugShaders UP-TO-DATE
-> Task :library-ktx:compileDebugShaders UP-TO-DATE
-> Task :library-ktx:generateDebugAssets UP-TO-DATE
-> Task :library-ktx:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :library:bundleLibRuntimeDebug
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :sample:transformDexArchiveWithDexMergerForDebug
-> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :library-ktx:compileDebugNdk NO-SOURCE
-> Task :library-ktx:mergeDebugJniLibFolders UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForDebug
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:checkDebugLibraries
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:validateSigningDebug
 > Task :sample:packageDebug
 > Task :sample:assembleDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript UP-TO-DATE
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:checkReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseBuildConfig SKIPPED
 > Task :library:generateReleaseResValues UP-TO-DATE
@@ -745,33 +286,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:packageReleaseResources UP-TO-DATE
 > Task :library:processReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseRFile UP-TO-DATE
+> Task :library:compileReleaseKotlin UP-TO-DATE
 > Task :library:generateReleaseSources UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
-> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
-> Task :library-ktx:preReleaseBuild UP-TO-DATE
-> Task :library-ktx:compileReleaseAidl NO-SOURCE
-> Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :library-ktx:compileReleaseRenderscript UP-TO-DATE
-> Task :library-ktx:checkReleaseManifest UP-TO-DATE
-> Task :library-ktx:generateReleaseBuildConfig SKIPPED
-> Task :library-ktx:generateReleaseResValues UP-TO-DATE
-> Task :library-ktx:generateReleaseResources UP-TO-DATE
-> Task :library-ktx:packageReleaseResources UP-TO-DATE
-> Task :library-ktx:processReleaseManifest UP-TO-DATE
-> Task :library-ktx:generateReleaseRFile UP-TO-DATE
-> Task :library-ktx:compileReleaseKotlin UP-TO-DATE
-> Task :library-ktx:generateReleaseSources UP-TO-DATE
-> Task :library-ktx:javaPreCompileRelease UP-TO-DATE
-> Task :library-ktx:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library-ktx:processReleaseJavaRes NO-SOURCE
-> Task :library-ktx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :sample:checkReleaseClasspath
+> Task :library:compileReleaseJavaWithJavac NO-SOURCE
+> Task :library:bundleLibCompileRelease
 > Task :sample:preReleaseBuild
 > Task :sample:compileReleaseAidl NO-SOURCE
-> Task :library-ktx:packageReleaseRenderscript NO-SOURCE
-> Task :sample:compileReleaseRenderscript
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
 > Task :sample:mainApkListPersistenceRelease
@@ -780,51 +303,45 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :sample:splitsDiscoveryTaskRelease
 > Task :sample:processReleaseResources
+
 > Task :sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (69, 13): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (76, 16): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/src/main/kotlin/com/drakeet/multitype/sample/more/MoreApisPlayground.kt: (83, 15): Parameter 'view' is never used
+
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
-
 > Task :sample:compileReleaseJavaWithJavac
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+> Task :library:prepareLintJarForPublish UP-TO-DATE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/80a41c06ef7168ca255463d5ead8fc60/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/22e2853369e5a20808344e97769e86de/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :library:mergeReleaseShaders UP-TO-DATE
 > Task :library:compileReleaseShaders UP-TO-DATE
 > Task :library:generateReleaseAssets UP-TO-DATE
 > Task :library:packageReleaseAssets UP-TO-DATE
-> Task :library-ktx:mergeReleaseShaders UP-TO-DATE
-> Task :library-ktx:compileReleaseShaders UP-TO-DATE
-> Task :library-ktx:generateReleaseAssets UP-TO-DATE
-> Task :library-ktx:packageReleaseAssets UP-TO-DATE
 > Task :sample:mergeReleaseShaders
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :library:bundleLibRuntimeRelease
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
 > Task :sample:transformDexArchiveWithDexMergerForRelease
-> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
 > Task :library:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :library-ktx:compileReleaseNdk NO-SOURCE
-> Task :library-ktx:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-> Task :library-ktx:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForRelease
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:checkReleaseLibraries
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForRelease
 > Task :sample:packageRelease
@@ -832,11 +349,11 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.3/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 43s
-126 actionable tasks: 63 executed, 63 up-to-date
+BUILD SUCCESSFUL in 49s
+89 actionable tasks: 61 executed, 28 up-to-date
 
-2019-01-18 14:37:52,523 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547796846630-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-06 04:58:59,725 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562363721714-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

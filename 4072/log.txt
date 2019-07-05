@@ -1,243 +1,261 @@
-2018-11-11 17:22:23,501 INFO  DownloadService - Downloading "https://github.com/nguyenhoanglam/ImagePicker/archive/master.zip", attempt 3
-2018-11-11 17:22:24,177 INFO  DownloadService - Downloaded https://github.com/nguyenhoanglam/ImagePicker/archive/master.zip, attempt 3
-2018-11-11 17:22:24,177 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/master.zip": 190 KB
-2018-11-11 17:22:24,177 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:22:24,183 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/master.zip: true
-2018-11-11 17:22:24,184 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src'.
-2018-11-11 17:22:24,221 INFO  FullProcessService - Size of directory with sources: 699 KB
-2018-11-11 17:22:24,221 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src]
-2018-11-11 17:22:24,238 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/.git/
+2019-07-06 04:25:17,894 INFO  DownloadService - Downloading "https://github.com/nguyenhoanglam/ImagePicker/archive/master.zip", attempt 3
+2019-07-06 04:26:18,476 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 04:26:19,298 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 04:26:19,298 INFO  DownloadService - Downloading "https://github.com/nguyenhoanglam/ImagePicker/archive/master.zip", attempt 3
+2019-07-06 04:27:20,843 DEBUG FullProcessService - Repository https://github.com/nguyenhoanglam/ImagePicker available: true
+2019-07-06 04:27:20,843 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 04:27:20,843 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nguyenhoanglam/ImagePicker, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src]
+2019-07-06 04:27:22,918 INFO  SysUtils - 
+2019-07-06 04:27:22,925 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/.git": true
+2019-07-06 04:27:22,928 INFO  FullProcessService - Size of directory with sources: 264 KB
+2019-07-06 04:27:22,929 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src]
+2019-07-06 04:27:22,944 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/.git/
 
-2018-11-11 17:22:24,242 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/gradlew
-2018-11-11 17:22:24,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/build.gradle
-2018-11-11 17:22:24,252 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/settings.gradle
-2018-11-11 17:22:24,252 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:22:24,252 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:22:24,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/local.properties
-2018-11-11 17:22:24,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 17:22:24,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/local.properties
-2018-11-11 17:22:24,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 17:22:24,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/local.properties
-2018-11-11 17:22:24,266 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-11 17:22:24,266 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-11 17:22:24,267 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 17:22:24,267 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:22:24,267 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:22:24,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:22:30,215 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-11-11 17:22:30,215 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 17:22:30,215 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 17:22:48,325 INFO  SysUtils - Configuration on demand is an incubating feature.
-:imagepicker:preBuild UP-TO-DATE
-:imagepicker:preDebugBuild UP-TO-DATE
-:imagepicker:compileDebugAidl NO-SOURCE
-:imagepicker:compileDebugRenderscript
-:imagepicker:checkDebugManifest
-:imagepicker:generateDebugBuildConfig
-:imagepicker:generateDebugResValues
-:imagepicker:generateDebugResources
-:imagepicker:packageDebugResources
-:imagepicker:processDebugManifest
-:imagepicker:generateDebugRFile
-:imagepicker:prepareLintJar
-:imagepicker:generateDebugSources
-:imagepicker:javaPreCompileDebug
-:imagepicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/src/main/java/com/nguyenhoanglam/imagepicker/widget/ProgressWheel.java uses or overrides a deprecated API.
+2019-07-06 04:27:22,947 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/gradlew
+2019-07-06 04:27:22,950 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/build.gradle
+2019-07-06 04:27:22,953 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/settings.gradle
+2019-07-06 04:27:22,954 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 04:27:22,954 INFO  ProjectFixService - Fixing project...
+2019-07-06 04:27:22,961 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/local.properties
+2019-07-06 04:27:22,961 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,961 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,962 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/local.properties
+2019-07-06 04:27:22,962 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,962 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,963 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/local.properties
+2019-07-06 04:27:22,963 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-06 04:27:22,963 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-06 04:27:22,964 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,964 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 04:27:22,964 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 04:27:22,964 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:27:22,965 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:27:30,844 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-07-06 04:27:30,844 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 04:27:30,845 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 04:27:45,497 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :imagepicker:preBuild UP-TO-DATE
+> Task :imagepicker:preDebugBuild UP-TO-DATE
+> Task :imagepicker:checkDebugManifest
+> Task :imagepicker:generateDebugBuildConfig
+> Task :imagepicker:generateDebugResValues
+> Task :imagepicker:processDebugManifest
+> Task :imagepicker:prepareLintJar
+> Task :imagepicker:mergeDebugConsumerProguardFiles
+> Task :imagepicker:mergeDebugShaders
+> Task :imagepicker:compileDebugShaders
+> Task :imagepicker:generateDebugAssets
+> Task :imagepicker:packageDebugAssets
+> Task :imagepicker:packageDebugRenderscript NO-SOURCE
+> Task :imagepicker:prepareLintJarForPublish
+> Task :imagepicker:compileDebugAidl NO-SOURCE
+> Task :imagepicker:compileDebugRenderscript NO-SOURCE
+> Task :imagepicker:generateDebugResources
+> Task :imagepicker:packageDebugResources
+> Task :imagepicker:generateDebugRFile
+> Task :imagepicker:generateDebugSources
+> Task :imagepicker:javaPreCompileDebug
+
+> Task :imagepicker:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/src/main/java/com/nguyenhoanglam/imagepicker/widget/ProgressWheel.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:imagepicker:extractDebugAnnotations
-:imagepicker:mergeDebugConsumerProguardFiles
-:imagepicker:mergeDebugShaders
-:imagepicker:compileDebugShaders
-:imagepicker:generateDebugAssets
-:imagepicker:packageDebugAssets
-:imagepicker:packageDebugRenderscript NO-SOURCE
-:imagepicker:processDebugJavaRes NO-SOURCE
-:imagepicker:transformResourcesWithMergeJavaResForDebug
-:imagepicker:transformClassesAndResourcesWithSyncLibJarsForDebug
-:imagepicker:compileDebugNdk NO-SOURCE
-:imagepicker:mergeDebugJniLibFolders
-:imagepicker:transformNativeLibsWithMergeJniLibsForDebug
-:imagepicker:transformNativeLibsWithStripDebugSymbolForDebug
-:imagepicker:transformNativeLibsWithSyncJniLibsForDebug
-:imagepicker:bundleDebugAar
-:imagepicker:compileDebugSources
-:imagepicker:assembleDebug
-:imagepicker:preReleaseBuild UP-TO-DATE
-:imagepicker:compileReleaseAidl NO-SOURCE
-:imagepicker:compileReleaseRenderscript
-:imagepicker:checkReleaseManifest
-:imagepicker:generateReleaseBuildConfig
-:imagepicker:generateReleaseResValues
-:imagepicker:generateReleaseResources
-:imagepicker:packageReleaseResources
-:imagepicker:processReleaseManifest
-:imagepicker:generateReleaseRFile
-:imagepicker:generateReleaseSources
-:imagepicker:javaPreCompileRelease
-:imagepicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/imagepicker/src/main/java/com/nguyenhoanglam/imagepicker/widget/ProgressWheel.java uses or overrides a deprecated API.
+> Task :imagepicker:extractDebugAnnotations
+> Task :imagepicker:processDebugJavaRes NO-SOURCE
+> Task :imagepicker:transformResourcesWithMergeJavaResForDebug
+> Task :imagepicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :imagepicker:mergeDebugJniLibFolders
+> Task :imagepicker:transformNativeLibsWithMergeJniLibsForDebug
+> Task :imagepicker:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :imagepicker:transformNativeLibsWithSyncJniLibsForDebug
+> Task :imagepicker:bundleDebugAar
+> Task :imagepicker:compileDebugSources
+> Task :imagepicker:assembleDebug
+> Task :imagepicker:preReleaseBuild UP-TO-DATE
+> Task :imagepicker:compileReleaseAidl NO-SOURCE
+> Task :imagepicker:compileReleaseRenderscript NO-SOURCE
+> Task :imagepicker:checkReleaseManifest
+> Task :imagepicker:generateReleaseBuildConfig
+> Task :imagepicker:generateReleaseResValues
+> Task :imagepicker:generateReleaseResources
+> Task :imagepicker:packageReleaseResources
+> Task :imagepicker:processReleaseManifest
+> Task :imagepicker:generateReleaseRFile
+> Task :imagepicker:generateReleaseSources
+> Task :imagepicker:javaPreCompileRelease
+
+> Task :imagepicker:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/imagepicker/src/main/java/com/nguyenhoanglam/imagepicker/widget/ProgressWheel.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:imagepicker:extractReleaseAnnotations
-:imagepicker:mergeReleaseConsumerProguardFiles
-:imagepicker:mergeReleaseShaders
-:imagepicker:compileReleaseShaders
-:imagepicker:generateReleaseAssets
-:imagepicker:packageReleaseAssets
-:imagepicker:packageReleaseRenderscript NO-SOURCE
-:imagepicker:processReleaseJavaRes NO-SOURCE
-:imagepicker:transformResourcesWithMergeJavaResForRelease
-:imagepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
-:imagepicker:compileReleaseNdk NO-SOURCE
-:imagepicker:mergeReleaseJniLibFolders
-:imagepicker:transformNativeLibsWithMergeJniLibsForRelease
-:imagepicker:transformNativeLibsWithStripDebugSymbolForRelease
-:imagepicker:transformNativeLibsWithSyncJniLibsForRelease
-:imagepicker:bundleReleaseAar
-:imagepicker:compileReleaseSources
-:imagepicker:mergeReleaseResources
-:imagepicker:verifyReleaseResources
-:imagepicker:assembleRelease
-:imagepicker:assemble
-:imagepicker:build
+> Task :imagepicker:extractReleaseAnnotations
+> Task :imagepicker:mergeReleaseConsumerProguardFiles
+> Task :imagepicker:mergeReleaseShaders
+> Task :imagepicker:compileReleaseShaders
+> Task :imagepicker:generateReleaseAssets
+> Task :imagepicker:packageReleaseAssets
+> Task :imagepicker:packageReleaseRenderscript NO-SOURCE
+> Task :imagepicker:processReleaseJavaRes NO-SOURCE
+> Task :imagepicker:transformResourcesWithMergeJavaResForRelease
+> Task :imagepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :imagepicker:mergeReleaseJniLibFolders
+> Task :imagepicker:transformNativeLibsWithMergeJniLibsForRelease
+> Task :imagepicker:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :imagepicker:transformNativeLibsWithSyncJniLibsForRelease
+> Task :imagepicker:bundleReleaseAar
+> Task :imagepicker:compileReleaseSources
+> Task :imagepicker:mergeReleaseResources
+> Task :imagepicker:verifyReleaseResources
+> Task :imagepicker:assembleRelease
+> Task :imagepicker:assemble
+> Task :imagepicker:build
 
-BUILD SUCCESSFUL in 17s
-45 actionable tasks: 45 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-11-11 17:22:48,405 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:22:48,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:22:55,112 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-11 17:22:55,112 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 17:22:55,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 17:23:23,228 INFO  SysUtils - Configuration on demand is an incubating feature.
-:imagepicker:preBuild UP-TO-DATE
-:imagepicker:preDebugBuild UP-TO-DATE
-:imagepicker:compileDebugAidl NO-SOURCE
-:imagepicker:compileDebugRenderscript UP-TO-DATE
-:imagepicker:checkDebugManifest UP-TO-DATE
-:imagepicker:generateDebugBuildConfig UP-TO-DATE
-:imagepicker:generateDebugResValues UP-TO-DATE
-:imagepicker:generateDebugResources UP-TO-DATE
-:imagepicker:packageDebugResources UP-TO-DATE
-:imagepicker:processDebugManifest UP-TO-DATE
-:imagepicker:generateDebugRFile UP-TO-DATE
-:imagepicker:prepareLintJar UP-TO-DATE
-:imagepicker:generateDebugSources UP-TO-DATE
-:imagepicker:javaPreCompileDebug UP-TO-DATE
-:imagepicker:compileDebugJavaWithJavac UP-TO-DATE
-:imagepicker:processDebugJavaRes NO-SOURCE
-:imagepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:checkDebugClasspath
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl NO-SOURCE
-:imagepicker:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:imagepicker:mergeDebugShaders UP-TO-DATE
-:imagepicker:compileDebugShaders UP-TO-DATE
-:imagepicker:generateDebugAssets UP-TO-DATE
-:imagepicker:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:imagepicker:compileDebugNdk NO-SOURCE
-:imagepicker:mergeDebugJniLibFolders UP-TO-DATE
-:imagepicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:imagepicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:imagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:checkDebugLibraries
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:imagepicker:preReleaseBuild UP-TO-DATE
-:imagepicker:compileReleaseAidl NO-SOURCE
-:imagepicker:compileReleaseRenderscript UP-TO-DATE
-:imagepicker:checkReleaseManifest UP-TO-DATE
-:imagepicker:generateReleaseBuildConfig UP-TO-DATE
-:imagepicker:generateReleaseResValues UP-TO-DATE
-:imagepicker:generateReleaseResources UP-TO-DATE
-:imagepicker:packageReleaseResources UP-TO-DATE
-:imagepicker:processReleaseManifest UP-TO-DATE
-:imagepicker:generateReleaseRFile UP-TO-DATE
-:imagepicker:generateReleaseSources UP-TO-DATE
-:imagepicker:javaPreCompileRelease UP-TO-DATE
-:imagepicker:compileReleaseJavaWithJavac UP-TO-DATE
-:imagepicker:processReleaseJavaRes NO-SOURCE
-:imagepicker:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:checkReleaseClasspath
-:sample:preReleaseBuild
-:sample:compileReleaseAidl NO-SOURCE
-:imagepicker:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:imagepicker:mergeReleaseShaders UP-TO-DATE
-:imagepicker:compileReleaseShaders UP-TO-DATE
-:imagepicker:generateReleaseAssets UP-TO-DATE
-:imagepicker:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:imagepicker:compileReleaseNdk NO-SOURCE
-:imagepicker:mergeReleaseJniLibFolders UP-TO-DATE
-:imagepicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:imagepicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:imagepicker:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:checkReleaseLibraries
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
+BUILD SUCCESSFUL in 14s
+44 actionable tasks: 44 executed
 
-BUILD SUCCESSFUL in 27s
-90 actionable tasks: 59 executed, 31 up-to-date
+2019-07-06 04:27:45,535 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:27:45,535 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:27:51,423 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 04:27:51,423 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 04:27:51,423 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 04:28:20,688 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :imagepicker:preBuild UP-TO-DATE
+> Task :imagepicker:preDebugBuild UP-TO-DATE
+> Task :imagepicker:compileDebugAidl NO-SOURCE
+> Task :imagepicker:checkDebugManifest UP-TO-DATE
+> Task :imagepicker:compileDebugRenderscript NO-SOURCE
+> Task :imagepicker:generateDebugBuildConfig UP-TO-DATE
+> Task :imagepicker:generateDebugResValues UP-TO-DATE
+> Task :imagepicker:generateDebugResources UP-TO-DATE
+> Task :imagepicker:processDebugManifest UP-TO-DATE
+> Task :imagepicker:packageDebugResources UP-TO-DATE
+> Task :imagepicker:generateDebugRFile UP-TO-DATE
+> Task :imagepicker:prepareLintJar UP-TO-DATE
+> Task :imagepicker:generateDebugSources UP-TO-DATE
+> Task :imagepicker:javaPreCompileDebug UP-TO-DATE
+> Task :imagepicker:compileDebugJavaWithJavac UP-TO-DATE
+> Task :imagepicker:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :imagepicker:packageDebugRenderscript NO-SOURCE
+> Task :sample:prepareLintJar
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugSources
+> Task :imagepicker:mergeDebugShaders UP-TO-DATE
+> Task :imagepicker:compileDebugShaders UP-TO-DATE
+> Task :imagepicker:generateDebugAssets UP-TO-DATE
+> Task :imagepicker:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :imagepicker:processDebugJavaRes NO-SOURCE
+> Task :imagepicker:bundleLibResDebug
+> Task :imagepicker:bundleLibRuntimeDebug
+> Task :imagepicker:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :imagepicker:mergeDebugJniLibFolders UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :imagepicker:preReleaseBuild UP-TO-DATE
+> Task :imagepicker:compileReleaseAidl NO-SOURCE
+> Task :imagepicker:compileReleaseRenderscript NO-SOURCE
+> Task :imagepicker:checkReleaseManifest UP-TO-DATE
+> Task :imagepicker:generateReleaseBuildConfig UP-TO-DATE
+> Task :imagepicker:generateReleaseResValues UP-TO-DATE
+> Task :imagepicker:generateReleaseResources UP-TO-DATE
+> Task :imagepicker:packageReleaseResources UP-TO-DATE
+> Task :imagepicker:processReleaseManifest UP-TO-DATE
+> Task :imagepicker:generateReleaseRFile UP-TO-DATE
+> Task :imagepicker:generateReleaseSources UP-TO-DATE
+> Task :imagepicker:javaPreCompileRelease UP-TO-DATE
+> Task :imagepicker:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :imagepicker:bundleLibCompileRelease
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :imagepicker:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseSources
+> Task :imagepicker:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:lintVitalRelease
+> Task :imagepicker:processReleaseJavaRes NO-SOURCE
+> Task :imagepicker:bundleLibResRelease
+> Task :imagepicker:bundleLibRuntimeRelease
+> Task :imagepicker:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :imagepicker:mergeReleaseShaders UP-TO-DATE
+> Task :imagepicker:compileReleaseShaders UP-TO-DATE
+> Task :imagepicker:generateReleaseAssets UP-TO-DATE
+> Task :imagepicker:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :imagepicker:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :imagepicker:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
 
-2018-11-11 17:23:23,385 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931743493-0/src/ImagePicker-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 28s
+91 actionable tasks: 61 executed, 30 up-to-date
+
+2019-07-06 04:28:20,785 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361917892-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

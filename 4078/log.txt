@@ -1,40 +1,40 @@
-2018-12-16 21:23:26,542 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
-2018-12-16 21:24:27,092 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-12-16 21:24:27,928 INFO  GithubDownloadService - Default branch of this repository: master
-2018-12-16 21:24:27,928 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
-2018-12-16 21:25:29,601 DEBUG FullProcessService - Repository https://github.com/linkedin/test-butler available: true
-2018-12-16 21:25:29,601 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-12-16 21:25:29,601 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/linkedin/test-butler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src]
-2018-12-16 21:25:31,454 INFO  SysUtils - 
-2018-12-16 21:25:31,463 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/.git": true
-2018-12-16 21:25:31,467 INFO  FullProcessService - Size of directory with sources: 196 KB
-2018-12-16 21:25:31,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src]
-2018-12-16 21:25:31,485 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/.git/
+2019-07-06 04:10:42,394 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
+2019-07-06 04:11:42,968 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 04:11:44,182 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 04:11:44,182 INFO  DownloadService - Downloading "https://github.com/linkedin/test-butler/archive/master.zip", attempt 3
+2019-07-06 04:12:47,985 DEBUG FullProcessService - Repository https://github.com/linkedin/test-butler available: true
+2019-07-06 04:12:47,985 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 04:12:47,985 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/linkedin/test-butler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src]
+2019-07-06 04:12:50,466 INFO  SysUtils - 
+2019-07-06 04:12:50,473 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/.git": true
+2019-07-06 04:12:50,475 INFO  FullProcessService - Size of directory with sources: 197 KB
+2019-07-06 04:12:50,475 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src]
+2019-07-06 04:12:50,492 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/.git/
 
-2018-12-16 21:25:31,489 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew
-2018-12-16 21:25:31,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle
-2018-12-16 21:25:31,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/settings.gradle
-2018-12-16 21:25:31,497 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:25:31,497 INFO  ProjectFixService - Fixing project...
-2018-12-16 21:25:31,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/local.properties
-2018-12-16 21:25:31,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:25:31,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/local.properties
-2018-12-16 21:25:31,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:25:31,511 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/local.properties
-2018-12-16 21:25:31,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:25:31,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/local.properties
-2018-12-16 21:25:31,513 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2018-12-16 21:25:31,514 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2018-12-16 21:25:31,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:25:31,515 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/local.properties
-2018-12-16 21:25:31,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:25:31,516 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 21:25:31,516 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:25:31,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:25:44,419 INFO  ProjectTaskService - Detected possible tasks: 83
-2018-12-16 21:25:44,419 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 21:25:44,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 21:25:59,297 INFO  SysUtils - > Task :buildSrc:compileJava NO-SOURCE
+2019-07-06 04:12:50,494 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/gradlew
+2019-07-06 04:12:50,497 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/buildSrc/build.gradle
+2019-07-06 04:12:50,500 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/settings.gradle
+2019-07-06 04:12:50,500 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 04:12:50,500 INFO  ProjectFixService - Fixing project...
+2019-07-06 04:12:50,507 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/local.properties
+2019-07-06 04:12:50,509 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 04:12:50,509 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-demo/local.properties
+2019-07-06 04:12:50,510 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-demo/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 04:12:50,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-library/local.properties
+2019-07-06 04:12:50,512 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 04:12:50,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/local.properties
+2019-07-06 04:12:50,512 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
+2019-07-06 04:12:50,513 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
+2019-07-06 04:12:50,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 04:12:50,513 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/buildSrc/local.properties
+2019-07-06 04:12:50,514 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 04:12:50,514 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 04:12:50,514 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:12:50,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:13:05,143 INFO  ProjectTaskService - Detected possible tasks: 84
+2019-07-06 04:13:05,143 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 04:13:05,143 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 04:13:18,971 INFO  SysUtils - > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy UP-TO-DATE
 > Task :buildSrc:processResources NO-SOURCE
 > Task :buildSrc:classes UP-TO-DATE
@@ -139,7 +139,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 13s
 58 actionable tasks: 58 executed
 
-2018-12-16 21:25:59,319 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544970206539-0/src/test-butler-app/build/outputs/apk/release/test-butler-app-release.apk
+2019-07-06 04:13:18,987 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361042390-0/src/test-butler-app/build/outputs/apk/release/test-butler-app-release.apk

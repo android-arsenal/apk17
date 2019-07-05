@@ -1,36 +1,36 @@
-2018-11-11 19:36:12,820 INFO  DownloadService - Downloading "https://github.com/woxblom/DragListView/archive/master.zip", attempt 3
-2018-11-11 19:37:13,448 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-11 19:37:14,495 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-11 19:37:14,495 INFO  DownloadService - Downloading "https://github.com/woxblom/DragListView/archive/master.zip", attempt 3
-2018-11-11 19:38:16,032 DEBUG FullProcessService - Repository https://github.com/woxblom/DragListView available: true
-2018-11-11 19:38:16,032 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-11 19:38:16,032 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/woxblom/DragListView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src]
-2018-11-11 19:38:18,025 INFO  SysUtils - 
-2018-11-11 19:38:18,033 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/.git": true
-2018-11-11 19:38:18,037 INFO  FullProcessService - Size of directory with sources: 299 KB
-2018-11-11 19:38:18,037 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src]
-2018-11-11 19:38:18,057 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/.git/
+2019-07-06 05:37:49,097 INFO  DownloadService - Downloading "https://github.com/woxblom/DragListView/archive/master.zip", attempt 3
+2019-07-06 05:38:49,638 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:38:50,744 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:38:50,744 INFO  DownloadService - Downloading "https://github.com/woxblom/DragListView/archive/master.zip", attempt 3
+2019-07-06 05:39:52,389 DEBUG FullProcessService - Repository https://github.com/woxblom/DragListView available: true
+2019-07-06 05:39:52,389 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:39:52,389 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/woxblom/DragListView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src]
+2019-07-06 05:39:54,351 INFO  SysUtils - 
+2019-07-06 05:39:54,357 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/.git": true
+2019-07-06 05:39:54,360 INFO  FullProcessService - Size of directory with sources: 299 KB
+2019-07-06 05:39:54,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src]
+2019-07-06 05:39:54,374 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/.git/
 
-2018-11-11 19:38:18,061 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/gradlew
-2018-11-11 19:38:18,064 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/build.gradle
-2018-11-11 19:38:18,068 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/maven-publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/settings.gradle
-2018-11-11 19:38:18,068 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 19:38:18,068 INFO  ProjectFixService - Fixing project...
-2018-11-11 19:38:18,079 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/local.properties
-2018-11-11 19:38:18,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-11 19:38:18,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/local.properties
-2018-11-11 19:38:18,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-11 19:38:18,081 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/local.properties
-2018-11-11 19:38:18,081 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-all.zip
-2018-11-11 19:38:18,081 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.2-bin.zip)
-2018-11-11 19:38:18,083 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-11-11 19:38:18,084 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 19:38:18,084 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:38:18,084 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:38:45,532 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-11 19:38:45,533 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 19:38:45,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 19:39:03,694 ERROR SysUtils - Could not process external command
+2019-07-06 05:39:54,377 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/gradlew
+2019-07-06 05:39:54,379 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/build.gradle
+2019-07-06 05:39:54,381 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/maven-publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/settings.gradle
+2019-07-06 05:39:54,381 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 05:39:54,381 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:39:54,387 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/local.properties
+2019-07-06 05:39:54,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 05:39:54,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/local.properties
+2019-07-06 05:39:54,388 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 05:39:54,388 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/local.properties
+2019-07-06 05:39:54,388 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-06 05:39:54,389 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-06 05:39:54,390 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 05:39:54,390 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:39:54,390 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:39:54,390 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:40:02,850 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 05:40:02,850 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 05:40:02,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 05:40:12,584 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,7 +43,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -57,14 +57,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 19:39:03,694 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:40:12,584 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:androidSourcesJar
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript
 > Task :library:checkDebugManifest
 > Task :library:generateDebugBuildConfig
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResValues
 > Task :library:generateDebugResources
 > Task :library:packageDebugResources
@@ -75,7 +75,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :library:javaPreCompileDebug
 
 > Task :library:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -87,21 +87,21 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:generateDebugAssets
 > Task :library:packageDebugAssets
 > Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:prepareLintJarForPublish
 > Task :library:processDebugJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForDebug
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :library:compileDebugNdk NO-SOURCE
 > Task :library:mergeDebugJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :library:transformNativeLibsWithSyncJniLibsForDebug
 > Task :library:bundleDebugAar
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:mergeDebugResources
 > Task :library:compileDebugSources
 > Task :library:assembleDebug
-> Task :library:preReleaseBuild UP-TO-DATE
-> Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript
 > Task :library:checkReleaseManifest
 > Task :library:generateReleaseBuildConfig
 > Task :library:generateReleaseResValues
@@ -113,13 +113,13 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:javaPreCompileRelease
 
 > Task :library:compileReleaseJavaWithJavac
-
-> Task :library:extractReleaseAnnotations
-> Task :library:mergeReleaseConsumerProguardFiles
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/library/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/library/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
+
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseConsumerProguardFiles
 > Task :library:mergeReleaseShaders
 > Task :library:compileReleaseShaders
 > Task :library:generateReleaseAssets
@@ -128,7 +128,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:processReleaseJavaRes NO-SOURCE
 > Task :library:transformResourcesWithMergeJavaResForRelease
 > Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :library:compileReleaseNdk NO-SOURCE
 > Task :library:mergeReleaseJniLibFolders
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease
@@ -151,33 +150,112 @@ Run with --info or --debug option to get more log output. Run with --scan to get
 
 * Exception is:
 org.gradle.api.GradleException: Could not evaluate onlyIf predicate for task ':library:signArchives'.
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:44)
-	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
-	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
-	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:45)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
 	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
-	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
-	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
-	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
-	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
-	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
-	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
-	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
 Caused by: java.lang.IllegalArgumentException: path may not be null or empty string. path=''
 	at org.gradle.api.internal.file.AbstractBaseDirFileResolver.doResolve(AbstractBaseDirFileResolver.java:65)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:89)
-	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:68)
-	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:101)
-	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:861)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:86)
+	at org.gradle.api.internal.file.AbstractFileResolver.resolve(AbstractFileResolver.java:65)
+	at org.gradle.api.internal.file.DefaultFileOperations.file(DefaultFileOperations.java:103)
+	at org.gradle.api.internal.project.DefaultProject.file(DefaultProject.java:867)
 	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.readProperties(PgpSignatoryFactory.java:92)
 	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.createSignatory(PgpSignatoryFactory.java:44)
 	at org.gradle.plugins.signing.signatory.pgp.PgpSignatoryFactory.createSignatory(PgpSignatoryFactory.java:48)
@@ -192,68 +270,67 @@ Caused by: java.lang.IllegalArgumentException: path may not be null or empty str
 	at org.gradle.api.internal.ConventionAwareHelper$MappedPropertyImpl.getValue(ConventionAwareHelper.java:126)
 	at org.gradle.api.internal.ConventionAwareHelper.getConventionValue(ConventionAwareHelper.java:109)
 	at org.gradle.plugins.signing.Sign_Decorated.getSignatory(Unknown Source)
-	at org.gradle.plugins.signing.Sign$3.isSatisfiedBy(Sign.java:99)
-	at org.gradle.plugins.signing.Sign$3.isSatisfiedBy(Sign.java:96)
+	at org.gradle.plugins.signing.Sign.lambda$new$0(Sign.java:73)
 	at org.gradle.api.specs.AndSpec.isSatisfiedBy(AndSpec.java:47)
-	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:42)
-	... 20 more
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:43)
+	... 99 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 17s
-48 actionable tasks: 48 executed
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-11-11 19:39:03,736 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:39:03,737 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:39:10,691 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-11 19:39:10,691 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 19:39:10,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 19:39:47,542 INFO  SysUtils - Configuration on demand is an incubating feature.
+BUILD FAILED in 9s
+47 actionable tasks: 47 executed
+
+2019-07-06 05:40:12,620 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:40:12,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:40:18,437 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 05:40:18,437 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 05:40:18,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 05:40:47,924 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:preBuild UP-TO-DATE
 > Task :library:preDebugBuild UP-TO-DATE
-> Task :library:compileDebugAidl NO-SOURCE
-> Task :library:compileDebugRenderscript UP-TO-DATE
 > Task :library:checkDebugManifest UP-TO-DATE
 > Task :library:generateDebugBuildConfig UP-TO-DATE
 > Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
+> Task :library:prepareLintJar UP-TO-DATE
+> Task :library:javaPreCompileDebug UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript NO-SOURCE
 > Task :library:generateDebugResources UP-TO-DATE
 > Task :library:packageDebugResources UP-TO-DATE
-> Task :library:processDebugManifest UP-TO-DATE
 > Task :library:generateDebugRFile UP-TO-DATE
-> Task :library:prepareLintJar UP-TO-DATE
 > Task :library:generateDebugSources UP-TO-DATE
-> Task :library:javaPreCompileDebug UP-TO-DATE
 > Task :library:compileDebugJavaWithJavac UP-TO-DATE
-> Task :library:processDebugJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :sample:checkDebugClasspath
+> Task :library:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :sample:prepareLintJar
 > Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :library:packageDebugRenderscript NO-SOURCE
-> Task :sample:compileDebugRenderscript
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
 > Task :sample:generateDebugBuildConfig
-> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
 > Task :sample:mainApkListPersistenceDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
-> Task :sample:mergeDebugResources
 > Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:mergeDebugResources
 > Task :sample:processDebugManifest
-> Task :sample:splitsDiscoveryTaskDebug
 > Task :sample:processDebugResources
-> Task :sample:generateDebugSources
-> Task :sample:javaPreCompileDebug
 
 > Task :sample:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/src/main/java/com/woxthebox/draglistview/sample/ListFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/src/main/java/com/woxthebox/draglistview/sample/ListFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :sample:compileDebugNdk NO-SOURCE
 > Task :sample:compileDebugSources
 > Task :library:mergeDebugShaders UP-TO-DATE
 > Task :library:compileDebugShaders UP-TO-DATE
@@ -263,10 +340,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:bundleLibResDebug
+> Task :library:bundleLibRuntimeDebug
+> Task :library:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForDebug
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-> Task :sample:transformDexArchiveWithDexMergerForDebug
-> Task :library:compileDebugNdk NO-SOURCE
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
 > Task :library:mergeDebugJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
@@ -274,15 +355,11 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :sample:mergeDebugJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForDebug
 > Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:checkDebugLibraries
 > Task :sample:processDebugJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForDebug
-> Task :sample:validateSigningDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
 > Task :library:preReleaseBuild UP-TO-DATE
 > Task :library:compileReleaseAidl NO-SOURCE
-> Task :library:compileReleaseRenderscript UP-TO-DATE
+> Task :library:compileReleaseRenderscript NO-SOURCE
 > Task :library:checkReleaseManifest UP-TO-DATE
 > Task :library:generateReleaseBuildConfig UP-TO-DATE
 > Task :library:generateReleaseResValues UP-TO-DATE
@@ -293,38 +370,42 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :library:generateReleaseSources UP-TO-DATE
 > Task :library:javaPreCompileRelease UP-TO-DATE
 > Task :library:compileReleaseJavaWithJavac UP-TO-DATE
-> Task :library:processReleaseJavaRes NO-SOURCE
-> Task :library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :sample:checkReleaseClasspath
+> Task :library:bundleLibCompileRelease
 > Task :sample:preReleaseBuild
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :library:packageReleaseRenderscript NO-SOURCE
-> Task :sample:compileReleaseRenderscript
+> Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
 > Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
-> Task :sample:splitsDiscoveryTaskRelease
 > Task :sample:processReleaseResources
-> Task :sample:generateReleaseSources
-> Task :sample:javaPreCompileRelease
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 
 > Task :sample:compileReleaseJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/src/main/java/com/woxthebox/draglistview/sample/ListFragment.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/src/main/java/com/woxthebox/draglistview/sample/ListFragment.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
-
+> Task :library:prepareLintJarForPublish UP-TO-DATE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:bundleLibResRelease
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/0e574ef9e25f896337d3871d8441acbf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-
+> Task :library:bundleLibRuntimeRelease
+> Task :library:createFullJarRelease
+> Task :sample:checkReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForRelease
 > Task :library:mergeReleaseShaders UP-TO-DATE
 > Task :library:compileReleaseShaders UP-TO-DATE
 > Task :library:generateReleaseAssets UP-TO-DATE
@@ -333,10 +414,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
-> Task :sample:transformClassesWithDexBuilderForRelease
-> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-> Task :sample:transformDexArchiveWithDexMergerForRelease
-> Task :library:compileReleaseNdk NO-SOURCE
+> Task :sample:signingConfigWriterRelease
 > Task :library:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 > Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
@@ -344,15 +422,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:mergeReleaseJniLibFolders
 > Task :sample:transformNativeLibsWithMergeJniLibsForRelease
 > Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:checkReleaseLibraries
 > Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeExtDexRelease
+> Task :sample:mergeDexRelease
 > Task :sample:packageRelease
 > Task :sample:assembleRelease
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 36s
-90 actionable tasks: 59 executed, 31 up-to-date
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-11-11 19:39:47,640 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939772812-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
+BUILD SUCCESSFUL in 29s
+91 actionable tasks: 61 executed, 30 up-to-date
+
+2019-07-06 05:40:47,995 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366269089-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

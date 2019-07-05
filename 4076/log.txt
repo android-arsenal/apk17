@@ -1,38 +1,41 @@
-2018-11-11 17:19:46,489 INFO  DownloadService - Downloading "https://github.com/zsoltk/overpasser/archive/master.zip", attempt 3
-2018-11-11 17:19:47,155 INFO  DownloadService - Downloaded https://github.com/zsoltk/overpasser/archive/master.zip, attempt 3
-2018-11-11 17:19:47,155 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/master.zip": 137 KB
-2018-11-11 17:19:47,155 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:19:47,161 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/master.zip: true
-2018-11-11 17:19:47,161 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src'.
-2018-11-11 17:19:47,194 INFO  FullProcessService - Size of directory with sources: 191 KB
-2018-11-11 17:19:47,194 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src]
-2018-11-11 17:19:47,213 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/.git/
+2019-07-06 04:16:09,477 INFO  DownloadService - Downloading "https://github.com/zsoltk/overpasser/archive/master.zip", attempt 3
+2019-07-06 04:17:10,043 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 04:17:11,557 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 04:17:11,557 INFO  DownloadService - Downloading "https://github.com/zsoltk/overpasser/archive/master.zip", attempt 3
+2019-07-06 04:18:12,908 DEBUG FullProcessService - Repository https://github.com/zsoltk/overpasser available: true
+2019-07-06 04:18:12,908 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 04:18:12,908 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/zsoltk/overpasser, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src]
+2019-07-06 04:18:14,882 INFO  SysUtils - 
+2019-07-06 04:18:14,890 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/.git": true
+2019-07-06 04:18:14,893 INFO  FullProcessService - Size of directory with sources: 191 KB
+2019-07-06 04:18:14,893 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src]
+2019-07-06 04:18:14,909 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/.git/
 
-2018-11-11 17:19:47,218 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew
-2018-11-11 17:19:47,224 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library/build.gradle
-2018-11-11 17:19:47,229 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/settings-travis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/settings.gradle
-2018-11-11 17:19:47,230 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:19:47,230 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:19:47,248 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/local.properties
-2018-11-11 17:19:47,249 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-11 17:19:47,249 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/local.properties
-2018-11-11 17:19:47,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-11 17:19:47,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/local.properties
-2018-11-11 17:19:47,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 17:19:47,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/local.properties
-2018-11-11 17:19:47,251 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
-2018-11-11 17:19:47,251 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
-2018-11-11 17:19:47,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-11 17:19:47,254 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library/local.properties
-2018-11-11 17:19:47,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-11-11 17:19:47,256 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:19:47,256 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:19:47,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:19:54,886 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:19:54,886 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:19:54,886 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:19:54,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:20:02,618 ERROR SysUtils - Could not process external command
+2019-07-06 04:18:14,913 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew
+2019-07-06 04:18:14,916 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library/build.gradle
+2019-07-06 04:18:14,919 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/settings-travis.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/settings.gradle
+2019-07-06 04:18:14,920 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 04:18:14,920 INFO  ProjectFixService - Fixing project...
+2019-07-06 04:18:14,933 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/local.properties
+2019-07-06 04:18:14,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 04:18:14,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/local.properties
+2019-07-06 04:18:14,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 04:18:14,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/local.properties
+2019-07-06 04:18:14,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 04:18:14,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/local.properties
+2019-07-06 04:18:14,935 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14-all.zip
+2019-07-06 04:18:14,936 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14-bin.zip)
+2019-07-06 04:18:14,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 04:18:14,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library/local.properties
+2019-07-06 04:18:14,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 04:18:14,943 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 04:18:14,944 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:18:14,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:18:31,658 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 04:18:31,658 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 04:18:31,659 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 04:18:31,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 04:18:37,317 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:20:02,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 04:18:37,317 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library-retrofit-adapter:preBuild UP-TO-DATE
 :library-retrofit-adapter:preDebugBuild UP-TO-DATE
@@ -224,15 +227,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.238 secs
+Total time: 5.148 secs
 
-2018-11-11 17:20:02,631 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:20:02,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:20:10,193 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:20:10,193 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:20:10,193 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:20:10,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/library-retrofit-legacy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:20:17,546 ERROR SysUtils - Could not process external command
+2019-07-06 04:18:37,325 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:18:37,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:18:42,889 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 04:18:42,889 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 04:18:42,889 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 04:18:42,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/library-retrofit-legacy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 04:18:48,564 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -259,7 +262,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:20:17,546 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 04:18:48,564 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library-retrofit-legacy-adapter:preBuild UP-TO-DATE
 :library-retrofit-legacy-adapter:preDebugBuild UP-TO-DATE
@@ -424,15 +427,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.826 secs
+Total time: 5.126 secs
 
-2018-11-11 17:20:17,566 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:20:17,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:20:24,832 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:20:24,832 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:20:24,832 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:20:24,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:20:54,162 ERROR SysUtils - Could not process external command
+2019-07-06 04:18:48,577 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:18:48,577 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:18:54,365 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 04:18:54,365 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 04:18:54,365 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 04:18:54,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 04:19:16,193 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -459,7 +462,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:20:54,162 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 04:19:16,193 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
@@ -513,7 +516,7 @@ Incremental java compilation is an incubating feature.
 :sample:prepareComGoogleAndroidGmsPlayServicesMaps921Library
 :sample:prepareComGoogleAndroidGmsPlayServicesTasks921Library
 :sample:prepareComJakewhartonHugoHugoRuntime121Library
-:sample:prepareOverpasserMasterLibraryRetrofitAdapterUnspecifiedLibrary
+:sample:prepareSrcLibraryRetrofitAdapterUnspecifiedLibrary
 :sample:prepareDebugDependencies
 :sample:compileDebugAidl
 :sample:compileDebugRenderscript
@@ -529,10 +532,10 @@ Incremental java compilation is an incubating feature.
 :sample:processDebugResources
 :sample:generateDebugSources
 :sample:incrementalDebugJavaCompilationSafeguard
-:sample:compileDebugJavaWithJavacNote: Resolve log file to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/generated/source/apt/androidannotations.log
-Note: Initialize AndroidAnnotations 3.3.2 with options {androidManifestFile=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=hu.supercluster.overpasser}
+:sample:compileDebugJavaWithJavacNote: Resolve log file to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/generated/source/apt/androidannotations.log
+Note: Initialize AndroidAnnotations 3.3.2 with options {androidManifestFile=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml, resourcePackageName=hu.supercluster.overpasser}
 Note: Start processing for 12 annotations on 16 elements
-Note: AndroidManifest.xml file found with specified path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml
+Note: AndroidManifest.xml file found with specified path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/manifests/full/debug/AndroidManifest.xml
 Note: AndroidManifest.xml found: AndroidManifest [applicationPackage=hu.supercluster.overpasser, componentQualifiedNames=[hu.supercluster.overpasser.app.activity.container.ContainerActivity_, com.google.android.gms.common.api.GoogleApiActivity], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=23]
 Note: Found project R class: hu.supercluster.overpasser.R
 Note: Found Android class: android.R
@@ -552,10 +555,10 @@ Note: Validating with BackgroundHandler: [fetchPois(com.google.android.gms.maps.
 Note: Processing root elements
 Note: Processing root elements EActivityHandler: [hu.supercluster.overpasser.app.activity.container.ContainerActivity]
 Note: Processing root elements EFragmentHandler: [hu.supercluster.overpasser.app.activity.container.MapFragment]
-Note: Processing root elements EBeanHandler: [hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter, hu.supercluster.overpasser.app.activity.container.MapPoiHandler, hu.supercluster.overpasser.app.activity.container.ContainerFragmentHandler, hu.supercluster.overpasser.app.activity.container.MapOverpassAdapter, hu.supercluster.overpasser.app.activity.container.MapUiHandler, hu.supercluster.overpasser.app.util.AbstractFragmentHandler, hu.supercluster.overpasser.app.activity.container.ContainerPresenter, hu.supercluster.overpasser.app.util.LocationHelper]
+Note: Processing root elements EBeanHandler: [hu.supercluster.overpasser.app.activity.container.MapOverpassAdapter, hu.supercluster.overpasser.app.util.LocationHelper, hu.supercluster.overpasser.app.activity.container.MapUiHandler, hu.supercluster.overpasser.app.util.AbstractFragmentHandler, hu.supercluster.overpasser.app.activity.container.ContainerPresenter, hu.supercluster.overpasser.app.activity.container.MapPoiHandler, hu.supercluster.overpasser.app.activity.container.ContainerFragmentHandler, hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter]
 Note: Processing root elements EViewGroupHandler: [hu.supercluster.overpasser.app.view.PoiInfoWindowView]
 Note: Processing enclosed elements
-Note: Processing enclosed elements with AfterInjectHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@3f9d5896]
+Note: Processing enclosed elements with AfterInjectHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@2d38cc6]
 Note: Number of files generated by AndroidAnnotations: 10
 Note: Writting following API classes in project: []
 Note: Generating class: hu.supercluster.overpasser.app.activity.container.ContainerActivity_
@@ -568,15 +571,15 @@ Note: Generating class: hu.supercluster.overpasser.app.activity.container.MapUiH
 Note: Generating class: hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter_
 Note: Generating class: hu.supercluster.overpasser.app.view.PoiInfoWindowView_
 Note: Generating class: hu.supercluster.overpasser.app.util.LocationHelper_
-Note: Time measurements: [Whole Processing = 592 ms], [Process Annotations = 339 ms], [Generate Sources = 170 ms], [Find R Classes = 27 ms], [Validate Annotations = 19 ms], [Extract Annotations = 17 ms], [Extract Manifest = 8 ms], 
+Note: Time measurements: [Whole Processing = 455 ms], [Process Annotations = 279 ms], [Generate Sources = 111 ms], [Find R Classes = 20 ms], [Extract Annotations = 15 ms], [Validate Annotations = 15 ms], [Extract Manifest = 8 ms], 
 Note: Finish processing
 Note: Start processing for 0 annotations on 10 elements
 Note: Time measurements: [Whole Processing = 0 ms], 
 Note: Finish processing
 Note: Start processing for 0 annotations on 0 elements
-Note: Time measurements: [Whole Processing = 0 ms], 
+Note: Time measurements: [Whole Processing = 1 ms], 
 Note: Finish processing
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/src/main/java/hu/supercluster/overpasser/app/util/AbstractFragmentHandler.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/src/main/java/hu/supercluster/overpasser/app/util/AbstractFragmentHandler.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileDebugNdk UP-TO-DATE
@@ -586,10 +589,10 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:collectDebugMultiDexComponents
 :sample:transformClassesWithMultidexlistForDebug
 ProGuard, version 5.2.1
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/23.0.2/lib/shrinkedAndroid.jar]
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/multi-dex/debug/componentClasses.jar]
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/multi-dex/debug/componentClasses.jar]
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/transforms/jarMerging/debug/jars/1/1f/combined.jar]
 :sample:transformClassesWithDexForDebug
 :sample:mergeDebugJniLibFolders
 :sample:transformNative_libsWithMergeJniLibsForDebug
@@ -615,10 +618,10 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 :sample:processReleaseResources
 :sample:generateReleaseSources
 :sample:incrementalReleaseJavaCompilationSafeguard
-:sample:compileReleaseJavaWithJavacNote: Resolve log file to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/generated/source/apt/androidannotations.log
-Note: Initialize AndroidAnnotations 3.3.2 with options {androidManifestFile=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/manifests/full/release/AndroidManifest.xml, resourcePackageName=hu.supercluster.overpasser}
+:sample:compileReleaseJavaWithJavacNote: Resolve log file to /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/generated/source/apt/androidannotations.log
+Note: Initialize AndroidAnnotations 3.3.2 with options {androidManifestFile=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/manifests/full/release/AndroidManifest.xml, resourcePackageName=hu.supercluster.overpasser}
 Note: Start processing for 12 annotations on 16 elements
-Note: AndroidManifest.xml file found with specified path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/intermediates/manifests/full/release/AndroidManifest.xml
+Note: AndroidManifest.xml file found with specified path: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/intermediates/manifests/full/release/AndroidManifest.xml
 Note: AndroidManifest.xml found: AndroidManifest [applicationPackage=hu.supercluster.overpasser, componentQualifiedNames=[hu.supercluster.overpasser.app.activity.container.ContainerActivity_, com.google.android.gms.common.api.GoogleApiActivity], permissionQualifiedNames=[android.permission.INTERNET, android.permission.ACCESS_NETWORK_STATE, android.permission.WRITE_EXTERNAL_STORAGE, com.google.android.providers.gsf.permission.READ_GSERVICES, android.permission.ACCESS_COARSE_LOCATION, android.permission.ACCESS_FINE_LOCATION], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=15, maxSdkVersion=-1, targetSdkVersion=23]
 Note: Found project R class: hu.supercluster.overpasser.R
 Note: Found Android class: android.R
@@ -638,10 +641,10 @@ Note: Validating with BackgroundHandler: [fetchPois(com.google.android.gms.maps.
 Note: Processing root elements
 Note: Processing root elements EActivityHandler: [hu.supercluster.overpasser.app.activity.container.ContainerActivity]
 Note: Processing root elements EFragmentHandler: [hu.supercluster.overpasser.app.activity.container.MapFragment]
-Note: Processing root elements EBeanHandler: [hu.supercluster.overpasser.app.activity.container.MapUiHandler, hu.supercluster.overpasser.app.util.AbstractFragmentHandler, hu.supercluster.overpasser.app.activity.container.MapOverpassAdapter, hu.supercluster.overpasser.app.activity.container.ContainerPresenter, hu.supercluster.overpasser.app.util.LocationHelper, hu.supercluster.overpasser.app.activity.container.ContainerFragmentHandler, hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter, hu.supercluster.overpasser.app.activity.container.MapPoiHandler]
+Note: Processing root elements EBeanHandler: [hu.supercluster.overpasser.app.activity.container.MapUiHandler, hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter, hu.supercluster.overpasser.app.util.LocationHelper, hu.supercluster.overpasser.app.activity.container.ContainerPresenter, hu.supercluster.overpasser.app.util.AbstractFragmentHandler, hu.supercluster.overpasser.app.activity.container.MapPoiHandler, hu.supercluster.overpasser.app.activity.container.ContainerFragmentHandler, hu.supercluster.overpasser.app.activity.container.MapOverpassAdapter]
 Note: Processing root elements EViewGroupHandler: [hu.supercluster.overpasser.app.view.PoiInfoWindowView]
 Note: Processing enclosed elements
-Note: Processing enclosed elements with AfterInjectHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7a04b02a]
+Note: Processing enclosed elements with AfterInjectHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@5fd977e1]
 Note: Number of files generated by AndroidAnnotations: 10
 Note: Writting following API classes in project: []
 Note: Generating class: hu.supercluster.overpasser.app.activity.container.ContainerActivity_
@@ -654,7 +657,7 @@ Note: Generating class: hu.supercluster.overpasser.app.activity.container.MapUiH
 Note: Generating class: hu.supercluster.overpasser.app.view.PoiInfoWindowAdapter_
 Note: Generating class: hu.supercluster.overpasser.app.view.PoiInfoWindowView_
 Note: Generating class: hu.supercluster.overpasser.app.util.LocationHelper_
-Note: Time measurements: [Whole Processing = 329 ms], [Generate Sources = 226 ms], [Process Annotations = 58 ms], [Validate Annotations = 16 ms], [Find R Classes = 11 ms], [Extract Annotations = 5 ms], [Extract Manifest = 5 ms], 
+Note: Time measurements: [Whole Processing = 193 ms], [Generate Sources = 111 ms], [Process Annotations = 43 ms], [Validate Annotations = 14 ms], [Find R Classes = 9 ms], [Extract Annotations = 4 ms], [Extract Manifest = 4 ms], 
 Note: Finish processing
 Note: Start processing for 0 annotations on 10 elements
 Note: Time measurements: [Whole Processing = 1 ms], 
@@ -662,7 +665,7 @@ Note: Finish processing
 Note: Start processing for 0 annotations on 0 elements
 Note: Time measurements: [Whole Processing = 0 ms], 
 Note: Finish processing
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/src/main/java/hu/supercluster/overpasser/app/util/AbstractFragmentHandler.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/src/main/java/hu/supercluster/overpasser/app/util/AbstractFragmentHandler.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :sample:compileReleaseNdk UP-TO-DATE
@@ -763,6 +766,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 28.74 secs
+Total time: 21.22 secs
 
-2018-11-11 17:20:54,268 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931586484-0/src/overpasser-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 04:19:16,249 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562361369473-0/src/sample/build/outputs/apk/sample-debug-unaligned.apk

@@ -1,31 +1,34 @@
-2018-11-11 17:11:16,893 INFO  DownloadService - Downloading "https://github.com/pengjianbo/FloatViewFinal/archive/master.zip", attempt 3
-2018-11-11 17:11:19,435 INFO  DownloadService - Downloaded https://github.com/pengjianbo/FloatViewFinal/archive/master.zip, attempt 3
-2018-11-11 17:11:19,436 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/master.zip": 1 MB
-2018-11-11 17:11:19,436 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:11:19,442 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/master.zip: true
-2018-11-11 17:11:19,442 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src'.
-2018-11-11 17:11:19,471 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-11 17:11:19,471 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src]
-2018-11-11 17:11:19,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/.git/
+2019-07-06 03:51:55,298 INFO  DownloadService - Downloading "https://github.com/pengjianbo/FloatViewFinal/archive/master.zip", attempt 3
+2019-07-06 03:52:55,841 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 03:52:57,805 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 03:52:57,805 INFO  DownloadService - Downloading "https://github.com/pengjianbo/FloatViewFinal/archive/master.zip", attempt 3
+2019-07-06 03:53:59,206 DEBUG FullProcessService - Repository https://github.com/pengjianbo/FloatViewFinal available: true
+2019-07-06 03:53:59,206 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 03:53:59,206 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/pengjianbo/FloatViewFinal, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src]
+2019-07-06 03:54:01,821 INFO  SysUtils - 
+2019-07-06 03:54:01,847 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/.git": true
+2019-07-06 03:54:01,849 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 03:54:01,849 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src]
+2019-07-06 03:54:01,865 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/.git/
 
-2018-11-11 17:11:19,490 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/gradlew
-2018-11-11 17:11:19,493 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/build.gradle
-2018-11-11 17:11:19,496 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/settings.gradle
-2018-11-11 17:11:19,496 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:11:19,496 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:11:19,503 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/local.properties
-2018-11-11 17:11:19,504 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 17:11:19,504 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/local.properties
-2018-11-11 17:11:19,505 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-11-11 17:11:19,505 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-11-11 17:11:19,506 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 17:11:19,506 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:11:19,506 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:11:19,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:11:26,653 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-11 17:11:26,654 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 17:11:26,654 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 17:11:54,110 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:54:01,867 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/gradlew
+2019-07-06 03:54:01,869 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/build.gradle
+2019-07-06 03:54:01,871 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/settings.gradle
+2019-07-06 03:54:01,871 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 03:54:01,871 INFO  ProjectFixService - Fixing project...
+2019-07-06 03:54:01,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/local.properties
+2019-07-06 03:54:01,876 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 03:54:01,876 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/local.properties
+2019-07-06 03:54:01,876 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-06 03:54:01,877 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-06 03:54:01,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 03:54:01,877 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 03:54:01,877 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:54:01,877 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:54:08,235 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 03:54:08,235 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 03:54:08,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 03:54:23,521 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -43,15 +46,15 @@
 :app:generateDebugResValues
 :app:generateDebugResources
 :app:mergeDebugResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_right.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_anim_background.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_left.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_logo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_right.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_anim_background.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_left.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_logo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :app:processDebugManifest
 :app:processDebugResources
 :app:generateDebugSources
 :app:processDebugJavaRes UP-TO-DATE
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/java/cn/finalteam/floatviewfinal/widget/FloatView.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/java/cn/finalteam/floatviewfinal/widget/FloatView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileDebugNdk UP-TO-DATE
@@ -72,15 +75,15 @@ Note: Recompile with -Xlint:deprecation for details.
 :app:generateReleaseResValues
 :app:generateReleaseResources
 :app:mergeReleaseResources
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_right.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_anim_background.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_left.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
-AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/res/drawable-hdpi/pj_image_float_logo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_right.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_anim_background.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_left.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
+AAPT: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/res/drawable-hdpi/pj_image_float_logo.png: libpng warning: iCCP: Not recognizing known sRGB profile that has been edited
 :app:processReleaseManifest
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:processReleaseJavaRes UP-TO-DATE
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/src/main/java/cn/finalteam/floatviewfinal/widget/FloatView.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/src/main/java/cn/finalteam/floatviewfinal/widget/FloatView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :app:compileReleaseNdk UP-TO-DATE
@@ -94,6 +97,6 @@ Note: Recompile with -Xlint:deprecation for details.
 
 BUILD SUCCESSFUL
 
-Total time: 26.933 secs
+Total time: 14.782 secs
 
-2018-11-11 17:11:54,182 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931076889-0/src/FloatViewFinal-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 03:54:23,557 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562359915290-0/src/app/build/outputs/apk/app-debug.apk

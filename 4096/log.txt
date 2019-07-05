@@ -1,38 +1,41 @@
-2018-11-06 19:57:56,443 INFO  DownloadService - Downloading "https://github.com/eyeem/decorator/archive/master.zip", attempt 3
-2018-11-06 19:57:58,941 INFO  DownloadService - Downloaded https://github.com/eyeem/decorator/archive/master.zip, attempt 3
-2018-11-06 19:57:58,942 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/master.zip": 592 KB
-2018-11-06 19:57:58,942 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-06 19:57:58,942 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/master.zip: true
-2018-11-06 19:57:58,942 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src'.
-2018-11-06 19:57:58,992 INFO  FullProcessService - Size of directory with sources: 664 KB
-2018-11-06 19:57:58,992 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src]
-2018-11-06 19:57:59,013 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/.git/
+2019-07-06 03:23:57,237 INFO  DownloadService - Downloading "https://github.com/eyeem/decorator/archive/master.zip", attempt 3
+2019-07-06 03:24:57,761 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 03:24:59,472 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 03:24:59,472 INFO  DownloadService - Downloading "https://github.com/eyeem/decorator/archive/master.zip", attempt 3
+2019-07-06 03:26:02,019 DEBUG FullProcessService - Repository https://github.com/eyeem/decorator available: true
+2019-07-06 03:26:02,020 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 03:26:02,020 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/eyeem/decorator, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src]
+2019-07-06 03:26:04,770 INFO  SysUtils - 
+2019-07-06 03:26:04,778 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/.git": true
+2019-07-06 03:26:04,784 INFO  FullProcessService - Size of directory with sources: 664 KB
+2019-07-06 03:26:04,784 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src]
+2019-07-06 03:26:04,800 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/.git/
 
-2018-11-06 19:57:59,020 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/gradlew
-2018-11-06 19:57:59,028 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/testmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/processor/build.gradle
-2018-11-06 19:57:59,035 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/testmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/settings.gradle
-2018-11-06 19:57:59,035 INFO  ProjectBuildService - Remote scripts: none
-2018-11-06 19:57:59,035 INFO  ProjectFixService - Fixing project...
-2018-11-06 19:57:59,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/local.properties
-2018-11-06 19:57:59,054 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-06 19:57:59,055 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/testmodule/local.properties
-2018-11-06 19:57:59,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/testmodule/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-11-06 19:57:59,056 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/local.properties
-2018-11-06 19:57:59,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-06 19:57:59,057 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-06 19:57:59,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-11-06 19:57:59,059 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/annotation/local.properties
-2018-11-06 19:57:59,059 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/annotation/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-11-06 19:57:59,060 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/processor/local.properties
-2018-11-06 19:57:59,061 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/processor/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
-2018-11-06 19:57:59,061 INFO  ProjectFixService - Project was maybe fixed
-2018-11-06 19:57:59,061 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:57:59,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:58:33,784 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:58:33,790 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:58:33,790 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:58:33,790 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:59:01,523 ERROR SysUtils - Could not process external command
+2019-07-06 03:26:04,805 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/gradlew
+2019-07-06 03:26:04,810 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/testmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/processor/build.gradle
+2019-07-06 03:26:04,815 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/testmodule/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/settings.gradle
+2019-07-06 03:26:04,816 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 03:26:04,816 INFO  ProjectFixService - Fixing project...
+2019-07-06 03:26:04,828 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/local.properties
+2019-07-06 03:26:04,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-06 03:26:04,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/testmodule/local.properties
+2019-07-06 03:26:04,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/testmodule/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-06 03:26:04,829 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/local.properties
+2019-07-06 03:26:04,830 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 03:26:04,830 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 03:26:04,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-06 03:26:04,831 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/annotation/local.properties
+2019-07-06 03:26:04,831 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/annotation/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-06 03:26:04,832 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/processor/local.properties
+2019-07-06 03:26:04,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/processor/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=21,targetSdkVersion=24]
+2019-07-06 03:26:04,832 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 03:26:04,832 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:26:04,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:26:21,175 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:26:21,175 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:26:21,175 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:26:21,175 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:26:43,971 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,10 +62,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:59:01,529 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:26:43,971 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :annotation:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/annotation/src/main/java/com/eyeem/decorator/base_classes/AbstractDecorators.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/annotation/src/main/java/com/eyeem/decorator/base_classes/AbstractDecorators.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -107,15 +110,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :sample:processDebugResources
 :sample:generateDebugSources
 :sample:incrementalDebugJavaCompilationSafeguard
-:sample:compileDebugJavaWithJavacNote: Version 5.7.1 of Realm is now available: http://static.realm.io/downloads/java/latest
+:sample:compileDebugJavaWithJavacNote: Version 5.12.0 of Realm is now available: http://static.realm.io/downloads/java/latest
 Note: Processing class Photo
 Note: Processing class User
 Note: Processing class ListPhoto
 Note: Processing class ListUser
 Note: Creating DefaultRealmModule
 Note: @Decorate starting for 1 element
-Note: @Decorate processed in 317ms
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/src/main/java/com/eyeem/decorator/sample/ChooserActivity.java uses or overrides a deprecated API.
+Note: @Decorate processed in 298ms
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/src/main/java/com/eyeem/decorator/sample/ChooserActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -176,15 +179,15 @@ Result is 2910 defs/3594.4KiB. Took 0.5s
 :sample:processReleaseResources
 :sample:generateReleaseSources
 :sample:incrementalReleaseJavaCompilationSafeguard
-:sample:compileReleaseJavaWithJavacNote: Version 5.7.1 of Realm is now available: http://static.realm.io/downloads/java/latest
+:sample:compileReleaseJavaWithJavacNote: Version 5.12.0 of Realm is now available: http://static.realm.io/downloads/java/latest
 Note: Processing class Photo
 Note: Processing class User
 Note: Processing class ListPhoto
 Note: Processing class ListUser
 Note: Creating DefaultRealmModule
 Note: @Decorate starting for 1 element
-Note: @Decorate processed in 48ms
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/src/main/java/com/eyeem/decorator/sample/ChooserActivity.java uses or overrides a deprecated API.
+Note: @Decorate processed in 38ms
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/src/main/java/com/eyeem/decorator/sample/ChooserActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -287,6 +290,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 27.073 secs
+Total time: 22.198 secs
 
-2018-11-06 19:59:01,613 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541509076440-0/src/decorator-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 03:26:44,061 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562358237234-0/src/sample/build/outputs/apk/sample-debug-unaligned.apk

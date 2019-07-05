@@ -1,70 +1,73 @@
-2018-11-06 19:52:16,423 INFO  DownloadService - Downloading "https://github.com/kejunxia/AndroidMvc/archive/master.zip", attempt 3
-2018-11-06 19:52:17,343 INFO  DownloadService - Downloaded https://github.com/kejunxia/AndroidMvc/archive/master.zip, attempt 3
-2018-11-06 19:52:17,343 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/master.zip": 712 KB
-2018-11-06 19:52:17,343 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-06 19:52:17,344 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/master.zip: true
-2018-11-06 19:52:17,344 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src'.
-2018-11-06 19:52:17,491 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-06 19:52:17,491 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src]
-2018-11-06 19:52:17,509 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/.git/
+2019-07-06 03:14:49,796 INFO  DownloadService - Downloading "https://github.com/kejunxia/AndroidMvc/archive/master.zip", attempt 3
+2019-07-06 03:15:50,617 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 03:15:51,788 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 03:15:51,788 INFO  DownloadService - Downloading "https://github.com/kejunxia/AndroidMvc/archive/master.zip", attempt 3
+2019-07-06 03:16:54,230 DEBUG FullProcessService - Repository https://github.com/kejunxia/AndroidMvc available: true
+2019-07-06 03:16:54,230 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 03:16:54,230 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/kejunxia/AndroidMvc, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src]
+2019-07-06 03:16:56,606 INFO  SysUtils - 
+2019-07-06 03:16:56,621 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/.git": true
+2019-07-06 03:16:56,638 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 03:16:56,638 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src]
+2019-07-06 03:16:56,656 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/.git/
 
-2018-11-06 19:52:17,530 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew
-2018-11-06 19:52:17,552 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle
-2018-11-06 19:52:17,573 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/settings.gradle
-2018-11-06 19:52:17,574 INFO  ProjectBuildService - Remote scripts: none
-2018-11-06 19:52:17,574 INFO  ProjectFixService - Fixing project...
-2018-11-06 19:52:17,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/local.properties
-2018-11-06 19:52:17,631 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,632 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/local.properties
-2018-11-06 19:52:17,643 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/local.properties
-2018-11-06 19:52:17,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/local.properties
-2018-11-06 19:52:17,664 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,664 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,666 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/local.properties
-2018-11-06 19:52:17,676 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,676 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,678 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/local.properties
-2018-11-06 19:52:17,678 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-06 19:52:17,679 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-06 19:52:17,696 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,697 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,698 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/local.properties
-2018-11-06 19:52:17,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,708 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/local.properties
-2018-11-06 19:52:17,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,718 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/local.properties
-2018-11-06 19:52:17,730 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,730 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,731 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/local.properties
-2018-11-06 19:52:17,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/local.properties
-2018-11-06 19:52:17,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,753 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,754 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/local.properties
-2018-11-06 19:52:17,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/local.properties
-2018-11-06 19:52:17,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,776 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/local.properties
-2018-11-06 19:52:17,787 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-06 19:52:17,787 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-06 19:52:17,788 INFO  ProjectFixService - Project was maybe fixed
-2018-11-06 19:52:17,788 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:52:17,788 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:52:35,222 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:52:35,222 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:52:35,222 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:52:35,222 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:52:44,132 ERROR SysUtils - Could not process external command
+2019-07-06 03:16:56,668 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew
+2019-07-06 03:16:56,682 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle
+2019-07-06 03:16:56,694 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/settings.gradle
+2019-07-06 03:16:56,695 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 03:16:56,695 INFO  ProjectFixService - Fixing project...
+2019-07-06 03:16:56,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/local.properties
+2019-07-06 03:16:56,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/local.properties
+2019-07-06 03:16:56,741 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,741 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,742 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/local.properties
+2019-07-06 03:16:56,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/local.properties
+2019-07-06 03:16:56,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/local.properties
+2019-07-06 03:16:56,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,766 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/local.properties
+2019-07-06 03:16:56,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 03:16:56,768 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 03:16:56,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,775 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/local.properties
+2019-07-06 03:16:56,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,785 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/local.properties
+2019-07-06 03:16:56,794 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,794 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,795 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/local.properties
+2019-07-06 03:16:56,807 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,807 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,809 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/local.properties
+2019-07-06 03:16:56,816 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,817 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/local.properties
+2019-07-06 03:16:56,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,826 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/local.properties
+2019-07-06 03:16:56,834 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,834 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,835 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/local.properties
+2019-07-06 03:16:56,843 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,843 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,844 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/local.properties
+2019-07-06 03:16:56,851 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 03:16:56,851 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 03:16:56,852 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 03:16:56,852 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:16:56,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:17:10,887 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:17:10,887 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:17:10,887 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:17:10,887 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:17:17,817 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -91,7 +94,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:52:44,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:17:17,817 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
@@ -206,15 +209,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.262 secs
+Total time: 6.313 secs
 
-2018-11-06 19:52:44,159 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:52:44,159 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:52:54,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:52:54,901 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:52:54,901 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:52:54,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:53:12,415 ERROR SysUtils - Could not process external command
+2019-07-06 03:17:17,832 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:17:17,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:17:25,256 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:17:25,256 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:17:25,256 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:17:25,256 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:17:38,032 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -241,7 +244,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:53:12,416 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:17:38,032 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:android-mvc:androidJavadocsJar
 :library:android-mvc:androidSourcesJar
@@ -444,15 +447,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.852 secs
+Total time: 12.194 secs
 
-2018-11-06 19:53:12,518 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:53:12,518 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:53:23,068 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:53:23,068 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:53:23,068 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:53:23,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:53:31,366 ERROR SysUtils - Could not process external command
+2019-07-06 03:17:38,094 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:17:38,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:17:45,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:17:45,355 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:17:45,355 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:17:45,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/benchmark/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:17:51,508 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -479,7 +482,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:53:31,366 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:17:51,508 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -589,15 +592,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.669 secs
+Total time: 5.578 secs
 
-2018-11-06 19:53:31,470 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:53:31,470 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:53:41,137 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:53:41,137 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:53:41,137 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:53:41,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:53:49,534 ERROR SysUtils - Could not process external command
+2019-07-06 03:17:51,572 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:17:51,572 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:17:58,591 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:17:58,591 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:17:58,591 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:17:58,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:18:05,685 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -624,7 +627,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:53:49,534 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:18:05,686 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
@@ -732,22 +735,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.772 secs
+Total time: 6.496 secs
 
-2018-11-06 19:53:49,630 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:53:49,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:54:03,619 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:54:03,619 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:54:03,619 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:54:03,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvvm/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:54:12,227 ERROR SysUtils - Could not process external command
+2019-07-06 03:18:05,751 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:18:05,751 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:18:19,420 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:18:19,420 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:18:19,420 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:18:19,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvvm/mobile/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:18:26,197 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -774,7 +777,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:54:12,227 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:18:26,197 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
@@ -882,22 +885,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 
 
 BUILD FAILED
 
-Total time: 7.991 secs
+Total time: 6.153 secs
 
-2018-11-06 19:54:12,324 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:54:12,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:54:21,797 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:54:21,798 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:54:21,798 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:54:21,798 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:54:30,453 ERROR SysUtils - Could not process external command
+2019-07-06 03:18:26,262 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:18:26,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:18:33,127 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:18:33,127 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:18:33,127 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:18:33,127 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:18:39,926 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -924,7 +927,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:54:30,453 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:18:39,926 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
@@ -1039,17 +1042,16 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.057 secs
+Total time: 6.174 secs
 
-2018-11-06 19:54:30,543 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:54:30,544 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:54:39,109 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:54:39,110 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:54:39,110 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:54:39,110 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:55:48,571 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:18:39,986 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:18:39,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:18:46,986 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:18:46,986 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:18:46,986 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:18:46,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:22:24,088 INFO  SysUtils - Configuration on demand is an incubating feature.
 :extension:service-core:compileJava
-Download https://jcenter.bintray.com/com/google/android/android/4.0.1.2/android-4.0.1.2.pom
 Download https://jcenter.bintray.com/com/google/android/android/4.0.1.2/android-4.0.1.2.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
@@ -1061,20 +1063,8 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :extension:service-core:sourceJar
 :extension:service-core:assemble
 :extension:service-core:compileTestJava
-Download https://jcenter.bintray.com/org/robolectric/robolectric/3.0/robolectric-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/robolectric-parent/3.0/robolectric-parent-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/robolectric-annotations/3.0/robolectric-annotations-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/robolectric-resources/3.0/robolectric-resources-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/robolectric-utils/3.0/robolectric-utils-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/shadows-core/3.0/shadows-core-3.0.pom
-Download https://jcenter.bintray.com/org/robolectric/robolectric-shadows/3.0/robolectric-shadows-3.0.pom
-Download https://jcenter.bintray.com/com/google/android/apps/common/testing/accessibility/framework/accessibility-test-framework/1.0/accessibility-test-framework-1.0.pom
 Download https://jcenter.bintray.com/org/robolectric/robolectric/3.0/robolectric-3.0.jar
-Download https://jcenter.bintray.com/org/robolectric/robolectric-annotations/3.0/robolectric-annotations-3.0.jar
-Download https://jcenter.bintray.com/org/robolectric/robolectric-resources/3.0/robolectric-resources-3.0.jar
-Download https://jcenter.bintray.com/org/robolectric/robolectric-utils/3.0/robolectric-utils-3.0.jar
 Download https://jcenter.bintray.com/org/robolectric/shadows-core/3.0/shadows-core-3.0.jar
-Download https://jcenter.bintray.com/com/google/android/apps/common/testing/accessibility/framework/accessibility-test-framework/1.0/accessibility-test-framework-1.0.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
 1 warning
 :extension:service-core:processTestResources UP-TO-DATE
@@ -1088,10 +1078,10 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 :extension:service-mediastore:processResources UP-TO-DATE
 :extension:service-mediastore:classes
 :extension:service-mediastore:jar
-:extension:service-mediastore:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:229: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:284: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:464: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:526: warning - @return tag has no arguments.
+:extension:service-mediastore:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:229: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:284: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:464: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:526: warning - @return tag has no arguments.
 
 4 warnings
 :extension:service-mediastore:javadocJar
@@ -1106,15 +1096,15 @@ warning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 BUILD SUCCESSFUL
 
-Total time: 1 mins 8.97 secs
+Total time: 3 mins 36.59 secs
 
-2018-11-06 19:55:48,675 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:55:48,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:55:58,861 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:55:58,861 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:55:58,861 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:55:58,861 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:56:05,113 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:22:24,157 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:22:24,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:22:31,036 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:22:31,036 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:22:31,036 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:22:31,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:22:35,832 INFO  SysUtils - Configuration on demand is an incubating feature.
 :extension:service-core:compileJava UP-TO-DATE
 :extension:service-core:processResources UP-TO-DATE
 :extension:service-core:classes UP-TO-DATE
@@ -1132,23 +1122,23 @@ Total time: 1 mins 8.97 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.767 secs
+Total time: 4.278 secs
 
-2018-11-06 19:56:05,209 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:56:05,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:56:15,218 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:56:15,220 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:56:15,220 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:56:15,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:56:21,144 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:22:35,899 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:22:35,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:22:42,561 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:22:42,561 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:22:42,561 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:22:42,561 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:22:47,042 INFO  SysUtils - Configuration on demand is an incubating feature.
 :extension:service-mediastore:compileJava UP-TO-DATE
 :extension:service-mediastore:processResources UP-TO-DATE
 :extension:service-mediastore:classes UP-TO-DATE
 :extension:service-mediastore:jar
-:extension:service-mediastore:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:229: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:284: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:464: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:526: warning - @return tag has no arguments.
+:extension:service-mediastore:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:229: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:284: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:464: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/extension/service-mediastore/src/main/java/com/shipdream/lib/android/mvc/service/internal/MediaStoreServiceImpl.java:526: warning - @return tag has no arguments.
 
 4 warnings
 :extension:service-mediastore:javadocJar
@@ -1163,15 +1153,15 @@ Total time: 5.767 secs
 
 BUILD SUCCESSFUL
 
-Total time: 5.437 secs
+Total time: 4.007 secs
 
-2018-11-06 19:56:21,243 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:56:21,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:56:30,405 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:56:30,406 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:56:30,406 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:56:30,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:56:45,125 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:22:47,109 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:22:47,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:22:53,987 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:22:53,988 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:22:53,988 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:22:53,988 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:23:05,407 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:poke:compileJava UP-TO-DATE
 :library:poke:processResources UP-TO-DATE
 :library:poke:classes UP-TO-DATE
@@ -1180,71 +1170,70 @@ Total time: 5.437 secs
 :library:android-mvc-core:processResources UP-TO-DATE
 :library:android-mvc-core:classes UP-TO-DATE
 :library:android-mvc-core:jar UP-TO-DATE
-:library:poke:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Component.java:254: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Component.java:254: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:351: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @MyInject is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/src/main/java/com/shipdream/lib/poke/util/CommonUtils.java:28: warning - @return tag has no arguments.
+:library:poke:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Component.java:254: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Component.java:254: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:351: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @MyInject is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/Graph.java:328: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/src/main/java/com/shipdream/lib/poke/util/CommonUtils.java:28: warning - @return tag has no arguments.
 
 10 warnings
-:library:android-mvc-core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:158: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:188: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:219: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:363: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:363: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:436: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:436: warning - @ is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Forwarder.java:41: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Forwarder.java:51: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Mvc.java:39: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:156: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Provides is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Singleton is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Inject is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/NavigationManager.java:122: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/NavigationManager.java:72: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:126: warning - @Inject is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:126: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:169: warning - @Inject is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:169: warning - @Override is an unknown tag.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Task.java:92: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Task.java:73: warning - Parameter "uiThreadRunner" is documented more than once.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/UiThreadRunner.java:27: warning - @return tag has no arguments.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
+:library:android-mvc-core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:158: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:188: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:219: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:363: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:363: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:436: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Controller.java:436: warning - @ is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Forwarder.java:41: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Forwarder.java:51: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Mvc.java:39: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:156: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Provides is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Singleton is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Inject is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:324: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/NavigationManager.java:122: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/NavigationManager.java:72: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:126: warning - @Inject is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:126: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:169: warning - @Inject is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Navigator.java:169: warning - @Override is an unknown tag.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Task.java:92: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/Task.java:73: warning - Parameter "uiThreadRunner" is documented more than once.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/UiThreadRunner.java:27: warning - @return tag has no arguments.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:473: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:135: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:435: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:101: warning - Tag @link: reference not found: Graph.Monitor
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:455: warning - Tag @link: reference not found: Provider.DereferenceListener
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/android-mvc-core/src/main/java/com/shipdream/lib/android/mvc/MvcGraph.java:119: warning - Tag @link: reference not found: Graph.Monitor
 
 46 warnings
 :library:android-mvc-core:javadocJar
 :library:android-mvc-core:sourceJar
 :library:android-mvc-core:assemble
 :library:android-mvc-core:compileTestJava
-Download https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.6/slf4j-log4j12-1.7.6.pom
 Download https://jcenter.bintray.com/org/slf4j/slf4j-log4j12/1.7.6/slf4j-log4j12-1.7.6.jar
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
 Note: Some input files use or override a deprecated API.
@@ -1260,15 +1249,15 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 14.237 secs
+Total time: 10.893 secs
 
-2018-11-06 19:56:45,239 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:56:45,239 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:56:54,003 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:56:54,003 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:56:54,003 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:56:54,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:57:02,766 ERROR SysUtils - Could not process external command
+2019-07-06 03:23:05,475 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:23:05,475 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:23:11,953 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:23:11,953 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:23:11,953 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:23:11,954 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:23:18,585 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1295,7 +1284,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-06 19:57:02,766 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:23:18,585 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
 WARNING: Ignoring Android API artifact com.google.android:android:2.1_r1 for debug
@@ -1410,15 +1399,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.153 secs
+Total time: 6.069 secs
 
-2018-11-06 19:57:02,875 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:57:02,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:57:11,320 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:57:11,320 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:57:11,320 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:57:11,320 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/library/poke/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:57:19,063 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:23:18,659 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:23:18,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:23:25,639 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:23:25,639 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:23:25,639 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:23:25,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/library/poke/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:23:31,901 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:poke:compileJava UP-TO-DATE
 :library:poke:processResources UP-TO-DATE
 :library:poke:classes UP-TO-DATE
@@ -1440,15 +1429,15 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 7.258 secs
+Total time: 5.794 secs
 
-2018-11-06 19:57:19,176 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:57:19,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:57:31,265 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:57:31,267 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:57:31,267 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:57:31,267 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/poke-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:57:38,181 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:23:31,978 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:23:31,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:23:38,940 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:23:38,940 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:23:38,940 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:23:38,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/poke-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:23:43,960 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:poke:compileJava UP-TO-DATE
 :library:poke:processResources UP-TO-DATE
 :library:poke:classes UP-TO-DATE
@@ -1475,15 +1464,15 @@ Total time: 7.258 secs
 
 BUILD SUCCESSFUL
 
-Total time: 6.422 secs
+Total time: 4.57 secs
 
-2018-11-06 19:57:38,303 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-06 19:57:38,303 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-06 19:57:47,897 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-06 19:57:47,902 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-06 19:57:47,902 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-06 19:57:47,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508736418-0/src/AndroidMvc-master/samples/simple-mvp/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-06 19:57:55,613 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 03:23:44,039 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 03:23:44,040 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 03:23:51,065 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 03:23:51,065 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 03:23:51,065 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 03:23:51,065 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357689794-0/src/samples/simple-mvp/core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 03:23:56,563 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:poke:compileJava UP-TO-DATE
 :library:poke:processResources UP-TO-DATE
 :library:poke:classes UP-TO-DATE
@@ -1514,7 +1503,7 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 7.227 secs
+Total time: 5.02 secs
 
-2018-11-06 19:57:55,725 ERROR FullProcessService - Project build has not produced APK file
-2018-11-06 19:57:55,840 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 03:23:56,645 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 03:23:56,716 ERROR FullProcessService - Could not find generated or existed APK file

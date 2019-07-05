@@ -1,34 +1,37 @@
-2018-11-05 16:19:51,497 INFO  DownloadService - Downloading "https://github.com/webianks/BreathingProgressDemo/archive/master.zip", attempt 3
-2018-11-05 16:19:54,162 INFO  DownloadService - Downloaded https://github.com/webianks/BreathingProgressDemo/archive/master.zip, attempt 3
-2018-11-05 16:19:54,163 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/master.zip": 113 KB
-2018-11-05 16:19:54,163 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-05 16:19:54,168 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/master.zip: true
-2018-11-05 16:19:54,168 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src'.
-2018-11-05 16:19:54,190 INFO  FullProcessService - Size of directory with sources: 120 KB
-2018-11-05 16:19:54,191 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src]
-2018-11-05 16:19:54,215 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/.git/
+2019-07-06 02:45:01,203 INFO  DownloadService - Downloading "https://github.com/webianks/BreathingProgressDemo/archive/master.zip", attempt 3
+2019-07-06 02:46:01,759 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 02:46:02,715 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 02:46:02,715 INFO  DownloadService - Downloading "https://github.com/webianks/BreathingProgressDemo/archive/master.zip", attempt 3
+2019-07-06 02:47:04,255 DEBUG FullProcessService - Repository https://github.com/webianks/BreathingProgressDemo available: true
+2019-07-06 02:47:04,256 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 02:47:04,256 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/webianks/BreathingProgressDemo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src]
+2019-07-06 02:47:06,235 INFO  SysUtils - 
+2019-07-06 02:47:06,242 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/.git": true
+2019-07-06 02:47:06,244 INFO  FullProcessService - Size of directory with sources: 120 KB
+2019-07-06 02:47:06,244 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src]
+2019-07-06 02:47:06,259 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/.git/
 
-2018-11-05 16:19:54,219 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew
-2018-11-05 16:19:54,222 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/build.gradle
-2018-11-05 16:19:54,226 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/settings.gradle
-2018-11-05 16:19:54,226 INFO  ProjectBuildService - Remote scripts: none
-2018-11-05 16:19:54,226 INFO  ProjectFixService - Fixing project...
-2018-11-05 16:19:54,234 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/local.properties
-2018-11-05 16:19:54,234 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-05 16:19:54,235 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/local.properties
-2018-11-05 16:19:54,235 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-05 16:19:54,236 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/local.properties
-2018-11-05 16:19:54,236 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-05 16:19:54,236 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-05 16:19:54,237 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-11-05 16:19:54,237 INFO  ProjectFixService - Project was maybe fixed
-2018-11-05 16:19:54,237 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:19:54,237 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:20:32,941 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 16:20:32,941 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 16:20:32,941 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 16:20:32,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 16:20:40,084 ERROR SysUtils - Could not process external command
+2019-07-06 02:47:06,262 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew
+2019-07-06 02:47:06,264 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/build.gradle
+2019-07-06 02:47:06,267 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/settings.gradle
+2019-07-06 02:47:06,267 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 02:47:06,267 INFO  ProjectFixService - Fixing project...
+2019-07-06 02:47:06,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/local.properties
+2019-07-06 02:47:06,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 02:47:06,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/local.properties
+2019-07-06 02:47:06,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 02:47:06,274 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/local.properties
+2019-07-06 02:47:06,274 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 02:47:06,274 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 02:47:06,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 02:47:06,275 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 02:47:06,275 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:47:06,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:47:31,628 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:47:31,628 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:47:31,628 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:47:31,628 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:47:37,014 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:20:40,084 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:47:37,014 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -166,15 +169,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.55 secs
+Total time: 4.787 secs
 
-2018-11-05 16:20:40,089 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:20:40,089 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:20:46,871 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 16:20:46,871 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 16:20:46,871 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 16:20:46,871 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/breathing-progress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 16:20:58,962 ERROR SysUtils - Could not process external command
+2019-07-06 02:47:37,018 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:47:37,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:47:42,596 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:47:42,596 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:47:42,596 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:47:42,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/breathing-progress/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:47:51,867 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,7 +204,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:20:58,963 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:47:51,867 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :breathing-progress:preBuild UP-TO-DATE
 :breathing-progress:preDebugBuild UP-TO-DATE
@@ -377,15 +380,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.498 secs
+Total time: 8.639 secs
 
-2018-11-05 16:20:59,020 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:20:59,020 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:21:05,568 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 16:21:05,568 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 16:21:05,568 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 16:21:05,568 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409591494-0/src/BreathingProgressDemo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 16:21:13,331 ERROR SysUtils - Could not process external command
+2019-07-06 02:47:51,904 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:47:51,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:47:57,249 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:47:57,249 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:47:57,249 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:47:57,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355901201-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:48:02,587 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -412,7 +415,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:21:13,331 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:48:02,587 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -523,7 +526,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.119 secs
+Total time: 4.735 secs
 
-2018-11-05 16:21:13,385 ERROR FullProcessService - Project build has not produced APK file
-2018-11-05 16:21:13,433 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 02:48:02,626 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 02:48:02,659 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,10 +1,21 @@
-2018-11-06 19:50:09,871 INFO  DownloadService - Downloading "https://github.com/vitovalov/ADB-Date-Changer/archive/master.zip", attempt 3
-2018-11-06 19:50:14,349 INFO  DownloadService - Downloaded https://github.com/vitovalov/ADB-Date-Changer/archive/master.zip, attempt 3
-2018-11-06 19:50:14,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508609867-0/master.zip": 5 MB
-2018-11-06 19:50:14,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-06 19:50:14,356 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541508609867-0/master.zip: false
-2018-11-06 19:50:14,357 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-06 19:50:14,357 ERROR FullProcessService - Could not find directory with sources
-2018-11-06 19:50:14,357 ERROR FullProcessService - Project will not be processed
-2018-11-06 19:50:14,357 ERROR FullProcessService - Project build has not produced APK file
-2018-11-06 19:50:14,357 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 03:07:18,883 INFO  DownloadService - Downloading "https://github.com/vitovalov/ADB-Date-Changer/archive/master.zip", attempt 3
+2019-07-06 03:08:19,458 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 03:08:20,382 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 03:08:20,383 INFO  DownloadService - Downloading "https://github.com/vitovalov/ADB-Date-Changer/archive/master.zip", attempt 3
+2019-07-06 03:09:22,230 DEBUG FullProcessService - Repository https://github.com/vitovalov/ADB-Date-Changer available: true
+2019-07-06 03:09:22,230 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 03:09:22,230 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/vitovalov/ADB-Date-Changer, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357238876-0/src]
+2019-07-06 03:09:25,945 INFO  SysUtils - 
+2019-07-06 03:09:25,964 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357238876-0/src/.git": true
+2019-07-06 03:09:25,965 INFO  FullProcessService - Size of directory with sources: 7 MB
+2019-07-06 03:09:25,965 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357238876-0/src]
+2019-07-06 03:09:25,980 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562357238876-0/src/.git/
+
+2019-07-06 03:09:25,981 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-06 03:09:25,981 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-06 03:09:25,982 INFO  ProjectBuildService - Build script(s): none
+2019-07-06 03:09:25,984 INFO  ProjectBuildService - All script(s): none
+2019-07-06 03:09:25,984 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 03:09:25,984 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-06 03:09:25,984 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 03:09:25,985 ERROR FullProcessService - Could not find generated or existed APK file

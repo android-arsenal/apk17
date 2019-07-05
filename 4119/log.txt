@@ -1,10 +1,21 @@
-2018-11-05 16:13:02,978 INFO  DownloadService - Downloading "https://github.com/dwatling/apk-decompiler/archive/master.zip", attempt 3
-2018-11-05 16:13:10,258 INFO  DownloadService - Downloaded https://github.com/dwatling/apk-decompiler/archive/master.zip, attempt 3
-2018-11-05 16:13:10,258 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409182970-0/master.zip": 8 MB
-2018-11-05 16:13:10,258 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-05 16:13:10,263 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409182970-0/master.zip: false
-2018-11-05 16:13:10,264 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-05 16:13:10,264 ERROR FullProcessService - Could not find directory with sources
-2018-11-05 16:13:10,264 ERROR FullProcessService - Project will not be processed
-2018-11-05 16:13:10,264 ERROR FullProcessService - Project build has not produced APK file
-2018-11-05 16:13:10,264 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 02:25:51,903 INFO  DownloadService - Downloading "https://github.com/dwatling/apk-decompiler/archive/master.zip", attempt 3
+2019-07-06 02:26:52,502 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 02:26:53,670 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 02:26:53,670 INFO  DownloadService - Downloading "https://github.com/dwatling/apk-decompiler/archive/master.zip", attempt 3
+2019-07-06 02:27:55,007 DEBUG FullProcessService - Repository https://github.com/dwatling/apk-decompiler available: true
+2019-07-06 02:27:55,008 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 02:27:55,008 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/dwatling/apk-decompiler, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354751899-0/src]
+2019-07-06 02:27:59,725 INFO  SysUtils - 
+2019-07-06 02:27:59,747 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354751899-0/src/.git": true
+2019-07-06 02:27:59,748 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-07-06 02:27:59,749 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354751899-0/src]
+2019-07-06 02:27:59,763 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354751899-0/src/.git/
+
+2019-07-06 02:27:59,765 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-06 02:27:59,765 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-06 02:27:59,767 INFO  ProjectBuildService - Build script(s): none
+2019-07-06 02:27:59,768 INFO  ProjectBuildService - All script(s): none
+2019-07-06 02:27:59,768 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 02:27:59,768 ERROR FullProcessService - Project is not correct Gradle project
+2019-07-06 02:27:59,768 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 02:27:59,770 ERROR FullProcessService - Could not find generated or existed APK file

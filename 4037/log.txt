@@ -1,39 +1,39 @@
-2018-11-11 19:32:17,027 INFO  DownloadService - Downloading "https://github.com/JoanZapata/tilesview/archive/master.zip", attempt 3
-2018-11-11 19:33:17,723 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-11 19:33:18,749 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-11 19:33:18,749 INFO  DownloadService - Downloading "https://github.com/JoanZapata/tilesview/archive/master.zip", attempt 3
-2018-11-11 19:34:20,386 DEBUG FullProcessService - Repository https://github.com/JoanZapata/tilesview available: true
-2018-11-11 19:34:20,392 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-11 19:34:20,392 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JoanZapata/tilesview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src]
-2018-11-11 19:34:30,322 INFO  SysUtils - 
-2018-11-11 19:34:30,361 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/.git": true
-2018-11-11 19:34:30,365 INFO  FullProcessService - Size of directory with sources: 11 MB
-2018-11-11 19:34:30,365 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src]
-2018-11-11 19:34:30,384 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/.git/
+2019-07-06 05:34:20,706 INFO  DownloadService - Downloading "https://github.com/JoanZapata/tilesview/archive/master.zip", attempt 3
+2019-07-06 05:35:21,276 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:35:22,176 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:35:22,176 INFO  DownloadService - Downloading "https://github.com/JoanZapata/tilesview/archive/master.zip", attempt 3
+2019-07-06 05:36:23,739 DEBUG FullProcessService - Repository https://github.com/JoanZapata/tilesview available: true
+2019-07-06 05:36:23,739 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:36:23,739 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/JoanZapata/tilesview, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src]
+2019-07-06 05:36:29,452 INFO  SysUtils - 
+2019-07-06 05:36:29,481 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/.git": true
+2019-07-06 05:36:29,483 INFO  FullProcessService - Size of directory with sources: 11 MB
+2019-07-06 05:36:29,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src]
+2019-07-06 05:36:29,498 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/.git/
 
-2018-11-11 19:34:30,388 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/gradlew
-2018-11-11 19:34:30,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/build.gradle
-2018-11-11 19:34:30,394 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/settings.gradle
-2018-11-11 19:34:30,394 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 19:34:30,394 INFO  ProjectFixService - Fixing project...
-2018-11-11 19:34:30,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/local.properties
-2018-11-11 19:34:30,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=<null>]
-2018-11-11 19:34:30,412 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=28]
-2018-11-11 19:34:30,413 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/local.properties
-2018-11-11 19:34:30,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=<null>]
-2018-11-11 19:34:30,415 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=28]
-2018-11-11 19:34:30,416 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/local.properties
-2018-11-11 19:34:30,416 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.7-all.zip
-2018-11-11 19:34:30,417 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.7-bin.zip)
-2018-11-11 19:34:30,418 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=<null>]
-2018-11-11 19:34:30,418 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=28]
-2018-11-11 19:34:30,418 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 19:34:30,418 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:34:30,419 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:34:55,426 INFO  ProjectTaskService - Detected possible tasks: 71
-2018-11-11 19:34:55,426 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 19:34:55,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 19:35:19,086 ERROR SysUtils - Could not process external command
+2019-07-06 05:36:29,500 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/gradlew
+2019-07-06 05:36:29,502 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/build.gradle
+2019-07-06 05:36:29,503 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/settings.gradle
+2019-07-06 05:36:29,504 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 05:36:29,504 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:36:29,510 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/local.properties
+2019-07-06 05:36:29,511 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=<null>]
+2019-07-06 05:36:29,511 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=29]
+2019-07-06 05:36:29,512 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/local.properties
+2019-07-06 05:36:29,513 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=<null>]
+2019-07-06 05:36:29,514 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=10,targetSdkVersion=29]
+2019-07-06 05:36:29,514 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/local.properties
+2019-07-06 05:36:29,514 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.7-all.zip
+2019-07-06 05:36:29,515 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.7-bin.zip)
+2019-07-06 05:36:29,515 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=<null>]
+2019-07-06 05:36:29,515 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=22,minSdkVersion=9,targetSdkVersion=29]
+2019-07-06 05:36:29,516 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:36:29,516 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:36:29,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:36:40,169 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-06 05:36:40,170 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installRelease installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 05:36:40,170 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installRelease, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 05:36:55,979 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,7 +46,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -60,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 19:35:19,087 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:36:55,979 INFO  SysUtils - Configuration on demand is an incubating feature.
 :tilesview:compileLint
 :tilesview:copyReleaseLint UP-TO-DATE
 :tilesview:preBuild UP-TO-DATE
@@ -84,7 +84,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :tilesview:processReleaseResources
 :tilesview:generateReleaseSources
 :tilesview:processReleaseJavaRes UP-TO-DATE
-:tilesview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview/src/main/java/com/joanzapata/tilesview/TilesView.java uses or overrides a deprecated API.
+:tilesview:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview/src/main/java/com/joanzapata/tilesview/TilesView.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :tilesview:extractReleaseAnnotations
@@ -151,7 +151,7 @@ FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':tilesview-demo:packageRelease'.
-> Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
+> Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -219,7 +219,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':tilesvi
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-Caused by: org.gradle.tooling.BuildException: Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
+Caused by: org.gradle.tooling.BuildException: Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
 	at com.android.build.gradle.tasks.PackageApplication.doFullTaskAction(PackageApplication.java:226)
 	at com.android.build.gradle.internal.tasks.IncrementalTask.taskAction(IncrementalTask.java:79)
 	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
@@ -230,7 +230,7 @@ Caused by: org.gradle.tooling.BuildException: Failed to read key tilesview from 
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
 	... 60 more
-Caused by: com.android.ide.common.signing.KeytoolException: Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
+Caused by: com.android.ide.common.signing.KeytoolException: Failed to read key tilesview from store "/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/keystore": Keystore was tampered with, or password was incorrect
 	at com.android.ide.common.signing.KeystoreHelper.getCertificateInfo(KeystoreHelper.java:229)
 	at com.android.builder.core.AndroidBuilder.packageApk(AndroidBuilder.java:1771)
 	at com.android.build.gradle.tasks.PackageApplication.doFullTaskAction(PackageApplication.java:206)
@@ -244,6 +244,6 @@ Caused by: java.security.UnrecoverableKeyException: Password verification failed
 
 BUILD FAILED
 
-Total time: 23.09 secs
+Total time: 15.253 secs
 
-2018-11-11 19:35:19,136 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541939537024-0/src/tilesview-demo/build/outputs/apk/tilesview-demo-debug-unaligned.apk
+2019-07-06 05:36:56,013 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366060704-0/src/tilesview-demo/build/outputs/apk/tilesview-demo-debug-unaligned.apk

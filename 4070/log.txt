@@ -1,34 +1,37 @@
-2018-11-11 17:25:26,757 INFO  DownloadService - Downloading "https://github.com/tarun0/ZXing-Standalone-library/archive/master.zip", attempt 3
-2018-11-11 17:25:30,632 INFO  DownloadService - Downloaded https://github.com/tarun0/ZXing-Standalone-library/archive/master.zip, attempt 3
-2018-11-11 17:25:30,632 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/master.zip": 2 MB
-2018-11-11 17:25:30,632 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:25:30,639 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/master.zip: true
-2018-11-11 17:25:30,639 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src'.
-2018-11-11 17:25:30,740 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-11-11 17:25:30,740 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src]
-2018-11-11 17:25:30,756 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/.git/
+2019-07-06 04:32:01,659 INFO  DownloadService - Downloading "https://github.com/tarun0/ZXing-Standalone-library/archive/master.zip", attempt 3
+2019-07-06 04:33:02,235 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 04:33:03,173 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 04:33:03,173 INFO  DownloadService - Downloading "https://github.com/tarun0/ZXing-Standalone-library/archive/master.zip", attempt 3
+2019-07-06 04:34:04,610 DEBUG FullProcessService - Repository https://github.com/tarun0/ZXing-Standalone-library available: true
+2019-07-06 04:34:04,610 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 04:34:04,610 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/tarun0/ZXing-Standalone-library, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src]
+2019-07-06 04:34:08,574 INFO  SysUtils - 
+2019-07-06 04:34:08,584 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/.git": true
+2019-07-06 04:34:08,594 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-06 04:34:08,594 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src]
+2019-07-06 04:34:08,609 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/.git/
 
-2018-11-11 17:25:30,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/gradlew
-2018-11-11 17:25:30,773 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/zxing_standalone/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/build.gradle
-2018-11-11 17:25:30,781 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/zxing_standalone/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/settings.gradle
-2018-11-11 17:25:30,782 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:25:30,782 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:25:30,799 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/local.properties
-2018-11-11 17:25:30,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 17:25:30,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/zxing_standalone/local.properties
-2018-11-11 17:25:30,800 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/zxing_standalone/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 17:25:30,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/local.properties
-2018-11-11 17:25:30,802 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 17:25:30,802 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 17:25:30,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-11 17:25:30,803 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:25:30,803 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:25:30,803 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:25:37,204 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:25:37,204 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:25:37,205 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:25:37,205 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:25:56,669 ERROR SysUtils - Could not process external command
+2019-07-06 04:34:08,616 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/gradlew
+2019-07-06 04:34:08,622 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/zxing_standalone/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/build.gradle
+2019-07-06 04:34:08,627 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/zxing_standalone/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/settings.gradle
+2019-07-06 04:34:08,627 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 04:34:08,628 INFO  ProjectFixService - Fixing project...
+2019-07-06 04:34:08,640 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/local.properties
+2019-07-06 04:34:08,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 04:34:08,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/zxing_standalone/local.properties
+2019-07-06 04:34:08,641 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/zxing_standalone/build.gradle": [buildToolsVersion=19.1.0,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 04:34:08,641 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/local.properties
+2019-07-06 04:34:08,641 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 04:34:08,642 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 04:34:08,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 04:34:08,642 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 04:34:08,642 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 04:34:08,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 04:34:17,138 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 04:34:17,138 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 04:34:17,138 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 04:34:17,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 04:34:30,616 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:25:56,669 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 04:34:30,616 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :sample_app:preBuild UP-TO-DATE
 :sample_app:preDebugBuild UP-TO-DATE
@@ -225,6 +228,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.874 secs
+Total time: 12.862 secs
 
-2018-11-11 17:25:56,770 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541931926749-0/src/ZXing-Standalone-library-master/sample_app/build/outputs/apk/sample_app-debug.apk
+2019-07-06 04:34:30,670 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562362321657-0/src/sample_app/build/outputs/apk/sample_app-debug.apk

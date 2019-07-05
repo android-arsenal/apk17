@@ -1,41 +1,41 @@
-2018-11-11 19:42:35,646 INFO  DownloadService - Downloading "https://github.com/mattsilber/imageloader/archive/master.zip", attempt 3
-2018-11-11 19:43:36,199 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-11 19:43:37,114 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-11 19:43:37,115 INFO  DownloadService - Downloading "https://github.com/mattsilber/imageloader/archive/master.zip", attempt 3
-2018-11-11 19:44:38,492 DEBUG FullProcessService - Repository https://github.com/mattsilber/imageloader available: true
-2018-11-11 19:44:38,492 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-11 19:44:38,492 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mattsilber/imageloader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src]
-2018-11-11 19:44:41,456 INFO  SysUtils - 
-2018-11-11 19:44:41,465 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/.git": true
-2018-11-11 19:44:41,469 INFO  FullProcessService - Size of directory with sources: 4 MB
-2018-11-11 19:44:41,469 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src]
-2018-11-11 19:44:41,488 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/.git/
+2019-07-06 05:43:43,259 INFO  DownloadService - Downloading "https://github.com/mattsilber/imageloader/archive/master.zip", attempt 3
+2019-07-06 05:44:43,803 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:44:44,956 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:44:44,956 INFO  DownloadService - Downloading "https://github.com/mattsilber/imageloader/archive/master.zip", attempt 3
+2019-07-06 05:45:46,289 DEBUG FullProcessService - Repository https://github.com/mattsilber/imageloader available: true
+2019-07-06 05:45:46,289 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:45:46,289 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mattsilber/imageloader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src]
+2019-07-06 05:45:49,691 INFO  SysUtils - 
+2019-07-06 05:45:49,697 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/.git": true
+2019-07-06 05:45:49,700 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-07-06 05:45:49,700 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src]
+2019-07-06 05:45:49,715 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/.git/
 
-2018-11-11 19:44:41,491 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew
-2018-11-11 19:44:41,495 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/build.gradle
-2018-11-11 19:44:41,497 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/settings.gradle
-2018-11-11 19:44:41,503 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2018-11-11 19:44:42,306 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2018-11-11 19:44:42,306 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-11 19:44:42,546 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-11 19:44:42,546 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2018-11-11 19:44:42,546 INFO  ProjectFixService - Fixing project...
-2018-11-11 19:44:42,556 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/local.properties
-2018-11-11 19:44:42,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-11 19:44:42,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/local.properties
-2018-11-11 19:44:42,557 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
-2018-11-11 19:44:42,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/local.properties
-2018-11-11 19:44:42,558 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-11 19:44:42,559 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-11 19:44:42,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2018-11-11 19:44:42,563 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 19:44:42,563 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:44:42,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:44:46,439 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 19:44:46,441 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-11 19:44:46,441 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-11 19:44:46,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-11 19:44:50,115 ERROR SysUtils - Could not process external command
+2019-07-06 05:45:49,718 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew
+2019-07-06 05:45:49,720 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/build.gradle
+2019-07-06 05:45:49,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/settings.gradle
+2019-07-06 05:45:49,722 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 05:45:50,228 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 05:45:50,228 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 05:45:50,472 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 05:45:50,472 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-06 05:45:50,472 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:45:50,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/local.properties
+2019-07-06 05:45:50,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-06 05:45:50,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/local.properties
+2019-07-06 05:45:50,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-07-06 05:45:50,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/local.properties
+2019-07-06 05:45:50,482 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-06 05:45:50,482 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-06 05:45:50,483 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-06 05:45:50,483 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:45:50,483 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:45:50,483 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:45:53,739 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:45:53,740 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 05:45:53,740 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 05:45:53,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 05:45:55,766 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -48,7 +48,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 19:44:50,115 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:45:55,766 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -205,15 +205,15 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 3s
+BUILD FAILED in 1s
 
-2018-11-11 19:44:50,120 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:44:50,120 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:44:53,726 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 19:44:53,726 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-11 19:44:53,726 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-11 19:44:53,727 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-11 19:44:56,212 ERROR SysUtils - Could not process external command
+2019-07-06 05:45:55,770 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:45:55,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:45:57,757 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:45:57,757 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 05:45:57,757 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 05:45:57,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 05:45:59,775 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -226,7 +226,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -240,7 +240,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 19:44:56,212 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:45:59,776 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -383,14 +383,14 @@ Required by:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 2s
+BUILD FAILED in 1s
 
-2018-11-11 19:44:56,217 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 19:44:56,217 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 19:45:11,463 INFO  ProjectTaskService - Detected possible tasks: 88
-2018-11-11 19:45:11,463 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 19:45:11,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 19:46:15,020 ERROR SysUtils - Could not process external command
+2019-07-06 05:45:59,778 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:45:59,778 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:46:09,370 INFO  ProjectTaskService - Detected possible tasks: 88
+2019-07-06 05:46:09,370 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 05:46:09,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 05:46:49,962 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -403,7 +403,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -417,11 +417,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 19:46:15,020 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://jcenter.bintray.com/com/caverock/androidsvg/1.2.2-beta-1/androidsvg-1.2.2-beta-1.pom
-Download https://jcenter.bintray.com/com/guardanis/font-utils/1.0.2/font-utils-1.0.2.pom
-Download https://jcenter.bintray.com/com/guardanis/collection-utils/2.5.0/collection-utils-2.5.0.pom
-Download https://jcenter.bintray.com/com/guardanis/netclient/1.2.1/netclient-1.2.1.pom
+2019-07-06 05:46:49,962 INFO  SysUtils - Configuration on demand is an incubating feature.
 :imageloader:preBuild UP-TO-DATE
 :imageloader:preDebugBuild UP-TO-DATE
 :imageloader:compileDebugAidl NO-SOURCE
@@ -439,7 +435,7 @@ Download https://jcenter.bintray.com/com/caverock/androidsvg/1.2.2-beta-1/androi
 :imageloader:javaPreCompileDebug
 :imageloader:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/src/main/java/com/guardanis/imageloader/ImageLoader.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/src/main/java/com/guardanis/imageloader/ImageLoader.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :imageloader:extractDebugAnnotations
@@ -474,7 +470,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :imageloader:javaPreCompileRelease
 :imageloader:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader/src/main/java/com/guardanis/imageloader/ImageLoader.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader/src/main/java/com/guardanis/imageloader/ImageLoader.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :imageloader:extractReleaseAnnotations
@@ -501,9 +497,9 @@ Note: Recompile with -Xlint:unchecked for details.
 :imageloader:build
 :imageloader:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :imageloader-sample:checkDebugClasspath
+Download https://jcenter.bintray.com/com/guardanis/font-utils/1.0.2/font-utils-1.0.2.aar
 Download https://jcenter.bintray.com/com/guardanis/collection-utils/2.5.0/collection-utils-2.5.0.aar
 Download https://jcenter.bintray.com/com/guardanis/netclient/1.2.1/netclient-1.2.1.aar
-Download https://jcenter.bintray.com/com/guardanis/font-utils/1.0.2/font-utils-1.0.2.aar
 :imageloader-sample:preBuild UP-TO-DATE
 :imageloader-sample:preDebugBuild
 :imageloader-sample:compileDebugAidl NO-SOURCE
@@ -519,10 +515,10 @@ Download https://jcenter.bintray.com/com/guardanis/font-utils/1.0.2/font-utils-1
 :imageloader-sample:splitsDiscoveryTaskDebug
 :imageloader-sample:processDebugResources
 :imageloader-sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (22, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (26, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (30, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (34, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (22, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (26, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (30, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (34, 28): Parameter 'view' is never used
 :imageloader-sample:prepareLintJar
 :imageloader-sample:generateDebugSources
 :imageloader-sample:javaPreCompileDebug
@@ -548,7 +544,7 @@ D8: Stripped invalid locals information from 1 method.
 :imageloader-sample:mergeDebugJniLibFolders
 :imageloader-sample:transformNativeLibsWithMergeJniLibsForDebug
 :imageloader-sample:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libpl_droidsonroids_gif.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 :imageloader-sample:checkDebugLibraries
 :imageloader-sample:processDebugJavaRes NO-SOURCE
 :imageloader-sample:transformResourcesWithMergeJavaResForDebug
@@ -571,10 +567,10 @@ Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/
 :imageloader-sample:splitsDiscoveryTaskRelease
 :imageloader-sample:processReleaseResources
 :imageloader-sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (22, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (26, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (30, 20): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (34, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (22, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (26, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (30, 20): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/src/main/java/com/guardanis/imageloader/sample/MainActivity.kt: (34, 28): Parameter 'view' is never used
 :imageloader-sample:generateReleaseSources
 :imageloader-sample:javaPreCompileRelease
 :imageloader-sample:compileReleaseJavaWithJavac
@@ -661,7 +657,7 @@ Caused by: org.gradle.api.artifacts.UnknownConfigurationException: Configuration
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 1m 2s
+BUILD FAILED in 39s
 93 actionable tasks: 93 executed
 
-2018-11-11 19:46:15,155 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541940155639-0/src/imageloader-sample/build/outputs/apk/debug/imageloader-sample-debug.apk
+2019-07-06 05:46:50,051 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562366623257-0/src/imageloader-sample/build/outputs/apk/debug/imageloader-sample-debug.apk

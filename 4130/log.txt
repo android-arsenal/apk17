@@ -1,36 +1,36 @@
-2018-11-05 15:24:11,155 INFO  DownloadService - Downloading "https://github.com/onehilltech/android-selfsigned/archive/master.zip", attempt 3
-2018-11-05 15:24:12,781 INFO  DownloadService - Downloaded https://github.com/onehilltech/android-selfsigned/archive/master.zip, attempt 3
-2018-11-05 15:24:12,781 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/master.zip": 61 KB
-2018-11-05 15:24:12,781 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-05 15:24:12,786 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/master.zip: true
-2018-11-05 15:24:12,787 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src'.
-2018-11-05 15:24:12,795 INFO  FullProcessService - Size of directory with sources: 72 KB
-2018-11-05 15:24:12,795 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src]
-2018-11-05 15:24:12,824 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/.git/
+2019-07-06 02:01:51,089 INFO  DownloadService - Downloading "https://github.com/onehilltech/android-selfsigned/archive/master.zip", attempt 3
+2019-07-06 02:01:51,997 INFO  DownloadService - Downloaded https://github.com/onehilltech/android-selfsigned/archive/master.zip, attempt 3
+2019-07-06 02:01:51,998 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/master.zip": 61 KB
+2019-07-06 02:01:51,998 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 02:01:51,998 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/master.zip: true
+2019-07-06 02:01:51,998 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src'.
+2019-07-06 02:01:52,005 INFO  FullProcessService - Size of directory with sources: 73 KB
+2019-07-06 02:01:52,005 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src]
+2019-07-06 02:01:52,022 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/.git/
 
-2018-11-05 15:24:12,827 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew
-2018-11-05 15:24:12,830 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle
-2018-11-05 15:24:12,833 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/settings.gradle
-2018-11-05 15:24:12,834 INFO  ProjectBuildService - Remote scripts: none
-2018-11-05 15:24:12,834 INFO  ProjectFixService - Fixing project...
-2018-11-05 15:24:12,843 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/local.properties
-2018-11-05 15:24:12,845 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-05 15:24:12,846 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-05 15:24:12,847 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/local.properties
-2018-11-05 15:24:12,849 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-05 15:24:12,849 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-05 15:24:12,850 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/local.properties
-2018-11-05 15:24:12,851 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-05 15:24:12,851 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-05 15:24:12,853 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-05 15:24:12,854 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-05 15:24:12,855 INFO  ProjectFixService - Project was maybe fixed
-2018-11-05 15:24:12,855 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:24:12,855 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:24:29,841 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-11-05 15:24:29,841 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-05 15:24:29,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android-volley/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-05 15:24:37,081 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:01:52,023 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew
+2019-07-06 02:01:52,025 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle
+2019-07-06 02:01:52,026 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/settings.gradle
+2019-07-06 02:01:52,027 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 02:01:52,027 INFO  ProjectFixService - Fixing project...
+2019-07-06 02:01:52,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/local.properties
+2019-07-06 02:01:52,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 02:01:52,034 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 02:01:52,035 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/local.properties
+2019-07-06 02:01:52,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 02:01:52,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 02:01:52,038 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/local.properties
+2019-07-06 02:01:52,038 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 02:01:52,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 02:01:52,040 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 02:01:52,041 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 02:01:52,041 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 02:01:52,041 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:01:52,041 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:02:02,098 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 02:02:02,098 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 02:02:02,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android-volley/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 02:02:07,909 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :android-volley:preBuild UP-TO-DATE
 :android-volley:preDebugBuild UP-TO-DATE
@@ -142,15 +142,15 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.734 secs
+Total time: 5.305 secs
 
-2018-11-05 15:24:37,098 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:24:37,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:24:43,364 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 15:24:43,364 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 15:24:43,364 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 15:24:43,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 15:24:50,411 ERROR SysUtils - Could not process external command
+2019-07-06 02:02:07,920 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:02:07,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:02:12,833 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:02:12,833 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:02:12,833 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:02:12,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:02:18,217 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -178,7 +178,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:24:50,411 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:02:18,217 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :android:preBuild UP-TO-DATE
 :android:preDebugBuild UP-TO-DATE
@@ -342,14 +342,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.559 secs
+Total time: 4.893 secs
 
-2018-11-05 15:24:50,429 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:24:50,430 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:24:56,919 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-11-05 15:24:56,919 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-05 15:24:56,920 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406251152-0/src/android-selfsigned-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-05 15:25:03,840 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:02:18,226 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:02:18,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:02:23,235 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-07-06 02:02:23,235 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 02:02:23,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353311086-0/src/android-selfsigned-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 02:02:28,452 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :android:preBuild UP-TO-DATE
 :android:preDebugBuild UP-TO-DATE
@@ -493,7 +493,7 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 6.394 secs
+Total time: 4.734 secs
 
-2018-11-05 15:25:03,863 ERROR FullProcessService - Project build has not produced APK file
-2018-11-05 15:25:03,886 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 02:02:28,465 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 02:02:28,476 ERROR FullProcessService - Could not find generated or existed APK file

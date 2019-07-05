@@ -1,31 +1,34 @@
-2018-11-11 20:32:44,826 INFO  DownloadService - Downloading "https://github.com/axcl/SMACK-API-Android-Demo/archive/master.zip", attempt 3
-2018-11-11 20:32:46,119 INFO  DownloadService - Downloaded https://github.com/axcl/SMACK-API-Android-Demo/archive/master.zip, attempt 3
-2018-11-11 20:32:46,120 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/master.zip": 163 KB
-2018-11-11 20:32:46,120 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:32:46,125 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/master.zip: true
-2018-11-11 20:32:46,126 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src'.
-2018-11-11 20:32:46,145 INFO  FullProcessService - Size of directory with sources: 190 KB
-2018-11-11 20:32:46,145 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src]
-2018-11-11 20:32:46,163 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/.git/
+2019-07-06 06:00:28,458 INFO  DownloadService - Downloading "https://github.com/axcl/SMACK-API-Android-Demo/archive/master.zip", attempt 3
+2019-07-06 06:01:29,027 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 06:01:29,846 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 06:01:29,846 INFO  DownloadService - Downloading "https://github.com/axcl/SMACK-API-Android-Demo/archive/master.zip", attempt 3
+2019-07-06 06:02:31,254 DEBUG FullProcessService - Repository https://github.com/axcl/SMACK-API-Android-Demo available: true
+2019-07-06 06:02:31,254 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 06:02:31,254 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/axcl/SMACK-API-Android-Demo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src]
+2019-07-06 06:02:33,139 INFO  SysUtils - 
+2019-07-06 06:02:33,162 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/.git": true
+2019-07-06 06:02:33,164 INFO  FullProcessService - Size of directory with sources: 190 KB
+2019-07-06 06:02:33,164 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src]
+2019-07-06 06:02:33,178 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/.git/
 
-2018-11-11 20:32:46,166 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/gradlew
-2018-11-11 20:32:46,169 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/build.gradle
-2018-11-11 20:32:46,174 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/settings.gradle
-2018-11-11 20:32:46,174 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 20:32:46,174 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:32:46,183 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/local.properties
-2018-11-11 20:32:46,184 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-11 20:32:46,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/local.properties
-2018-11-11 20:32:46,185 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-11-11 20:32:46,186 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-11-11 20:32:46,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
-2018-11-11 20:32:46,187 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:32:46,187 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:32:46,187 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:33:56,892 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-11-11 20:33:56,892 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 20:33:56,893 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 20:34:47,532 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 06:02:33,180 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/gradlew
+2019-07-06 06:02:33,182 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/build.gradle
+2019-07-06 06:02:33,183 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/settings.gradle
+2019-07-06 06:02:33,183 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 06:02:33,183 INFO  ProjectFixService - Fixing project...
+2019-07-06 06:02:33,187 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/local.properties
+2019-07-06 06:02:33,187 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-06 06:02:33,188 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/local.properties
+2019-07-06 06:02:33,188 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-06 06:02:33,188 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-06 06:02:33,189 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=10,targetSdkVersion=23]
+2019-07-06 06:02:33,189 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 06:02:33,189 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 06:02:33,189 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 06:02:46,216 INFO  ProjectTaskService - Detected possible tasks: 68
+2019-07-06 06:02:46,216 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 06:02:46,216 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 06:03:27,695 INFO  SysUtils - Configuration on demand is an incubating feature.
 WARNING: Dependency xpp3:xpp3:1.1.4c is ignored for debug as it may be conflicting with the internal version provided by Android.
          In case of problem, please repackage it with jarjar to change the class packages
 WARNING: Dependency xpp3:xpp3:1.1.4c is ignored for release as it may be conflicting with the internal version provided by Android.
@@ -109,6 +112,6 @@ WARNING: Dependency xpp3:xpp3:1.1.4c is ignored for release as it may be conflic
 
 BUILD SUCCESSFUL
 
-Total time: 50.08 secs
+Total time: 40.897 secs
 
-2018-11-11 20:34:47,648 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943164822-0/src/SMACK-API-Android-Demo-master/DemoApp/app/build/outputs/apk/app-debug.apk
+2019-07-06 06:03:27,748 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367628456-0/src/DemoApp/app/build/outputs/apk/app-debug.apk

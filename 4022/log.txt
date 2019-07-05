@@ -1,39 +1,42 @@
-2018-11-11 20:36:21,833 INFO  DownloadService - Downloading "https://github.com/klinker24/Android-3DTouch-PeekView/archive/master.zip", attempt 3
-2018-11-11 20:36:23,583 INFO  DownloadService - Downloaded https://github.com/klinker24/Android-3DTouch-PeekView/archive/master.zip, attempt 3
-2018-11-11 20:36:23,584 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/master.zip": 3 MB
-2018-11-11 20:36:23,584 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:36:23,590 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/master.zip: true
-2018-11-11 20:36:23,590 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src'.
-2018-11-11 20:36:23,630 INFO  FullProcessService - Size of directory with sources: 3 MB
-2018-11-11 20:36:23,630 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src]
-2018-11-11 20:36:23,649 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/.git/
+2019-07-06 06:08:54,951 INFO  DownloadService - Downloading "https://github.com/klinker24/Android-3DTouch-PeekView/archive/master.zip", attempt 3
+2019-07-06 06:09:55,517 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 06:09:56,312 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 06:09:56,312 INFO  DownloadService - Downloading "https://github.com/klinker24/Android-3DTouch-PeekView/archive/master.zip", attempt 3
+2019-07-06 06:10:57,629 DEBUG FullProcessService - Repository https://github.com/klinker24/Android-3DTouch-PeekView available: true
+2019-07-06 06:10:57,629 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 06:10:57,629 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/klinker24/Android-3DTouch-PeekView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src]
+2019-07-06 06:11:00,667 INFO  SysUtils - 
+2019-07-06 06:11:00,692 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/.git": true
+2019-07-06 06:11:00,694 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-07-06 06:11:00,694 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src]
+2019-07-06 06:11:00,709 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/.git/
 
-2018-11-11 20:36:23,651 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/gradlew
-2018-11-11 20:36:23,654 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/build.gradle
-2018-11-11 20:36:23,657 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/settings.gradle
-2018-11-11 20:36:23,658 INFO  DownloadService - Downloading "https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2018-11-11 20:36:24,624 INFO  DownloadService - Downloaded https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2018-11-11 20:36:24,624 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle
-2018-11-11 20:36:24,624 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:36:24,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/local.properties
-2018-11-11 20:36:24,640 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-11 20:36:24,640 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-11 20:36:24,642 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/library/local.properties
-2018-11-11 20:36:24,645 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-11 20:36:24,645 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-11 20:36:24,647 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/local.properties
-2018-11-11 20:36:24,647 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-11 20:36:24,648 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-11 20:36:24,651 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-11 20:36:24,651 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-11-11 20:36:24,652 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:36:24,652 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:36:24,652 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:36:43,886 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 20:36:43,886 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-11-11 20:36:43,886 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-11-11 20:36:43,886 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-11-11 20:36:52,181 ERROR SysUtils - Could not process external command
+2019-07-06 06:11:00,710 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/gradlew
+2019-07-06 06:11:00,712 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/build.gradle
+2019-07-06 06:11:00,714 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/settings.gradle
+2019-07-06 06:11:00,714 INFO  DownloadService - Downloading "https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-07-06 06:11:01,566 INFO  DownloadService - Downloaded https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-07-06 06:11:01,566 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/klinker24/gradle-mvn-push/master/gradle-mvn-push.gradle
+2019-07-06 06:11:01,566 INFO  ProjectFixService - Fixing project...
+2019-07-06 06:11:01,574 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/local.properties
+2019-07-06 06:11:01,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 06:11:01,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 06:11:01,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/library/local.properties
+2019-07-06 06:11:01,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 06:11:01,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 06:11:01,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/local.properties
+2019-07-06 06:11:01,581 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 06:11:01,582 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 06:11:01,583 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 06:11:01,583 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 06:11:01,583 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 06:11:01,583 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 06:11:01,584 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 06:11:12,776 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 06:11:12,776 INFO  ProjectTaskService - Detected possible tasks: 4
+2019-07-06 06:11:12,776 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
+2019-07-06 06:11:12,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
+2019-07-06 06:11:19,979 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,8 +49,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -61,7 +63,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:36:52,181 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 06:11:19,980 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -162,6 +164,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.663 secs
+Total time: 6.591 secs
 
-2018-11-11 20:36:52,185 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943381824-0/src/Android-3DTouch-PeekView-master/app.apk
+2019-07-06 06:11:19,982 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562368134943-0/src/app.apk

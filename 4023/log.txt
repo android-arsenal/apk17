@@ -1,37 +1,40 @@
-2018-11-11 20:35:36,974 INFO  DownloadService - Downloading "https://github.com/himanshu-soni/EditTextSpinner/archive/master.zip", attempt 3
-2018-11-11 20:35:37,857 INFO  DownloadService - Downloaded https://github.com/himanshu-soni/EditTextSpinner/archive/master.zip, attempt 3
-2018-11-11 20:35:37,858 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/master.zip": 113 KB
-2018-11-11 20:35:37,858 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:35:37,863 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/master.zip: true
-2018-11-11 20:35:37,864 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src'.
-2018-11-11 20:35:37,885 INFO  FullProcessService - Size of directory with sources: 123 KB
-2018-11-11 20:35:37,886 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src]
-2018-11-11 20:35:37,904 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/.git/
+2019-07-06 06:06:11,474 INFO  DownloadService - Downloading "https://github.com/himanshu-soni/EditTextSpinner/archive/master.zip", attempt 3
+2019-07-06 06:07:12,058 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 06:07:12,959 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 06:07:12,959 INFO  DownloadService - Downloading "https://github.com/himanshu-soni/EditTextSpinner/archive/master.zip", attempt 3
+2019-07-06 06:08:14,299 DEBUG FullProcessService - Repository https://github.com/himanshu-soni/EditTextSpinner available: true
+2019-07-06 06:08:14,299 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 06:08:14,299 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/himanshu-soni/EditTextSpinner, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src]
+2019-07-06 06:08:16,168 INFO  SysUtils - 
+2019-07-06 06:08:16,175 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/.git": true
+2019-07-06 06:08:16,177 INFO  FullProcessService - Size of directory with sources: 123 KB
+2019-07-06 06:08:16,177 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src]
+2019-07-06 06:08:16,192 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/.git/
 
-2018-11-11 20:35:37,907 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/gradlew
-2018-11-11 20:35:37,911 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/edit-text-spinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/build.gradle
-2018-11-11 20:35:37,915 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/edit-text-spinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/settings.gradle
-2018-11-11 20:35:37,921 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle", attempt 3
-2018-11-11 20:35:38,842 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle, attempt 3
-2018-11-11 20:35:38,843 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle", attempt 3
-2018-11-11 20:35:39,059 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle, attempt 3
-2018-11-11 20:35:39,060 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle
-2018-11-11 20:35:39,060 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:35:39,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/local.properties
-2018-11-11 20:35:39,074 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 20:35:39,075 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/edit-text-spinner/local.properties
-2018-11-11 20:35:39,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/edit-text-spinner/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 20:35:39,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/local.properties
-2018-11-11 20:35:39,077 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2018-11-11 20:35:39,077 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2018-11-11 20:35:39,079 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 20:35:39,079 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:35:39,079 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:35:39,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:35:47,078 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-11-11 20:35:47,078 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 20:35:47,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 20:35:52,756 ERROR SysUtils - Could not process external command
+2019-07-06 06:08:16,195 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/gradlew
+2019-07-06 06:08:16,197 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/edit-text-spinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/build.gradle
+2019-07-06 06:08:16,199 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/edit-text-spinner/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/settings.gradle
+2019-07-06 06:08:16,200 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle", attempt 3
+2019-07-06 06:08:16,983 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle, attempt 3
+2019-07-06 06:08:16,983 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle", attempt 3
+2019-07-06 06:08:17,257 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle, attempt 3
+2019-07-06 06:08:17,257 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/bintray.gradle https://raw.githubusercontent.com/himanshu-soni/QuantityView/master/install.gradle
+2019-07-06 06:08:17,257 INFO  ProjectFixService - Fixing project...
+2019-07-06 06:08:17,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/local.properties
+2019-07-06 06:08:17,264 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 06:08:17,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/edit-text-spinner/local.properties
+2019-07-06 06:08:17,265 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/edit-text-spinner/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 06:08:17,265 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/local.properties
+2019-07-06 06:08:17,265 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
+2019-07-06 06:08:17,265 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
+2019-07-06 06:08:17,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 06:08:17,266 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 06:08:17,266 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 06:08:17,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 06:08:24,407 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-06 06:08:24,407 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 06:08:24,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 06:08:29,629 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,8 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:35:52,756 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 06:08:29,630 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -119,11 +121,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 5.195 secs
+Total time: 4.678 secs
 
-2018-11-11 20:35:52,756 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-11 20:35:52,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 20:36:13,680 ERROR SysUtils - Could not process external command
+2019-07-06 06:08:29,630 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-06 06:08:29,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 06:08:46,754 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -136,8 +138,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -151,7 +152,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:36:13,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 06:08:46,754 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:checkDebugManifest
@@ -209,7 +210,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:processDebugManifest
 :app:processDebugResources
 :app:generateDebugSources
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/src/main/java/himanshusoni/me/edittextspinner/sample/MainActivity.java uses unchecked or unsafe operations.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/src/main/java/himanshusoni/me/edittextspinner/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileDebugNdk UP-TO-DATE
@@ -236,7 +237,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:processReleaseManifest
 :app:processReleaseResources
 :app:generateReleaseSources
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/src/main/java/himanshusoni/me/edittextspinner/sample/MainActivity.java uses unchecked or unsafe operations.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/src/main/java/himanshusoni/me/edittextspinner/sample/MainActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileReleaseNdk UP-TO-DATE
@@ -338,6 +339,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 20.398 secs
+Total time: 16.558 secs
 
-2018-11-11 20:36:13,766 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943336971-0/src/EditTextSpinner-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 06:08:46,812 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562367971472-0/src/app/build/outputs/apk/app-debug.apk

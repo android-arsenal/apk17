@@ -1,34 +1,37 @@
-2018-11-11 17:53:12,965 INFO  DownloadService - Downloading "https://github.com/nillith/PrivilegedTask/archive/master.zip", attempt 3
-2018-11-11 17:53:13,460 INFO  DownloadService - Downloaded https://github.com/nillith/PrivilegedTask/archive/master.zip, attempt 3
-2018-11-11 17:53:13,460 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/master.zip": 116 KB
-2018-11-11 17:53:13,460 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:53:13,461 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/master.zip: true
-2018-11-11 17:53:13,461 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src'.
-2018-11-11 17:53:13,482 INFO  FullProcessService - Size of directory with sources: 134 KB
-2018-11-11 17:53:13,483 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src]
-2018-11-11 17:53:13,504 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/.git/
+2019-07-06 05:04:13,098 INFO  DownloadService - Downloading "https://github.com/nillith/PrivilegedTask/archive/master.zip", attempt 3
+2019-07-06 05:05:13,662 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:05:14,469 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:05:14,469 INFO  DownloadService - Downloading "https://github.com/nillith/PrivilegedTask/archive/master.zip", attempt 3
+2019-07-06 05:06:15,902 DEBUG FullProcessService - Repository https://github.com/nillith/PrivilegedTask available: true
+2019-07-06 05:06:15,902 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:06:15,902 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nillith/PrivilegedTask, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src]
+2019-07-06 05:06:17,890 INFO  SysUtils - 
+2019-07-06 05:06:17,896 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/.git": true
+2019-07-06 05:06:17,899 INFO  FullProcessService - Size of directory with sources: 134 KB
+2019-07-06 05:06:17,899 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src]
+2019-07-06 05:06:17,913 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/.git/
 
-2018-11-11 17:53:13,508 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew
-2018-11-11 17:53:13,514 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/build.gradle
-2018-11-11 17:53:13,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/settings.gradle
-2018-11-11 17:53:13,520 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:53:13,520 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:53:13,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/local.properties
-2018-11-11 17:53:13,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 17:53:13,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/local.properties
-2018-11-11 17:53:13,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 17:53:13,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/local.properties
-2018-11-11 17:53:13,536 INFO  WrapperPropertiesFixService - Gradle wrapper: http://127.0.0.1/android/gradle-2.10-all.zip
-2018-11-11 17:53:13,536 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://127.0.0.1/android/gradle-2.10-bin.zip)
-2018-11-11 17:53:13,539 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
-2018-11-11 17:53:13,539 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:53:13,539 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:53:13,539 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:53:32,108 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:53:32,109 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:53:32,109 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:53:32,109 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:53:33,174 ERROR SysUtils - Could not process external command
+2019-07-06 05:06:17,916 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew
+2019-07-06 05:06:17,918 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/build.gradle
+2019-07-06 05:06:17,921 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/settings.gradle
+2019-07-06 05:06:17,921 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 05:06:17,921 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:06:17,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/local.properties
+2019-07-06 05:06:17,927 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 05:06:17,927 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/local.properties
+2019-07-06 05:06:17,928 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 05:06:17,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/local.properties
+2019-07-06 05:06:17,928 INFO  WrapperPropertiesFixService - Gradle wrapper: http://127.0.0.1/android/gradle-2.10-all.zip
+2019-07-06 05:06:17,929 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (http://127.0.0.1/android/gradle-2.10-bin.zip)
+2019-07-06 05:06:17,930 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=7,targetSdkVersion=23]
+2019-07-06 05:06:17,930 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:06:17,930 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:06:17,930 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:06:18,190 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:06:18,190 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 05:06:18,191 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 05:06:18,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask-demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 05:06:18,404 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,10 +58,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:53:33,174 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
+2019-07-06 05:06:18,404 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
 
-Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/android/gradle-2.10-bin.zip
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 403 for URL: http://127.0.0.1/android/gradle-2.10-bin.zip
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
 	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
 	at org.gradle.wrapper.Download.download(Download.java:44)
@@ -69,13 +72,13 @@ Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/andro
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-2018-11-11 17:53:33,185 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:53:33,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:53:34,370 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:53:34,370 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:53:34,370 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:53:34,370 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/privilegedtask/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:53:36,200 ERROR SysUtils - Could not process external command
+2019-07-06 05:06:18,407 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:06:18,407 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:06:18,618 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:06:18,618 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 05:06:18,618 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 05:06:18,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/privilegedtask/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 05:06:18,833 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -102,10 +105,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:53:36,200 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
+2019-07-06 05:06:18,833 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
 
-Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/android/gradle-2.10-bin.zip
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 403 for URL: http://127.0.0.1/android/gradle-2.10-bin.zip
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
 	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
 	at org.gradle.wrapper.Download.download(Download.java:44)
@@ -116,13 +119,13 @@ Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/andro
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-2018-11-11 17:53:36,208 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:53:36,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:53:37,469 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:53:37,469 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:53:37,469 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:53:37,469 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933592962-0/src/PrivilegedTask-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:53:39,219 ERROR SysUtils - Could not process external command
+2019-07-06 05:06:18,835 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:06:18,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:06:19,047 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:06:19,047 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 05:06:19,047 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 05:06:19,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364253095-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 05:06:19,262 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -149,10 +152,10 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:53:39,219 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
+2019-07-06 05:06:19,263 INFO  SysUtils - Downloading http://127.0.0.1/android/gradle-2.10-bin.zip
 
-Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/android/gradle-2.10-bin.zip
-	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1890)
+Exception in thread "main" java.io.IOException: Server returned HTTP response code: 403 for URL: http://127.0.0.1/android/gradle-2.10-bin.zip
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1894)
 	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1492)
 	at org.gradle.wrapper.Download.downloadInternal(Download.java:58)
 	at org.gradle.wrapper.Download.download(Download.java:44)
@@ -163,5 +166,5 @@ Exception in thread "main" java.io.FileNotFoundException: http://127.0.0.1/andro
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
 
-2018-11-11 17:53:39,227 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 17:53:39,235 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 05:06:19,266 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 05:06:19,268 ERROR FullProcessService - Could not find generated or existed APK file

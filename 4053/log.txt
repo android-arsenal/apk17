@@ -1,34 +1,37 @@
-2018-11-11 17:51:52,882 INFO  DownloadService - Downloading "https://github.com/SilenceDut/DayNightToggleButton/archive/master.zip", attempt 3
-2018-11-11 17:51:53,994 INFO  DownloadService - Downloaded https://github.com/SilenceDut/DayNightToggleButton/archive/master.zip, attempt 3
-2018-11-11 17:51:53,994 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/master.zip": 1 MB
-2018-11-11 17:51:53,994 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:51:53,996 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/master.zip: true
-2018-11-11 17:51:53,996 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src'.
-2018-11-11 17:51:54,027 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-11 17:51:54,028 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src]
-2018-11-11 17:51:54,045 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/.git/
+2019-07-06 05:01:45,889 INFO  DownloadService - Downloading "https://github.com/SilenceDut/DayNightToggleButton/archive/master.zip", attempt 3
+2019-07-06 05:02:46,423 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:02:47,411 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:02:47,411 INFO  DownloadService - Downloading "https://github.com/SilenceDut/DayNightToggleButton/archive/master.zip", attempt 3
+2019-07-06 05:03:48,973 DEBUG FullProcessService - Repository https://github.com/SilenceDut/DayNightToggleButton available: true
+2019-07-06 05:03:48,973 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:03:48,973 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SilenceDut/DayNightToggleButton, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src]
+2019-07-06 05:03:51,460 INFO  SysUtils - 
+2019-07-06 05:03:51,487 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/.git": true
+2019-07-06 05:03:51,491 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 05:03:51,491 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src]
+2019-07-06 05:03:51,507 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/.git/
 
-2018-11-11 17:51:54,048 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/gradlew
-2018-11-11 17:51:54,052 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/build.gradle
-2018-11-11 17:51:54,055 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/settings.gradle
-2018-11-11 17:51:54,056 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:51:54,056 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:51:54,064 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/local.properties
-2018-11-11 17:51:54,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-11 17:51:54,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/library/local.properties
-2018-11-11 17:51:54,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-11 17:51:54,066 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/local.properties
-2018-11-11 17:51:54,066 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-11-11 17:51:54,067 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-11-11 17:51:54,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-11 17:51:54,067 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:51:54,067 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:51:54,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:52:12,857 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:52:12,858 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:52:12,858 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:52:12,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:52:21,034 ERROR SysUtils - Could not process external command
+2019-07-06 05:03:51,509 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/gradlew
+2019-07-06 05:03:51,511 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/build.gradle
+2019-07-06 05:03:51,513 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/settings.gradle
+2019-07-06 05:03:51,513 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 05:03:51,513 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:03:51,518 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/local.properties
+2019-07-06 05:03:51,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 05:03:51,519 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/library/local.properties
+2019-07-06 05:03:51,519 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/library/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 05:03:51,519 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/local.properties
+2019-07-06 05:03:51,519 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-06 05:03:51,520 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-06 05:03:51,520 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 05:03:51,520 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:03:51,520 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:03:51,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:04:00,706 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:04:00,706 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 05:04:00,706 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 05:04:00,706 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 05:04:07,034 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:52:21,034 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:04:07,034 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -71,7 +74,7 @@ A problem occurred configuring project ':app'.
          file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/support/constraint/constraint-layout/1.0.0-alpha1/constraint-layout-1.0.0-alpha1.pom
          file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/support/constraint/constraint-layout/1.0.0-alpha1/constraint-layout-1.0.0-alpha1.jar
      Required by:
-         DayNightToggleButton-master:app:unspecified
+         src:app:unspecified
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -174,7 +177,7 @@ Searched in the following locations:
     file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/support/constraint/constraint-layout/1.0.0-alpha1/constraint-layout-1.0.0-alpha1.pom
     file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/support/constraint/constraint-layout/1.0.0-alpha1/constraint-layout-1.0.0-alpha1.jar
 Required by:
-    DayNightToggleButton-master:app:unspecified
+    src:app:unspecified
 	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:35)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainDependencyResolver.resolve(RepositoryChainDependencyResolver.java:86)
 	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainAdapter.resolve(RepositoryChainAdapter.java:69)
@@ -212,6 +215,6 @@ Required by:
 
 BUILD FAILED
 
-Total time: 7.69 secs
+Total time: 5.781 secs
 
-2018-11-11 17:52:21,042 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933512879-0/src/DayNightToggleButton-master/apk/day_night_togglebutton.apk
+2019-07-06 05:04:07,037 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364105886-0/src/apk/day_night_togglebutton.apk

@@ -1,37 +1,40 @@
-2018-11-05 16:15:48,436 INFO  DownloadService - Downloading "https://github.com/syedowaisali/crystal-viewpager/archive/master.zip", attempt 3
-2018-11-05 16:15:50,722 INFO  DownloadService - Downloaded https://github.com/syedowaisali/crystal-viewpager/archive/master.zip, attempt 3
-2018-11-05 16:15:50,722 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/master.zip": 680 KB
-2018-11-05 16:15:50,722 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-05 16:15:50,723 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/master.zip: true
-2018-11-05 16:15:50,723 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src'.
-2018-11-05 16:15:50,754 INFO  FullProcessService - Size of directory with sources: 697 KB
-2018-11-05 16:15:50,754 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src]
-2018-11-05 16:15:50,774 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/.git/
+2019-07-06 02:34:18,676 INFO  DownloadService - Downloading "https://github.com/syedowaisali/crystal-viewpager/archive/master.zip", attempt 3
+2019-07-06 02:35:19,753 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 02:35:20,526 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 02:35:20,526 INFO  DownloadService - Downloading "https://github.com/syedowaisali/crystal-viewpager/archive/master.zip", attempt 3
+2019-07-06 02:36:21,895 DEBUG FullProcessService - Repository https://github.com/syedowaisali/crystal-viewpager available: true
+2019-07-06 02:36:21,895 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 02:36:21,895 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/syedowaisali/crystal-viewpager, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src]
+2019-07-06 02:36:24,103 INFO  SysUtils - 
+2019-07-06 02:36:24,110 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/.git": true
+2019-07-06 02:36:24,113 INFO  FullProcessService - Size of directory with sources: 697 KB
+2019-07-06 02:36:24,113 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src]
+2019-07-06 02:36:24,128 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/.git/
 
-2018-11-05 16:15:50,779 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/gradlew
-2018-11-05 16:15:50,783 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/crystalviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/build.gradle
-2018-11-05 16:15:50,787 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/crystalviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/settings.gradle
-2018-11-05 16:15:50,788 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2018-11-05 16:15:51,011 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2018-11-05 16:15:51,012 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-05 16:15:51,233 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-05 16:15:51,233 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2018-11-05 16:15:51,233 INFO  ProjectFixService - Fixing project...
-2018-11-05 16:15:51,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/local.properties
-2018-11-05 16:15:51,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-05 16:15:51,247 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/crystalviewpager/local.properties
-2018-11-05 16:15:51,250 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/crystalviewpager/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-05 16:15:51,251 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/local.properties
-2018-11-05 16:15:51,252 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-05 16:15:51,252 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-05 16:15:51,253 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
-2018-11-05 16:15:51,253 INFO  ProjectFixService - Project was maybe fixed
-2018-11-05 16:15:51,253 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:15:51,254 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:16:06,739 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-11-05 16:16:06,740 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-05 16:16:06,740 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-05 16:16:15,520 ERROR SysUtils - Could not process external command
+2019-07-06 02:36:24,131 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/gradlew
+2019-07-06 02:36:24,133 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/crystalviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/build.gradle
+2019-07-06 02:36:24,136 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/crystalviewpager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/settings.gradle
+2019-07-06 02:36:24,136 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 02:36:24,236 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 02:36:24,236 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 02:36:24,316 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 02:36:24,316 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-06 02:36:24,316 INFO  ProjectFixService - Fixing project...
+2019-07-06 02:36:24,325 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/local.properties
+2019-07-06 02:36:24,326 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-06 02:36:24,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/crystalviewpager/local.properties
+2019-07-06 02:36:24,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/crystalviewpager/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-06 02:36:24,327 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/local.properties
+2019-07-06 02:36:24,328 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 02:36:24,328 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 02:36:24,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/build.gradle": [buildToolsVersion=23.0.0,compileSdkVersion=23,minSdkVersion=16,targetSdkVersion=23]
+2019-07-06 02:36:24,329 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 02:36:24,329 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:36:24,329 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:36:35,563 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-06 02:36:35,563 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 02:36:35,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 02:36:41,293 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,8 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -59,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:16:15,520 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:36:41,293 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -120,11 +122,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 8.248 secs
+Total time: 5.217 secs
 
-2018-11-05 16:16:15,521 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-05 16:16:15,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 16:16:54,326 ERROR SysUtils - Could not process external command
+2019-07-06 02:36:41,293 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-06 02:36:41,293 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:37:02,217 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -137,8 +139,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -152,7 +153,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:16:54,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:37:02,218 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -354,6 +355,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 38.186 secs
+Total time: 20.408 secs
 
-2018-11-05 16:16:54,468 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409348432-0/src/crystal-viewpager-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 02:37:02,282 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562355258668-0/src/app/build/outputs/apk/app-debug.apk

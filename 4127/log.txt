@@ -1,43 +1,43 @@
-2018-11-05 15:28:16,735 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
-2018-11-05 15:29:17,383 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-11-05 15:29:18,488 INFO  GithubDownloadService - Default branch of this repository: master
-2018-11-05 15:29:18,488 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
-2018-11-05 15:30:19,949 DEBUG FullProcessService - Repository https://github.com/badoo/Chateau available: true
-2018-11-05 15:30:19,949 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-11-05 15:30:19,949 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/badoo/Chateau, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src]
-2018-11-05 15:30:22,109 INFO  SysUtils - 
-2018-11-05 15:30:22,124 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/.git": true
-2018-11-05 15:30:22,139 INFO  FullProcessService - Size of directory with sources: 851 KB
-2018-11-05 15:30:22,139 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src]
-2018-11-05 15:30:22,159 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/.git/
+2019-07-06 02:05:31,694 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
+2019-07-06 02:06:32,233 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 02:06:34,050 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 02:06:34,051 INFO  DownloadService - Downloading "https://github.com/badoo/Chateau/archive/master.zip", attempt 3
+2019-07-06 02:07:35,601 DEBUG FullProcessService - Repository https://github.com/badoo/Chateau available: true
+2019-07-06 02:07:35,601 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 02:07:35,601 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/badoo/Chateau, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src]
+2019-07-06 02:07:37,688 INFO  SysUtils - 
+2019-07-06 02:07:37,700 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/.git": true
+2019-07-06 02:07:37,711 INFO  FullProcessService - Size of directory with sources: 851 KB
+2019-07-06 02:07:37,711 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src]
+2019-07-06 02:07:37,727 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/.git/
 
-2018-11-05 15:30:22,171 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew
-2018-11-05 15:30:22,183 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle
-2018-11-05 15:30:22,195 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle
-2018-11-05 15:30:22,196 INFO  ProjectBuildService - Remote scripts: none
-2018-11-05 15:30:22,196 INFO  ProjectFixService - Fixing project...
-2018-11-05 15:30:22,224 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/local.properties
-2018-11-05 15:30:22,224 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-05 15:30:22,225 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/local.properties
-2018-11-05 15:30:22,225 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-05 15:30:22,226 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/local.properties
-2018-11-05 15:30:22,226 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-05 15:30:22,227 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/local.properties
-2018-11-05 15:30:22,227 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-05 15:30:22,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/local.properties
-2018-11-05 15:30:22,228 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=21]
-2018-11-05 15:30:22,228 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/local.properties
-2018-11-05 15:30:22,229 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-05 15:30:22,229 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-05 15:30:22,230 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-11-05 15:30:22,230 INFO  ProjectFixService - Project was maybe fixed
-2018-11-05 15:30:22,230 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:30:22,230 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:31:03,590 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 15:31:03,590 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 15:31:03,590 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 15:31:03,591 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 15:31:19,308 ERROR SysUtils - Could not process external command
+2019-07-06 02:07:37,735 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew
+2019-07-06 02:07:37,744 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/build.gradle
+2019-07-06 02:07:37,752 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/versions.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/release.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build.gradle
+2019-07-06 02:07:37,753 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 02:07:37,753 INFO  ProjectFixService - Fixing project...
+2019-07-06 02:07:37,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/local.properties
+2019-07-06 02:07:37,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 02:07:37,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/local.properties
+2019-07-06 02:07:37,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 02:07:37,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/local.properties
+2019-07-06 02:07:37,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 02:07:37,773 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/local.properties
+2019-07-06 02:07:37,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 02:07:37,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/local.properties
+2019-07-06 02:07:37,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=21]
+2019-07-06 02:07:37,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/local.properties
+2019-07-06 02:07:37,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 02:07:37,776 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 02:07:37,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 02:07:37,777 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 02:07:37,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:07:37,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:08:02,420 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:08:02,420 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:08:02,420 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:08:02,421 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:08:17,777 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -65,7 +65,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:31:19,309 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:08:17,778 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
@@ -101,6 +101,7 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 Note: Recompile with -Xlint:unchecked for details.
 
 :Barf:compileRetrolambdaDebug
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.0.6/retrolambda-2.0.6.jar
 :Barf:extractDebugAnnotations
 :Barf:mergeDebugProguardFiles
 :Barf:packageDebugRenderscript UP-TO-DATE
@@ -150,141 +151,141 @@ Note: Recompile with -Xlint:unchecked for details.
 :Barf:compileReleaseSources
 :Barf:assembleRelease
 :Barf:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
     public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
     public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
     protected abstract Observable<R> createObservable(P params);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
     protected abstract Observable<R> createObservable(P params);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
     public static <T> Transformer<T, T> io() {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
     public static <T> Transformer<T, T> io() {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
     public void manage(Subscription subscription) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
     public Presenter init(@NonNull View v) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
     public Presenter init(@NonNull View v) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
     public Presenter get() {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
      * {@link Query#getMode()}.
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
     <Result> Observable<Result> query(@NonNull Query<Result> query);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
     <Result> Observable<Result> query(@NonNull Query<Result> query);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
  * <R> the expected return type for this query
    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
  * from local and/or remote sources, but if so, it should follow the mode specified by the {@link Query#getMode()}.
                                                                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
 
 3 errors
 21 warnings
 :Barf:javadocJarDebug
 :Barf:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for repo
     public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/annotations/HandlesUtil.java:16: warning: no @param for annotatedDataSource
     public static void registerHandlersFromAnnotations(DelegatingRepository repo, Object annotatedDataSource) {
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @param for params
     protected abstract Observable<R> createObservable(P params);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/usecase/UseCaseOld.java:22: warning: no @return
     protected abstract Observable<R> createObservable(P params);
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @param for <T>
     public static <T> Transformer<T, T> io() {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/rx/ScheduleOn.java:12: warning: no @return
     public static <T> Transformer<T, T> io() {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/BaseRxPresenter.java:20: warning: no @param for subscription
     public void manage(Subscription subscription) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @param for v
     public Presenter init(@NonNull View v) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:25: warning: no @return
     public Presenter init(@NonNull View v) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/mvp/PresenterFactory.java:38: warning: no @return
     public Presenter get() {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for <Result>
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @param for query
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/BaseRepository.java:82: warning: no @return
     protected abstract <Result> Observable<Result> createObservable(@NonNull Query<Result> query);
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:17: error: reference not found
      * {@link Query#getMode()}.
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for <Result>
     <Result> Observable<Result> query(@NonNull Query<Result> query);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning: no @param for query
     <Result> Observable<Result> query(@NonNull Query<Result> query);
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:20: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for <Result>
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for type
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/DelegatingRepository.java:24: warning: no @param for handler
     public <Result> void registerHandler(Class<Query<Result>> type, QueryHandler<Query<Result>, Result> handler) {
                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Query.java:7: error: unknown tag: R
  * <R> the expected return type for this query
    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:9: error: reference not found
  * from local and/or remote sources, but if so, it should follow the mode specified by the {@link Query#getMode()}.
                                                                                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Barf/src/main/java/com/badoo/barf/data/repo/Repository.java:11: warning - Tag @link: can't find getMode() in com.badoo.barf.data.repo.Query
 
 3 errors
 21 warnings
@@ -388,15 +389,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 15.169 secs
+Total time: 14.837 secs
 
-2018-11-05 15:31:19,381 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:31:19,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:31:28,848 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 15:31:28,848 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 15:31:28,848 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 15:31:28,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 15:31:48,200 ERROR SysUtils - Could not process external command
+2019-07-06 02:08:17,826 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:08:17,826 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:08:24,527 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:08:24,527 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:08:24,527 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:08:24,528 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:08:40,501 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -424,7 +425,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:31:48,200 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:08:40,502 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
@@ -602,62 +603,62 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 :Chateau:compileReleaseSources
 :Chateau:assembleRelease
 :Chateau:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
     void onResendClicked(@NonNull M message);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
         void showLoadingMoreMessages(boolean show);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
          * {@link #showMessage(BaseMessage)} should be called multiple times.
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
         void showMessages(@NonNull List<M> messages);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
         void showConversation(@NonNull C conversation);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
     public boolean isFailedToSend() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
     void onSendMessage(@NonNull M message);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
     void onCreateGroupClicked(@NonNull String name);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
         void requestOpenChat(@NonNull C conversationId);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
     void onUsersSelected(List<U> userIds);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
     protected void onShowConversations(@NonNull List<C> conversations) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
     protected void onFatalError(Throwable throwable) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
     void onConversationClicked(@NonNull C conversation);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
     void onDeleteConversations(@NonNull List<C> conversations);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
         void requestOpenConversation(@NonNull C conversation);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
         void showConversations(List<C> conversations);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
 
@@ -665,62 +666,62 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 20 warnings
 :Chateau:javadocJarDebug
 :Chateau:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:27: warning: no @param for message
     void onResendClicked(@NonNull M message);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:34: warning: no @param for show
         void showLoadingMoreMessages(boolean show);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:38: error: reference not found
          * {@link #showMessage(BaseMessage)} should be called multiple times.
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning: no @param for messages
         void showMessages(@NonNull List<M> messages);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:53: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/messages/MessageListPresenter.java:40: warning - Tag @link: can't find showMessage(BaseMessage) in com.badoo.chateau.ui.chat.messages.MessageListPresenter.MessageListView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/info/ChatInfoPresenter.java:19: warning: no @param for conversation
         void showConversation(@NonNull C conversation);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/data/models/BaseMessage.java:61: warning: no @return
     public boolean isFailedToSend() {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/chat/input/ChatInputPresenter.java:17: warning: no @param for message
     void onSendMessage(@NonNull M message);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:18: warning: no @param for name
     void onCreateGroupClicked(@NonNull String name);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/namegroup/NameGroupPresenter.java:25: warning: no @param for conversationId
         void requestOpenChat(@NonNull C conversationId);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:19: warning: no @param for userIds
     void onUsersSelected(List<U> userIds);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/create/selectusers/UserListPresenter.java:30: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:105: warning: no @param for conversations
     protected void onShowConversations(@NonNull List<C> conversations) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/BaseConversationListPresenter.java:115: warning: no @param for throwable
     protected void onFatalError(Throwable throwable) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:18: warning: no @param for conversation
     void onConversationClicked(@NonNull C conversation);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:23: warning: no @param for conversations
     void onDeleteConversations(@NonNull List<C> conversations);
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:62: warning: no @param for conversation
         void requestOpenConversation(@NonNull C conversation);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:36: warning: no @param for conversations
         void showConversations(List<C> conversations);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/Chateau/src/main/java/com/badoo/chateau/ui/conversations/list/ConversationListPresenter.java:43: warning: no @param for throwable
         void showError(boolean fatal, @Nullable Throwable throwable);
              ^
 
@@ -826,15 +827,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.811 secs
+Total time: 15.407 secs
 
-2018-11-05 15:31:48,356 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:31:48,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:31:56,792 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 15:31:56,792 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 15:31:56,792 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 15:31:56,792 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 15:32:11,407 ERROR SysUtils - Could not process external command
+2019-07-06 02:08:40,613 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:08:40,613 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:08:46,993 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:08:46,993 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:08:46,993 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:08:46,994 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:08:58,824 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -862,7 +863,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:32:11,407 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:08:58,824 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
@@ -988,102 +989,102 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 :ChateauCore:compileReleaseSources UP-TO-DATE
 :ChateauCore:assembleRelease UP-TO-DATE
 :ChateauCore:javadocDebugjavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
     Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
     Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
     Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
     Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
     Observable<Void> send(@NonNull SendQuery<M> query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
     Observable<Void> send(@NonNull SendQuery<M> query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
     Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
     Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
  * Defines a data source providing messages for the {@link MessageRepository}
                                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
     Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
     Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
     Observable<Void> markRead(MarkConversationReadQuery query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
     Observable<Void> markRead(MarkConversationReadQuery query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
     Observable<List<C>> delete(DeleteConversationsQuery<C> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
     Observable<List<C>> delete(DeleteConversationsQuery<C> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
     Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
     Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
     Observable<C> get(GetConversationQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
     Observable<C> get(GetConversationQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
     Observable<C> create(CreateConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
     Observable<C> create(CreateConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
     Observable<C> create(CreateGroupConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
     Observable<C> create(CreateGroupConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
     Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
     Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
     Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
     Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
     Observable<List<U>> getAllUsers(GetAllUsersQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
     Observable<List<U>> getAllUsers(GetAllUsersQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
     Observable<U> getSingleUser(GetUserQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
     Observable<U> getSingleUser(GetUserQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
  * Defines a data source providing user data for the {@link UserRepository}
                                                             ^
 
@@ -1091,102 +1092,102 @@ extractReleaseAnnotations is incompatible with java 8 sources and has been disab
 33 warnings
 :ChateauCore:javadocJarDebug
 :ChateauCore:javadocReleasejavadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @param for query
     Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:104: warning: no @return
     Observable<LoadResult<M>> load(@NonNull LoadQuery<M> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @param for query
     Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:111: warning: no @return
     Observable<List<M>> getUndelivered(@NonNull GetUndeliveredQuery<M> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @param for query
     Observable<Void> send(@NonNull SendQuery<M> query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:118: warning: no @return
     Observable<Void> send(@NonNull SendQuery<M> query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @param for query
     Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:126: warning: no @return
     Observable<Update<M>> subscribe(@NonNull SubscribeQuery<M> query);
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/messages/MessageDataSource.java:19: error: reference not found
  * Defines a data source providing messages for the {@link MessageRepository}
                                                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @param for query
     Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning: no @return
     Observable<LoadResult<C>> load(LoadConversationsQuery<C> query);
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @param for query
     Observable<Void> markRead(MarkConversationReadQuery query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:77: warning: no @return
     Observable<Void> markRead(MarkConversationReadQuery query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @param for query
     Observable<List<C>> delete(DeleteConversationsQuery<C> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:84: warning: no @return
     Observable<List<C>> delete(DeleteConversationsQuery<C> query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @param for query
     Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:91: warning: no @return
     Observable<Boolean> subscribe(SubscribeToUpdatesQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @param for query
     Observable<C> get(GetConversationQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:98: warning: no @return
     Observable<C> get(GetConversationQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @param for query
     Observable<C> create(CreateConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:106: warning: no @return
     Observable<C> create(CreateConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @param for query
     Observable<C> create(CreateGroupConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:114: warning: no @return
     Observable<C> create(CreateGroupConversationQuery<C> query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:27: warning - Tag @link: can't find load(LoadConversationsQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource.LoadResult
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/conversations/ConversationDataSource.java:70: warning - Tag @link: can't find subscribe(SubscribeToUpdatesQuery) in com.badoo.chateau.core.repos.conversations.ConversationDataSource
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @param for query
     Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:19: warning: no @return
     Observable<Void> sendUserIsTyping(@NonNull IsTypingQueries.SendIsTyping query);
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @param for query
     Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/istyping/IsTypingDataSource.java:26: warning: no @return
     Observable<U> subscribeToUsersTyping(@NonNull IsTypingQueries.SubscribeToUsersTypingQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @param for query
     Observable<List<U>> getAllUsers(GetAllUsersQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:24: warning: no @return
     Observable<List<U>> getAllUsers(GetAllUsersQuery query);
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @param for query
     Observable<U> getSingleUser(GetUserQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:31: warning: no @return
     Observable<U> getSingleUser(GetUserQuery query);
                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauCore/src/main/java/com/badoo/chateau/core/repos/users/UserDataSource.java:15: error: reference not found
  * Defines a data source providing user data for the {@link UserRepository}
                                                             ^
 
@@ -1292,15 +1293,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.089 secs
+Total time: 11.266 secs
 
-2018-11-05 15:32:11,593 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:32:11,593 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:32:20,225 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 15:32:20,225 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-05 15:32:20,225 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-05 15:32:20,226 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 15:32:37,409 ERROR SysUtils - Could not process external command
+2019-07-06 02:08:58,964 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:08:58,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:09:05,752 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:09:05,752 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 02:09:05,752 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 02:09:05,752 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:09:19,437 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1328,7 +1329,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:32:37,409 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:09:19,437 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
@@ -1457,165 +1458,165 @@ Note: Recompile with -Xlint:unchecked for details.
 :ChateauExtras:bundleRelease
 :ChateauExtras:compileReleaseSources
 :ChateauExtras:assembleRelease
-:ChateauExtras:javadocDebug/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
+:ChateauExtras:javadocDebug/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
 import com.badoo.chateau.utils.R;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
 import com.badoo.chateau.utils.R;
                               ^
 javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
     public void setMode(@Mode int mode) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
     public int getMode() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
     public boolean onClick(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
     public boolean onLongClick(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
     public boolean isPositionSelected(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
     public boolean isPositionSelected(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
     public Set<Integer> getSelectedItems() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
         void onModeChanged(@Mode int multiSelect);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
         public int convertPosition(int position) { return position;}
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
         public int convertPosition(int position) { return position;}
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
     public void setLoading(boolean loading) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
     boolean isHandledByWrappedAdapter(int position);
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
     boolean isHandledByWrappedAdapter(int position);
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
     public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
     public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
     public int getIdForType(Class<?> type) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
     public int getIdForType(Class<?> type) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
     public ViewHolderFactory<? extends T> getFactoryForId(int id) {
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
     public ViewHolderFactory<? extends T> getFactoryForId(int id) {
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
     public ViewHolderFactoryResolver(int offset) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
     public void reverseLayout(boolean reverseLayout) {
                 ^
 
 27 warnings
 :ChateauExtras:javadocJarDebug
-:ChateauExtras:javadocRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
+:ChateauExtras:javadocRelease/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:8: error: package com.badoo.chateau.utils does not exist
 import com.badoo.chateau.utils.R;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:18: error: package com.badoo.chateau.utils does not exist
 import com.badoo.chateau.utils.R;
                               ^
 javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:42: warning: no @param for mode
     public void setMode(@Mode int mode) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:54: warning: no @return
     public int getMode() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:63: warning: no @param for position
     public boolean onClick(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:85: warning: no @param for position
     public boolean onLongClick(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @param for position
     public boolean isPositionSelected(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:108: warning: no @return
     public boolean isPositionSelected(int position) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:116: warning: no @return
     public Set<Integer> getSelectedItems() {
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/MultiSelectionHelper.java:135: warning: no @param for multiSelect
         void onModeChanged(@Mode int multiSelect);
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @param for position
         public int convertPosition(int position) { return position;}
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/DataObserverProxy.java:62: warning: no @return
         public int convertPosition(int position) { return position;}
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:54: warning: no @param for loading
     public void setLoading(boolean loading) {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @param for position
     boolean isHandledByWrappedAdapter(int position);
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/WrappingAdapter.java:14: warning: no @return
     boolean isHandledByWrappedAdapter(int position);
             ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for wrappedAdapter
     public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/LoadingAdapter.java:24: warning: no @param for viewTypeId
     public LoadingAdapter(@NonNull RecyclerView.Adapter<ViewHolder> wrappedAdapter, int viewTypeId) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for type
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @param for factory
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:39: warning: no @return
     public int registerFactory(Class<?> type, ViewHolderFactory<? extends T> factory) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @param for type
     public int getIdForType(Class<?> type) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:49: warning: no @return
     public int getIdForType(Class<?> type) {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @param for id
     public ViewHolderFactory<? extends T> getFactoryForId(int id) {
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:60: warning: no @return
     public ViewHolderFactory<? extends T> getFactoryForId(int id) {
                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/recycle/ViewHolderFactoryResolver.java:31: warning: no @param for offset
     public ViewHolderFactoryResolver(int offset) {
            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ChateauExtras/src/main/java/com/badoo/chateau/extras/widgets/ChatBubbleLayout.java:71: warning: no @param for reverseLayout
     public void reverseLayout(boolean reverseLayout) {
                 ^
 
@@ -1720,14 +1721,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 16.671 secs
+Total time: 13.139 secs
 
-2018-11-05 15:32:37,643 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 15:32:37,643 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 15:32:45,771 INFO  ProjectTaskService - Detected possible tasks: 76
-2018-11-05 15:32:45,771 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-05 15:32:45,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-05 15:33:15,313 ERROR SysUtils - Could not process external command
+2019-07-06 02:09:19,595 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:09:19,595 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:09:26,150 INFO  ProjectTaskService - Detected possible tasks: 76
+2019-07-06 02:09:26,150 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 02:09:26,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 02:09:51,229 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1755,7 +1756,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 15:33:15,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:09:51,230 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 extractDebugAnnotations is incompatible with java 8 sources and has been disabled.
 extractReleaseAnnotations is incompatible with java 8 sources and has been disabled.
@@ -2018,7 +2019,7 @@ Merged dex #22 (149 defs/229.9KiB)
 Merged dex #23 (650 defs/559.8KiB)
 Merged dex #24 (821 defs/668.7KiB)
 Merged dex #25 (41 defs/6.4KiB)
-Result is 5550 defs/5685.8KiB. Took 0.8s
+Result is 5550 defs/5685.8KiB. Took 0.6s
 :ExampleApp:mergeDebugJniLibFolders
 :ExampleApp:transformNative_libsWithMergeJniLibsForDebug
 :ExampleApp:processDebugJavaRes UP-TO-DATE
@@ -2147,6 +2148,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 28.879 secs
+Total time: 24.414 secs
 
-2018-11-05 15:33:15,692 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541406496726-0/src/ExampleApp/build/outputs/apk/ExampleApp-debug.apk
+2019-07-06 02:09:51,504 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562353531686-0/src/ExampleApp/build/outputs/apk/ExampleApp-debug.apk

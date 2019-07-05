@@ -1,38 +1,41 @@
-2018-11-11 17:57:25,486 INFO  DownloadService - Downloading "https://github.com/TellH/AutoGo/archive/master.zip", attempt 3
-2018-11-11 17:57:26,332 INFO  DownloadService - Downloaded https://github.com/TellH/AutoGo/archive/master.zip, attempt 3
-2018-11-11 17:57:26,332 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/master.zip": 159 KB
-2018-11-11 17:57:26,332 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 17:57:26,339 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/master.zip: true
-2018-11-11 17:57:26,339 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src'.
-2018-11-11 17:57:26,368 INFO  FullProcessService - Size of directory with sources: 208 KB
-2018-11-11 17:57:26,368 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src]
-2018-11-11 17:57:26,385 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/.git/
+2019-07-06 05:13:26,047 INFO  DownloadService - Downloading "https://github.com/TellH/AutoGo/archive/master.zip", attempt 3
+2019-07-06 05:14:26,646 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 05:14:27,677 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 05:14:27,677 INFO  DownloadService - Downloading "https://github.com/TellH/AutoGo/archive/master.zip", attempt 3
+2019-07-06 05:15:29,033 DEBUG FullProcessService - Repository https://github.com/TellH/AutoGo available: true
+2019-07-06 05:15:29,033 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 05:15:29,033 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/TellH/AutoGo, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src]
+2019-07-06 05:15:31,162 INFO  SysUtils - 
+2019-07-06 05:15:31,169 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/.git": true
+2019-07-06 05:15:31,173 INFO  FullProcessService - Size of directory with sources: 208 KB
+2019-07-06 05:15:31,173 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src]
+2019-07-06 05:15:31,188 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/.git/
 
-2018-11-11 17:57:26,389 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/gradlew
-2018-11-11 17:57:26,395 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-compiler/build.gradle
-2018-11-11 17:57:26,399 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-compiler/build.gradle
-2018-11-11 17:57:26,399 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 17:57:26,399 INFO  ProjectFixService - Fixing project...
-2018-11-11 17:57:26,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/local.properties
-2018-11-11 17:57:26,411 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 17:57:26,411 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-core/local.properties
-2018-11-11 17:57:26,412 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-core/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 17:57:26,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/local.properties
-2018-11-11 17:57:26,412 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 17:57:26,413 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 17:57:26,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 17:57:26,414 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-annotation/local.properties
-2018-11-11 17:57:26,415 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-annotation/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 17:57:26,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-compiler/local.properties
-2018-11-11 17:57:26,416 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/autogo-compiler/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 17:57:26,416 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 17:57:26,416 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 17:57:26,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 17:57:46,379 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 17:57:46,379 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 17:57:46,379 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 17:57:46,379 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 17:58:12,935 ERROR SysUtils - Could not process external command
+2019-07-06 05:15:31,191 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/gradlew
+2019-07-06 05:15:31,194 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-compiler/build.gradle
+2019-07-06 05:15:31,197 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-compiler/build.gradle
+2019-07-06 05:15:31,197 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 05:15:31,197 INFO  ProjectFixService - Fixing project...
+2019-07-06 05:15:31,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/local.properties
+2019-07-06 05:15:31,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 05:15:31,204 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-core/local.properties
+2019-07-06 05:15:31,205 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-core/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 05:15:31,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/local.properties
+2019-07-06 05:15:31,205 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 05:15:31,205 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 05:15:31,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 05:15:31,206 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-annotation/local.properties
+2019-07-06 05:15:31,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-annotation/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 05:15:31,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-compiler/local.properties
+2019-07-06 05:15:31,207 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/autogo-compiler/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 05:15:31,207 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 05:15:31,207 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 05:15:31,207 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 05:15:42,538 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 05:15:42,538 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 05:15:42,538 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 05:15:42,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 05:15:54,920 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 17:58:12,937 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 05:15:54,920 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -86,7 +89,7 @@ Incremental java compilation is an incubating feature.
 :app:processDebugResources
 :app:generateDebugSources
 :app:incrementalDebugJavaCompilationSafeguard
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build/generated/source/apt/debug/tellh/com/autogo/TestActivity_AutoAssigner.java uses unchecked or unsafe operations.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build/generated/source/apt/debug/tellh/com/autogo/TestActivity_AutoAssigner.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileDebugNdk UP-TO-DATE
@@ -101,7 +104,7 @@ and without specifying any "-target" type options. The consequence of ignoring
 this warning is that reflective operations on this class will incorrectly
 indicate that it is *not* an inner class.
 warning: Ignoring InnerClasses attribute for an anonymous inner class
-(com.squareup.haha.guava.collect.Iterables$3) that doesn't come with an
+(com.squareup.haha.guava.collect.Iterables$2) that doesn't come with an
 associated EnclosingMethod attribute. This class was probably produced by a
 compiler that did not target the modern .class file format. The recommended
 solution is to recompile the class from source, using an up-to-date compiler
@@ -109,7 +112,7 @@ and without specifying any "-target" type options. The consequence of ignoring
 this warning is that reflective operations on this class will incorrectly
 indicate that it is *not* an inner class.
 warning: Ignoring InnerClasses attribute for an anonymous inner class
-(com.squareup.haha.guava.collect.Iterables$2) that doesn't come with an
+(com.squareup.haha.guava.collect.Iterables$3) that doesn't come with an
 associated EnclosingMethod attribute. This class was probably produced by a
 compiler that did not target the modern .class file format. The recommended
 solution is to recompile the class from source, using an up-to-date compiler
@@ -130,7 +133,7 @@ Merged dex #10 (333 defs/262.4KiB)
 Merged dex #11 (14 defs/25.3KiB)
 Merged dex #12 (21 defs/14.5KiB)
 Merged dex #13 (41 defs/6.5KiB)
-Result is 1992 defs/2861.0KiB. Took 0.5s
+Result is 1992 defs/2861.0KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -155,7 +158,7 @@ Result is 1992 defs/2861.0KiB. Took 0.5s
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:incrementalReleaseJavaCompilationSafeguard
-:app:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/src/main/java/tellh/com/autogo/AndroidApplication.java:5: error: package com.squareup.leakcanary does not exist
+:app:compileReleaseJavaWithJavac/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/src/main/java/tellh/com/autogo/AndroidApplication.java:5: error: package com.squareup.leakcanary does not exist
 import com.squareup.leakcanary.LeakCanary;
                               ^
 1 error
@@ -257,6 +260,6 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 25.911 secs
+Total time: 11.779 secs
 
-2018-11-11 17:58:13,024 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541933845483-0/src/AutoGo-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 05:15:54,961 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562364806044-0/src/app/build/outputs/apk/app-debug.apk

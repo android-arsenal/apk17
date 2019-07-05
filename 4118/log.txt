@@ -1,38 +1,41 @@
-2018-11-05 16:13:10,279 INFO  DownloadService - Downloading "https://github.com/hanuor/amber/archive/master.zip", attempt 3
-2018-11-05 16:13:11,513 INFO  DownloadService - Downloaded https://github.com/hanuor/amber/archive/master.zip, attempt 3
-2018-11-05 16:13:11,514 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/master.zip": 648 KB
-2018-11-05 16:13:11,514 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-05 16:13:11,515 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/master.zip: true
-2018-11-05 16:13:11,516 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src'.
-2018-11-05 16:13:11,540 INFO  FullProcessService - Size of directory with sources: 726 KB
-2018-11-05 16:13:11,540 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src]
-2018-11-05 16:13:11,556 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/.git/
+2019-07-06 02:27:59,788 INFO  DownloadService - Downloading "https://github.com/hanuor/amber/archive/master.zip", attempt 3
+2019-07-06 02:29:00,362 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-06 02:29:01,262 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-06 02:29:01,262 INFO  DownloadService - Downloading "https://github.com/hanuor/amber/archive/master.zip", attempt 3
+2019-07-06 02:30:02,578 DEBUG FullProcessService - Repository https://github.com/hanuor/amber available: true
+2019-07-06 02:30:02,578 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-06 02:30:02,579 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hanuor/amber, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src]
+2019-07-06 02:30:07,165 INFO  SysUtils - 
+2019-07-06 02:30:07,172 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/.git": true
+2019-07-06 02:30:07,174 INFO  FullProcessService - Size of directory with sources: 726 KB
+2019-07-06 02:30:07,174 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src]
+2019-07-06 02:30:07,191 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/.git/
 
-2018-11-05 16:13:11,560 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew
-2018-11-05 16:13:11,564 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/build.gradle
-2018-11-05 16:13:11,568 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/settings.gradle
-2018-11-05 16:13:11,568 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-05 16:13:11,666 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-05 16:13:11,666 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-11-05 16:13:11,762 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-11-05 16:13:11,763 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-11-05 16:13:11,763 INFO  ProjectFixService - Fixing project...
-2018-11-05 16:13:11,775 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/local.properties
-2018-11-05 16:13:11,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=7,targetSdkVersion=24]
-2018-11-05 16:13:11,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/local.properties
-2018-11-05 16:13:11,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-11-05 16:13:11,777 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/local.properties
-2018-11-05 16:13:11,777 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-05 16:13:11,778 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-05 16:13:11,778 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-11-05 16:13:11,779 INFO  ProjectFixService - Project was maybe fixed
-2018-11-05 16:13:11,779 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:13:11,779 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:13:24,052 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-05 16:13:24,053 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-05 16:13:24,053 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-05 16:13:24,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-05 16:13:38,176 ERROR SysUtils - Could not process external command
+2019-07-06 02:30:07,193 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew
+2019-07-06 02:30:07,196 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/build.gradle
+2019-07-06 02:30:07,198 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/settings.gradle
+2019-07-06 02:30:07,198 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 02:30:08,352 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 02:30:08,352 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 02:30:08,434 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 02:30:08,434 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-06 02:30:08,434 INFO  ProjectFixService - Fixing project...
+2019-07-06 02:30:08,443 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/local.properties
+2019-07-06 02:30:08,443 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=7,targetSdkVersion=24]
+2019-07-06 02:30:08,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/local.properties
+2019-07-06 02:30:08,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 02:30:08,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/local.properties
+2019-07-06 02:30:08,445 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 02:30:08,445 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 02:30:08,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 02:30:08,446 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 02:30:08,446 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:30:08,447 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:30:19,305 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 02:30:19,305 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 02:30:19,305 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 02:30:19,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 02:30:30,039 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -60,7 +63,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:13:38,176 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:30:30,040 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :amber:preBuild UP-TO-DATE
 :amber:preDebugBuild UP-TO-DATE
@@ -100,8 +103,8 @@ Incremental java compilation is an incubating feature.
 :amber:processDebugJavaRes UP-TO-DATE
 :amber:transformResourcesWithMergeJavaResForDebug
 :amber:transformClassesAndResourcesWithSyncLibJarsForDebug
-ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build/intermediates/transforms/mergeJavaRes/debug/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
-ImmutableDirectoryInput{name=7f17a000b1e6aae3ccec74fef6097bdf378080bc, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build/intermediates/transforms/mergeJavaRes/debug/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
+ImmutableDirectoryInput{name=5bcfa9e68afdeb0a15537d2cf5dad19206b580c7, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build/intermediates/classes/debug, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
 :amber:mergeDebugJniLibFolders
 :amber:transformNative_libsWithMergeJniLibsForDebug
 :amber:transformNative_libsWithSyncJniLibsForDebug
@@ -135,8 +138,8 @@ ImmutableDirectoryInput{name=7f17a000b1e6aae3ccec74fef6097bdf378080bc, file=/pri
 :amber:processReleaseJavaRes UP-TO-DATE
 :amber:transformResourcesWithMergeJavaResForRelease
 :amber:transformClassesAndResourcesWithSyncLibJarsForRelease
-ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build/intermediates/transforms/mergeJavaRes/release/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
-ImmutableDirectoryInput{name=01d533c73110cad78a20a9339da75ed1467d836b, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/amber/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
+ImmutableJarInput{name=main, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build/intermediates/transforms/mergeJavaRes/release/jars/2/3/main.jar, contentTypes=RESOURCES, scopes=PROJECT,PROJECT_LOCAL_DEPS, status=NOTCHANGED}
+ImmutableDirectoryInput{name=cedebc486203d2f2f9f59c3c1791f11029f1b80b, file=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/amber/build/intermediates/classes/release, contentTypes=CLASSES, scopes=PROJECT, changedFiles={}}
 :amber:mergeReleaseJniLibFolders
 :amber:transformNative_libsWithMergeJniLibsForRelease
 :amber:transformNative_libsWithSyncJniLibsForRelease
@@ -240,14 +243,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 13.608 secs
+Total time: 10.176 secs
 
-2018-11-05 16:13:38,249 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:13:38,249 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:13:46,099 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-05 16:13:46,099 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-05 16:13:46,099 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-05 16:13:53,937 ERROR SysUtils - Could not process external command
+2019-07-06 02:30:30,077 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:30:30,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:30:36,078 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-06 02:30:36,078 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 02:30:36,078 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 02:30:41,981 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -275,7 +278,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:13:53,937 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:30:41,981 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -336,11 +339,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED
 
-Total time: 7.32 secs
+Total time: 5.363 secs
 
-2018-11-05 16:13:53,937 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-11-05 16:13:53,937 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-05 16:14:09,831 ERROR SysUtils - Could not process external command
+2019-07-06 02:30:41,981 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-06 02:30:41,981 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 02:30:54,642 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -368,7 +371,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:14:09,831 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:30:54,643 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :amber:preBuild UP-TO-DATE
 :amber:preReleaseBuild UP-TO-DATE
@@ -558,14 +561,14 @@ Caused by: com.android.dex.DexException: Multiple dex files define Lorg/apache/h
 
 BUILD FAILED
 
-Total time: 15.301 secs
+Total time: 12.049 secs
 
-2018-11-05 16:14:09,939 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-05 16:14:09,940 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-05 16:14:18,322 INFO  ProjectTaskService - Detected possible tasks: 78
-2018-11-05 16:14:18,323 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-05 16:14:18,323 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541409190273-0/src/amber-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-05 16:14:32,455 ERROR SysUtils - Could not process external command
+2019-07-06 02:30:54,705 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 02:30:54,706 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 02:31:01,140 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-07-06 02:31:01,140 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 02:31:01,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562354879785-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 02:31:11,238 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -593,7 +596,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-05 16:14:32,455 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 02:31:11,238 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :amber:preBuild UP-TO-DATE
 :amber:preDebugBuild UP-TO-DATE
@@ -818,7 +821,7 @@ Caused by: com.android.dex.DexException: Multiple dex files define Lorg/apache/h
 
 BUILD FAILED
 
-Total time: 13.515 secs
+Total time: 9.465 secs
 
-2018-11-05 16:14:32,569 ERROR FullProcessService - Project build has not produced APK file
-2018-11-05 16:14:32,680 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 02:31:11,302 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 02:31:11,358 ERROR FullProcessService - Could not find generated or existed APK file
