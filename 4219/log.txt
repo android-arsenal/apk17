@@ -1,36 +1,36 @@
-2018-10-29 11:46:34,928 INFO  DownloadService - Downloading "https://github.com/whilu/popmenulayout/archive/master.zip", attempt 3
-2018-10-29 11:46:37,995 INFO  DownloadService - Downloaded https://github.com/whilu/popmenulayout/archive/master.zip, attempt 3
-2018-10-29 11:46:37,995 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/master.zip": 214 KB
-2018-10-29 11:46:37,995 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-29 11:46:38,000 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/master.zip: true
-2018-10-29 11:46:38,001 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src'.
-2018-10-29 11:46:38,023 INFO  FullProcessService - Size of directory with sources: 307 KB
-2018-10-29 11:46:38,023 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src]
-2018-10-29 11:46:38,043 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/.git/
+2019-07-06 00:55:05,439 INFO  DownloadService - Downloading "https://github.com/whilu/popmenulayout/archive/master.zip", attempt 3
+2019-07-06 00:55:05,947 INFO  DownloadService - Downloaded https://github.com/whilu/popmenulayout/archive/master.zip, attempt 3
+2019-07-06 00:55:05,948 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/master.zip": 214 KB
+2019-07-06 00:55:05,948 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:55:05,953 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/master.zip: true
+2019-07-06 00:55:05,954 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src'.
+2019-07-06 00:55:05,973 INFO  FullProcessService - Size of directory with sources: 307 KB
+2019-07-06 00:55:05,973 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src]
+2019-07-06 00:55:05,989 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/.git/
 
-2018-10-29 11:46:38,047 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew
-2018-10-29 11:46:38,051 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/build.gradle
-2018-10-29 11:46:38,054 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/settings.gradle
-2018-10-29 11:46:38,054 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle", attempt 3
-2018-10-29 11:46:39,043 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle, attempt 3
-2018-10-29 11:46:39,043 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle
-2018-10-29 11:46:39,043 INFO  ProjectFixService - Fixing project...
-2018-10-29 11:46:39,063 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/local.properties
-2018-10-29 11:46:39,064 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-10-29 11:46:39,064 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/local.properties
-2018-10-29 11:46:39,065 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
-2018-10-29 11:46:39,065 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/local.properties
-2018-10-29 11:46:39,066 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-29 11:46:39,066 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-29 11:46:39,067 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2018-10-29 11:46:39,067 INFO  ProjectFixService - Project was maybe fixed
-2018-10-29 11:46:39,067 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 11:46:39,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 11:46:48,214 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 11:46:48,214 INFO  ProjectTaskService - Detected possible tasks: 7
-2018-10-29 11:46:48,214 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 11:46:48,214 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 11:47:03,069 ERROR SysUtils - Could not process external command
+2019-07-06 00:55:05,991 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew
+2019-07-06 00:55:05,994 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/build.gradle
+2019-07-06 00:55:05,996 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/settings.gradle
+2019-07-06 00:55:05,996 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle", attempt 3
+2019-07-06 00:55:06,236 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle, attempt 3
+2019-07-06 00:55:06,236 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/whilu/AndroidPublishLibrary/master/project/library/bintray_publish_sign.gradle
+2019-07-06 00:55:06,236 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:55:06,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/local.properties
+2019-07-06 00:55:06,245 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 00:55:06,245 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/local.properties
+2019-07-06 00:55:06,246 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=15,targetSdkVersion=23]
+2019-07-06 00:55:06,246 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/local.properties
+2019-07-06 00:55:06,247 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 00:55:06,247 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 00:55:06,248 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
+2019-07-06 00:55:06,248 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:55:06,248 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:55:06,248 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:55:13,025 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:55:13,025 INFO  ProjectTaskService - Detected possible tasks: 7
+2019-07-06 00:55:13,025 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:55:13,025 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:55:26,364 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -43,25 +43,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 11:47:03,069 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:55:26,364 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
 :popmenulayout:preBuild UP-TO-DATE
 :popmenulayout:preDebugBuild UP-TO-DATE
 :popmenulayout:checkDebugManifest
@@ -141,85 +140,85 @@ Incremental java compilation is an incubating feature.
 :popmenulayout:bundleRelease
 :popmenulayout:compileReleaseSources
 :popmenulayout:assembleRelease
-:popmenulayout:generateReleaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/adapter/MenuAdapter.java:44: error: cannot find symbol
+:popmenulayout:generateReleaseJavadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/adapter/MenuAdapter.java:44: error: cannot find symbol
 import co.lujun.popmenulayout.R;
                              ^
   symbol:   class R
   location: package co.lujun.popmenulayout
 javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:512: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:512: warning: no description for @param
      * @param configJson
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:522: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:522: warning: no description for @param
      * @param listener
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:535: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:535: warning: no description for @param
      * @param layoutManagerOrientation
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:548: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:548: warning: no description for @param
      * @param menus
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:565: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:565: warning: no description for @param
      * @param childMenuItemHeight
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:578: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:578: warning: no description for @param
      * @param level1MenuItemHeight
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:605: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:605: warning: no description for @param
      * @param withLevel1MenuWidth
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:617: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:617: warning: no description for @param
      * @param paddingBottom
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:630: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:630: warning: no description for @param
      * @param paddingTop
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:643: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:643: warning: no description for @param
      * @param paddingRight
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:656: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:656: warning: no description for @param
      * @param paddingLeft
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:669: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:669: warning: no description for @param
      * @param menuDividerDp
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:682: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:682: warning: no description for @param
      * @param dividerColor
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:695: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:695: warning: no description for @param
      * @param expandableIcon
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:708: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:708: warning: no description for @param
      * @param textColor
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:721: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:721: warning: no description for @param
      * @param horizontalMenuBackgroundRes
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:734: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:734: warning: no description for @param
      * @param verticalMenuBackgroundRes
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:747: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:747: warning: no description for @param
      * @param textSize
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:760: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:760: warning: no description for @param
      * @param maxMenuItemCount
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:773: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:773: warning: no description for @param
      * @param childMenuLayoutBgColor
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:786: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:786: warning: no description for @param
      * @param level1MenuLayoutBgColor
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:799: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:799: warning: no description for @param
      * @param dividerMarginBottom
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:812: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:812: warning: no description for @param
      * @param dividerMarginTop
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:825: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:825: warning: no description for @param
      * @param dividerMarginRight
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:838: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/src/main/java/co/lujun/popmenulayout/PopMenuLayout.java:838: warning: no description for @param
      * @param dividerMarginLeft
        ^
 
@@ -322,15 +321,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 14.27 secs
+Total time: 12.742 secs
 
-2018-10-29 11:47:03,135 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 11:47:03,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 11:47:10,511 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 11:47:10,511 INFO  ProjectTaskService - Detected possible tasks: 7
-2018-10-29 11:47:10,511 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 11:47:10,511 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 11:47:17,929 ERROR SysUtils - Could not process external command
+2019-07-06 00:55:26,414 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:55:26,415 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:55:32,942 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:55:32,942 INFO  ProjectTaskService - Detected possible tasks: 7
+2019-07-06 00:55:32,942 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:55:32,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:55:39,445 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -343,25 +342,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 11:47:17,929 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:55:39,445 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
 
 FAILURE: Build failed with an exception.
 
@@ -461,15 +459,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.849 secs
+Total time: 5.893 secs
 
-2018-10-29 11:47:17,993 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 11:47:17,993 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 11:47:26,101 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 11:47:26,102 INFO  ProjectTaskService - Detected possible tasks: 7
-2018-10-29 11:47:26,102 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 11:47:26,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 11:47:33,314 ERROR SysUtils - Could not process external command
+2019-07-06 00:55:39,492 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:55:39,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:55:46,006 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:55:46,006 INFO  ProjectTaskService - Detected possible tasks: 7
+2019-07-06 00:55:46,006 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:55:46,006 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:55:52,589 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -482,25 +480,24 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 11:47:33,314 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:55:52,589 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
-[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540788394919-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
+[/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar, /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349305437-0/src/PopMenuLayout-master/popmenulayout/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.4.0/jars/classes.jar, /Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar]
 
 FAILURE: Build failed with an exception.
 
@@ -601,7 +598,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.638 secs
+Total time: 6.0 secs
 
-2018-10-29 11:47:33,378 ERROR FullProcessService - Project build has not produced APK file
-2018-10-29 11:47:33,438 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:55:52,640 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:55:52,683 ERROR FullProcessService - Could not find generated or existed APK file

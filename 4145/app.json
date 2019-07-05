@@ -32,7 +32,7 @@
   "locales" : [ "" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.inqbarna.tablefixheaders.samples\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"5\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f040001\" android:label=\"TableFixHeaders Samples\" android:icon=\"res/drawable-xhdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"false\">\n\t\t<activity android:label=\"TableFixHeaders Samples\" android:name=\"com.inqbarna.tablefixheaders.samples.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:label=\"Simple adapter\" android:name=\"com.inqbarna.tablefixheaders.samples.SimpleTable\" />\n\t\t<activity android:label=\"Style adapter\" android:name=\"com.inqbarna.tablefixheaders.samples.StyleTable\" />\n\t\t<activity android:label=\"Family adapter\" android:name=\"com.inqbarna.tablefixheaders.samples.FamilyTable\" />\n\t</application>\n</manifest>\n",
   "fileSize" : 65915,
-  "crc32" : 2926481818,
-  "sha256" : "14296b89aeac64de3a03f27c990dd8aaa37cf30713b516ab1b6f83eba9389fdc",
-  "buildTime" : 1541274013000
+  "crc32" : 3651336677,
+  "sha256" : "0a904353b4efe7090bc19f195f3e64ba77823c0e533c4afd2868c5bcf831706a",
+  "buildTime" : 1562351815000
 }

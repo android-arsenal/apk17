@@ -1,38 +1,38 @@
-2018-10-29 12:51:28,647 INFO  DownloadService - Downloading "https://github.com/abhijith0505/ListView-Snapshot-Demo/archive/master.zip", attempt 3
-2018-10-29 12:51:31,962 INFO  DownloadService - Downloaded https://github.com/abhijith0505/ListView-Snapshot-Demo/archive/master.zip, attempt 3
-2018-10-29 12:51:31,962 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/master.zip": 115 KB
-2018-10-29 12:51:31,962 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-29 12:51:31,963 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/master.zip: true
-2018-10-29 12:51:31,963 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src'.
-2018-10-29 12:51:31,980 INFO  FullProcessService - Size of directory with sources: 124 KB
-2018-10-29 12:51:31,981 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src]
-2018-10-29 12:51:32,008 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/.git/
+2019-07-06 01:03:04,137 INFO  DownloadService - Downloading "https://github.com/abhijith0505/ListView-Snapshot-Demo/archive/master.zip", attempt 3
+2019-07-06 01:03:04,967 INFO  DownloadService - Downloaded https://github.com/abhijith0505/ListView-Snapshot-Demo/archive/master.zip, attempt 3
+2019-07-06 01:03:04,967 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/master.zip": 115 KB
+2019-07-06 01:03:04,967 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:03:04,975 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/master.zip: true
+2019-07-06 01:03:04,975 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src'.
+2019-07-06 01:03:04,993 INFO  FullProcessService - Size of directory with sources: 124 KB
+2019-07-06 01:03:04,993 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src]
+2019-07-06 01:03:05,013 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/.git/
 
-2018-10-29 12:51:32,012 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew
-2018-10-29 12:51:32,015 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/build.gradle
-2018-10-29 12:51:32,019 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/settings.gradle
-2018-10-29 12:51:32,020 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-29 12:51:32,719 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-29 12:51:32,719 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
-2018-10-29 12:51:32,925 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
-2018-10-29 12:51:32,925 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
-2018-10-29 12:51:32,925 INFO  ProjectFixService - Fixing project...
-2018-10-29 12:51:32,942 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/local.properties
-2018-10-29 12:51:32,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-29 12:51:32,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/local.properties
-2018-10-29 12:51:32,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-29 12:51:32,944 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/local.properties
-2018-10-29 12:51:32,944 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-10-29 12:51:32,945 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-10-29 12:51:32,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-29 12:51:32,946 INFO  ProjectFixService - Project was maybe fixed
-2018-10-29 12:51:32,946 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:51:32,946 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:51:41,013 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:51:41,013 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-29 12:51:41,013 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 12:51:41,013 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 12:51:46,754 ERROR SysUtils - Could not process external command
+2019-07-06 01:03:05,016 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew
+2019-07-06 01:03:05,018 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/build.gradle
+2019-07-06 01:03:05,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/settings.gradle
+2019-07-06 01:03:05,022 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 01:03:05,255 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 01:03:05,255 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 01:03:05,472 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 01:03:05,472 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nisrulz/JCenter/master/installv1.gradle
+2019-07-06 01:03:05,472 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:03:05,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/local.properties
+2019-07-06 01:03:05,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 01:03:05,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/local.properties
+2019-07-06 01:03:05,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 01:03:05,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/local.properties
+2019-07-06 01:03:05,483 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 01:03:05,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 01:03:05,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 01:03:05,484 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:03:05,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:03:05,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:03:13,235 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:03:13,235 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 01:03:13,235 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 01:03:13,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 01:03:20,175 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,22 +45,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:51:46,754 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:03:20,175 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -69,7 +68,7 @@ Script 'https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradl
 
 * What went wrong:
 A problem occurred evaluating script.
-> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@1570cad0.
+> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@5ed25612.
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -88,7 +87,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_77vqwmiff7m7byhq7vfp09jp8.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
+	at build_c0r8grndp5z1hbz4oeegiugt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -183,7 +182,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@1570cad0.
+Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@5ed25612.
 	at org.gradle.api.internal.AbstractDynamicObject.propertyMissingException(AbstractDynamicObject.java:43)
 	at org.gradle.api.internal.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:35)
 	at org.gradle.api.internal.CompositeDynamicObject.getProperty(CompositeDynamicObject.java:97)
@@ -212,15 +211,15 @@ Caused by: groovy.lang.MissingPropertyException: Could not find property 'github
 
 BUILD FAILED
 
-Total time: 5.247 secs
+Total time: 6.429 secs
 
-2018-10-29 12:51:46,759 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:51:46,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:51:52,631 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:51:52,631 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-29 12:51:52,632 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 12:51:52,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 12:51:58,160 ERROR SysUtils - Could not process external command
+2019-07-06 01:03:20,179 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:03:20,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:03:27,251 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:03:27,251 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 01:03:27,251 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 01:03:27,251 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 01:03:33,803 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -233,22 +232,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:51:58,160 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:03:33,803 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -257,7 +255,7 @@ Script 'https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradl
 
 * What went wrong:
 A problem occurred evaluating script.
-> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@2cbe455c.
+> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@74a58a06.
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -276,7 +274,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_77vqwmiff7m7byhq7vfp09jp8.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
+	at build_c0r8grndp5z1hbz4oeegiugt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -331,7 +329,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@2cbe455c.
+Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@74a58a06.
 	at org.gradle.api.internal.AbstractDynamicObject.propertyMissingException(AbstractDynamicObject.java:43)
 	at org.gradle.api.internal.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:35)
 	at org.gradle.api.internal.CompositeDynamicObject.getProperty(CompositeDynamicObject.java:97)
@@ -360,15 +358,15 @@ Caused by: groovy.lang.MissingPropertyException: Could not find property 'github
 
 BUILD FAILED
 
-Total time: 5.037 secs
+Total time: 6.059 secs
 
-2018-10-29 12:51:58,165 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:51:58,165 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:52:03,788 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:52:03,789 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-29 12:52:03,789 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-29 12:52:03,789 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-29 12:52:09,270 ERROR SysUtils - Could not process external command
+2019-07-06 01:03:33,807 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:03:33,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:03:40,957 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:03:40,957 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 01:03:40,957 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 01:03:40,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 01:03:45,875 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -381,22 +379,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:52:09,271 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:03:45,875 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -405,7 +402,7 @@ Script 'https://raw.githubusercontent.com/nisrulz/JCenter/master/bintrayv1.gradl
 
 * What went wrong:
 A problem occurred evaluating script.
-> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@3dde5f38.
+> Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@349f0ca4.
 
 * Try:
 Run with --info or --debug option to get more log output.
@@ -424,7 +421,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.api.plugins.PluginAware$apply.call(Unknown Source)
 	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.groovy:35)
 	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
-	at build_77vqwmiff7m7byhq7vfp09jp8.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792288644-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
+	at build_c0r8grndp5z1hbz4oeegiugt3.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349784133-0/src/ListView-Snapshot-Demo-master/listview-snapshot/build.gradle:51)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:91)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$1.run(DefaultScriptPluginFactory.java:144)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:72)
@@ -520,7 +517,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating script.
 	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@3dde5f38.
+Caused by: groovy.lang.MissingPropertyException: Could not find property 'githubRepository' on com.jfrog.bintray.gradle.BintrayExtension_Decorated@349f0ca4.
 	at org.gradle.api.internal.AbstractDynamicObject.propertyMissingException(AbstractDynamicObject.java:43)
 	at org.gradle.api.internal.AbstractDynamicObject.getProperty(AbstractDynamicObject.java:35)
 	at org.gradle.api.internal.CompositeDynamicObject.getProperty(CompositeDynamicObject.java:97)
@@ -549,7 +546,7 @@ Caused by: groovy.lang.MissingPropertyException: Could not find property 'github
 
 BUILD FAILED
 
-Total time: 4.981 secs
+Total time: 4.421 secs
 
-2018-10-29 12:52:09,275 ERROR FullProcessService - Project build has not produced APK file
-2018-10-29 12:52:09,279 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:03:45,879 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:03:45,882 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,37 +1,37 @@
-2018-11-04 01:05:57,943 INFO  DownloadService - Downloading "https://github.com/FutureMind/recycler-fast-scroll/archive/master.zip", attempt 3
-2018-11-04 01:06:00,006 INFO  DownloadService - Downloaded https://github.com/FutureMind/recycler-fast-scroll/archive/master.zip, attempt 3
-2018-11-04 01:06:00,006 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/master.zip": 121 KB
-2018-11-04 01:06:00,006 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 01:06:00,012 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/master.zip: true
-2018-11-04 01:06:00,012 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src'.
-2018-11-04 01:06:00,040 INFO  FullProcessService - Size of directory with sources: 161 KB
-2018-11-04 01:06:00,040 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src]
-2018-11-04 01:06:00,060 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/.git/
+2019-07-06 01:29:26,512 INFO  DownloadService - Downloading "https://github.com/FutureMind/recycler-fast-scroll/archive/master.zip", attempt 3
+2019-07-06 01:29:27,039 INFO  DownloadService - Downloaded https://github.com/FutureMind/recycler-fast-scroll/archive/master.zip, attempt 3
+2019-07-06 01:29:27,039 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/master.zip": 121 KB
+2019-07-06 01:29:27,039 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:29:27,045 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/master.zip: true
+2019-07-06 01:29:27,045 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src'.
+2019-07-06 01:29:27,066 INFO  FullProcessService - Size of directory with sources: 161 KB
+2019-07-06 01:29:27,066 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src]
+2019-07-06 01:29:27,081 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/.git/
 
-2018-11-04 01:06:00,064 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew
-2018-11-04 01:06:00,069 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle
-2018-11-04 01:06:00,073 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle
-2018-11-04 01:06:00,073 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 01:06:00,073 INFO  ProjectFixService - Fixing project...
-2018-11-04 01:06:00,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/local.properties
-2018-11-04 01:06:00,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-04 01:06:00,084 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=28]
-2018-11-04 01:06:00,085 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/local.properties
-2018-11-04 01:06:00,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-04 01:06:00,088 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=28]
-2018-11-04 01:06:00,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/local.properties
-2018-11-04 01:06:00,089 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
-2018-11-04 01:06:00,089 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
-2018-11-04 01:06:00,091 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-11-04 01:06:00,091 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=28]
-2018-11-04 01:06:00,091 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 01:06:00,091 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:06:00,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:06:19,438 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 01:06:19,438 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:06:19,438 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:06:19,439 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:06:24,899 ERROR SysUtils - Could not process external command
+2019-07-06 01:29:27,084 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew
+2019-07-06 01:29:27,087 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle
+2019-07-06 01:29:27,089 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle
+2019-07-06 01:29:27,089 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:29:27,089 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:29:27,095 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/local.properties
+2019-07-06 01:29:27,096 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:29:27,096 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:29:27,097 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/local.properties
+2019-07-06 01:29:27,099 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:29:27,099 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:29:27,100 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/local.properties
+2019-07-06 01:29:27,100 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2-all.zip
+2019-07-06 01:29:27,100 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.2-bin.zip)
+2019-07-06 01:29:27,101 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:29:27,101 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle": [buildToolsVersion=25.0.1,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:29:27,102 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:29:27,102 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:29:27,102 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:29:52,046 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:29:52,046 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:29:52,046 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:29:52,046 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:29:56,146 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,19 +51,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:06:24,899 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:29:56,146 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -139,7 +139,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ex
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
 Caused by: org.gradle.api.GradleException: You have to specify a valid signing properties file.
-	at build_6kq08hl3eflk7mb2bu64a0e3o$_run_closure1$_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:11)
+	at build_4k7syw746sa95jiuwef6xkgeq$_run_closure1$_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:11)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
@@ -154,7 +154,7 @@ Caused by: org.gradle.api.GradleException: You have to specify a valid signing p
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_6kq08hl3eflk7mb2bu64a0e3o$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:7)
+	at build_4k7syw746sa95jiuwef6xkgeq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -166,22 +166,22 @@ Caused by: org.gradle.api.GradleException: You have to specify a valid signing p
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_6kq08hl3eflk7mb2bu64a0e3o.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:3)
+	at build_4k7syw746sa95jiuwef6xkgeq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 5.255 secs
+Total time: 3.923 secs
 
-2018-11-04 01:06:24,904 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:06:24,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:06:32,175 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 01:06:32,176 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:06:32,176 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:06:32,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/fastscroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:06:38,981 ERROR SysUtils - Could not process external command
+2019-07-06 01:29:56,150 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:29:56,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:30:01,271 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:30:01,271 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:30:01,271 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:30:01,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/fastscroll/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:30:06,412 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -201,14 +201,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:06:38,981 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:30:06,412 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -312,15 +312,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.565 secs
+Total time: 4.916 secs
 
-2018-11-04 01:06:38,986 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:06:38,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:06:44,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 01:06:44,512 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:06:44,512 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:06:44,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:06:49,872 ERROR SysUtils - Could not process external command
+2019-07-06 01:30:06,416 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:30:06,416 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:30:10,481 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:30:10,481 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:30:10,481 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:30:10,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:30:14,489 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -340,19 +340,19 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:06:49,872 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:30:14,490 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle' line: 11
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle' line: 11
 
 * What went wrong:
 A problem occurred evaluating project ':example'.
@@ -428,7 +428,7 @@ org.gradle.api.GradleScriptException: A problem occurred evaluating project ':ex
 	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
 	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
 Caused by: org.gradle.api.GradleException: You have to specify a valid signing properties file.
-	at build_6kq08hl3eflk7mb2bu64a0e3o$_run_closure1$_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:11)
+	at build_4k7syw746sa95jiuwef6xkgeq$_run_closure1$_closure3.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:11)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configureSelf(ConfigureUtil.java:148)
@@ -443,7 +443,7 @@ Caused by: org.gradle.api.GradleException: You have to specify a valid signing p
 	at org.gradle.internal.metaobject.CompositeDynamicObject.invokeMethod(CompositeDynamicObject.java:96)
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.ConfigureDelegate.invokeMethod(ConfigureDelegate.java:59)
-	at build_6kq08hl3eflk7mb2bu64a0e3o$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:7)
+	at build_4k7syw746sa95jiuwef6xkgeq$_run_closure1.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:7)
 	at org.gradle.api.internal.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:160)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:106)
@@ -455,14 +455,14 @@ Caused by: org.gradle.api.GradleException: You have to specify a valid signing p
 	at org.gradle.internal.metaobject.MixInClosurePropertiesAsMethodsDynamicObject.invokeMethod(MixInClosurePropertiesAsMethodsDynamicObject.java:30)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:163)
 	at org.gradle.groovy.scripts.BasicScript.methodMissing(BasicScript.java:83)
-	at build_6kq08hl3eflk7mb2bu64a0e3o.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268357934-0/src/recycler-fast-scroll-master/example/build.gradle:3)
+	at build_4k7syw746sa95jiuwef6xkgeq.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351366504-0/src/recycler-fast-scroll-master/example/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 63 more
 
 
 BUILD FAILED
 
-Total time: 5.165 secs
+Total time: 3.811 secs
 
-2018-11-04 01:06:49,877 ERROR FullProcessService - Project build has not produced APK file
-2018-11-04 01:06:49,881 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:30:14,494 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:30:14,497 ERROR FullProcessService - Could not find generated or existed APK file

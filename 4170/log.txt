@@ -1,45 +1,45 @@
-2018-11-04 00:06:58,651 INFO  DownloadService - Downloading "https://github.com/seroperson/itstimetoact/archive/master.zip", attempt 3
-2018-11-04 00:06:59,183 INFO  DownloadService - Downloaded https://github.com/seroperson/itstimetoact/archive/master.zip, attempt 3
-2018-11-04 00:06:59,183 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/master.zip": 131 KB
-2018-11-04 00:06:59,183 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 00:06:59,188 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/master.zip: true
-2018-11-04 00:06:59,189 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src'.
-2018-11-04 00:06:59,213 INFO  FullProcessService - Size of directory with sources: 160 KB
-2018-11-04 00:06:59,213 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src]
-2018-11-04 00:06:59,232 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/.git/
+2019-07-06 01:22:21,880 INFO  DownloadService - Downloading "https://github.com/seroperson/itstimetoact/archive/master.zip", attempt 3
+2019-07-06 01:22:22,414 INFO  DownloadService - Downloaded https://github.com/seroperson/itstimetoact/archive/master.zip, attempt 3
+2019-07-06 01:22:22,414 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/master.zip": 131 KB
+2019-07-06 01:22:22,414 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:22:22,420 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/master.zip: true
+2019-07-06 01:22:22,420 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src'.
+2019-07-06 01:22:22,440 INFO  FullProcessService - Size of directory with sources: 160 KB
+2019-07-06 01:22:22,440 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src]
+2019-07-06 01:22:22,455 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/.git/
 
-2018-11-04 00:06:59,237 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew
-2018-11-04 00:06:59,241 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle
-2018-11-04 00:06:59,246 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/bintray-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle
-2018-11-04 00:06:59,247 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 00:06:59,247 INFO  ProjectFixService - Fixing project...
-2018-11-04 00:06:59,258 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/local.properties
-2018-11-04 00:06:59,258 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
-2018-11-04 00:06:59,260 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,260 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,261 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/local.properties
-2018-11-04 00:06:59,263 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,263 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,264 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/local.properties
-2018-11-04 00:06:59,266 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,266 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,266 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/local.properties
-2018-11-04 00:06:59,268 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,269 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,269 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/local.properties
-2018-11-04 00:06:59,272 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,272 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/local.properties
-2018-11-04 00:06:59,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
-2018-11-04 00:06:59,275 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=28,targetSdkVersion=25]
-2018-11-04 00:06:59,275 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 00:06:59,275 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:06:59,275 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:07:14,042 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:07:14,042 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:07:14,042 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:07:14,042 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:07:23,397 ERROR SysUtils - Could not process external command
+2019-07-06 01:22:22,459 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew
+2019-07-06 01:22:22,462 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle
+2019-07-06 01:22:22,465 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/bintray-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/coverage.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle
+2019-07-06 01:22:22,465 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:22:22,465 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:22:22,472 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/local.properties
+2019-07-06 01:22:22,473 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.2.1-bin.zip
+2019-07-06 01:22:22,473 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,473 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,474 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/local.properties
+2019-07-06 01:22:22,475 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,475 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,476 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/local.properties
+2019-07-06 01:22:22,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,478 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/local.properties
+2019-07-06 01:22:22,480 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,480 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/local.properties
+2019-07-06 01:22:22,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,482 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/local.properties
+2019-07-06 01:22:22,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=<null>,targetSdkVersion=25]
+2019-07-06 01:22:22,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=29,targetSdkVersion=25]
+2019-07-06 01:22:22,484 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:22:22,484 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:22:22,484 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:22:33,957 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:22:33,957 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:22:33,957 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:22:33,957 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:22:39,843 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,14 +59,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:07:23,397 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:22:39,843 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -278,15 +278,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.043 secs
+Total time: 5.655 secs
 
-2018-11-04 00:07:23,405 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:07:23,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:07:32,912 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:07:32,912 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:07:32,912 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:07:32,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:07:45,253 ERROR SysUtils - Could not process external command
+2019-07-06 01:22:39,848 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:22:39,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:22:45,968 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:22:45,968 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:22:45,968 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:22:45,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:22:53,991 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -306,14 +306,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:07:45,253 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:22:53,992 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -484,199 +484,199 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :itstimetoact-core:bundleRelease
 :itstimetoact-core:compileReleaseSources
 :itstimetoact-core:assembleRelease
-:itstimetoact-core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:7: error: package android.support.annotation does not exist
+:itstimetoact-core:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:7: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.Size;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:33: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:33: error: cannot find symbol
     public TimeToAct(@NonNull Context context) {
                       ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:79: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:79: error: cannot find symbol
     public final <T extends ActEvent> T watchEvent(@NonNull T event) {
                                                     ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:78: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:78: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:92: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:92: error: cannot find symbol
     public final void watchLastDropped(@NonNull String key) {
                                         ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:118: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:118: error: cannot find symbol
     public final <T extends ActEvent> T forceWatchEvent(@NonNull T event) {
                                                          ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:117: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:117: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:128: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:128: error: cannot find symbol
     public final void removeEvent(@NonNull Predicate<ActEvent> eventPredicate) {
                                    ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:144: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:144: error: cannot find symbol
     public final void removeEvent(@NonNull ActEvent event) {
                                    ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:156: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:156: error: cannot find symbol
     public final void removeEvent(@NonNull String eventKey) {
                                    ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:178: error: cannot find symbol
     public final boolean isWatchingFor(@NonNull ActEvent event) {
                                         ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:189: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:189: error: cannot find symbol
     public final boolean isWatchingFor(@NonNull String eventKey) {
                                         ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:202: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:202: error: cannot find symbol
     public final boolean isHappened(@NonNull String eventKey) {
                                      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:218: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:218: error: cannot find symbol
     public final <T extends ActEvent> T getEvent(@NonNull String eventKey) {
                                                   ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:217: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:217: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:233: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:233: error: cannot find symbol
     public final Set<ActEvent> getEventSet(@NonNull Predicate<ActEvent> eventPredicate) {
                                             ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:232: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:232: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:243: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:243: error: cannot find symbol
     private <T extends ActEvent> T putEvent(@NonNull T event, boolean overwrite) {
                                              ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:263: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:263: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull Context context) {
                                            ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:262: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:262: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:275: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:275: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull Context context) {
                                       ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:275: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/TimeToAct.java:275: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull Context context) {
                                                                               ^
   symbol:   class NonNull
   location: class TimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:26: error: cannot find symbol
     public ActEvent(@NonNull String eventKey) {
                      ^
   symbol:   class NonNull
   location: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:35: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:35: error: cannot find symbol
     public void onInitialize(@NonNull Context context) {
                               ^
   symbol:   class NonNull
   location: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:51: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/event/ActEvent.java:51: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:25: error: cannot find symbol
     public InFileTimeToAct(@NonNull Context context) {
                             ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:31: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull Context context) {
                                            ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:30: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:47: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull File storage) {
                                            ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:46: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:52: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull Context context) {
                                       ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:52: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:52: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull Context context) {
                                                                               ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:72: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                       ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:72: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:72: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                                                               ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:81: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:81: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:82: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:82: error: cannot find symbol
     @Size(min = 1)
      ^
   symbol:   class Size
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:95: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:95: error: cannot find symbol
     protected File getStorageFile(@NonNull Context context) {
                                    ^
   symbol:   class NonNull
   location: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:94: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-core/src/main/java/com/seroperson/itstimetoact/InFileTimeToAct.java:94: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
@@ -842,15 +842,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.088 secs
+Total time: 7.837 secs
 
-2018-11-04 00:07:45,269 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:07:45,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:07:53,514 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:07:53,514 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:07:53,514 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:07:53,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:08:04,278 ERROR SysUtils - Could not process external command
+2019-07-06 01:22:54,000 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:22:54,000 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:22:59,961 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:22:59,961 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:22:59,961 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:22:59,961 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:23:08,040 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -870,14 +870,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:08:04,279 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:23:08,040 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -1154,112 +1154,112 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :itstimetoact-extras:bundleRelease
 :itstimetoact-extras:compileReleaseSources
 :itstimetoact-extras:assembleRelease
-:itstimetoact-extras:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/OneShotEvent.java:3: error: package android.support.annotation does not exist
+:itstimetoact-extras:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/OneShotEvent.java:3: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
 import com.seroperson.itstimetoact.event.ActEvent;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.IntRange;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:14: error: cannot find symbol
 public class StepEvent extends ActEvent implements Serializable {
                                ^
   symbol: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
 import com.seroperson.itstimetoact.event.ActEvent;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:13: error: cannot find symbol
 public class AfterUpdateEvent extends ActEvent implements Serializable {
                                       ^
   symbol: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:3: error: package com.seroperson.itstimetoact.event does not exist
 import com.seroperson.itstimetoact.event.ActEvent;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:5: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:5: error: package android.support.annotation does not exist
 import android.support.annotation.IntRange;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:6: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:6: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:13: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:13: error: cannot find symbol
 public class TimeEvent extends ActEvent implements Serializable {
                                ^
   symbol: class ActEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/OneShotEvent.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/OneShotEvent.java:12: error: cannot find symbol
     public OneShotEvent(@NonNull String eventKey) {
                          ^
   symbol:   class NonNull
   location: class OneShotEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:28: error: cannot find symbol
     public StepEvent(@IntRange(from = 0) int stepCount, @NonNull String eventKey) {
                       ^
   symbol:   class IntRange
   location: class StepEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:28: error: cannot find symbol
     public StepEvent(@IntRange(from = 0) int stepCount, @NonNull String eventKey) {
                                                          ^
   symbol:   class NonNull
   location: class StepEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:28: error: cannot find symbol
     public AfterUpdateEvent(@NonNull Context context, @NonNull String eventKey) {
                              ^
   symbol:   class NonNull
   location: class AfterUpdateEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:28: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:28: error: cannot find symbol
     public AfterUpdateEvent(@NonNull Context context, @NonNull String eventKey) {
                                                        ^
   symbol:   class NonNull
   location: class AfterUpdateEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:32: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:32: error: cannot find symbol
     private AfterUpdateEvent(int savedVersion, @NonNull String eventKey) {
                                                 ^
   symbol:   class NonNull
   location: class AfterUpdateEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:38: error: cannot find symbol
     public void onInitialize(@NonNull Context context) {
                               ^
   symbol:   class NonNull
   location: class AfterUpdateEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:25: error: cannot find symbol
     public TimeEvent(@IntRange(from = 0) long happenAfter, @NonNull String eventKey) {
                       ^
   symbol:   class IntRange
   location: class TimeEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:25: error: cannot find symbol
     public TimeEvent(@IntRange(from = 0) long happenAfter, @NonNull String eventKey) {
                                                             ^
   symbol:   class NonNull
   location: class TimeEvent
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:48: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:48: warning: no @return
     public int getCurrentVersion() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:57: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/AfterUpdateEvent.java:57: warning: no @return
     public int getSavedVersion() {
                ^
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:35: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:35: warning: no @return
     public int getStepCount() {
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:43: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/StepEvent.java:43: warning: no @return
     public int getRemainingStepCount() {
                ^
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class IntRange not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:31: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:31: warning: no @return
     public long getTargetDate() {
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:36: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-extras/src/main/java/com/seroperson/itstimetoact/extras/TimeEvent.java:36: warning: no @return
     public long getRemainingTime() {
                 ^
 javadoc: warning - Class IntRange not found.
@@ -1366,15 +1366,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.485 secs
+Total time: 7.884 secs
 
-2018-11-04 00:08:04,305 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:08:04,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:08:13,124 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:08:13,124 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:08:13,124 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:08:13,125 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:08:24,324 ERROR SysUtils - Could not process external command
+2019-07-06 01:23:08,056 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:23:08,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:23:14,163 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:23:14,163 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:23:14,163 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:23:14,163 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:23:22,511 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -1394,14 +1394,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:08:24,324 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:23:22,511 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -1678,182 +1678,182 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :itstimetoact-gson:bundleRelease
 :itstimetoact-gson:compileReleaseSources
 :itstimetoact-gson:assembleRelease
-:itstimetoact-gson:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:20: error: package com.google.gson.internal does not exist
+:itstimetoact-gson:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:20: error: package com.google.gson.internal does not exist
 import com.google.gson.internal.Streams;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:21: error: package com.google.gson.reflect does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:21: error: package com.google.gson.reflect does not exist
 import com.google.gson.reflect.TypeToken;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:22: error: package com.google.gson.stream does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:22: error: package com.google.gson.stream does not exist
 import com.google.gson.stream.JsonReader;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:23: error: package com.google.gson.stream does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:23: error: package com.google.gson.stream does not exist
 import com.google.gson.stream.JsonWriter;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:118: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:118: error: cannot find symbol
 public final class RuntimeTypeAdapterFactory<T> implements TypeAdapterFactory {
                                                            ^
   symbol: class TypeAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
     public <R> TypeAdapter<R> create(Gson gson, TypeToken<R> type) {
                                      ^
   symbol:   class Gson
   location: class RuntimeTypeAdapterFactory<T>
   where T is a type-variable:
     T extends Object declared in class RuntimeTypeAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
     public <R> TypeAdapter<R> create(Gson gson, TypeToken<R> type) {
                                                 ^
   symbol:   class TypeToken
   location: class RuntimeTypeAdapterFactory<T>
   where T is a type-variable:
     T extends Object declared in class RuntimeTypeAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:178: error: cannot find symbol
     public <R> TypeAdapter<R> create(Gson gson, TypeToken<R> type) {
                ^
   symbol:   class TypeAdapter
   location: class RuntimeTypeAdapterFactory<T>
   where T is a type-variable:
     T extends Object declared in class RuntimeTypeAdapterFactory
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:3: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:3: error: cannot find symbol
 import com.google.gson.Gson;
                       ^
   symbol:   class Gson
   location: package com.google.gson
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:4: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:4: error: cannot find symbol
 import com.google.gson.GsonBuilder;
                       ^
   symbol:   class GsonBuilder
   location: package com.google.gson
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:5: error: package com.google.gson.reflect does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:5: error: package com.google.gson.reflect does not exist
 import com.google.gson.reflect.TypeToken;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:6: error: package com.google.gson.stream does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:6: error: package com.google.gson.stream does not exist
 import com.google.gson.stream.JsonWriter;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:8: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:8: error: cannot find symbol
 import com.seroperson.itstimetoact.InFileTimeToAct;
                                   ^
   symbol:   class InFileTimeToAct
   location: package com.seroperson.itstimetoact
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:9: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:9: error: cannot find symbol
 import com.seroperson.itstimetoact.TimeToAct;
                                   ^
   symbol:   class TimeToAct
   location: package com.seroperson.itstimetoact
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:10: error: package com.seroperson.itstimetoact.event does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:10: error: package com.seroperson.itstimetoact.event does not exist
 import com.seroperson.itstimetoact.event.ActEvent;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:13: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:13: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:26: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:26: error: cannot find symbol
 public class GsonTimeToAct extends InFileTimeToAct {
                                    ^
   symbol: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:29: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:29: error: cannot find symbol
     private final Gson gson;
                   ^
   symbol:   class Gson
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:38: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull File storage) {
                   ^
   symbol:   class ActEvent
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                                          ^
   symbol:   class ActEvent
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
     protected GsonBuilder createGsonBuilder(@NonNull GsonBuilder gsonBuilder) {
                                                      ^
   symbol:   class GsonBuilder
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
     protected GsonBuilder createGsonBuilder(@NonNull GsonBuilder gsonBuilder) {
               ^
   symbol:   class GsonBuilder
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:31: error: cannot find symbol
     public GsonTimeToAct(@NonNull Context context) {
                           ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:38: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull File storage) {
                                            ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:37: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:37: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                       ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:59: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                                                               ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: error: cannot find symbol
     protected GsonBuilder createGsonBuilder(@NonNull GsonBuilder gsonBuilder) {
                                              ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:86: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:86: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class GsonTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for <T>
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for baseType
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for baseType
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for typeFieldName
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @param for typeFieldName
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:136: warning: no @return
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType, String typeFieldName) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @param for <T>
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @param for <T>
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @param for baseType
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @param for baseType
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:144: warning: no @return
     public static <T> RuntimeTypeAdapterFactory<T> of(Class<T> baseType) {
                                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @param for type
     public RuntimeTypeAdapterFactory<T> registerSubtype(Class<? extends T> type, String label) {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @param for label
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @param for label
     public RuntimeTypeAdapterFactory<T> registerSubtype(Class<? extends T> type, String label) {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:155: warning: no @return
     public RuntimeTypeAdapterFactory<T> registerSubtype(Class<? extends T> type, String label) {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:174: warning: no @param for type
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:174: warning: no @param for type
     public RuntimeTypeAdapterFactory<T> registerSubtype(Class<? extends T> type) {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:174: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/google/gson/typeadapters/RuntimeTypeAdapterFactory.java:174: warning: no @return
     public RuntimeTypeAdapterFactory<T> registerSubtype(Class<? extends T> type) {
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: warning: no @param for gsonBuilder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:87: warning: no @param for gsonBuilder
     protected GsonBuilder createGsonBuilder(@NonNull GsonBuilder gsonBuilder) {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:22: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:22: error: reference not found
  * {@link TimeToAct} implementations that uses gson to serialize/deserialize events to/from json format.
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:23: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-gson/src/main/java/com/seroperson/itstimetoact/gson/GsonTimeToAct.java:23: error: reference not found
  * Override {@link GsonTimeToAct#createGsonBuilder(GsonBuilder)} to build your custom gson instance.
                    ^
 javadoc: warning - Class NonNull not found.
@@ -1976,15 +1976,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 10.942 secs
+Total time: 8.152 secs
 
-2018-11-04 00:08:24,356 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:08:24,356 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:08:32,711 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:08:32,711 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:08:32,711 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:08:32,711 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:08:40,454 ERROR SysUtils - Could not process external command
+2019-07-06 01:23:22,533 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:23:22,533 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:23:28,514 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:23:28,514 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:23:28,514 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:23:28,514 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:23:34,412 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2004,14 +2004,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:08:40,454 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:23:34,412 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -2359,15 +2359,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.42 secs
+Total time: 5.601 secs
 
-2018-11-04 00:08:40,488 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:08:40,488 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:08:49,028 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:08:49,028 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 00:08:49,028 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 00:08:49,028 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 00:08:59,072 ERROR SysUtils - Could not process external command
+2019-07-06 01:23:34,434 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:23:34,434 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:23:40,480 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:23:40,480 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:23:40,480 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:23:40,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:23:48,686 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -2387,14 +2387,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:08:59,072 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:23:48,686 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 The TaskInputs.source(Object) method has been deprecated and is scheduled to be removed in Gradle 4.0. Please use TaskInputs.file(Object).skipWhenEmpty() instead.
 	at org.gradle.api.internal.tasks.DefaultTaskInputs.source(DefaultTaskInputs.java:144)
@@ -2671,65 +2671,65 @@ The TaskInputs.source(Object) method has been deprecated and is scheduled to be 
 :itstimetoact-serializable:bundleRelease
 :itstimetoact-serializable:compileReleaseSources
 :itstimetoact-serializable:assembleRelease
-:itstimetoact-serializable:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:3: error: cannot find symbol
+:itstimetoact-serializable:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:3: error: cannot find symbol
 import com.seroperson.itstimetoact.InFileTimeToAct;
                                   ^
   symbol:   class InFileTimeToAct
   location: package com.seroperson.itstimetoact
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:4: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:4: error: cannot find symbol
 import com.seroperson.itstimetoact.TimeToAct;
                                   ^
   symbol:   class TimeToAct
   location: package com.seroperson.itstimetoact
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:5: error: package com.seroperson.itstimetoact.event does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:5: error: package com.seroperson.itstimetoact.event does not exist
 import com.seroperson.itstimetoact.event.ActEvent;
                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:22: error: cannot find symbol
 public class SerializableTimeToAct extends InFileTimeToAct {
                                            ^
   symbol: class InFileTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:31: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull File storage) {
                   ^
   symbol:   class ActEvent
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                                          ^
   symbol:   class ActEvent
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:24: error: cannot find symbol
     public SerializableTimeToAct(@NonNull Context context) {
                                   ^
   symbol:   class NonNull
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:31: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:31: error: cannot find symbol
     protected Set<ActEvent> loadEventData(@NonNull File storage) {
                                            ^
   symbol:   class NonNull
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:30: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:30: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                       ^
   symbol:   class NonNull
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:55: error: cannot find symbol
     protected boolean storeEventData(@NonNull Collection<ActEvent> eventSet, @NonNull File storage) {
                                                                               ^
   symbol:   class NonNull
   location: class SerializableTimeToAct
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:16: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:16: error: reference not found
  * {@link TimeToAct} implementation that uses java.io serializables to serialize and deserialize events.
           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264818643-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:19: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350941873-0/src/itstimetoact-master/itstimetoact-serializable/src/main/java/com/seroperson/itstimetoact/serializable/SerializableTimeToAct.java:19: error: reference not found
  * {@link ActEvent}). The main pros of this implementation that it hasn't any external dependencies.
           ^
 javadoc: warning - Class NonNull not found.
@@ -2845,7 +2845,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 9.791 secs
+Total time: 8.013 secs
 
-2018-11-04 00:08:59,118 ERROR FullProcessService - Project build has not produced APK file
-2018-11-04 00:08:59,155 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:23:48,712 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:23:48,734 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,38 +1,38 @@
-2018-11-04 01:28:06,887 INFO  DownloadService - Downloading "https://github.com/mattlogan/auto-value-firebase/archive/master.zip", attempt 3
-2018-11-04 01:28:08,673 INFO  DownloadService - Downloaded https://github.com/mattlogan/auto-value-firebase/archive/master.zip, attempt 3
-2018-11-04 01:28:08,673 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/master.zip": 117 KB
-2018-11-04 01:28:08,673 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 01:28:08,678 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/master.zip: true
-2018-11-04 01:28:08,679 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src'.
-2018-11-04 01:28:08,707 INFO  FullProcessService - Size of directory with sources: 187 KB
-2018-11-04 01:28:08,708 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src]
-2018-11-04 01:28:08,732 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/.git/
+2019-07-06 01:31:37,445 INFO  DownloadService - Downloading "https://github.com/mattlogan/auto-value-firebase/archive/master.zip", attempt 3
+2019-07-06 01:31:37,957 INFO  DownloadService - Downloaded https://github.com/mattlogan/auto-value-firebase/archive/master.zip, attempt 3
+2019-07-06 01:31:37,957 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/master.zip": 117 KB
+2019-07-06 01:31:37,957 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:31:37,962 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/master.zip: true
+2019-07-06 01:31:37,963 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src'.
+2019-07-06 01:31:37,979 INFO  FullProcessService - Size of directory with sources: 187 KB
+2019-07-06 01:31:37,979 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src]
+2019-07-06 01:31:37,994 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/.git/
 
-2018-11-04 01:28:08,737 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew
-2018-11-04 01:28:08,745 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle
-2018-11-04 01:28:08,756 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/settings.gradle
-2018-11-04 01:28:08,757 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 01:28:08,757 INFO  ProjectFixService - Fixing project...
-2018-11-04 01:28:08,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/local.properties
-2018-11-04 01:28:08,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-11-04 01:28:08,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/local.properties
-2018-11-04 01:28:08,773 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-11-04 01:28:08,774 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-11-04 01:28:08,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-11-04 01:28:08,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/local.properties
-2018-11-04 01:28:08,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-11-04 01:28:08,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/local.properties
-2018-11-04 01:28:08,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-11-04 01:28:08,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/local.properties
-2018-11-04 01:28:08,783 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
-2018-11-04 01:28:08,784 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 01:28:08,784 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:28:08,784 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:28:17,355 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 01:28:17,355 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:28:17,355 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:28:17,355 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:28:23,651 ERROR SysUtils - Could not process external command
+2019-07-06 01:31:37,997 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew
+2019-07-06 01:31:38,000 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle
+2019-07-06 01:31:38,002 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/settings.gradle
+2019-07-06 01:31:38,002 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:31:38,002 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:31:38,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/local.properties
+2019-07-06 01:31:38,008 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-06 01:31:38,008 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/local.properties
+2019-07-06 01:31:38,008 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-06 01:31:38,008 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-06 01:31:38,009 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-06 01:31:38,010 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/local.properties
+2019-07-06 01:31:38,010 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-06 01:31:38,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/local.properties
+2019-07-06 01:31:38,011 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-06 01:31:38,011 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/local.properties
+2019-07-06 01:31:38,012 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=19,targetSdkVersion=25]
+2019-07-06 01:31:38,012 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:31:38,012 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:31:38,012 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:31:44,312 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:31:44,312 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:31:44,312 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:31:44,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/example/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:31:49,395 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,29 +45,28 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:28:23,652 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:31:49,395 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at release_jar_7kmxooyjms58z1vh6ii4sjcew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
+	at release_jar_7usphsjag0ix0274vq0mcefs0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
@@ -82,7 +81,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_339cin57czx34rq0xxns0hbxa.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
+	at build_287yj0qcfisrjx2gqrpntoz9i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -333,15 +332,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.934 secs
+Total time: 4.824 secs
 
-2018-11-04 01:28:23,657 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:28:23,657 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:28:29,864 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 01:28:29,864 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:28:29,864 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:28:29,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:28:36,327 ERROR SysUtils - Could not process external command
+2019-07-06 01:31:49,399 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:31:49,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:31:54,617 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:31:54,617 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:31:54,617 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:31:54,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:31:59,751 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -354,29 +353,28 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:28:36,327 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:31:59,751 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at release_jar_7kmxooyjms58z1vh6ii4sjcew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
+	at release_jar_7usphsjag0ix0274vq0mcefs0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
@@ -391,7 +389,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_339cin57czx34rq0xxns0hbxa.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
+	at build_287yj0qcfisrjx2gqrpntoz9i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -574,21 +572,21 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.175 secs
+Total time: 4.885 secs
 
-2018-11-04 01:28:36,332 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:28:36,332 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:28:39,746 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-11-04 01:28:39,746 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-04 01:28:39,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-04 01:28:43,641 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:31:59,754 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:31:59,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:32:02,470 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-06 01:32:02,470 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:32:02,471 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:32:05,621 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at release_jar_7kmxooyjms58z1vh6ii4sjcew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
+	at release_jar_7usphsjag0ix0274vq0mcefs0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
@@ -603,7 +601,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_adbafqp1ki6gqf3aitbta0srk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle:15)
+	at build_bnq0ztcnedw79vll7b6kwd335.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-adapter/build.gradle:15)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -682,21 +680,21 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 
 BUILD SUCCESSFUL
 
-Total time: 3.773 secs
+Total time: 3.028 secs
 
-2018-11-04 01:28:43,646 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:28:43,646 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:28:46,828 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-11-04 01:28:46,828 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-04 01:28:46,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-04 01:28:50,622 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:32:05,625 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:32:05,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:32:08,409 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-06 01:32:08,409 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:32:08,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:32:11,552 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at release_jar_7kmxooyjms58z1vh6ii4sjcew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
+	at release_jar_7usphsjag0ix0274vq0mcefs0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
@@ -711,7 +709,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_d5iimqv4zcsdnp2720gtif6we.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle:9)
+	at build_dlp6l79igvd7jecbnxqi5tab6.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase-annotation/build.gradle:9)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -788,21 +786,21 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 
 BUILD SUCCESSFUL
 
-Total time: 3.675 secs
+Total time: 3.022 secs
 
-2018-11-04 01:28:50,629 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:28:50,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:28:54,193 INFO  ProjectTaskService - Detected possible tasks: 44
-2018-11-04 01:28:54,194 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-11-04 01:28:54,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-11-04 01:28:58,717 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:32:11,557 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:32:11,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:32:14,366 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-06 01:32:14,366 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:32:14,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:32:18,022 INFO  SysUtils - Configuration on demand is an incubating feature.
 The Task.leftShift(Closure) method has been deprecated and is scheduled to be removed in Gradle 5.0. Please use Task.doLast(Action) instead.
 	at org.gradle.api.internal.AbstractTask.leftShift(AbstractTask.java:513)
 	at org.gradle.api.Task$leftShift.call(Unknown Source)
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
-	at release_jar_7kmxooyjms58z1vh6ii4sjcew.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
+	at release_jar_7usphsjag0ix0274vq0mcefs0.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/gradle/release-jar.gradle:39)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.DefaultScriptTarget.addConfiguration(DefaultScriptTarget.java:74)
@@ -817,7 +815,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
 	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
-	at build_339cin57czx34rq0xxns0hbxa.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269686884-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
+	at build_287yj0qcfisrjx2gqrpntoz9i.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351497438-0/src/auto-value-firebase-master/auto-value-firebase/build.gradle:25)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:176)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -899,7 +897,7 @@ The Task.leftShift(Closure) method has been deprecated and is scheduled to be re
 
 BUILD SUCCESSFUL
 
-Total time: 4.386 secs
+Total time: 3.525 secs
 
-2018-11-04 01:28:58,726 ERROR FullProcessService - Project build has not produced APK file
-2018-11-04 01:28:58,733 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:32:18,028 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:32:18,033 ERROR FullProcessService - Could not find generated or existed APK file

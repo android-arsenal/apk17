@@ -1,38 +1,38 @@
-2018-10-27 21:44:44,511 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/GpCollapsingToolbar/archive/master.zip", attempt 3
-2018-10-27 21:44:47,279 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/GpCollapsingToolbar/archive/master.zip, attempt 3
-2018-10-27 21:44:47,280 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/master.zip": 5 MB
-2018-10-27 21:44:47,280 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:44:47,282 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/master.zip: true
-2018-10-27 21:44:47,282 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src'.
-2018-10-27 21:44:47,334 INFO  FullProcessService - Size of directory with sources: 5 MB
-2018-10-27 21:44:47,334 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src]
-2018-10-27 21:44:47,350 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/.git/
+2019-07-06 00:47:02,538 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/GpCollapsingToolbar/archive/master.zip", attempt 3
+2019-07-06 00:47:04,864 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/GpCollapsingToolbar/archive/master.zip, attempt 3
+2019-07-06 00:47:04,865 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/master.zip": 5 MB
+2019-07-06 00:47:04,865 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:47:04,867 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/master.zip: true
+2019-07-06 00:47:04,867 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src'.
+2019-07-06 00:47:04,915 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-07-06 00:47:04,915 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src]
+2019-07-06 00:47:04,930 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/.git/
 
-2018-10-27 21:44:47,353 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/gradlew
-2018-10-27 21:44:47,356 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/build.gradle
-2018-10-27 21:44:47,359 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/settings.gradle
-2018-10-27 21:44:47,360 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 21:44:47,360 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:44:47,367 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/local.properties
-2018-10-27 21:44:47,368 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-27 21:44:47,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/local.properties
-2018-10-27 21:44:47,369 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-27 21:44:47,369 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/local.properties
-2018-10-27 21:44:47,370 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-27 21:44:47,370 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-27 21:44:47,371 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-27 21:44:47,372 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/local.properties
-2018-10-27 21:44:47,372 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-27 21:44:47,373 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-27 21:44:47,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
-2018-10-27 21:44:47,373 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:44:47,373 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:44:47,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:44:47,507 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:44:47,508 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:44:47,508 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:44:47,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:44:47,626 ERROR SysUtils - Could not process external command
+2019-07-06 00:47:04,933 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/gradlew
+2019-07-06 00:47:04,935 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/build.gradle
+2019-07-06 00:47:04,938 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/settings.gradle
+2019-07-06 00:47:04,938 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:47:04,938 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:47:04,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/local.properties
+2019-07-06 00:47:04,945 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 00:47:04,945 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/local.properties
+2019-07-06 00:47:04,946 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 00:47:04,946 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/local.properties
+2019-07-06 00:47:04,946 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 00:47:04,946 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 00:47:04,947 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 00:47:04,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/local.properties
+2019-07-06 00:47:04,948 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 00:47:04,948 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 00:47:04,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/build.gradle": [buildToolsVersion=24.0.1,compileSdkVersion=24,minSdkVersion=15,targetSdkVersion=24]
+2019-07-06 00:47:04,949 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:47:04,949 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:04,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:05,076 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:47:05,076 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:47:05,076 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:47:05,076 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gp-collapsing-toolbar/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:47:05,192 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -52,22 +52,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:44:47,626 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-07-06 00:47:05,192 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2018-10-27 21:44:47,629 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:44:47,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:44:52,179 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:44:52,179 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:44:52,179 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:44:52,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:44:56,569 ERROR SysUtils - Could not process external command
+2019-07-06 00:47:05,195 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:05,195 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:09,187 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:47:09,187 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:47:09,187 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:47:09,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:47:13,205 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -87,14 +87,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:44:56,569 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:47:13,206 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -217,14 +217,14 @@ Caused by: org.gradle.api.artifacts.UnknownConfigurationException: Configuration
 
 BUILD FAILED
 
-Total time: 3.885 secs
+Total time: 3.479 secs
 
-2018-10-27 21:44:56,573 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:44:56,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:45:02,086 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-10-27 21:45:02,086 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-27 21:45:02,086 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-27 21:45:12,636 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:47:13,209 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:13,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:18,130 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-06 00:47:18,130 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 00:47:18,131 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 00:47:27,799 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :gp-collapsing-toolbar:preBuild UP-TO-DATE
 :gp-collapsing-toolbar:preDebugBuild UP-TO-DATE
@@ -310,15 +310,15 @@ Incremental java compilation is an incubating feature.
 
 BUILD SUCCESSFUL
 
-Total time: 10.025 secs
+Total time: 9.11 secs
 
-2018-10-27 21:45:12,694 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:45:12,694 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:45:17,117 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:45:17,118 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:45:17,118 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:45:17,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651484509-0/src/GpCollapsingToolbar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:45:21,453 ERROR SysUtils - Could not process external command
+2019-07-06 00:47:27,840 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:27,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:32,002 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:47:32,002 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:47:32,002 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:47:32,002 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348822535-0/src/GpCollapsingToolbar-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:47:35,912 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -338,14 +338,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:45:21,453 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:47:35,912 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -452,7 +452,7 @@ Caused by: org.gradle.api.UnknownProjectException: Cannot evaluate module gp-col
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 57 more
 Caused by: org.gradle.api.artifacts.UnknownConfigurationException: Configuration with name 'default' not found.
@@ -468,7 +468,7 @@ Caused by: org.gradle.api.artifacts.UnknownConfigurationException: Configuration
 
 BUILD FAILED
 
-Total time: 3.826 secs
+Total time: 3.39 secs
 
-2018-10-27 21:45:21,510 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 21:45:21,558 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:47:35,952 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:47:35,991 ERROR FullProcessService - Could not find generated or existed APK file

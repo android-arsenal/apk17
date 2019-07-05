@@ -1,41 +1,41 @@
-2018-10-27 21:56:33,274 INFO  DownloadService - Downloading "https://github.com/google/tiger/archive/master.zip", attempt 3
-2018-10-27 21:56:33,806 INFO  DownloadService - Downloaded https://github.com/google/tiger/archive/master.zip, attempt 3
-2018-10-27 21:56:33,806 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/master.zip": 445 KB
-2018-10-27 21:56:33,806 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:56:33,812 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/master.zip: true
-2018-10-27 21:56:33,812 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src'.
-2018-10-27 21:56:33,857 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-27 21:56:33,857 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src]
-2018-10-27 21:56:33,884 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/.git/
+2019-07-06 00:49:58,956 INFO  DownloadService - Downloading "https://github.com/google/tiger/archive/master.zip", attempt 3
+2019-07-06 00:50:00,072 INFO  DownloadService - Downloaded https://github.com/google/tiger/archive/master.zip, attempt 3
+2019-07-06 00:50:00,072 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/master.zip": 443 KB
+2019-07-06 00:50:00,072 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:50:00,079 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/master.zip: true
+2019-07-06 00:50:00,079 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src'.
+2019-07-06 00:50:00,120 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 00:50:00,120 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src]
+2019-07-06 00:50:00,135 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/.git/
 
-2018-10-27 21:56:33,888 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/gradlew
-2018-10-27 21:56:33,893 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle
-2018-10-27 21:56:33,897 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle
-2018-10-27 21:56:33,897 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 21:56:33,897 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:56:33,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/local.properties
-2018-10-27 21:56:33,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,908 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/local.properties
-2018-10-27 21:56:33,908 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-10-27 21:56:33,908 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-10-27 21:56:33,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,909 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,910 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/local.properties
-2018-10-27 21:56:33,910 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.13-bin.zip
-2018-10-27 21:56:33,911 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,911 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,912 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/local.properties
-2018-10-27 21:56:33,913 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,913 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-10-27 21:56:33,913 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:56:33,913 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:56:33,913 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:56:41,114 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:56:41,115 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:56:41,115 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:56:41,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:56:46,403 ERROR SysUtils - Could not process external command
+2019-07-06 00:50:00,138 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/gradlew /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/gradlew
+2019-07-06 00:50:00,141 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle
+2019-07-06 00:50:00,144 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle
+2019-07-06 00:50:00,145 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:50:00,145 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:50:00,152 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/local.properties
+2019-07-06 00:50:00,153 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,153 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,154 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/local.properties
+2019-07-06 00:50:00,154 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-06 00:50:00,155 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-06 00:50:00,156 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,156 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/local.properties
+2019-07-06 00:50:00,157 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.13-bin.zip
+2019-07-06 00:50:00,158 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/local.properties
+2019-07-06 00:50:00,160 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,160 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-07-06 00:50:00,160 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:50:00,160 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:50:00,160 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:50:05,336 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:50:05,336 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:50:05,336 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:50:05,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:50:10,252 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -55,14 +55,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:56:46,403 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:50:10,252 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -198,15 +198,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 21:56:46,410 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:56:46,410 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 22:36:00,978 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 22:36:00,978 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 22:36:00,979 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 22:36:00,979 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/android-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 22:36:06,848 ERROR SysUtils - Could not process external command
+2019-07-06 00:50:10,258 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:50:10,258 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:50:15,074 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:50:15,074 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:50:15,074 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:50:15,074 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/android-samples/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:50:20,012 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -226,14 +226,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 22:36:06,848 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:50:20,012 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -369,14 +369,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 22:36:06,867 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 22:36:06,868 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 22:36:18,427 INFO  ProjectTaskService - Detected possible tasks: 41
-2018-10-27 22:36:18,427 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-10-27 22:36:18,427 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-10-27 22:36:43,312 ERROR SysUtils - Could not process external command
+2019-07-06 00:50:20,017 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:50:20,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:50:23,253 INFO  ProjectTaskService - Detected possible tasks: 41
+2019-07-06 00:50:23,253 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 00:50:23,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 00:50:29,895 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -396,133 +396,132 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 22:36:43,312 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:50:29,895 INFO  SysUtils - Configuration on demand is an incubating feature.
 :compileJava
-Download https://jcenter.bintray.com/com/sun/phobos/freemarker/2.3.9/freemarker-2.3.9.pom
 Download https://jcenter.bintray.com/com/sun/phobos/freemarker/2.3.9/freemarker-2.3.9.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Utils.java:27: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Utils.java:27: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Utils.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Utils.java:46: error: cannot find symbol
 import dagger.BindsInstance;
              ^
   symbol:   class BindsInstance
   location: package dagger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Utils.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Utils.java:47: error: cannot find symbol
 import dagger.BindsOptionalOf;
              ^
   symbol:   class BindsOptionalOf
   location: package dagger
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Utils.java:2096: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Utils.java:2096: error: cannot find symbol
       Function<Pair<TypeMirror, Element>, Void> function) {
                ^
   symbol:   class Pair
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Utils.java:2811: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Utils.java:2811: error: cannot find symbol
   public Pair<Set<BindingKey>, Set<BindingKey>> getProduced(TypeElement eitherComponent) {
          ^
   symbol:   class Pair
   location: class Utils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:22: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:157: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:157: error: cannot find symbol
   protected final Set<Pair<String, TypeName>> injectionMethodsDone = new HashSet<>();
                       ^
   symbol:   class Pair
   location: class GeneralInjectorGenerator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:191: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator.java:191: error: cannot find symbol
   protected abstract Pair<Set<BindingKey>, Set<BindingKey>> getProduced();
                      ^
   symbol:   class Pair
   location: class GeneralInjectorGenerator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Tiger2InjectorGenerator.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Tiger2InjectorGenerator.java:18: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/Tiger2InjectorGenerator.java:84: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/Tiger2InjectorGenerator.java:84: error: cannot find symbol
   protected Pair<Set<BindingKey>, Set<BindingKey>> getProduced() {
             ^
   symbol:   class Pair
   location: class Tiger2InjectorGenerator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator.java:18: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator.java:160: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator.java:160: error: cannot find symbol
   protected Pair<Set<BindingKey>, Set<BindingKey>> getProduced() {
             ^
   symbol:   class Pair
   location: class HubInjectorGenerator
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:22: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:157: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:157: error: cannot find symbol
   protected final Set<Pair<String, TypeName>> injectionMethodsDone = new HashSet<>();
                       ^
   symbol:   class Pair
   location: class GeneralInjectorGeneratorHubClone
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:191: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGeneratorHubClone.java:191: error: cannot find symbol
   protected abstract Pair<Set<BindingKey>, Set<BindingKey>> getProduced();
                      ^
   symbol:   class Pair
   location: class GeneralInjectorGeneratorHubClone
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/CoreInjectorGenerator.java:21: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/CoreInjectorGenerator.java:21: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator4.java:18: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator4.java:18: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:22: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:22: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator4.java:164: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/HubInjectorGenerator4.java:164: error: cannot find symbol
   protected Pair<Set<BindingKey>, Set<BindingKey>> getProduced() {
             ^
   symbol:   class Pair
   location: class HubInjectorGenerator4
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:161: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:161: error: cannot find symbol
   protected final Set<Pair<String, TypeName>> injectionMethodsDone = new HashSet<>();
                       ^
   symbol:   class Pair
   location: class GeneralInjectorGenerator4
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:198: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:198: error: cannot find symbol
   protected abstract Pair<Set<BindingKey>, Set<BindingKey>> getProduced();
                      ^
   symbol:   class Pair
   location: class GeneralInjectorGenerator4
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:724: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/GeneralInjectorGenerator4.java:724: error: cannot find symbol
   protected final Pair<DependencyInfo, BindingKey> handleBinds(DependencyInfo dependencyInfo) {
                   ^
   symbol:   class Pair
   location: class GeneralInjectorGenerator4
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/PackagedInjectorGenerator.java:3: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/PackagedInjectorGenerator.java:3: error: cannot find symbol
 import com.google.common.base.Pair;
                              ^
   symbol:   class Pair
   location: package com.google.common.base
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/src/main/java/tiger/PackagedInjectorGenerator.java:195: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/src/main/java/tiger/PackagedInjectorGenerator.java:195: error: cannot find symbol
   protected Pair<Set<BindingKey>, Set<BindingKey>> getProduced() {
             ^
   symbol:   class Pair
@@ -625,15 +624,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 
 BUILD FAILED
 
-Total time: 24.094 secs
+Total time: 6.177 secs
 
-2018-10-27 22:36:43,335 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 22:36:43,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 22:49:39,922 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 22:49:39,922 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 22:49:39,922 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 22:49:39,922 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 22:49:51,850 ERROR SysUtils - Could not process external command
+2019-07-06 00:50:29,899 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:50:29,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:50:36,876 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:50:36,876 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:50:36,876 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:50:36,876 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:50:40,666 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -653,16 +652,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 22:49:51,850 INFO  SysUtils - Configuration on demand is an incubating feature.
-Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-apt-plugin/0.7/gradle-apt-plugin-0.7.pom
-Download https://plugins.gradle.org/m2/net/ltgt/gradle/gradle-apt-plugin/0.7/gradle-apt-plugin-0.7.jar
+2019-07-06 00:50:40,666 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -673,8 +670,8 @@ A problem occurred configuring root project 'sample'.
      Searched in the following locations:
          https://jcenter.bintray.com//tiger//tiger-.pom
          https://jcenter.bintray.com//tiger//tiger-.jar
-         file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/libs/tiger-.jar
-         file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/libs/tiger.jar
+         file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/libs/tiger-.jar
+         file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/libs/tiger.jar
      Required by:
          :sample:unspecified
 
@@ -757,8 +754,8 @@ Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not
 Searched in the following locations:
     https://jcenter.bintray.com//tiger//tiger-.pom
     https://jcenter.bintray.com//tiger//tiger-.jar
-    file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/libs/tiger-.jar
-    file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540652193271-0/src/tiger-master/sample/libs/tiger.jar
+    file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/libs/tiger-.jar
+    file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348998952-0/src/tiger-master/sample/libs/tiger.jar
 Required by:
     :sample:unspecified
 	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:38)
@@ -800,7 +797,7 @@ Required by:
 
 BUILD FAILED
 
-Total time: 11.371 secs
+Total time: 3.304 secs
 
-2018-10-27 22:49:51,873 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 22:49:51,893 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:50:40,671 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:50:40,676 ERROR FullProcessService - Could not find generated or existed APK file

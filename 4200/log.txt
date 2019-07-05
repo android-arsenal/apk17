@@ -1,623 +1,593 @@
-2018-10-29 12:56:58,045 INFO  DownloadService - Downloading "https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip", attempt 3
-2018-10-29 12:57:15,835 INFO  DownloadService - Downloaded https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip, attempt 3
-2018-10-29 12:57:15,835 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip": 9 MB
-2018-10-29 12:57:15,835 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-29 12:57:15,836 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip: true
-2018-10-29 12:57:15,836 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src'.
-2018-10-29 12:57:15,979 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-10-29 12:57:15,980 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src]
-2018-10-29 12:57:16,000 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/.git/
+2019-07-06 01:07:16,305 INFO  DownloadService - Downloading "https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip", attempt 3
+2019-07-06 01:07:20,517 INFO  DownloadService - Downloaded https://github.com/rubensousa/BottomSheetBuilder/archive/master.zip, attempt 3
+2019-07-06 01:07:20,517 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/master.zip": 9 MB
+2019-07-06 01:07:20,517 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:07:20,524 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/master.zip: true
+2019-07-06 01:07:20,524 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src'.
+2019-07-06 01:07:20,621 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-07-06 01:07:20,621 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src]
+2019-07-06 01:07:20,638 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/.git/
 
-2018-10-29 12:57:16,005 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew
-2018-10-29 12:57:16,010 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle
-2018-10-29 12:57:16,015 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/settings.gradle
-2018-10-29 12:57:16,016 INFO  ProjectBuildService - Remote scripts: none
-2018-10-29 12:57:16,016 INFO  ProjectFixService - Fixing project...
-2018-10-29 12:57:16,030 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/local.properties
-2018-10-29 12:57:16,030 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-29 12:57:16,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/local.properties
-2018-10-29 12:57:16,032 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-29 12:57:16,032 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/local.properties
-2018-10-29 12:57:16,033 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-29 12:57:16,033 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-29 12:57:16,036 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-29 12:57:16,036 INFO  ProjectFixService - Project was maybe fixed
-2018-10-29 12:57:16,036 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:57:16,036 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:57:30,517 INFO  ProjectTaskService - Detected possible tasks: 70
-2018-10-29 12:57:30,517 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-29 12:57:30,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-29 12:57:55,591 INFO  SysUtils - Configuration on demand is an incubating feature.
-:bottomsheetbuilder:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:22: error: package android.support.design.widget does not exist
-import android.support.design.widget.BottomSheetBehavior;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:28: error: cannot find symbol
-    public static void delayDismiss(final BottomSheetBehavior behavior) {
-                                          ^
-  symbol:   class BottomSheetBehavior
-  location: class BottomSheetBuilderUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:37: error: cannot find symbol
-    public static void saveState(Bundle outState, BottomSheetBehavior behavior) {
-                                                  ^
-  symbol:   class BottomSheetBehavior
-  location: class BottomSheetBuilderUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/util/BottomSheetBuilderUtils.java:44: error: cannot find symbol
-                                    final BottomSheetBehavior behavior) {
-                                          ^
-  symbol:   class BottomSheetBehavior
-  location: class BottomSheetBuilderUtils
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:23: error: package android.support.annotation does not exist
-import android.support.annotation.ColorInt;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:24: error: package android.support.annotation does not exist
-import android.support.annotation.ColorRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:25: error: package android.support.annotation does not exist
-import android.support.annotation.DrawableRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:26: error: package android.support.annotation does not exist
-import android.support.annotation.MenuRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:27: error: package android.support.annotation does not exist
-import android.support.annotation.StringRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:28: error: package android.support.annotation does not exist
-import android.support.annotation.StyleRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:29: error: package android.support.design.widget does not exist
-import android.support.design.widget.AppBarLayout;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:30: error: package android.support.design.widget does not exist
-import android.support.design.widget.BottomSheetBehavior;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:31: error: package android.support.design.widget does not exist
-import android.support.design.widget.CoordinatorLayout;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:32: error: package android.support.v4.content does not exist
-import android.support.v4.content.ContextCompat;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:33: error: package android.support.v4.content.res does not exist
-import android.support.v4.content.res.ResourcesCompat;
-                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:34: error: package android.support.v4.view does not exist
-import android.support.v4.view.ViewCompat;
-                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:35: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.PopupMenu;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:23: error: package android.support.v7.view.menu does not exist
-import android.support.v7.view.menu.MenuBuilder;
-                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:24: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.GridLayoutManager;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:25: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.LinearLayoutManager;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:26: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.RecyclerView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetAdapterBuilder.java:35: error: cannot find symbol
-import com.github.rubensousa.bottomsheetbuilder.R;
-                                               ^
-  symbol:   class R
-  location: package com.github.rubensousa.bottomsheetbuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:72: error: cannot find symbol
-    private CoordinatorLayout mCoordinatorLayout;
-            ^
-  symbol:   class CoordinatorLayout
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:73: error: cannot find symbol
-    private AppBarLayout mAppBarLayout;
-            ^
-  symbol:   class AppBarLayout
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:77: error: cannot find symbol
-    public BottomSheetBuilder(Context context, CoordinatorLayout coordinatorLayout) {
-                                               ^
-  symbol:   class CoordinatorLayout
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:214: error: cannot find symbol
-    public BottomSheetBuilder setAppBarLayout(AppBarLayout appbar) {
-                                              ^
-  symbol:   class AppBarLayout
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:21: error: package android.support.annotation does not exist
-import android.support.annotation.NonNull;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:22: error: package android.support.design.widget does not exist
-import android.support.design.widget.AppBarLayout;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:23: error: package android.support.design.widget does not exist
-import android.support.design.widget.BottomSheetBehavior;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:24: error: package android.support.design.widget does not exist
-import android.support.design.widget.BottomSheetDialog;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:25: error: package android.support.design.widget does not exist
-import android.support.design.widget.CoordinatorLayout;
-                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:33: error: cannot find symbol
-public class BottomSheetMenuDialog extends BottomSheetDialog implements BottomSheetItemClickListener {
-                                           ^
-  symbol: class BottomSheetDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:35: error: package BottomSheetBehavior does not exist
-    BottomSheetBehavior.BottomSheetCallback mCallback;
-                       ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:36: error: cannot find symbol
-    BottomSheetBehavior mBehavior;
-    ^
-  symbol:   class BottomSheetBehavior
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:38: error: cannot find symbol
-    private AppBarLayout mAppBarLayout;
-            ^
-  symbol:   class AppBarLayout
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:44: error: cannot find symbol
-    OnCancelListener mOnCancelListener;
-    ^
-  symbol:   class OnCancelListener
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:64: error: cannot find symbol
-    public void setOnCancelListener(OnCancelListener listener) {
-                                    ^
-  symbol:   class OnCancelListener
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:141: error: cannot find symbol
-    public void setAppBar(AppBarLayout appBar) {
-                          ^
-  symbol:   class AppBarLayout
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:149: error: package BottomSheetBehavior does not exist
-    public void setBottomSheetCallback(BottomSheetBehavior.BottomSheetCallback callback) {
-                                                          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:157: error: cannot find symbol
-    public BottomSheetBehavior getBehavior() {
-           ^
-  symbol:   class BottomSheetBehavior
-  location: class BottomSheetMenuDialog
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java:177: error: package BottomSheetBehavior does not exist
-    private BottomSheetBehavior.BottomSheetCallback mBottomSheetCallback
-                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:19: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.AppCompatImageView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:20: error: package android.support.v7.widget does not exist
-import android.support.v7.widget.RecyclerView;
-                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:27: error: cannot find symbol
-import com.github.rubensousa.bottomsheetbuilder.R;
-                                               ^
-  symbol:   class R
-  location: package com.github.rubensousa.bottomsheetbuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:32: error: package RecyclerView does not exist
-class BottomSheetItemAdapter extends RecyclerView.Adapter<BottomSheetItemAdapter.ViewHolder> {
-                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:130: error: package RecyclerView does not exist
-    class ViewHolder extends RecyclerView.ViewHolder {
-                                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:20: error: package android.support.annotation does not exist
-import android.support.annotation.DrawableRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:19: error: package android.support.annotation does not exist
-import android.support.annotation.ColorInt;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetItemAdapter.java:177: error: cannot find symbol
-        public AppCompatImageView imageView;
-               ^
-  symbol:   class AppCompatImageView
-  location: class BottomSheetItemAdapter.ItemViewHolder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:20: error: package android.support.annotation does not exist
-import android.support.annotation.ColorInt;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:21: error: package android.support.annotation does not exist
-import android.support.annotation.DrawableRes;
-                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:22: error: package android.support.v4.graphics.drawable does not exist
-import android.support.v4.graphics.drawable.DrawableCompat;
-                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:51: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:54: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:57: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:60: error: cannot find symbol
-    @StyleRes
-     ^
-  symbol:   class StyleRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:87: error: cannot find symbol
-    public BottomSheetBuilder(Context context, @StyleRes int theme) {
-                                                ^
-  symbol:   class StyleRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:108: error: cannot find symbol
-    public BottomSheetBuilder setMenu(@MenuRes int menu) {
-                                       ^
-  symbol:   class MenuRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:122: error: cannot find symbol
-    public BottomSheetBuilder addTitleItem(@StringRes int title) {
-                                            ^
-  symbol:   class StringRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:144: error: cannot find symbol
-    public BottomSheetBuilder addItem(int id, @StringRes int title, @DrawableRes int icon) {
-                                               ^
-  symbol:   class StringRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:144: error: cannot find symbol
-    public BottomSheetBuilder addItem(int id, @StringRes int title, @DrawableRes int icon) {
-                                                                     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:148: error: cannot find symbol
-    public BottomSheetBuilder addItem(int id, @StringRes int title, Drawable icon) {
-                                               ^
-  symbol:   class StringRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:152: error: cannot find symbol
-    public BottomSheetBuilder addItem(int id, String title, @DrawableRes int icon) {
-                                                             ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:161: error: cannot find symbol
-    public BottomSheetBuilder setItemTextColor(@ColorInt int color) {
-                                                ^
-  symbol:   class ColorInt
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:166: error: cannot find symbol
-    public BottomSheetBuilder setTitleTextColor(@ColorInt int color) {
-                                                 ^
-  symbol:   class ColorInt
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:171: error: cannot find symbol
-    public BottomSheetBuilder setBackgroundColor(@ColorInt int color) {
-                                                  ^
-  symbol:   class ColorInt
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:176: error: cannot find symbol
-    public BottomSheetBuilder setItemTextColorResource(@ColorRes int color) {
-                                                        ^
-  symbol:   class ColorRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:182: error: cannot find symbol
-    public BottomSheetBuilder setTitleTextColorResource(@ColorRes int color) {
-                                                         ^
-  symbol:   class ColorRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:188: error: cannot find symbol
-    public BottomSheetBuilder setBackground(@DrawableRes int background) {
-                                             ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:193: error: cannot find symbol
-    public BottomSheetBuilder setBackgroundColorResource(@ColorRes int background) {
-                                                          ^
-  symbol:   class ColorRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:199: error: cannot find symbol
-    public BottomSheetBuilder setDividerBackground(@DrawableRes int background) {
-                                                    ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:204: error: cannot find symbol
-    public BottomSheetBuilder setItemBackground(@DrawableRes int background) {
-                                                 ^
-  symbol:   class DrawableRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetBuilder.java:219: error: cannot find symbol
-    public BottomSheetBuilder setIconTintColorResource(@ColorRes int color) {
-                                                        ^
-  symbol:   class ColorRes
-  location: class BottomSheetBuilder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:25: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetDivider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:28: error: cannot find symbol
-    public BottomSheetDivider(@DrawableRes int background) {
-                               ^
-  symbol:   class DrawableRes
-  location: class BottomSheetDivider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetDivider.java:32: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetDivider
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:25: error: cannot find symbol
-    @ColorInt
-     ^
-  symbol:   class ColorInt
-  location: class BottomSheetHeader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:28: error: cannot find symbol
-    public BottomSheetHeader(String title, @ColorInt int color) {
-                                            ^
-  symbol:   class ColorInt
-  location: class BottomSheetHeader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetHeader.java:33: error: cannot find symbol
-    @ColorInt
-     ^
-  symbol:   class ColorInt
-  location: class BottomSheetHeader
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:28: error: cannot find symbol
-    @ColorInt
-     ^
-  symbol:   class ColorInt
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:31: error: cannot find symbol
-    @ColorInt
-     ^
-  symbol:   class ColorInt
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:39: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:42: error: cannot find symbol
-    public BottomSheetMenuItem(MenuItem item, @ColorInt int textColor, @DrawableRes int background,
-                                               ^
-  symbol:   class ColorInt
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:42: error: cannot find symbol
-    public BottomSheetMenuItem(MenuItem item, @ColorInt int textColor, @DrawableRes int background,
-                                                                        ^
-  symbol:   class DrawableRes
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:43: error: cannot find symbol
-                               @ColorInt int tintColor) {
-                                ^
-  symbol:   class ColorInt
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:67: error: cannot find symbol
-    @DrawableRes
-     ^
-  symbol:   class DrawableRes
-  location: class BottomSheetMenuItem
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/adapter/BottomSheetMenuItem.java:76: error: cannot find symbol
-    @ColorInt
-     ^
-  symbol:   class ColorInt
-  location: class BottomSheetMenuItem
-javadoc: warning - Class MenuRes not found.
-javadoc: warning - Class StringRes not found.
-javadoc: warning - Class StringRes not found.
-javadoc: warning - Class DrawableRes not found.
-javadoc: warning - Class StringRes not found.
-javadoc: warning - Class DrawableRes not found.
-javadoc: warning - Class ColorInt not found.
-javadoc: warning - Class ColorInt not found.
-javadoc: warning - Class ColorInt not found.
-javadoc: warning - Class ColorRes not found.
-javadoc: warning - Class ColorRes not found.
-javadoc: warning - Class DrawableRes not found.
-javadoc: warning - Class ColorRes not found.
+2019-07-06 01:07:20,642 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew
+2019-07-06 01:07:20,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/build.gradle
+2019-07-06 01:07:20,649 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/settings.gradle
+2019-07-06 01:07:20,650 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:07:20,650 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:07:20,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/local.properties
+2019-07-06 01:07:20,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:07:20,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/local.properties
+2019-07-06 01:07:20,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:07:20,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/local.properties
+2019-07-06 01:07:20,660 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-07-06 01:07:20,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-07-06 01:07:20,662 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:07:20,663 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:07:20,663 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:07:20,663 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:07:23,342 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:07:23,342 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:07:23,342 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:07:23,342 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/bottomsheetbuilder/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:07:25,606 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-06 01:07:25,606 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-100 warnings
-:bottomsheetbuilder:androidJavadocsJar
-:bottomsheetbuilder:androidSourcesJar
-:bottomsheetbuilder:preBuild UP-TO-DATE
-:bottomsheetbuilder:preDebugBuild UP-TO-DATE
-:bottomsheetbuilder:compileDebugAidl
-:bottomsheetbuilder:compileDebugRenderscript
-:bottomsheetbuilder:checkDebugManifest
-:bottomsheetbuilder:generateDebugBuildConfig
-:bottomsheetbuilder:generateDebugResValues
-:bottomsheetbuilder:generateDebugResources
-:bottomsheetbuilder:packageDebugResources
-:bottomsheetbuilder:platformAttrExtractor
-:bottomsheetbuilder:processDebugManifest
-:bottomsheetbuilder:prepareLintJar
-:bottomsheetbuilder:javaPreCompileDebug
-:bottomsheetbuilder:mergeDebugConsumerProguardFiles
-:bottomsheetbuilder:mergeDebugShaders
-:bottomsheetbuilder:compileDebugShaders
-:bottomsheetbuilder:generateDebugAssets
-:bottomsheetbuilder:packageDebugAssets
-:bottomsheetbuilder:packageDebugRenderscript NO-SOURCE
-:bottomsheetbuilder:processDebugJavaRes NO-SOURCE
-:bottomsheetbuilder:compileDebugNdk NO-SOURCE
-:bottomsheetbuilder:mergeDebugJniLibFolders
-:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForDebug
-:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForDebug
-:bottomsheetbuilder:transformNativeLibsWithSyncJniLibsForDebug
-:bottomsheetbuilder:preReleaseBuild UP-TO-DATE
-:bottomsheetbuilder:compileReleaseAidl
-:bottomsheetbuilder:compileReleaseRenderscript
-:bottomsheetbuilder:checkReleaseManifest
-:bottomsheetbuilder:generateReleaseBuildConfig
-:bottomsheetbuilder:generateReleaseResValues
-:bottomsheetbuilder:generateReleaseResources
-:bottomsheetbuilder:packageReleaseResources
-:bottomsheetbuilder:processReleaseManifest
-:bottomsheetbuilder:javaPreCompileRelease
-:bottomsheetbuilder:mergeReleaseConsumerProguardFiles
-:bottomsheetbuilder:mergeReleaseShaders
-:bottomsheetbuilder:compileReleaseShaders
-:bottomsheetbuilder:generateReleaseAssets
-:bottomsheetbuilder:packageReleaseAssets
-:bottomsheetbuilder:packageReleaseRenderscript NO-SOURCE
-:bottomsheetbuilder:processReleaseJavaRes NO-SOURCE
-:bottomsheetbuilder:compileReleaseNdk NO-SOURCE
-:bottomsheetbuilder:mergeReleaseJniLibFolders
-:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForRelease
-:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForRelease
-:bottomsheetbuilder:transformNativeLibsWithSyncJniLibsForRelease
-:bottomsheetbuilder:mergeReleaseResources
-:bottomsheetbuilder:verifyReleaseResources
-:bottomsheetbuilder:generateDebugRFile
-:bottomsheetbuilder:generateDebugSources
-:bottomsheetbuilder:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+FAILURE: Build failed with an exception.
 
-:bottomsheetbuilder:extractDebugAnnotations
-:bottomsheetbuilder:transformResourcesWithMergeJavaResForDebug
-:bottomsheetbuilder:transformClassesAndResourcesWithSyncLibJarsForDebug
-:bottomsheetbuilder:bundleDebug
-:bottomsheetbuilder:compileDebugSources
-:bottomsheetbuilder:assembleDebug
-:bottomsheetbuilder:generateReleaseRFile
-:bottomsheetbuilder:generateReleaseSources
-:bottomsheetbuilder:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/bottomsheetbuilder/src/main/java/com/github/rubensousa/bottomsheetbuilder/BottomSheetMenuDialog.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+* What went wrong:
+A problem occurred configuring root project 'BottomSheetBuilder-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.0/ddmlib-26.1.0.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.0/dvlib-26.1.0.jar
+   > Could not find common.jar (com.android.tools:common:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.0/common-26.1.0.jar
 
-:bottomsheetbuilder:extractReleaseAnnotations
-:bottomsheetbuilder:transformResourcesWithMergeJavaResForRelease
-:bottomsheetbuilder:transformClassesAndResourcesWithSyncLibJarsForRelease
-:bottomsheetbuilder:bundleRelease
-:bottomsheetbuilder:compileReleaseSources
-:bottomsheetbuilder:assembleRelease
-:bottomsheetbuilder:signArchives SKIPPED
-:bottomsheetbuilder:assemble
-:bottomsheetbuilder:build
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
-BUILD SUCCESSFUL in 24s
-51 actionable tasks: 51 executed
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'BottomSheetBuilder-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
 
-2018-10-29 12:57:55,658 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:57:55,659 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:58:03,812 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-29 12:58:03,812 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-29 12:58:03,812 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-29 12:58:50,004 INFO  SysUtils - Configuration on demand is an incubating feature.
-:bottomsheetbuilder:preBuild UP-TO-DATE
-:bottomsheetbuilder:preDebugBuild UP-TO-DATE
-:bottomsheetbuilder:compileDebugAidl UP-TO-DATE
-:bottomsheetbuilder:compileDebugRenderscript UP-TO-DATE
-:bottomsheetbuilder:checkDebugManifest UP-TO-DATE
-:bottomsheetbuilder:generateDebugBuildConfig UP-TO-DATE
-:bottomsheetbuilder:generateDebugResValues UP-TO-DATE
-:bottomsheetbuilder:generateDebugResources UP-TO-DATE
-:bottomsheetbuilder:packageDebugResources UP-TO-DATE
-:bottomsheetbuilder:platformAttrExtractor UP-TO-DATE
-:bottomsheetbuilder:processDebugManifest UP-TO-DATE
-:bottomsheetbuilder:generateDebugRFile UP-TO-DATE
-:bottomsheetbuilder:prepareLintJar UP-TO-DATE
-:bottomsheetbuilder:generateDebugSources UP-TO-DATE
-:bottomsheetbuilder:javaPreCompileDebug UP-TO-DATE
-:bottomsheetbuilder:compileDebugJavaWithJavac UP-TO-DATE
-:bottomsheetbuilder:processDebugJavaRes NO-SOURCE
-:bottomsheetbuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:sample:preBuild UP-TO-DATE
-:sample:preDebugBuild
-:sample:compileDebugAidl
-:bottomsheetbuilder:packageDebugRenderscript NO-SOURCE
-:sample:compileDebugRenderscript
-:sample:checkDebugManifest
-:sample:generateDebugBuildConfig
-:sample:prepareLintJar
-:sample:mainApkListPersistenceDebug
-:sample:generateDebugResValues
-:sample:generateDebugResources
-:sample:mergeDebugResources
-:sample:createDebugCompatibleScreenManifests
-:sample:processDebugManifest
-:sample:splitsDiscoveryTaskDebug
-:sample:processDebugResources
-:sample:generateDebugSources
-:sample:javaPreCompileDebug
-:sample:compileDebugJavaWithJavac
-:sample:compileDebugNdk NO-SOURCE
-:sample:compileDebugSources
-:bottomsheetbuilder:mergeDebugShaders UP-TO-DATE
-:bottomsheetbuilder:compileDebugShaders UP-TO-DATE
-:bottomsheetbuilder:generateDebugAssets UP-TO-DATE
-:bottomsheetbuilder:packageDebugAssets UP-TO-DATE
-:sample:mergeDebugShaders
-:sample:compileDebugShaders
-:sample:generateDebugAssets
-:sample:mergeDebugAssets
-:sample:transformClassesWithDexBuilderForDebug
-:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
-:sample:transformDexArchiveWithDexMergerForDebug
-:bottomsheetbuilder:compileDebugNdk NO-SOURCE
-:bottomsheetbuilder:mergeDebugJniLibFolders UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithIntermediateJniLibsForDebug
-:sample:mergeDebugJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForDebug
-:sample:transformNativeLibsWithStripDebugSymbolForDebug
-:sample:processDebugJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForDebug
-:sample:validateSigningDebug
-:sample:packageDebug
-:sample:assembleDebug
-:bottomsheetbuilder:preReleaseBuild UP-TO-DATE
-:bottomsheetbuilder:compileReleaseAidl UP-TO-DATE
-:bottomsheetbuilder:compileReleaseRenderscript UP-TO-DATE
-:bottomsheetbuilder:checkReleaseManifest UP-TO-DATE
-:bottomsheetbuilder:generateReleaseBuildConfig UP-TO-DATE
-:bottomsheetbuilder:generateReleaseResValues UP-TO-DATE
-:bottomsheetbuilder:generateReleaseResources UP-TO-DATE
-:bottomsheetbuilder:packageReleaseResources UP-TO-DATE
-:bottomsheetbuilder:processReleaseManifest UP-TO-DATE
-:bottomsheetbuilder:generateReleaseRFile UP-TO-DATE
-:bottomsheetbuilder:generateReleaseSources UP-TO-DATE
-:bottomsheetbuilder:javaPreCompileRelease UP-TO-DATE
-:bottomsheetbuilder:compileReleaseJavaWithJavac UP-TO-DATE
-:bottomsheetbuilder:processReleaseJavaRes NO-SOURCE
-:bottomsheetbuilder:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:sample:preReleaseBuild
-:sample:compileReleaseAidl
-:bottomsheetbuilder:packageReleaseRenderscript NO-SOURCE
-:sample:compileReleaseRenderscript
-:sample:checkReleaseManifest
-:sample:generateReleaseBuildConfig
-:sample:mainApkListPersistenceRelease
-:sample:generateReleaseResValues
-:sample:generateReleaseResources
-:sample:mergeReleaseResources
-:sample:createReleaseCompatibleScreenManifests
-:sample:processReleaseManifest
-:sample:splitsDiscoveryTaskRelease
-:sample:processReleaseResources
-:sample:generateReleaseSources
-:sample:javaPreCompileRelease
-:sample:compileReleaseJavaWithJavac
-:sample:compileReleaseNdk NO-SOURCE
-:sample:compileReleaseSources
-:sample:lintVitalRelease
-:bottomsheetbuilder:mergeReleaseShaders UP-TO-DATE
-:bottomsheetbuilder:compileReleaseShaders UP-TO-DATE
-:bottomsheetbuilder:generateReleaseAssets UP-TO-DATE
-:bottomsheetbuilder:packageReleaseAssets UP-TO-DATE
-:sample:mergeReleaseShaders
-:sample:compileReleaseShaders
-:sample:generateReleaseAssets
-:sample:mergeReleaseAssets
-:sample:transformClassesWithDexBuilderForRelease
-:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
-:sample:transformDexArchiveWithDexMergerForRelease
-:bottomsheetbuilder:compileReleaseNdk NO-SOURCE
-:bottomsheetbuilder:mergeReleaseJniLibFolders UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:bottomsheetbuilder:transformNativeLibsWithIntermediateJniLibsForRelease
-:sample:mergeReleaseJniLibFolders
-:sample:transformNativeLibsWithMergeJniLibsForRelease
-:sample:transformNativeLibsWithStripDebugSymbolForRelease
-:sample:processReleaseJavaRes NO-SOURCE
-:sample:transformResourcesWithMergeJavaResForRelease
-:sample:packageRelease
-:sample:assembleRelease
-:sample:assemble
-:sample:build
 
-BUILD SUCCESSFUL in 45s
-91 actionable tasks: 57 executed, 34 up-to-date
+* Get more help at https://help.gradle.org
 
-2018-10-29 12:58:50,148 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792618041-0/src/BottomSheetBuilder-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+BUILD FAILED in 2s
+
+2019-07-06 01:07:25,611 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:07:25,611 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:07:27,823 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:07:27,823 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:07:27,823 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:07:27,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:07:30,226 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-06 01:07:30,226 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'BottomSheetBuilder-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.0/ddmlib-26.1.0.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.0/dvlib-26.1.0.jar
+   > Could not find common.jar (com.android.tools:common:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.0/common-26.1.0.jar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'BottomSheetBuilder-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-07-06 01:07:30,231 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:07:30,231 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:07:32,570 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:07:32,570 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:07:32,570 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:07:32,570 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350036297-0/src/BottomSheetBuilder-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:07:34,800 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-07-06 01:07:34,801 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+A problem occurred configuring root project 'BottomSheetBuilder-master'.
+> Could not resolve all files for configuration ':classpath'.
+   > Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+   > Could not find ddmlib.jar (com.android.tools.ddms:ddmlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/ddms/ddmlib/26.1.0/ddmlib-26.1.0.jar
+   > Could not find dvlib.jar (com.android.tools:dvlib:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/dvlib/26.1.0/dvlib-26.1.0.jar
+   > Could not find common.jar (com.android.tools:common:26.1.0).
+     Searched in the following locations:
+         https://jcenter.bintray.com/com/android/tools/common/26.1.0/common-26.1.0.jar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.ProjectConfigurationException: A problem occurred configuring root project 'BottomSheetBuilder-master'.
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:66)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:36)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:249)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:167)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:126)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':classpath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.getFiles(DefaultConfiguration.java:404)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getFiles(Unknown Source)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.internal.classpath.DefaultClassPath.<init>(DefaultClassPath.java:48)
+	at org.gradle.api.internal.initialization.DefaultScriptClassPathResolver.resolveClassPath(DefaultScriptClassPathResolver.java:39)
+	at org.gradle.api.internal.initialization.DefaultScriptHandler.getScriptClassPath(DefaultScriptHandler.java:72)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.defineScriptHandlerClassScope(DefaultPluginRequestApplicator.java:204)
+	at org.gradle.plugin.use.internal.DefaultPluginRequestApplicator.applyPlugins(DefaultPluginRequestApplicator.java:82)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:179)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.run(BuildOperationScriptPlugin.java:61)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:58)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:64)
+	... 70 more
+Caused by: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find manifest-merger.jar (com.android.tools.build:manifest-merger:26.1.0).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/tools/build/manifest-merger/26.1.0/manifest-merger-26.1.0.jar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-07-06 01:07:34,805 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:07:34,810 ERROR FullProcessService - Could not find generated or existed APK file

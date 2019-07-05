@@ -23,11 +23,11 @@
     "permissions" : [ ]
   },
   "icon" : null,
-  "dexClasses" : 3232,
+  "dexClasses" : 3430,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.airbnb.epoxy.integrationtest\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0e0140\" android:label=\"Epoxy Integration test\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\" />\n</manifest>\n",
-  "fileSize" : 2375576,
-  "crc32" : 2349123077,
-  "sha256" : "747efb7703cac189792c23a680daafcfc6136ff34792512217b2b470c184125d",
-  "buildTime" : 1548160223000
+  "fileSize" : 2548545,
+  "crc32" : 1107825914,
+  "sha256" : "11218426bc94f1750a43aadd98d952ec9b59cfe89e2514954c460496b380f60a",
+  "buildTime" : 1562349207000
 }

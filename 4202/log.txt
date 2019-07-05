@@ -1,34 +1,34 @@
-2018-10-29 12:55:30,983 INFO  DownloadService - Downloading "https://github.com/rubensousa/NavigationViewManager/archive/master.zip", attempt 3
-2018-10-29 12:55:32,027 INFO  DownloadService - Downloaded https://github.com/rubensousa/NavigationViewManager/archive/master.zip, attempt 3
-2018-10-29 12:55:32,027 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/master.zip": 118 KB
-2018-10-29 12:55:32,027 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-29 12:55:32,033 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/master.zip: true
-2018-10-29 12:55:32,033 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src'.
-2018-10-29 12:55:32,052 INFO  FullProcessService - Size of directory with sources: 152 KB
-2018-10-29 12:55:32,052 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src]
-2018-10-29 12:55:32,069 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/.git/
+2019-07-06 01:06:01,236 INFO  DownloadService - Downloading "https://github.com/rubensousa/NavigationViewManager/archive/master.zip", attempt 3
+2019-07-06 01:06:03,864 INFO  DownloadService - Downloaded https://github.com/rubensousa/NavigationViewManager/archive/master.zip, attempt 3
+2019-07-06 01:06:03,864 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/master.zip": 118 KB
+2019-07-06 01:06:03,864 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:06:03,870 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/master.zip: true
+2019-07-06 01:06:03,870 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src'.
+2019-07-06 01:06:03,886 INFO  FullProcessService - Size of directory with sources: 152 KB
+2019-07-06 01:06:03,886 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src]
+2019-07-06 01:06:03,902 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/.git/
 
-2018-10-29 12:55:32,073 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew
-2018-10-29 12:55:32,075 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/build.gradle
-2018-10-29 12:55:32,078 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/settings.gradle
-2018-10-29 12:55:32,078 INFO  ProjectBuildService - Remote scripts: none
-2018-10-29 12:55:32,078 INFO  ProjectFixService - Fixing project...
-2018-10-29 12:55:32,086 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/local.properties
-2018-10-29 12:55:32,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-29 12:55:32,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/local.properties
-2018-10-29 12:55:32,088 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-29 12:55:32,089 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/local.properties
-2018-10-29 12:55:32,089 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-10-29 12:55:32,090 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-10-29 12:55:32,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-29 12:55:32,091 INFO  ProjectFixService - Project was maybe fixed
-2018-10-29 12:55:32,091 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:55:32,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:55:40,173 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:55:40,173 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-29 12:55:40,173 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-29 12:55:40,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-29 12:55:53,693 ERROR SysUtils - Could not process external command
+2019-07-06 01:06:03,905 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew
+2019-07-06 01:06:03,907 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/build.gradle
+2019-07-06 01:06:03,909 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradle/gradle-bintray-upload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/settings.gradle
+2019-07-06 01:06:03,910 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:06:03,910 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:06:03,916 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/local.properties
+2019-07-06 01:06:03,916 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-06 01:06:03,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/local.properties
+2019-07-06 01:06:03,917 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-06 01:06:03,917 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/local.properties
+2019-07-06 01:06:03,917 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 01:06:03,918 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 01:06:03,918 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-07-06 01:06:03,918 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:06:03,918 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:06:03,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:06:10,359 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:06:10,359 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:06:10,359 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:06:10,359 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:06:22,278 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,144 +41,143 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:55:53,693 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:06:22,278 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
-:navigationmanager:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:20: error: package android.support.annotation does not exist
+:navigationmanager:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:20: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:21: error: package android.support.design.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:21: error: package android.support.design.widget does not exist
 import android.support.design.widget.NavigationView;
                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:22: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:22: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:23: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:23: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentTransaction;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:27: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:27: error: package android.support.annotation does not exist
 import android.support.annotation.IdRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:28: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:28: error: package android.support.v4.app does not exist
 import android.support.v4.app.FragmentManager;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:29: error: package android.support.v4.view does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:29: error: package android.support.v4.view does not exist
 import android.support.v4.view.GravityCompat;
                               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:30: error: package android.support.v4.widget does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:30: error: package android.support.v4.widget does not exist
 import android.support.v4.widget.DrawerLayout;
                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:33: error: package NavigationView does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:33: error: package NavigationView does not exist
 public abstract class NavigationManager implements NavigationView.OnNavigationItemSelectedListener,
                                                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:34: error: package DrawerLayout does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:34: error: package DrawerLayout does not exist
         DrawerLayout.DrawerListener {
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:42: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:42: error: cannot find symbol
     private NavigationView mNavigationView;
             ^
   symbol:   class NavigationView
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:43: error: cannot find symbol
     private DrawerLayout mDrawerLayout;
             ^
   symbol:   class DrawerLayout
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:46: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:46: error: cannot find symbol
     private FragmentTransaction mFragmentTransaction;
             ^
   symbol:   class FragmentTransaction
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:47: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:47: error: cannot find symbol
     private FragmentManager mFragmentManager;
             ^
   symbol:   class FragmentManager
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:49: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:49: error: cannot find symbol
     private Fragment mCurrentFragment;
             ^
   symbol:   class Fragment
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:55: error: cannot find symbol
     public NavigationManager(FragmentManager fragmentManager, NavigationView navigationView,
                              ^
   symbol:   class FragmentManager
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:55: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:55: error: cannot find symbol
     public NavigationManager(FragmentManager fragmentManager, NavigationView navigationView,
                                                               ^
   symbol:   class NavigationView
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:56: error: cannot find symbol
                              DrawerLayout drawerLayout, @IdRes int containerId) {
                              ^
   symbol:   class DrawerLayout
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:103: error: cannot find symbol
     public abstract Fragment createFragment(@IdRes int item);
                     ^
   symbol:   class Fragment
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:253: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:253: error: cannot find symbol
     public Fragment getCurrentFragment() {
            ^
   symbol:   class Fragment
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:274: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:274: error: cannot find symbol
     public FragmentTransaction createFragmentTransaction(Fragment fragment) {
                                                          ^
   symbol:   class Fragment
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:274: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:274: error: cannot find symbol
     public FragmentTransaction createFragmentTransaction(Fragment fragment) {
            ^
   symbol:   class FragmentTransaction
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:279: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:279: error: cannot find symbol
     public void commitFragmentTransaction(FragmentTransaction transaction) {
                                           ^
   symbol:   class FragmentTransaction
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:314: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:314: error: cannot find symbol
         void onSectionChange(Fragment currentFragment);
                              ^
   symbol:   class Fragment
   location: interface NavigationListener
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:56: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:56: error: cannot find symbol
                              DrawerLayout drawerLayout, @IdRes int containerId) {
                                                          ^
   symbol:   class IdRes
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:103: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:103: error: cannot find symbol
     public abstract Fragment createFragment(@IdRes int item);
                                              ^
   symbol:   class IdRes
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:102: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:102: error: cannot find symbol
     @NonNull
      ^
   symbol:   class NonNull
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:122: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:122: error: cannot find symbol
     public void navigate(@IdRes int menuId) {
                           ^
   symbol:   class IdRes
   location: class NavigationManager
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:305: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/navigationmanager/src/main/java/com/github/rubensousa/navigationmanager/NavigationManager.java:305: error: cannot find symbol
     public static Intent createNavigationIntent(@IdRes int res) {
                                                  ^
   symbol:   class IdRes
@@ -380,15 +379,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.939 secs
+Total time: 11.336 secs
 
-2018-10-29 12:55:53,783 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:55:53,783 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:56:01,587 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:56:01,587 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-29 12:56:01,587 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-29 12:56:01,587 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-29 12:56:08,653 ERROR SysUtils - Could not process external command
+2019-07-06 01:06:22,333 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:06:22,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:06:28,543 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:06:28,543 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:06:28,543 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:06:28,543 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:06:34,658 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -401,22 +400,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:56:08,654 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:06:34,658 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -527,15 +525,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.451 secs
+Total time: 5.526 secs
 
-2018-10-29 12:56:08,723 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-29 12:56:08,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-29 12:56:15,698 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-29 12:56:15,698 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-29 12:56:15,698 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-29 12:56:15,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540792530981-0/src/NavigationManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-29 12:56:22,668 ERROR SysUtils - Could not process external command
+2019-07-06 01:06:34,712 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:06:34,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:06:41,050 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:06:41,050 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:06:41,050 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:06:41,050 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562349961233-0/src/NavigationManager-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:06:47,241 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -548,22 +546,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-29 12:56:22,668 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:06:47,241 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -674,7 +671,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.37 secs
+Total time: 5.621 secs
 
-2018-10-29 12:56:22,740 ERROR FullProcessService - Project build has not produced APK file
-2018-10-29 12:56:22,805 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:06:47,295 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:06:47,345 ERROR FullProcessService - Could not find generated or existed APK file

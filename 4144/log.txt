@@ -1,10 +1,10 @@
-2018-11-04 02:40:16,412 INFO  DownloadService - Downloading "https://github.com/InQBarna/android-swipelistview/archive/master.zip", attempt 3
-2018-11-04 02:40:16,883 INFO  DownloadService - Downloaded https://github.com/InQBarna/android-swipelistview/archive/master.zip, attempt 3
-2018-11-04 02:40:16,883 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541274016408-0/master.zip": 23 KB
-2018-11-04 02:40:16,883 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 02:40:16,888 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541274016408-0/master.zip: false
-2018-11-04 02:40:16,888 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-11-04 02:40:16,889 ERROR FullProcessService - Could not find directory with sources
-2018-11-04 02:40:16,889 ERROR FullProcessService - Project will not be processed
-2018-11-04 02:40:16,889 ERROR FullProcessService - Project build has not produced APK file
-2018-11-04 02:40:16,890 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:36:57,406 INFO  DownloadService - Downloading "https://github.com/InQBarna/android-swipelistview/archive/master.zip", attempt 3
+2019-07-06 01:36:57,958 INFO  DownloadService - Downloaded https://github.com/InQBarna/android-swipelistview/archive/master.zip, attempt 3
+2019-07-06 01:36:57,959 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351817402-0/master.zip": 23 KB
+2019-07-06 01:36:57,959 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:36:57,964 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351817402-0/master.zip: false
+2019-07-06 01:36:57,964 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-06 01:36:57,964 ERROR FullProcessService - Could not find directory with sources
+2019-07-06 01:36:57,964 ERROR FullProcessService - Project will not be processed
+2019-07-06 01:36:57,964 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:36:57,965 ERROR FullProcessService - Could not find generated or existed APK file

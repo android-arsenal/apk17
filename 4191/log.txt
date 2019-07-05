@@ -1,566 +1,360 @@
-2019-01-19 18:34:41,481 INFO  DownloadService - Downloading "https://github.com/LachlanMcKee/gsonpath/archive/master.zip", attempt 3
-2019-01-19 18:34:42,131 INFO  DownloadService - Downloaded https://github.com/LachlanMcKee/gsonpath/archive/master.zip, attempt 3
-2019-01-19 18:34:42,131 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/master.zip": 415 KB
-2019-01-19 18:34:42,131 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-19 18:34:42,133 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/master.zip: true
-2019-01-19 18:34:42,134 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src'.
-2019-01-19 18:34:42,251 INFO  FullProcessService - Size of directory with sources: 714 KB
-2019-01-19 18:34:42,251 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src]
-2019-01-19 18:34:42,279 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/.git/
+2019-07-06 01:11:17,836 INFO  DownloadService - Downloading "https://github.com/LachlanMcKee/gsonpath/archive/master.zip", attempt 3
+2019-07-06 01:11:18,559 INFO  DownloadService - Downloaded https://github.com/LachlanMcKee/gsonpath/archive/master.zip, attempt 3
+2019-07-06 01:11:18,559 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/master.zip": 442 KB
+2019-07-06 01:11:18,560 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:11:18,561 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/master.zip: true
+2019-07-06 01:11:18,561 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src'.
+2019-07-06 01:11:18,663 INFO  FullProcessService - Size of directory with sources: 803 KB
+2019-07-06 01:11:18,663 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src]
+2019-07-06 01:11:18,678 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/.git/
 
-2019-01-19 18:34:42,301 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew
-2019-01-19 18:34:42,322 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle
-2019-01-19 18:34:42,338 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/settings.gradle
-2019-01-19 18:34:42,340 INFO  ProjectBuildService - Remote scripts: none
-2019-01-19 18:34:42,341 INFO  ProjectFixService - Fixing project...
-2019-01-19 18:34:42,378 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/local.properties
-2019-01-19 18:34:42,378 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
-2019-01-19 18:34:42,387 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,388 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,389 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/local.properties
-2019-01-19 18:34:42,397 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,398 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/local.properties
-2019-01-19 18:34:42,407 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,408 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,409 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/local.properties
-2019-01-19 18:34:42,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,418 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/local.properties
-2019-01-19 18:34:42,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,427 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/local.properties
-2019-01-19 18:34:42,437 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,437 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,438 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/local.properties
-2019-01-19 18:34:42,447 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,447 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,448 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/local.properties
-2019-01-19 18:34:42,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/local.properties
-2019-01-19 18:34:42,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,465 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/local.properties
-2019-01-19 18:34:42,476 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,476 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/local.properties
-2019-01-19 18:34:42,485 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,485 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,487 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/local.properties
-2019-01-19 18:34:42,495 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,495 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,496 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/local.properties
-2019-01-19 18:34:42,505 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-19 18:34:42,505 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-19 18:34:42,506 INFO  ProjectFixService - Project was maybe fixed
-2019-01-19 18:34:42,506 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:34:42,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:34:48,047 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-01-19 18:34:48,047 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-19 18:34:48,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-19 18:35:18,863 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:11:18,689 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew
+2019-07-06 01:11:18,700 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle
+2019-07-06 01:11:18,711 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle
+2019-07-06 01:11:18,711 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:11:18,711 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:11:18,734 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/local.properties
+2019-07-06 01:11:18,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-bin.zip
+2019-07-06 01:11:18,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,737 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/local.properties
+2019-07-06 01:11:18,740 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,740 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,740 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/local.properties
+2019-07-06 01:11:18,743 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,743 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,743 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/local.properties
+2019-07-06 01:11:18,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,746 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/local.properties
+2019-07-06 01:11:18,749 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,749 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,750 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/local.properties
+2019-07-06 01:11:18,752 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,752 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,753 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/local.properties
+2019-07-06 01:11:18,755 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,755 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,756 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/local.properties
+2019-07-06 01:11:18,759 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:11:18,759 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:11:18,759 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:11:18,759 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:11:18,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:11:38,122 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-07-06 01:11:38,122 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:11:38,122 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:09,401 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-> Task :gsonpath-core:gsonpath-core-library:compileJava
+> Task :library:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/src/main/java/gsonpath/GsonUtil.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes
-> Task :gsonpath-core:gsonpath-core-library:jar
-> Task :gsonpath-core:gsonpath-core-library:javadocJar
-> Task :gsonpath-core:gsonpath-core-library:sourcesJar
-> Task :gsonpath-core:gsonpath-core-library:assemble
-> Task :gsonpath-core:gsonpath-core-library:build
-> Task :gsonpath-core:compiler:base:compileKotlin
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:base:jar
-> Task :gsonpath-core:compiler:standard:compileKotlin
+> Task :library:processResources NO-SOURCE
+> Task :library:classes
+> Task :library:jar
+> Task :library:javadocsJar
+> Task :library:sourcesJar
+> Task :library:signArchives SKIPPED
+> Task :library:assemble
+> Task :library:build
+> Task :compiler:base:compileKotlin
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC
+> Task :compiler:base:jar
+> Task :compiler:standard:compileKotlin
+> Task :compiler:standard:compileJava NO-SOURCE
+> Task :compiler:standard:processResources
+> Task :compiler:standard:classes
+> Task :compiler:standard:inspectClassesForKotlinIC
+> Task :compiler:standard:jar
+> Task :sample:kaptGenerateStubsKotlin
+> Task :sample:kaptKotlin
+> Task :sample:compileKotlin
 
-> Task :gsonpath-core:compiler:standard:compileJava
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
-
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:standard:jar
-> Task :gsonpath-core:sample:kaptGenerateStubsKotlin
-> Task :gsonpath-core:sample:kaptKotlin
-> Task :gsonpath-core:sample:compileKotlin
-
-> Task :gsonpath-core:sample:compileJava
+> Task :sample:compileJava
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :gsonpath-core:sample:processResources NO-SOURCE
-> Task :gsonpath-core:sample:classes
-> Task :gsonpath-core:sample:inspectClassesForKotlinIC
-> Task :gsonpath-core:sample:jar
-> Task :gsonpath-core:sample:assemble
-> Task :gsonpath-core:sample:build
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes
+> Task :sample:inspectClassesForKotlinIC
+> Task :sample:jar
+> Task :sample:assemble
+> Task :sample:build
+> Task :compiler:base:javadocsJar
+> Task :compiler:base:sourcesJar
+> Task :compiler:base:signArchives SKIPPED
+> Task :compiler:base:assemble
+> Task :compiler:base:build
+> Task :compiler:standard:javadocsJar
+> Task :compiler:standard:sourcesJar
+> Task :compiler:standard:signArchives SKIPPED
+> Task :compiler:standard:assemble
+> Task :compiler:standard:build
+> Task :compiler:testing:base:compileKotlin
+> Task :compiler:testing:base:compileJava NO-SOURCE
+> Task :compiler:testing:base:processResources NO-SOURCE
+> Task :compiler:testing:base:classes UP-TO-DATE
+> Task :compiler:testing:base:inspectClassesForKotlinIC
+> Task :compiler:testing:base:jar
+> Task :compiler:testing:base:assemble
+> Task :compiler:testing:base:build
+> Task :compiler:testing:integration:compileKotlin
+> Task :compiler:testing:integration:compileJava
+> Task :compiler:testing:integration:processResources NO-SOURCE
+> Task :compiler:testing:integration:classes
+> Task :compiler:testing:integration:inspectClassesForKotlinIC
+> Task :compiler:testing:integration:jar
+> Task :compiler:testing:integration:assemble
+> Task :compiler:testing:integration:build
+> Task :compiler:testing:unit:compileKotlin NO-SOURCE
+> Task :compiler:testing:unit:compileJava NO-SOURCE
+> Task :compiler:testing:unit:processResources NO-SOURCE
+> Task :compiler:testing:unit:classes UP-TO-DATE
+> Task :compiler:testing:unit:inspectClassesForKotlinIC
+> Task :compiler:testing:unit:jar
+> Task :compiler:testing:unit:assemble
+> Task :compiler:testing:unit:build
+w: Detected multiple Kotlin daemon sessions at build/kotlin/sessions
 
-> Task :gsonpath-extensions:gsonpath-extensions-library:compileJava
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
-1 warning
-
-> Task :gsonpath-extensions:gsonpath-extensions-library:processResources NO-SOURCE
-> Task :gsonpath-extensions:gsonpath-extensions-library:classes
-> Task :gsonpath-extensions:gsonpath-extensions-library:jar
-> Task :gsonpath-extensions:compiler:compileKotlin
-> Task :gsonpath-extensions:compiler:compileJava NO-SOURCE
-> Task :gsonpath-extensions:compiler:processResources
-> Task :gsonpath-extensions:compiler:classes
-> Task :gsonpath-extensions:compiler:inspectClassesForKotlinIC
-> Task :gsonpath-extensions:compiler:jar
-> Task :gsonpath-extensions:compiler:javadocJar
-> Task :gsonpath-extensions:compiler:sourcesJar
-> Task :gsonpath-extensions:compiler:assemble
-> Task :gsonpath-extensions:compiler:build
-> Task :gsonpath-extensions:gsonpath-extensions-library:javadocJar
-> Task :gsonpath-extensions:gsonpath-extensions-library:sourcesJar
-> Task :gsonpath-extensions:gsonpath-extensions-library:assemble
-> Task :gsonpath-extensions:gsonpath-extensions-library:build
-> Task :gsonpath-extensions:sample:kaptGenerateStubsKotlin
-> Task :gsonpath-extensions:sample:kaptKotlin
-> Task :gsonpath-extensions:sample:compileKotlin
-
-> Task :gsonpath-extensions:sample:compileJava
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :gsonpath-extensions:sample:processResources NO-SOURCE
-> Task :gsonpath-extensions:sample:classes
-> Task :gsonpath-extensions:sample:inspectClassesForKotlinIC
-> Task :gsonpath-extensions:sample:jar
-> Task :gsonpath-extensions:sample:assemble
-> Task :gsonpath-extensions:sample:build
-> Task :gsonpath-core:compiler:base:javadocJar
-> Task :gsonpath-core:compiler:base:sourcesJar
-> Task :gsonpath-core:compiler:base:assemble
-> Task :gsonpath-core:compiler:base:build
-> Task :gsonpath-core:compiler:standard:javadocJar
-> Task :gsonpath-core:compiler:standard:sourcesJar
-> Task :gsonpath-core:compiler:standard:assemble
-> Task :gsonpath-core:compiler:standard:build
-> Task :gsonpath-core:compiler:testing:base:compileKotlin
-> Task :gsonpath-core:compiler:testing:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:testing:base:jar
-> Task :gsonpath-core:compiler:testing:base:assemble
-> Task :gsonpath-core:compiler:testing:base:build
-> Task :gsonpath-core:compiler:testing:integration-base:compileKotlin
-
-> Task :gsonpath-core:compiler:testing:integration-base:compileJava
-warning: [options] bootstrap class path not set in conjunction with -source 1.7
-
-> Task :gsonpath-core:compiler:testing:integration-base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-base:classes
-> Task :gsonpath-core:compiler:testing:integration-base:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:testing:integration-base:jar
-> Task :gsonpath-core:compiler:testing:integration-base:assemble
-> Task :gsonpath-core:compiler:testing:integration-base:build
-> Task :gsonpath-core:compiler:testing:integration-extension:compileKotlin
-> Task :gsonpath-core:compiler:testing:integration-extension:compileJava
-> Task :gsonpath-core:compiler:testing:integration-extension:processResources
-> Task :gsonpath-core:compiler:testing:integration-extension:classes
-> Task :gsonpath-core:compiler:testing:integration-extension:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:testing:integration-extension:jar
-> Task :gsonpath-core:compiler:testing:integration-extension:assemble
-> Task :gsonpath-core:compiler:testing:integration-extension:build
-> Task :gsonpath-core:compiler:testing:integration-standard:compileKotlin NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-standard:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:testing:integration-standard:jar
-> Task :gsonpath-core:compiler:testing:integration-standard:assemble
-> Task :gsonpath-core:compiler:testing:integration-standard:build
-> Task :gsonpath-core:compiler:testing:unit-standard:compileKotlin NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:unit-standard:inspectClassesForKotlinIC
-> Task :gsonpath-core:compiler:testing:unit-standard:jar
-> Task :gsonpath-core:compiler:testing:unit-standard:assemble
-> Task :gsonpath-core:compiler:testing:unit-standard:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 30s
-53 actionable tasks: 53 executed
+30 actionable tasks: 30 executed
 
-2019-01-19 18:35:18,931 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:35:18,931 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:35:23,289 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:35:23,289 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:35:23,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:35:27,431 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:javadocJar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:sourcesJar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:base:build
+2019-07-06 01:12:09,437 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:09,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:13,147 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-07-06 01:12:13,147 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:13,147 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:17,363 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compiler:base:compileKotlin UP-TO-DATE
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:base:jar UP-TO-DATE
+> Task :compiler:base:javadocsJar UP-TO-DATE
+> Task :compiler:base:sourcesJar UP-TO-DATE
+> Task :compiler:base:signArchives SKIPPED
+> Task :compiler:base:assemble UP-TO-DATE
+> Task :compiler:base:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 4s
 5 actionable tasks: 5 up-to-date
 
-2019-01-19 18:35:27,478 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:35:27,479 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:35:31,209 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:35:31,209 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:35:31,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:35:35,967 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:javadocJar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:sourcesJar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:build
+2019-07-06 01:12:17,397 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:17,397 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:21,066 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-07-06 01:12:21,066 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:21,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:25,654 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:compileJava UP-TO-DATE
+> Task :library:processResources NO-SOURCE
+> Task :library:classes UP-TO-DATE
+> Task :library:jar UP-TO-DATE
+> Task :compiler:base:compileKotlin UP-TO-DATE
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:base:jar UP-TO-DATE
+> Task :compiler:standard:compileKotlin UP-TO-DATE
+> Task :compiler:standard:compileJava NO-SOURCE
+> Task :compiler:standard:processResources UP-TO-DATE
+> Task :compiler:standard:classes UP-TO-DATE
+> Task :compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:standard:jar UP-TO-DATE
+> Task :compiler:standard:javadocsJar UP-TO-DATE
+> Task :compiler:standard:sourcesJar UP-TO-DATE
+> Task :compiler:standard:signArchives SKIPPED
+> Task :compiler:standard:assemble UP-TO-DATE
+> Task :compiler:standard:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 4s
 11 actionable tasks: 11 up-to-date
 
-2019-01-19 18:35:36,018 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:35:36,018 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:35:39,581 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:35:39,581 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:35:39,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:35:44,470 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:build
+2019-07-06 01:12:25,686 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:25,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:29,008 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-06 01:12:29,008 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:29,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:33,731 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:compileJava UP-TO-DATE
+> Task :library:processResources NO-SOURCE
+> Task :library:classes UP-TO-DATE
+> Task :library:jar UP-TO-DATE
+> Task :compiler:base:compileKotlin UP-TO-DATE
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:base:jar UP-TO-DATE
+> Task :compiler:standard:compileKotlin UP-TO-DATE
+> Task :compiler:standard:compileJava NO-SOURCE
+> Task :compiler:standard:processResources UP-TO-DATE
+> Task :compiler:standard:classes UP-TO-DATE
+> Task :compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:standard:jar UP-TO-DATE
+> Task :compiler:testing:base:compileKotlin UP-TO-DATE
+> Task :compiler:testing:base:compileJava NO-SOURCE
+> Task :compiler:testing:base:processResources NO-SOURCE
+> Task :compiler:testing:base:classes UP-TO-DATE
+> Task :compiler:testing:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:testing:base:jar UP-TO-DATE
+> Task :compiler:testing:base:assemble UP-TO-DATE
+> Task :compiler:testing:base:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 4s
 12 actionable tasks: 12 up-to-date
 
-2019-01-19 18:35:44,520 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:35:44,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:35:48,180 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:35:48,180 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:35:48,180 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:35:53,187 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-base:build
+2019-07-06 01:12:33,764 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:33,764 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:37,102 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-06 01:12:37,103 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:37,103 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:41,876 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:compileJava UP-TO-DATE
+> Task :library:processResources NO-SOURCE
+> Task :library:classes UP-TO-DATE
+> Task :library:jar UP-TO-DATE
+> Task :compiler:base:compileKotlin UP-TO-DATE
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:base:jar UP-TO-DATE
+> Task :compiler:standard:compileKotlin UP-TO-DATE
+> Task :compiler:standard:compileJava NO-SOURCE
+> Task :compiler:standard:processResources UP-TO-DATE
+> Task :compiler:standard:classes UP-TO-DATE
+> Task :compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:standard:jar UP-TO-DATE
+> Task :compiler:testing:base:compileKotlin UP-TO-DATE
+> Task :compiler:testing:base:compileJava NO-SOURCE
+> Task :compiler:testing:base:processResources NO-SOURCE
+> Task :compiler:testing:base:classes UP-TO-DATE
+> Task :compiler:testing:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:testing:base:jar UP-TO-DATE
+> Task :compiler:testing:integration:compileKotlin UP-TO-DATE
+> Task :compiler:testing:integration:compileJava UP-TO-DATE
+> Task :compiler:testing:integration:processResources NO-SOURCE
+> Task :compiler:testing:integration:classes UP-TO-DATE
+> Task :compiler:testing:integration:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:testing:integration:jar UP-TO-DATE
+> Task :compiler:testing:integration:assemble UP-TO-DATE
+> Task :compiler:testing:integration:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 4s
 16 actionable tasks: 16 up-to-date
 
-2019-01-19 18:35:53,236 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:35:53,236 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:35:56,834 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-01-19 18:35:56,835 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-19 18:35:56,835 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-extension/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-19 18:36:01,792 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:processResources UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-extension:build
+2019-07-06 01:12:41,910 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:41,910 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:45,363 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-07-06 01:12:45,363 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:45,363 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:48,666 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :compiler:testing:unit:compileKotlin NO-SOURCE
+> Task :compiler:testing:unit:compileJava NO-SOURCE
+> Task :compiler:testing:unit:processResources NO-SOURCE
+> Task :compiler:testing:unit:classes UP-TO-DATE
+> Task :compiler:testing:unit:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:testing:unit:jar UP-TO-DATE
+> Task :compiler:testing:unit:assemble UP-TO-DATE
+> Task :compiler:testing:unit:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 4s
-14 actionable tasks: 14 up-to-date
-
-2019-01-19 18:36:01,837 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:01,837 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:05,486 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-01-19 18:36:05,486 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-19 18:36:05,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/integration-standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-19 18:36:09,195 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:compiler:testing:integration-standard:compileKotlin NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:integration-standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-standard:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:integration-standard:build
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 3s
 2 actionable tasks: 2 up-to-date
 
-2019-01-19 18:36:09,246 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:09,246 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:12,858 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-01-19 18:36:12,858 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-19 18:36:12,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/compiler/testing/unit-standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-19 18:36:16,528 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:compiler:testing:unit-standard:compileKotlin NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:testing:unit-standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:unit-standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:unit-standard:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:unit-standard:assemble UP-TO-DATE
-> Task :gsonpath-core:compiler:testing:unit-standard:build
+2019-07-06 01:12:48,697 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:48,697 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:52,191 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-07-06 01:12:52,191 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:52,191 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:12:55,696 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:compileJava UP-TO-DATE
+> Task :library:processResources NO-SOURCE
+> Task :library:classes UP-TO-DATE
+> Task :library:jar UP-TO-DATE
+> Task :library:javadocsJar UP-TO-DATE
+> Task :library:sourcesJar UP-TO-DATE
+> Task :library:signArchives SKIPPED
+> Task :library:assemble UP-TO-DATE
+> Task :library:build
 
-BUILD SUCCESSFUL in 3s
-2 actionable tasks: 2 up-to-date
-
-2019-01-19 18:36:16,579 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:16,579 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:19,983 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:36:19,983 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:36:19,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:36:23,392 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:javadocJar UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:sourcesJar UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:assemble UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:build
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 3s
 4 actionable tasks: 4 up-to-date
 
-2019-01-19 18:36:23,437 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:23,437 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:26,958 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:36:26,958 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:36:26,958 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-core/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:36:31,789 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-core:sample:kaptGenerateStubsKotlin UP-TO-DATE
-> Task :gsonpath-core:sample:kaptKotlin UP-TO-DATE
-> Task :gsonpath-core:sample:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:sample:compileJava UP-TO-DATE
-> Task :gsonpath-core:sample:processResources NO-SOURCE
-> Task :gsonpath-core:sample:classes UP-TO-DATE
-> Task :gsonpath-core:sample:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:sample:jar UP-TO-DATE
-> Task :gsonpath-core:sample:assemble UP-TO-DATE
-> Task :gsonpath-core:sample:build
+2019-07-06 01:12:55,729 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:12:55,729 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:12:59,027 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-06 01:12:59,027 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:12:59,027 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350277828-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:13:03,898 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :library:compileJava UP-TO-DATE
+> Task :library:processResources NO-SOURCE
+> Task :library:classes UP-TO-DATE
+> Task :library:jar UP-TO-DATE
+> Task :compiler:base:compileKotlin UP-TO-DATE
+> Task :compiler:base:compileJava NO-SOURCE
+> Task :compiler:base:processResources NO-SOURCE
+> Task :compiler:base:classes UP-TO-DATE
+> Task :compiler:base:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:base:jar UP-TO-DATE
+> Task :compiler:standard:compileKotlin UP-TO-DATE
+> Task :compiler:standard:compileJava NO-SOURCE
+> Task :compiler:standard:processResources UP-TO-DATE
+> Task :compiler:standard:classes UP-TO-DATE
+> Task :compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
+> Task :compiler:standard:jar UP-TO-DATE
+> Task :sample:kaptGenerateStubsKotlin UP-TO-DATE
+> Task :sample:kaptKotlin UP-TO-DATE
+> Task :sample:compileKotlin UP-TO-DATE
+> Task :sample:compileJava UP-TO-DATE
+> Task :sample:processResources NO-SOURCE
+> Task :sample:classes UP-TO-DATE
+> Task :sample:inspectClassesForKotlinIC UP-TO-DATE
+> Task :sample:jar UP-TO-DATE
+> Task :sample:assemble UP-TO-DATE
+> Task :sample:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 4s
 15 actionable tasks: 15 up-to-date
 
-2019-01-19 18:36:31,838 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:31,838 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:35,648 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:36:35,648 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:36:35,648 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:36:40,134 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-extensions:gsonpath-extensions-library:compileJava UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:processResources NO-SOURCE
-> Task :gsonpath-extensions:gsonpath-extensions-library:classes UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-extensions:compiler:compileKotlin UP-TO-DATE
-> Task :gsonpath-extensions:compiler:compileJava NO-SOURCE
-> Task :gsonpath-extensions:compiler:processResources UP-TO-DATE
-> Task :gsonpath-extensions:compiler:classes UP-TO-DATE
-> Task :gsonpath-extensions:compiler:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-extensions:compiler:jar UP-TO-DATE
-> Task :gsonpath-extensions:compiler:javadocJar UP-TO-DATE
-> Task :gsonpath-extensions:compiler:sourcesJar UP-TO-DATE
-> Task :gsonpath-extensions:compiler:assemble UP-TO-DATE
-> Task :gsonpath-extensions:compiler:build
-
-BUILD SUCCESSFUL in 4s
-11 actionable tasks: 11 up-to-date
-
-2019-01-19 18:36:40,182 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:40,182 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:43,487 INFO  ProjectTaskService - Detected possible tasks: 39
-2019-01-19 18:36:43,487 INFO  ProjectTaskService - Excluded tasks (3): test check javadoc
-2019-01-19 18:36:43,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, test, -x, check, -x, javadoc, build]
-2019-01-19 18:36:46,865 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-extensions:gsonpath-extensions-library:compileJava UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:processResources NO-SOURCE
-> Task :gsonpath-extensions:gsonpath-extensions-library:classes UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:jar UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:javadocJar UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:sourcesJar UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:assemble UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:build
-
-BUILD SUCCESSFUL in 3s
-4 actionable tasks: 4 up-to-date
-
-2019-01-19 18:36:46,915 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-19 18:36:46,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-19 18:36:50,333 INFO  ProjectTaskService - Detected possible tasks: 41
-2019-01-19 18:36:50,333 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-01-19 18:36:50,333 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547897681479-0/src/gsonpath-master/gsonpath-extensions/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-01-19 18:36:55,110 INFO  SysUtils - Configuration on demand is an incubating feature.
-> Task :gsonpath-core:gsonpath-core-library:compileJava UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:processResources NO-SOURCE
-> Task :gsonpath-core:gsonpath-core-library:classes UP-TO-DATE
-> Task :gsonpath-core:gsonpath-core-library:jar UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:compileJava UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:processResources NO-SOURCE
-> Task :gsonpath-extensions:gsonpath-extensions-library:classes UP-TO-DATE
-> Task :gsonpath-extensions:gsonpath-extensions-library:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:base:compileJava NO-SOURCE
-> Task :gsonpath-core:compiler:base:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:base:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:base:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:base:jar UP-TO-DATE
-> Task :gsonpath-extensions:compiler:compileKotlin UP-TO-DATE
-> Task :gsonpath-extensions:compiler:compileJava NO-SOURCE
-> Task :gsonpath-extensions:compiler:processResources UP-TO-DATE
-> Task :gsonpath-extensions:compiler:classes UP-TO-DATE
-> Task :gsonpath-extensions:compiler:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-extensions:compiler:jar UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileKotlin UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:compileJava UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:processResources NO-SOURCE
-> Task :gsonpath-core:compiler:standard:classes UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-core:compiler:standard:jar UP-TO-DATE
-> Task :gsonpath-extensions:sample:kaptGenerateStubsKotlin UP-TO-DATE
-> Task :gsonpath-extensions:sample:kaptKotlin UP-TO-DATE
-> Task :gsonpath-extensions:sample:compileKotlin UP-TO-DATE
-> Task :gsonpath-extensions:sample:compileJava UP-TO-DATE
-> Task :gsonpath-extensions:sample:processResources NO-SOURCE
-> Task :gsonpath-extensions:sample:classes UP-TO-DATE
-> Task :gsonpath-extensions:sample:inspectClassesForKotlinIC UP-TO-DATE
-> Task :gsonpath-extensions:sample:jar UP-TO-DATE
-> Task :gsonpath-extensions:sample:assemble UP-TO-DATE
-> Task :gsonpath-extensions:sample:build
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 4s
-21 actionable tasks: 21 up-to-date
-
-2019-01-19 18:36:55,160 ERROR FullProcessService - Project build has not produced APK file
-2019-01-19 18:36:55,208 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:13:03,930 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:13:03,958 ERROR FullProcessService - Could not find generated or existed APK file

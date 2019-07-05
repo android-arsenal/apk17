@@ -1,51 +1,51 @@
-2018-12-16 21:03:53,323 INFO  DownloadService - Downloading "https://github.com/vimeo/stag-java/archive/master.zip", attempt 3
-2018-12-16 21:03:53,982 INFO  DownloadService - Downloaded https://github.com/vimeo/stag-java/archive/master.zip, attempt 3
-2018-12-16 21:03:53,982 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip": 349 KB
-2018-12-16 21:03:53,982 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 21:03:53,988 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip: true
-2018-12-16 21:03:53,989 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src'.
-2018-12-16 21:03:54,070 INFO  FullProcessService - Size of directory with sources: 624 KB
-2018-12-16 21:03:54,071 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src]
-2018-12-16 21:03:54,088 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/.git/
+2019-07-06 01:33:04,166 INFO  DownloadService - Downloading "https://github.com/vimeo/stag-java/archive/master.zip", attempt 3
+2019-07-06 01:33:04,897 INFO  DownloadService - Downloaded https://github.com/vimeo/stag-java/archive/master.zip, attempt 3
+2019-07-06 01:33:04,897 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/master.zip": 349 KB
+2019-07-06 01:33:04,897 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:33:04,904 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/master.zip: true
+2019-07-06 01:33:04,904 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src'.
+2019-07-06 01:33:04,974 INFO  FullProcessService - Size of directory with sources: 624 KB
+2019-07-06 01:33:04,974 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src]
+2019-07-06 01:33:04,989 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/.git/
 
-2018-12-16 21:03:54,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew
-2018-12-16 21:03:54,109 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle
-2018-12-16 21:03:54,124 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle
-2018-12-16 21:03:54,125 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 21:03:54,125 INFO  ProjectFixService - Fixing project...
-2018-12-16 21:03:54,147 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/local.properties
-2018-12-16 21:03:54,150 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,151 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,151 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/local.properties
-2018-12-16 21:03:54,155 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,155 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,156 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/local.properties
-2018-12-16 21:03:54,156 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-16 21:03:54,156 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-16 21:03:54,157 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,158 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,159 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/local.properties
-2018-12-16 21:03:54,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,162 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/local.properties
-2018-12-16 21:03:54,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,165 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,166 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/local.properties
-2018-12-16 21:03:54,169 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,169 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/local.properties
-2018-12-16 21:03:54,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,174 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,175 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/local.properties
-2018-12-16 21:03:54,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,178 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-16 21:03:54,179 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 21:03:54,179 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:03:54,179 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:04:03,221 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 21:04:03,221 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-16 21:04:03,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-16 21:04:23,362 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:33:04,996 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew
+2019-07-06 01:33:05,008 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle
+2019-07-06 01:33:05,015 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle
+2019-07-06 01:33:05,015 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:33:05,015 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:33:05,031 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/local.properties
+2019-07-06 01:33:05,033 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,033 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,034 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/local.properties
+2019-07-06 01:33:05,037 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,037 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,037 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/local.properties
+2019-07-06 01:33:05,037 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-06 01:33:05,038 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-06 01:33:05,039 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,039 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,039 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/local.properties
+2019-07-06 01:33:05,042 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,042 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,042 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/local.properties
+2019-07-06 01:33:05,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,045 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/local.properties
+2019-07-06 01:33:05,048 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,048 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/local.properties
+2019-07-06 01:33:05,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,052 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/local.properties
+2019-07-06 01:33:05,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=29,minSdkVersion=14,targetSdkVersion=28]
+2019-07-06 01:33:05,055 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:33:05,055 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:33:05,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:33:14,241 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 01:33:14,241 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 01:33:14,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 01:33:30,473 INFO  SysUtils - Configuration on demand is an incubating feature.
 :integration-test-android:preBuild UP-TO-DATE
 :integration-test-android:preDebugBuild UP-TO-DATE
 :integration-test-android:compileDebugAidl NO-SOURCE
@@ -69,7 +69,6 @@ Download https://jcenter.bintray.com/org/jetbrains/annotations-java5/16.0.2/anno
 :stag-library:inspectClassesForKotlinIC
 :stag-library:jar
 :stag-library-compiler:compileKotlin
-Download https://jcenter.bintray.com/com/google/auto/auto-common/0.3/auto-common-0.3.jar
 :stag-library-compiler:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.7
 
 :stag-library-compiler:processResources NO-SOURCE
@@ -255,15 +254,15 @@ Successfully processed @UseStag annotations
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 19s
+BUILD SUCCESSFUL in 16s
 53 actionable tasks: 53 executed
 
-2018-12-16 21:04:23,427 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:04:23,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:04:29,506 INFO  ProjectTaskService - Detected possible tasks: 73
-2018-12-16 21:04:29,506 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 21:04:29,506 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 21:04:43,725 ERROR SysUtils - Could not process external command
+2019-07-06 01:33:30,519 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:33:30,519 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:33:35,939 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-07-06 01:33:35,939 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 01:33:35,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 01:33:46,660 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -276,8 +275,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -291,7 +289,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 21:04:43,725 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:33:46,660 INFO  SysUtils - Configuration on demand is an incubating feature.
 :sample:checkDebugClasspath
 :sample:preBuild UP-TO-DATE
 :sample:preDebugBuild
@@ -467,15 +465,15 @@ Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Modu
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 13s
+BUILD FAILED in 10s
 27 actionable tasks: 19 executed, 8 up-to-date
 
-2018-12-16 21:04:43,822 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:04:43,823 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:04:52,882 INFO  ProjectTaskService - Detected possible tasks: 86
-2018-12-16 21:04:52,882 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 21:04:52,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 21:05:14,880 ERROR SysUtils - Could not process external command
+2019-07-06 01:33:46,725 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:33:46,725 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:33:53,241 INFO  ProjectTaskService - Detected possible tasks: 86
+2019-07-06 01:33:53,241 INFO  ProjectTaskService - Excluded tasks (20): lintDebug deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 01:33:53,241 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 01:34:09,705 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -488,8 +486,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -503,7 +500,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-16 21:05:14,880 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:09,705 INFO  SysUtils - Configuration on demand is an incubating feature.
 :integration-test-android:preBuild UP-TO-DATE
 :integration-test-android:preDebugBuild UP-TO-DATE
 :integration-test-android:compileDebugAidl NO-SOURCE
@@ -1089,7 +1086,7 @@ Stag:TypeUtils: 			Concrete Type: java.util.Collection<java.lang.Integer>
 Stag:TypeUtils: 		Evaluating member - java.util.ArrayList<java.lang.Long>
 Stag:TypeUtils: 			Concrete Type: java.util.ArrayList<java.lang.Long>
 Stag:AnnotatedClass: 		Member variables - java.util.ArrayList<java.lang.String>
-Stag: Ignoring inherited Member variable with the same variable name in classcom.vimeo.stag.processor.generators.model.accessor.DirectFieldAccessor@6f1fc3b9, with variable name java.util.List<java.lang.String>
+Stag: Ignoring inherited Member variable with the same variable name in classcom.vimeo.stag.processor.generators.model.accessor.DirectFieldAccessor@20cc150a, with variable name java.util.List<java.lang.String>
 Stag: Annotated type: com.vimeo.sample.model.AccessModifiers
 
 Stag:AnnotatedClass: 		Member variables - java.lang.String
@@ -1379,15 +1376,15 @@ Caused by: groovy.lang.GroovyRuntimeException: Conflicting module versions. Modu
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 21s
+BUILD FAILED in 15s
 82 actionable tasks: 12 executed, 70 up-to-date
 
-2018-12-16 21:05:14,985 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:05:14,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:05:19,335 INFO  ProjectTaskService - Detected possible tasks: 42
-2018-12-16 21:05:19,335 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 21:05:19,335 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 21:05:24,784 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:09,776 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:34:09,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:34:13,013 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-06 01:34:13,013 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:34:13,014 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java-cross-module/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:34:17,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 :stag-library:compileKotlin UP-TO-DATE
 :stag-library:compileJava UP-TO-DATE
 :stag-library:processResources NO-SOURCE
@@ -1414,15 +1411,15 @@ BUILD FAILED in 21s
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 4s
 12 actionable tasks: 12 up-to-date
 
-2018-12-16 21:05:24,885 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:05:24,885 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:05:28,805 INFO  ProjectTaskService - Detected possible tasks: 42
-2018-12-16 21:05:28,805 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 21:05:28,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 21:05:35,150 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:17,570 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:34:17,570 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:34:20,873 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-06 01:34:20,873 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:34:20,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:34:25,310 INFO  SysUtils - Configuration on demand is an incubating feature.
 :stag-library:compileKotlin UP-TO-DATE
 :stag-library:compileJava UP-TO-DATE
 :stag-library:processResources NO-SOURCE
@@ -1445,15 +1442,15 @@ BUILD SUCCESSFUL in 5s
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 4s
 10 actionable tasks: 10 up-to-date
 
-2018-12-16 21:05:35,253 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:05:35,253 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:05:39,270 INFO  ProjectTaskService - Detected possible tasks: 42
-2018-12-16 21:05:39,270 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 21:05:39,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 21:05:44,968 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:25,378 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:34:25,378 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:34:28,759 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-07-06 01:34:28,759 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:34:28,759 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/integration-test-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:34:33,272 INFO  SysUtils - Configuration on demand is an incubating feature.
 :stag-library:compileKotlin UP-TO-DATE
 :stag-library:compileJava UP-TO-DATE
 :stag-library:processResources NO-SOURCE
@@ -1480,15 +1477,15 @@ BUILD SUCCESSFUL in 6s
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 4s
 14 actionable tasks: 14 up-to-date
 
-2018-12-16 21:05:45,070 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:05:45,071 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:05:50,093 INFO  ProjectTaskService - Detected possible tasks: 48
-2018-12-16 21:05:50,093 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 21:05:50,093 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 21:05:55,596 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:33,341 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:34:33,341 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:34:37,113 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-07-06 01:34:37,113 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:34:37,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library-compiler/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:34:41,502 INFO  SysUtils - Configuration on demand is an incubating feature.
 :stag-library:compileKotlin UP-TO-DATE
 :stag-library:compileJava UP-TO-DATE
 :stag-library:processResources NO-SOURCE
@@ -1509,15 +1506,15 @@ BUILD SUCCESSFUL in 5s
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 4s
 10 actionable tasks: 2 executed, 8 up-to-date
 
-2018-12-16 21:05:55,703 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 21:05:55,703 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 21:06:00,152 INFO  ProjectTaskService - Detected possible tasks: 48
-2018-12-16 21:06:00,152 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-12-16 21:06:00,152 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544969033320-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-12-16 21:06:05,187 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:34:41,573 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:34:41,573 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:34:45,201 INFO  ProjectTaskService - Detected possible tasks: 48
+2019-07-06 01:34:45,201 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-07-06 01:34:45,202 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351584164-0/src/stag-java-master/stag-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-07-06 01:34:49,371 INFO  SysUtils - Configuration on demand is an incubating feature.
 :stag-library:compileKotlin UP-TO-DATE
 :stag-library:compileJava UP-TO-DATE
 :stag-library:processResources NO-SOURCE
@@ -1532,5 +1529,5 @@ BUILD SUCCESSFUL in 5s
 BUILD SUCCESSFUL in 4s
 6 actionable tasks: 2 executed, 4 up-to-date
 
-2018-12-16 21:06:05,290 ERROR FullProcessService - Project build has not produced APK file
-2018-12-16 21:06:05,387 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:34:49,440 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:34:49,502 ERROR FullProcessService - Could not find generated or existed APK file

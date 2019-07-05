@@ -1,32 +1,32 @@
-2018-10-27 21:45:21,873 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/CustomizableActionBarDrawerToggle/archive/master.zip", attempt 3
-2018-10-27 21:45:22,783 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/CustomizableActionBarDrawerToggle/archive/master.zip, attempt 3
-2018-10-27 21:45:22,783 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/master.zip": 72 KB
-2018-10-27 21:45:22,783 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:45:22,789 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/master.zip: true
-2018-10-27 21:45:22,789 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src'.
-2018-10-27 21:45:22,798 INFO  FullProcessService - Size of directory with sources: 121 KB
-2018-10-27 21:45:22,799 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src]
-2018-10-27 21:45:22,817 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/.git/
+2019-07-06 00:47:36,244 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/CustomizableActionBarDrawerToggle/archive/master.zip", attempt 3
+2019-07-06 00:47:36,984 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/CustomizableActionBarDrawerToggle/archive/master.zip, attempt 3
+2019-07-06 00:47:36,985 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/master.zip": 72 KB
+2019-07-06 00:47:36,985 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:47:36,990 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/master.zip: true
+2019-07-06 00:47:36,991 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src'.
+2019-07-06 00:47:37,000 INFO  FullProcessService - Size of directory with sources: 121 KB
+2019-07-06 00:47:37,000 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src]
+2019-07-06 00:47:37,017 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/.git/
 
-2018-10-27 21:45:22,819 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/gradlew
-2018-10-27 21:45:22,821 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/build.gradle
-2018-10-27 21:45:22,822 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/settings.gradle
-2018-10-27 21:45:22,822 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 21:45:22,822 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:45:22,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/local.properties
-2018-10-27 21:45:22,827 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-27 21:45:22,827 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/local.properties
-2018-10-27 21:45:22,828 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-10-27 21:45:22,828 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-10-27 21:45:22,829 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-10-27 21:45:22,829 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:45:22,829 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:45:22,829 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:45:29,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:45:29,852 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:45:29,852 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:45:29,852 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:45:35,132 ERROR SysUtils - Could not process external command
+2019-07-06 00:47:37,018 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/gradlew
+2019-07-06 00:47:37,020 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/build.gradle
+2019-07-06 00:47:37,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/settings.gradle
+2019-07-06 00:47:37,021 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:47:37,021 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:47:37,024 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/local.properties
+2019-07-06 00:47:37,025 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 00:47:37,025 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/local.properties
+2019-07-06 00:47:37,025 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-06 00:47:37,026 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-06 00:47:37,026 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 00:47:37,026 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:47:37,026 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:37,026 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:44,199 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:47:44,199 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:47:44,199 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:47:44,199 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:47:49,016 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,14 +46,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:45:35,133 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:47:49,016 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -183,22 +183,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 21:45:35,135 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:45:35,135 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:45:40,544 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:45:40,545 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:45:40,545 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:45:40,545 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651521864-0/src/CustomizableActionBarDrawerToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:45:45,842 ERROR SysUtils - Could not process external command
+2019-07-06 00:47:49,018 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:47:49,019 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:47:53,901 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:47:53,901 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:47:53,901 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:47:53,901 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348856236-0/src/CustomizableActionBarDrawerToggle-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:47:58,677 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -218,14 +218,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:45:45,842 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:47:58,677 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':app' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -362,7 +362,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 21:45:45,845 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 21:45:45,847 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:47:58,679 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:47:58,680 ERROR FullProcessService - Could not find generated or existed APK file

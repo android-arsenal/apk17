@@ -1,36 +1,36 @@
-2018-12-16 20:32:24,069 INFO  DownloadService - Downloading "https://github.com/sjwall/MaterialTapTargetPrompt/archive/master.zip", attempt 3
-2018-12-16 20:32:26,741 INFO  DownloadService - Downloaded https://github.com/sjwall/MaterialTapTargetPrompt/archive/master.zip, attempt 3
-2018-12-16 20:32:26,741 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/master.zip": 853 KB
-2018-12-16 20:32:26,741 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-16 20:32:26,747 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/master.zip: true
-2018-12-16 20:32:26,748 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src'.
-2018-12-16 20:32:26,851 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-12-16 20:32:26,851 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src]
-2018-12-16 20:32:26,874 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/.git/
+2019-07-06 01:16:50,523 INFO  DownloadService - Downloading "https://github.com/sjwall/MaterialTapTargetPrompt/archive/master.zip", attempt 3
+2019-07-06 01:16:51,615 INFO  DownloadService - Downloaded https://github.com/sjwall/MaterialTapTargetPrompt/archive/master.zip, attempt 3
+2019-07-06 01:16:51,615 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/master.zip": 842 KB
+2019-07-06 01:16:51,615 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:16:51,616 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/master.zip: true
+2019-07-06 01:16:51,616 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src'.
+2019-07-06 01:16:51,674 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-06 01:16:51,674 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src]
+2019-07-06 01:16:51,690 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/.git/
 
-2018-12-16 20:32:26,884 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/gradlew
-2018-12-16 20:32:26,893 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/build.gradle
-2018-12-16 20:32:26,902 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/settings.gradle
-2018-12-16 20:32:26,903 INFO  ProjectBuildService - Remote scripts: none
-2018-12-16 20:32:26,903 INFO  ProjectFixService - Fixing project...
-2018-12-16 20:32:26,925 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/local.properties
-2018-12-16 20:32:26,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,929 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,931 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/local.properties
-2018-12-16 20:32:26,934 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/local.properties
-2018-12-16 20:32:26,936 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-16 20:32:26,937 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-16 20:32:26,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,939 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
-2018-12-16 20:32:26,939 INFO  ProjectFixService - Project was maybe fixed
-2018-12-16 20:32:26,939 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 20:32:26,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 20:32:39,220 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 20:32:39,220 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-16 20:32:39,220 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-16 20:32:54,012 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:16:51,695 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/gradlew
+2019-07-06 01:16:51,700 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/build.gradle
+2019-07-06 01:16:51,704 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/settings.gradle
+2019-07-06 01:16:51,705 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:16:51,705 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:16:51,715 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/local.properties
+2019-07-06 01:16:51,717 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,717 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,718 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/local.properties
+2019-07-06 01:16:51,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,720 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,721 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/local.properties
+2019-07-06 01:16:51,721 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-06 01:16:51,721 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-06 01:16:51,722 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,722 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=14,targetSdkVersion=27]
+2019-07-06 01:16:51,723 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:16:51,723 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:16:51,723 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:16:58,194 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 01:16:58,194 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 01:16:58,194 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 01:17:09,742 INFO  SysUtils - Configuration on demand is an incubating feature.
 :material-tap-target-prompt:preBuild UP-TO-DATE
 :material-tap-target-prompt:preDebugBuild UP-TO-DATE
 :material-tap-target-prompt:compileDebugAidl NO-SOURCE
@@ -102,185 +102,185 @@ Note: Recompile with -Xlint:deprecation for details.
 :material-tap-target-prompt:mergeReleaseResources
 :material-tap-target-prompt:verifyReleaseResources
 :material-tap-target-prompt:assembleRelease
-:material-tap-target-prompt:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:35: error: package android.support.v4.app does not exist
+:material-tap-target-prompt:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:35: error: package android.support.v4.app does not exist
 import android.support.v4.app.DialogFragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:36: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:36: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:43: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:43: error: cannot find symbol
 import uk.co.samuelwall.materialtaptargetprompt.R;
                                                ^
   symbol:   class R
   location: package uk.co.samuelwall.materialtaptargetprompt
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1101: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1121: error: cannot find symbol
         public Builder(@NonNull final Fragment fragment)
                                       ^
   symbol:   class Fragment
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1117: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1137: error: cannot find symbol
         public Builder(@NonNull final Fragment fragment, int themeResId)
                                       ^
   symbol:   class Fragment
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1128: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1148: error: cannot find symbol
         public Builder(@NonNull final DialogFragment dialogFragment)
                                       ^
   symbol:   class DialogFragment
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1144: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1164: error: cannot find symbol
         public Builder(@NonNull final DialogFragment dialogFragment, int themeResId)
                                       ^
   symbol:   class DialogFragment
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:25: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:25: error: package android.support.v4.app does not exist
 import android.support.v4.app.Fragment;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:38: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:38: error: cannot find symbol
     private final Fragment fragment;
                   ^
   symbol:   class Fragment
   location: class SupportFragmentResourceFinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:50: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:50: error: cannot find symbol
     public SupportFragmentResourceFinder(@NonNull final Fragment fragment)
                                                         ^
   symbol:   class Fragment
   location: class SupportFragmentResourceFinder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:76: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:76: warning: no @return
     Resources.Theme getTheme();
                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @param for resId
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @param for resId
     TypedArray obtainStyledAttributes(@StyleRes int resId, @StyleableRes int[] attrs);
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @param for attrs
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @param for attrs
     TypedArray obtainStyledAttributes(@StyleRes int resId, @StyleableRes int[] attrs);
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/ResourceFinder.java:97: warning: no @return
     TypedArray obtainStyledAttributes(@StyleRes int resId, @StyleableRes int[] attrs);
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:324: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:324: warning: no @return
     public int getState()
                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:51: warning: empty <p> tag
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:51: warning: empty <p> tag
  * <p>
    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:505: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:507: warning: no @return
     public T setPrimaryTextTypeface(@Nullable final Typeface typeface)
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:663: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:665: warning: no @return
     public T setSecondaryTextTypeface(@Nullable final Typeface typeface)
              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:984: warning: no @param for prompt
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1031: warning: no @param for prompt
     public void onPromptStateChanged(@NonNull final MaterialTapTargetPrompt prompt, final int state)
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:998: warning: no @param for prompt
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1045: warning: no @param for prompt
     public void onExtraPromptStateChanged(@NonNull final MaterialTapTargetPrompt prompt, final int state)
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1334: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1381: error: unexpected text
      * Default: {@link true}
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1437: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1484: error: unexpected text
      * Will return {@link null} if a valid target has not been set or the primary text is {@link
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1437: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1484: error: unexpected text
      * Will return {@link null} if a valid target has not been set or the primary text is {@link
                                                                                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1503: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1550: error: unexpected text
      * Will return {@link null} if a valid target has not been set or the primary text and secondary
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1504: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1551: error: unexpected text
      * text are {@link null}.
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1532: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1579: error: unexpected text
      * Will return {@link null} if a valid target has not been set or the primary text and secondary
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1533: error: unexpected text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptOptions.java:1580: error: unexpected text
      * text are {@link null}.
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1128: warning - Tag @see: can't find Builder(DialogFragment, int) in uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt.Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1081: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1148: warning - Tag @see: can't find Builder(DialogFragment, int) in uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt.Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1101: error: reference not found
          * resolved value for {@link R.attr#MaterialTapTargetPromptTheme}.
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1137: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1157: error: reference not found
          * resolved value for {@link R.attr#MaterialTapTargetPromptTheme}.
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1101: warning - Tag @see: can't find Builder(Fragment, int) in uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt.Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1051: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1121: warning - Tag @see: can't find Builder(Fragment, int) in uk.co.samuelwall.materialtaptargetprompt.MaterialTapTargetPrompt.Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1071: error: reference not found
          * resolved value for {@link R.attr#MaterialTapTargetPromptTheme}.
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1110: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetPrompt.java:1130: error: reference not found
          * resolved value for {@link R.attr#MaterialTapTargetPromptTheme}.
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetSequence.java:89: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetSequence.java:89: warning: no @return
     public MaterialTapTargetSequence setSequenceCompleteListener(@Nullable SequenceCompleteListener listener)
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetSequence.java:101: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/MaterialTapTargetSequence.java:101: warning: no @return
     public MaterialTapTargetSequence addPrompt(@Nullable MaterialTapTargetPrompt prompt)
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:30: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/SupportFragmentResourceFinder.java:30: error: reference not found
  * {@link ResourceFinder} implementation for {@link Fragment}.
                                                     ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUIElement.java:29: error: bad HTML entity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUIElement.java:29: error: bad HTML entity
      * Update the current prompt rendering state based on the prompt options and current reveal & alpha scales.
                                                                                                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for options
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for options
     public void prepare(@NonNull PromptOptions options,
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for clipToBounds
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for clipToBounds
     public void prepare(@NonNull PromptOptions options,
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for clipBounds
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptText.java:82: warning: no @param for clipBounds
     public void prepare(@NonNull PromptOptions options,
                 ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for textPaint
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for textPaint
     public static void setTypeface(@NonNull TextPaint textPaint, @Nullable Typeface typeface, int style)
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for typeface
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for typeface
     public static void setTypeface(@NonNull TextPaint textPaint, @Nullable Typeface typeface, int style)
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for style
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:67: warning: no @param for style
     public static void setTypeface(@NonNull TextPaint textPaint, @Nullable Typeface typeface, int style)
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for familyName
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for familyName
     public static Typeface setTypefaceFromAttrs(@Nullable String familyName, int typefaceIndex, int styleIndex)
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for typefaceIndex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for typefaceIndex
     public static Typeface setTypefaceFromAttrs(@Nullable String familyName, int typefaceIndex, int styleIndex)
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for styleIndex
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @param for styleIndex
     public static Typeface setTypefaceFromAttrs(@Nullable String familyName, int typefaceIndex, int styleIndex)
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:102: warning: no @return
     public static Typeface setTypefaceFromAttrs(@Nullable String familyName, int typefaceIndex, int styleIndex)
                            ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @param for value
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @param for value
     public static PorterDuff.Mode parseTintMode(int value, @Nullable PorterDuff.Mode defaultMode)
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @param for defaultMode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @param for defaultMode
     public static PorterDuff.Mode parseTintMode(int value, @Nullable PorterDuff.Mode defaultMode)
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:135: warning: no @return
     public static PorterDuff.Mode parseTintMode(int value, @Nullable PorterDuff.Mode defaultMode)
                                   ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:158: warning: no @param for resources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:158: warning: no @param for resources
     public static Layout.Alignment getTextAlignment(@NonNull final Resources resources,
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:158: warning: no @param for text
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:158: warning: no @param for text
     public static Layout.Alignment getTextAlignment(@NonNull final Resources resources,
                                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:292: warning: no @param for resources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:292: warning: no @param for resources
     public static boolean isRtlText(@Nullable final Layout layout, @NonNull final Resources resources)
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for maxTextWidth
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for maxTextWidth
     public static float calculateMaxWidth(final float maxTextWidth, @Nullable final Rect clipBounds, final int parentWidth, final float textPadding)
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for clipBounds
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for clipBounds
     public static float calculateMaxWidth(final float maxTextWidth, @Nullable final Rect clipBounds, final int parentWidth, final float textPadding)
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for parentWidth
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for parentWidth
     public static float calculateMaxWidth(final float maxTextWidth, @Nullable final Rect clipBounds, final int parentWidth, final float textPadding)
                         ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for textPadding
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/library/src/main/java/uk/co/samuelwall/materialtaptargetprompt/extras/PromptUtils.java:324: warning: no @param for textPadding
     public static float calculateMaxWidth(final float maxTextWidth, @Nullable final Rect clipBounds, final int parentWidth, final float textPadding)
                         ^
 
@@ -291,15 +291,15 @@ import android.support.v4.app.Fragment;
 :material-tap-target-prompt:assemble
 :material-tap-target-prompt:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 11s
 49 actionable tasks: 49 executed
 
-2018-12-16 20:32:54,035 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-16 20:32:54,035 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-16 20:33:00,662 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-12-16 20:33:00,662 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-16 20:33:00,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-16 20:33:52,881 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:17:09,760 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:17:09,760 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:17:14,991 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 01:17:14,991 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 01:17:14,991 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 01:18:01,975 INFO  SysUtils - Configuration on demand is an incubating feature.
 :material-tap-target-prompt:preBuild UP-TO-DATE
 :material-tap-target-prompt:preDebugBuild UP-TO-DATE
 :material-tap-target-prompt:compileDebugAidl NO-SOURCE
@@ -335,20 +335,20 @@ BUILD SUCCESSFUL in 14s
 :sample:splitsDiscoveryTaskDebug
 :sample:processDebugResources
 :sample:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (76, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (85, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (95, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (102, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (113, 34): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (123, 63): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (131, 28): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (148, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (159, 37): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (166, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (180, 27): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (192, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (203, 30): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (235, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (76, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (85, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (95, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (102, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (113, 34): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (123, 63): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (131, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (148, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (159, 37): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (166, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (180, 27): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (192, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (203, 30): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (235, 22): Parameter 'view' is never used
 :sample:prepareLintJar
 :sample:generateDebugSources
 :sample:javaPreCompileDebug
@@ -366,6 +366,14 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:generateDebugAssets
 :sample:mergeDebugAssets
 :sample:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.61/5bc44acc4b3f0d19166ae3e50454b41e8ff29335/kotlin-stdlib-1.2.61.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlin.collections.SlidingWindowKt$windowedIterator$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
 :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
 :sample:transformDexArchiveWithDexMergerForDebug
 :material-tap-target-prompt:compileDebugNdk NO-SOURCE
@@ -398,7 +406,6 @@ Note: Recompile with -Xlint:deprecation for details.
 :material-tap-target-prompt:processReleaseJavaRes NO-SOURCE
 :material-tap-target-prompt:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
 :sample:checkReleaseClasspath
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-no-op/1.6.1/leakcanary-android-no-op-1.6.1.aar
 :sample:preReleaseBuild
 :sample:compileReleaseAidl NO-SOURCE
 :material-tap-target-prompt:packageReleaseRenderscript NO-SOURCE
@@ -414,20 +421,20 @@ Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android-
 :sample:splitsDiscoveryTaskRelease
 :sample:processReleaseResources
 :sample:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (76, 23): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (85, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (95, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (102, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (113, 34): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (123, 63): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (131, 28): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (148, 26): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (159, 37): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (166, 25): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (180, 27): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (192, 49): Parameter 'prompt' is never used, could be renamed to _
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (203, 30): Parameter 'view' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (235, 22): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (76, 23): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (85, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (95, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (102, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (113, 34): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (123, 63): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (131, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (148, 26): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (159, 37): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (166, 25): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (180, 27): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (192, 49): Parameter 'prompt' is never used, could be renamed to _
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (203, 30): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/src/main/java/uk/co/samuelwall/materialtaptargetprompt/sample/KotlinActivity.kt: (235, 22): Parameter 'view' is never used
 :sample:generateReleaseSources
 :sample:javaPreCompileRelease
 :sample:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
@@ -437,7 +444,6 @@ Note: Recompile with -Xlint:deprecation for details.
 :sample:compileReleaseSources
 :sample:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/ae9dbc30c04309cc6a7b7c883a9c1e40/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
-Download https://jcenter.bintray.com/org/robolectric/shadows-supportv4/3.8/shadows-supportv4-3.8.pom
 Download https://jcenter.bintray.com/org/robolectric/shadows-supportv4/3.8/shadows-supportv4-3.8.jar
 :material-tap-target-prompt:mergeReleaseShaders UP-TO-DATE
 :material-tap-target-prompt:compileReleaseShaders UP-TO-DATE
@@ -466,7 +472,7 @@ Download https://jcenter.bintray.com/org/robolectric/shadows-supportv4/3.8/shado
 :sample:assemble
 :sample:build
 
-BUILD SUCCESSFUL in 51s
+BUILD SUCCESSFUL in 46s
 93 actionable tasks: 61 executed, 32 up-to-date
 
-2018-12-16 20:33:52,975 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544967144065-0/src/MaterialTapTargetPrompt-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-07-06 01:18:02,045 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350610521-0/src/MaterialTapTargetPrompt-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

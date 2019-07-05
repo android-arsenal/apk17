@@ -1,38 +1,38 @@
-2018-10-27 21:36:37,734 INFO  DownloadService - Downloading "https://github.com/unipiazza/unipiazza-android-twostepslogin/archive/master.zip", attempt 3
-2018-10-27 21:36:44,838 INFO  DownloadService - Downloaded https://github.com/unipiazza/unipiazza-android-twostepslogin/archive/master.zip, attempt 3
-2018-10-27 21:36:44,838 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/master.zip": 7 MB
-2018-10-27 21:36:44,838 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:36:44,846 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/master.zip: true
-2018-10-27 21:36:44,846 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src'.
-2018-10-27 21:36:44,925 INFO  FullProcessService - Size of directory with sources: 9 MB
-2018-10-27 21:36:44,925 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src]
-2018-10-27 21:36:44,942 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/.git/
+2019-07-06 00:40:03,288 INFO  DownloadService - Downloading "https://github.com/unipiazza/unipiazza-android-twostepslogin/archive/master.zip", attempt 3
+2019-07-06 00:40:06,267 INFO  DownloadService - Downloaded https://github.com/unipiazza/unipiazza-android-twostepslogin/archive/master.zip, attempt 3
+2019-07-06 00:40:06,267 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/master.zip": 7 MB
+2019-07-06 00:40:06,267 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:40:06,268 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/master.zip: true
+2019-07-06 00:40:06,269 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src'.
+2019-07-06 00:40:06,344 INFO  FullProcessService - Size of directory with sources: 9 MB
+2019-07-06 00:40:06,345 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src]
+2019-07-06 00:40:06,361 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/.git/
 
-2018-10-27 21:36:44,945 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew
-2018-10-27 21:36:44,948 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/build.gradle
-2018-10-27 21:36:44,951 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle
-2018-10-27 21:36:44,951 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-10-27 21:36:45,051 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-10-27 21:36:45,052 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-10-27 21:36:45,150 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-10-27 21:36:45,151 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-10-27 21:36:45,151 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:36:45,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/local.properties
-2018-10-27 21:36:45,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-10-27 21:36:45,164 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/local.properties
-2018-10-27 21:36:45,164 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
-2018-10-27 21:36:45,165 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/local.properties
-2018-10-27 21:36:45,165 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-10-27 21:36:45,166 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-10-27 21:36:45,167 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
-2018-10-27 21:36:45,167 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:36:45,167 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:36:45,167 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:36:56,943 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:36:56,943 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-27 21:36:56,944 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-27 21:36:56,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-27 21:37:03,294 ERROR SysUtils - Could not process external command
+2019-07-06 00:40:06,364 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew
+2019-07-06 00:40:06,367 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/build.gradle
+2019-07-06 00:40:06,369 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle
+2019-07-06 00:40:06,374 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 00:40:06,712 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 00:40:06,712 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 00:40:06,792 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 00:40:06,792 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-07-06 00:40:06,792 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:40:06,801 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/local.properties
+2019-07-06 00:40:06,802 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 00:40:06,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/local.properties
+2019-07-06 00:40:06,803 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
+2019-07-06 00:40:06,804 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/local.properties
+2019-07-06 00:40:06,804 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-07-06 00:40:06,805 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-07-06 00:40:06,806 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=12,targetSdkVersion=25]
+2019-07-06 00:40:06,806 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:40:06,806 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:40:06,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:40:14,515 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:40:14,516 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 00:40:14,516 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:40:14,516 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepsdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:40:20,134 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -53,14 +53,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:37:03,294 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:40:20,134 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -235,15 +235,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.061 secs
+Total time: 5.402 secs
 
-2018-10-27 21:37:03,297 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:37:03,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:37:09,271 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:37:09,271 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-27 21:37:09,271 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-27 21:37:09,271 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-27 21:37:15,452 ERROR SysUtils - Could not process external command
+2019-07-06 00:40:20,138 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:40:20,138 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:40:25,856 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:40:25,856 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 00:40:25,856 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:40:25,857 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/materialtwostepslogin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:40:31,553 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -264,14 +264,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:37:15,452 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:40:31,553 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -368,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.843 secs
+Total time: 5.443 secs
 
-2018-10-27 21:37:15,456 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:37:15,456 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:37:21,769 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:37:21,769 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-10-27 21:37:21,769 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-10-27 21:37:21,770 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540650997726-0/src/unipiazza-android-twostepslogin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-10-27 21:37:28,037 ERROR SysUtils - Could not process external command
+2019-07-06 00:40:31,557 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:40:31,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:40:37,296 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:40:37,296 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 00:40:37,296 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 00:40:37,297 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348403285-0/src/unipiazza-android-twostepslogin-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 00:40:43,063 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -397,14 +397,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:37:28,037 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:40:43,063 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -581,7 +581,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 5.97 secs
+Total time: 5.502 secs
 
-2018-10-27 21:37:28,042 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 21:37:28,045 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:40:43,067 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:40:43,069 ERROR FullProcessService - Could not find generated or existed APK file

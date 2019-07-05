@@ -1,21 +1,10 @@
-2018-10-30 16:34:21,231 INFO  DownloadService - Downloading "https://github.com/nisrulz/javadoc-themer/archive/master.zip", attempt 3
-2018-10-30 16:35:22,207 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2018-10-30 16:35:23,205 INFO  GithubDownloadService - Default branch of this repository: master
-2018-10-30 16:35:23,205 INFO  DownloadService - Downloading "https://github.com/nisrulz/javadoc-themer/archive/master.zip", attempt 3
-2018-10-30 16:36:25,105 DEBUG FullProcessService - Repository https://github.com/nisrulz/javadoc-themer available: true
-2018-10-30 16:36:25,105 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2018-10-30 16:36:25,105 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/nisrulz/javadoc-themer, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540892061226-0/src]
-2018-10-30 16:36:32,783 INFO  SysUtils - 
-2018-10-30 16:36:32,803 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540892061226-0/src/.git": true
-2018-10-30 16:36:32,804 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-10-30 16:36:32,804 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540892061226-0/src]
-2018-10-30 16:36:32,822 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540892061226-0/src/.git/
-
-2018-10-30 16:36:32,823 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-10-30 16:36:32,824 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-10-30 16:36:32,825 INFO  ProjectBuildService - Build script(s): none
-2018-10-30 16:36:32,826 INFO  ProjectBuildService - All script(s): none
-2018-10-30 16:36:32,826 INFO  ProjectBuildService - Remote scripts: none
-2018-10-30 16:36:32,826 ERROR FullProcessService - Project is not correct Gradle project
-2018-10-30 16:36:32,826 ERROR FullProcessService - Project build has not produced APK file
-2018-10-30 16:36:32,828 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:08:23,432 INFO  DownloadService - Downloading "https://github.com/nisrulz/javadoc-themer/archive/master.zip", attempt 3
+2019-07-06 01:08:24,684 INFO  DownloadService - Downloaded https://github.com/nisrulz/javadoc-themer/archive/master.zip, attempt 3
+2019-07-06 01:08:24,685 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350103430-0/master.zip": 1 MB
+2019-07-06 01:08:24,685 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:08:24,690 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350103430-0/master.zip: false
+2019-07-06 01:08:24,691 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-07-06 01:08:24,691 ERROR FullProcessService - Could not find directory with sources
+2019-07-06 01:08:24,691 ERROR FullProcessService - Project will not be processed
+2019-07-06 01:08:24,691 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:08:24,691 ERROR FullProcessService - Could not find generated or existed APK file

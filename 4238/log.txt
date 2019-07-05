@@ -1,34 +1,34 @@
-2018-10-27 21:41:27,724 INFO  DownloadService - Downloading "https://github.com/andyxialm/KMPAutoCompleteTextView/archive/master.zip", attempt 3
-2018-10-27 21:41:30,061 INFO  DownloadService - Downloaded https://github.com/andyxialm/KMPAutoCompleteTextView/archive/master.zip, attempt 3
-2018-10-27 21:41:30,062 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/master.zip": 298 KB
-2018-10-27 21:41:30,062 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:41:30,062 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/master.zip: true
-2018-10-27 21:41:30,062 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src'.
-2018-10-27 21:41:30,079 INFO  FullProcessService - Size of directory with sources: 314 KB
-2018-10-27 21:41:30,079 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src]
-2018-10-27 21:41:30,096 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/.git/
+2019-07-06 00:44:06,351 INFO  DownloadService - Downloading "https://github.com/andyxialm/KMPAutoCompleteTextView/archive/master.zip", attempt 3
+2019-07-06 00:44:07,045 INFO  DownloadService - Downloaded https://github.com/andyxialm/KMPAutoCompleteTextView/archive/master.zip, attempt 3
+2019-07-06 00:44:07,045 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/master.zip": 298 KB
+2019-07-06 00:44:07,045 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:44:07,050 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/master.zip: true
+2019-07-06 00:44:07,051 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src'.
+2019-07-06 00:44:07,065 INFO  FullProcessService - Size of directory with sources: 314 KB
+2019-07-06 00:44:07,065 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src]
+2019-07-06 00:44:07,080 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/.git/
 
-2018-10-27 21:41:30,098 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/gradlew
-2018-10-27 21:41:30,101 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/build.gradle
-2018-10-27 21:41:30,103 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/settings.gradle
-2018-10-27 21:41:30,103 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 21:41:30,103 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:41:30,108 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/local.properties
-2018-10-27 21:41:30,109 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-10-27 21:41:30,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/local.properties
-2018-10-27 21:41:30,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-10-27 21:41:30,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/local.properties
-2018-10-27 21:41:30,111 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
-2018-10-27 21:41:30,111 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
-2018-10-27 21:41:30,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
-2018-10-27 21:41:30,112 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:41:30,112 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:41:30,112 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:41:37,631 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:41:37,631 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:41:37,631 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:41:37,631 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:41:46,465 ERROR SysUtils - Could not process external command
+2019-07-06 00:44:07,082 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/gradlew
+2019-07-06 00:44:07,085 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/build.gradle
+2019-07-06 00:44:07,087 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/settings.gradle
+2019-07-06 00:44:07,087 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:44:07,087 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:44:07,092 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/local.properties
+2019-07-06 00:44:07,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-06 00:44:07,093 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/local.properties
+2019-07-06 00:44:07,093 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-06 00:44:07,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/local.properties
+2019-07-06 00:44:07,094 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.4-all.zip
+2019-07-06 00:44:07,094 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.4-bin.zip)
+2019-07-06 00:44:07,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=22,minSdkVersion=14,targetSdkVersion=22]
+2019-07-06 00:44:07,095 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:44:07,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:44:07,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:44:13,316 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:44:13,317 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:44:13,317 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:44:13,317 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:44:20,947 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:41:46,465 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:44:20,947 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyDebugLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -208,14 +208,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 8.331 secs
+Total time: 7.065 secs
 
-2018-10-27 21:41:46,502 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:41:46,502 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:41:52,152 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-27 21:41:52,153 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-27 21:41:52,153 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-27 21:42:07,951 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:44:20,978 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:44:20,978 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:44:25,698 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-06 00:44:25,698 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 00:44:25,699 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 00:44:40,525 INFO  SysUtils - Configuration on demand is an incubating feature.
 :library:compileLint
 :library:copyReleaseLint UP-TO-DATE
 :library:preBuild UP-TO-DATE
@@ -305,6 +305,6 @@ Total time: 8.331 secs
 
 BUILD SUCCESSFUL
 
-Total time: 15.27 secs
+Total time: 14.273 secs
 
-2018-10-27 21:42:08,034 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651287721-0/src/KMPAutoCompleteTextView-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 00:44:40,582 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348646343-0/src/KMPAutoCompleteTextView-master/sample/build/outputs/apk/sample-debug-unaligned.apk

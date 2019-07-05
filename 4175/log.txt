@@ -1,37 +1,37 @@
-2019-01-28 11:02:37,436 INFO  DownloadService - Downloading "https://github.com/panpf/SwitchButton/archive/master.zip", attempt 3
-2019-01-28 11:02:39,691 INFO  DownloadService - Downloaded https://github.com/panpf/SwitchButton/archive/master.zip, attempt 3
-2019-01-28 11:02:39,692 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/master.zip": 649 KB
-2019-01-28 11:02:39,692 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-28 11:02:39,692 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/master.zip: true
-2019-01-28 11:02:39,692 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src'.
-2019-01-28 11:02:39,719 INFO  FullProcessService - Size of directory with sources: 701 KB
-2019-01-28 11:02:39,719 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src]
-2019-01-28 11:02:39,736 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/.git/
+2019-07-06 01:19:31,941 INFO  DownloadService - Downloading "https://github.com/panpf/SwitchButton/archive/master.zip", attempt 3
+2019-07-06 01:19:33,484 INFO  DownloadService - Downloaded https://github.com/panpf/SwitchButton/archive/master.zip, attempt 3
+2019-07-06 01:19:33,484 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/master.zip": 649 KB
+2019-07-06 01:19:33,484 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:19:33,490 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/master.zip: true
+2019-07-06 01:19:33,490 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src'.
+2019-07-06 01:19:33,514 INFO  FullProcessService - Size of directory with sources: 701 KB
+2019-07-06 01:19:33,514 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src]
+2019-07-06 01:19:33,529 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/.git/
 
-2019-01-28 11:02:39,739 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/gradlew
-2019-01-28 11:02:39,742 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/build.gradle
-2019-01-28 11:02:39,746 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/bintrayUpload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/settings.gradle
-2019-01-28 11:02:39,746 INFO  ProjectBuildService - Remote scripts: none
-2019-01-28 11:02:39,746 INFO  ProjectFixService - Fixing project...
-2019-01-28 11:02:39,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/local.properties
-2019-01-28 11:02:39,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 11:02:39,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 11:02:39,760 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/local.properties
-2019-01-28 11:02:39,763 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 11:02:39,763 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/switch-button/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 11:02:39,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/local.properties
-2019-01-28 11:02:39,764 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-28 11:02:39,764 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-28 11:02:39,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-01-28 11:02:39,766 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-01-28 11:02:39,767 INFO  ProjectFixService - Project was maybe fixed
-2019-01-28 11:02:39,767 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-28 11:02:39,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-28 11:02:46,201 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-28 11:02:46,201 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-28 11:02:46,201 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-28 11:02:46,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-28 11:02:51,389 ERROR SysUtils - Could not process external command
+2019-07-06 01:19:33,531 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/gradlew
+2019-07-06 01:19:33,533 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/build.gradle
+2019-07-06 01:19:33,534 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/bintrayUpload.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/settings.gradle
+2019-07-06 01:19:33,535 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:19:33,535 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:19:33,539 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/local.properties
+2019-07-06 01:19:33,541 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:19:33,541 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:19:33,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/local.properties
+2019-07-06 01:19:33,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:19:33,544 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/switch-button/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:19:33,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/local.properties
+2019-07-06 01:19:33,545 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-06 01:19:33,545 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-06 01:19:33,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-07-06 01:19:33,547 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-07-06 01:19:33,547 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:19:33,547 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:19:33,547 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:19:38,557 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:19:38,557 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:19:38,557 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:19:38,557 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:19:43,417 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-28 11:02:51,389 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:19:43,417 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':sample' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -197,4 +197,4 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED in 4s
 
-2019-01-28 11:02:51,393 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648157432-0/src/switch-button-master/docs/switch-button-sample.apk
+2019-07-06 01:19:43,420 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350771938-0/src/switch-button-master/docs/switch-button-sample.apk

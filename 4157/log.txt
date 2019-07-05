@@ -1,33 +1,33 @@
-2018-11-04 01:03:23,111 INFO  DownloadService - Downloading "https://github.com/asifshaikh86/googlemaproute/archive/master.zip", attempt 3
-2018-11-04 01:03:24,240 INFO  DownloadService - Downloaded https://github.com/asifshaikh86/googlemaproute/archive/master.zip, attempt 3
-2018-11-04 01:03:24,240 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip": 107 KB
-2018-11-04 01:03:24,240 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 01:03:24,245 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip: true
-2018-11-04 01:03:24,245 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src'.
-2018-11-04 01:03:24,264 INFO  FullProcessService - Size of directory with sources: 114 KB
-2018-11-04 01:03:24,264 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src]
-2018-11-04 01:03:24,286 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/.git/
+2019-07-06 01:28:28,325 INFO  DownloadService - Downloading "https://github.com/asifshaikh86/googlemaproute/archive/master.zip", attempt 3
+2019-07-06 01:28:28,847 INFO  DownloadService - Downloaded https://github.com/asifshaikh86/googlemaproute/archive/master.zip, attempt 3
+2019-07-06 01:28:28,847 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/master.zip": 107 KB
+2019-07-06 01:28:28,847 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:28:28,853 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/master.zip: true
+2019-07-06 01:28:28,853 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src'.
+2019-07-06 01:28:28,870 INFO  FullProcessService - Size of directory with sources: 114 KB
+2019-07-06 01:28:28,870 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src]
+2019-07-06 01:28:28,886 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/.git/
 
-2018-11-04 01:03:24,290 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew
-2018-11-04 01:03:24,294 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle
-2018-11-04 01:03:24,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/settings.gradle
-2018-11-04 01:03:24,297 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 01:03:24,298 INFO  ProjectFixService - Fixing project...
-2018-11-04 01:03:24,306 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/local.properties
-2018-11-04 01:03:24,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-04 01:03:24,307 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/local.properties
-2018-11-04 01:03:24,307 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/googlemaproute/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-04 01:03:24,308 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/local.properties
-2018-11-04 01:03:24,308 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-04 01:03:24,308 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-04 01:03:24,309 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
-2018-11-04 01:03:24,309 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 01:03:24,309 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:03:24,309 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:04:52,285 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-04 01:04:52,285 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-04 01:04:52,285 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-04 01:05:37,077 ERROR SysUtils - Could not process external command
+2019-07-06 01:28:28,888 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/gradlew
+2019-07-06 01:28:28,890 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/build.gradle
+2019-07-06 01:28:28,892 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/googlemaproute/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/settings.gradle
+2019-07-06 01:28:28,892 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:28:28,893 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:28:28,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/local.properties
+2019-07-06 01:28:28,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 01:28:28,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/googlemaproute/local.properties
+2019-07-06 01:28:28,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/googlemaproute/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 01:28:28,898 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/local.properties
+2019-07-06 01:28:28,899 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 01:28:28,899 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 01:28:28,899 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=19,targetSdkVersion=23]
+2019-07-06 01:28:28,899 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:28:28,899 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:28:28,899 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:28:34,986 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 01:28:34,986 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 01:28:34,986 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 01:29:06,177 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 01:05:37,077 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:29:06,177 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -272,7 +272,7 @@ Merged dex #50 (4 defs/9.1KiB)
 Merged dex #51 (20 defs/16.1KiB)
 Merged dex #52 (335 defs/262.9KiB)
 Merged dex #53 (41 defs/6.5KiB)
-Result is 8656 defs/7684.7KiB. Took 1.0s
+Result is 8656 defs/7684.7KiB. Took 0.7s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -397,6 +397,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 44.115 secs
+Total time: 30.486 secs
 
-2018-11-04 01:05:37,368 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541268203108-0/src/googlemaproute-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 01:29:06,296 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351308317-0/src/googlemaproute-master/app/build/outputs/apk/app-debug.apk

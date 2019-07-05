@@ -1,32 +1,32 @@
-2018-10-27 21:46:18,258 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/RoublePriceView/archive/master.zip", attempt 3
-2018-10-27 21:46:18,786 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/RoublePriceView/archive/master.zip, attempt 3
-2018-10-27 21:46:18,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/master.zip": 65 KB
-2018-10-27 21:46:18,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-27 21:46:18,792 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/master.zip: true
-2018-10-27 21:46:18,792 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src'.
-2018-10-27 21:46:18,802 INFO  FullProcessService - Size of directory with sources: 84 KB
-2018-10-27 21:46:18,802 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src]
-2018-10-27 21:46:18,820 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/.git/
+2019-07-06 00:48:22,255 INFO  DownloadService - Downloading "https://github.com/VyacheslavShmakin/RoublePriceView/archive/master.zip", attempt 3
+2019-07-06 00:48:22,909 INFO  DownloadService - Downloaded https://github.com/VyacheslavShmakin/RoublePriceView/archive/master.zip, attempt 3
+2019-07-06 00:48:22,909 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/master.zip": 65 KB
+2019-07-06 00:48:22,909 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 00:48:22,915 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/master.zip: true
+2019-07-06 00:48:22,915 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src'.
+2019-07-06 00:48:22,924 INFO  FullProcessService - Size of directory with sources: 84 KB
+2019-07-06 00:48:22,924 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src]
+2019-07-06 00:48:22,940 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/.git/
 
-2018-10-27 21:46:18,822 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/gradlew
-2018-10-27 21:46:18,824 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/build.gradle
-2018-10-27 21:46:18,825 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/settings.gradle
-2018-10-27 21:46:18,826 INFO  ProjectBuildService - Remote scripts: none
-2018-10-27 21:46:18,826 INFO  ProjectFixService - Fixing project...
-2018-10-27 21:46:18,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/local.properties
-2018-10-27 21:46:18,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-27 21:46:18,830 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/local.properties
-2018-10-27 21:46:18,831 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2018-10-27 21:46:18,831 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2018-10-27 21:46:18,832 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2018-10-27 21:46:18,832 INFO  ProjectFixService - Project was maybe fixed
-2018-10-27 21:46:18,832 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:46:18,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:46:25,441 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:46:25,441 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:46:25,441 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:46:25,441 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/rouble-price-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:46:30,750 ERROR SysUtils - Could not process external command
+2019-07-06 00:48:22,942 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/gradlew
+2019-07-06 00:48:22,943 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/build.gradle
+2019-07-06 00:48:22,944 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/settings.gradle
+2019-07-06 00:48:22,944 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 00:48:22,944 INFO  ProjectFixService - Fixing project...
+2019-07-06 00:48:22,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/local.properties
+2019-07-06 00:48:22,948 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-06 00:48:22,948 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/local.properties
+2019-07-06 00:48:22,948 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-07-06 00:48:22,948 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-07-06 00:48:22,949 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/build.gradle": [buildToolsVersion=27.0.1,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-07-06 00:48:22,949 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 00:48:22,949 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:48:22,949 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:48:27,982 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:48:27,982 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:48:27,982 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:48:27,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/rouble-price-view/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:48:32,886 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -46,14 +46,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:46:30,750 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:48:32,886 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -182,22 +182,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 21:46:30,753 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-27 21:46:30,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-27 21:46:36,103 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-27 21:46:36,103 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-27 21:46:36,103 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-27 21:46:36,104 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540651578255-0/src/RoublePriceView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-27 21:46:41,401 ERROR SysUtils - Could not process external command
+2019-07-06 00:48:32,888 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 00:48:32,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 00:48:37,712 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 00:48:37,712 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 00:48:37,712 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 00:48:37,712 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562348902253-0/src/RoublePriceView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 00:48:42,493 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -217,14 +217,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-27 21:46:41,401 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 00:48:42,493 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -360,7 +360,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 5s
+BUILD FAILED in 4s
 
-2018-10-27 21:46:41,404 ERROR FullProcessService - Project build has not produced APK file
-2018-10-27 21:46:41,406 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 00:48:42,495 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 00:48:42,497 ERROR FullProcessService - Could not find generated or existed APK file

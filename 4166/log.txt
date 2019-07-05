@@ -1,38 +1,38 @@
-2018-11-04 00:57:24,956 INFO  DownloadService - Downloading "https://github.com/AllenCoder/AndroidCustomView/archive/master.zip", attempt 3
-2018-11-04 00:57:27,108 INFO  DownloadService - Downloaded https://github.com/AllenCoder/AndroidCustomView/archive/master.zip, attempt 3
-2018-11-04 00:57:27,108 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/master.zip": 1 MB
-2018-11-04 00:57:27,108 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 00:57:27,108 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/master.zip: true
-2018-11-04 00:57:27,109 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src'.
-2018-11-04 00:57:27,145 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-11-04 00:57:27,145 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src]
-2018-11-04 00:57:27,163 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/.git/
+2019-07-06 01:25:08,710 INFO  DownloadService - Downloading "https://github.com/AllenCoder/AndroidCustomView/archive/master.zip", attempt 3
+2019-07-06 01:25:09,525 INFO  DownloadService - Downloaded https://github.com/AllenCoder/AndroidCustomView/archive/master.zip, attempt 3
+2019-07-06 01:25:09,525 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/master.zip": 1 MB
+2019-07-06 01:25:09,525 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:25:09,531 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/master.zip: true
+2019-07-06 01:25:09,531 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src'.
+2019-07-06 01:25:09,558 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-07-06 01:25:09,558 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src]
+2019-07-06 01:25:09,573 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/.git/
 
-2018-11-04 00:57:27,167 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/gradlew
-2018-11-04 00:57:27,171 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/comparsechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/build.gradle
-2018-11-04 00:57:27,175 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/comparsechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/settings.gradle
-2018-11-04 00:57:27,176 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2018-11-04 00:57:27,387 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2018-11-04 00:57:27,388 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2018-11-04 00:57:27,600 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2018-11-04 00:57:27,600 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2018-11-04 00:57:27,600 INFO  ProjectFixService - Fixing project...
-2018-11-04 00:57:27,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/local.properties
-2018-11-04 00:57:27,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-04 00:57:27,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/comparsechart/local.properties
-2018-11-04 00:57:27,613 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/comparsechart/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-04 00:57:27,614 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/local.properties
-2018-11-04 00:57:27,614 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-04 00:57:27,614 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-04 00:57:27,615 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-04 00:57:27,616 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 00:57:27,616 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:57:27,616 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:57:35,751 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-04 00:57:35,751 INFO  ProjectTaskService - Detected possible tasks: 3
-2018-11-04 00:57:35,751 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2018-11-04 00:57:35,751 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2018-11-04 00:57:42,582 ERROR SysUtils - Could not process external command
+2019-07-06 01:25:09,576 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/gradlew
+2019-07-06 01:25:09,578 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/comparsechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/build.gradle
+2019-07-06 01:25:09,580 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/comparsechart/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/settings.gradle
+2019-07-06 01:25:09,581 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-07-06 01:25:09,756 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-07-06 01:25:09,756 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-07-06 01:25:09,933 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-07-06 01:25:09,934 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-07-06 01:25:09,934 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:25:09,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/local.properties
+2019-07-06 01:25:09,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 01:25:09,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/comparsechart/local.properties
+2019-07-06 01:25:09,941 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/comparsechart/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 01:25:09,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/local.properties
+2019-07-06 01:25:09,941 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 01:25:09,942 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 01:25:09,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 01:25:09,942 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:25:09,942 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:25:09,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:25:16,076 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 01:25:16,076 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-07-06 01:25:16,077 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-07-06 01:25:16,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-07-06 01:25:21,914 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -45,22 +45,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:57:42,582 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:25:21,914 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -154,13 +153,13 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:79)
 	at org.gradle.internal.event.BroadcastDispatch.dispatch(BroadcastDispatch.java:30)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy10.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy11.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:67)
 	... 47 more
 
 
 BUILD FAILED
 
-Total time: 6.255 secs
+Total time: 5.242 secs
 
-2018-11-04 00:57:42,587 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541267844952-0/src/AndroidCustomView-master/app/app-release.apk
+2019-07-06 01:25:21,917 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351108708-0/src/AndroidCustomView-master/app/app-release.apk

@@ -1,33 +1,33 @@
-2018-11-11 23:32:16,956 INFO  DownloadService - Downloading "https://github.com/pdrogfer/MidiDroid/archive/master.zip", attempt 3
-2018-11-11 23:32:17,536 INFO  DownloadService - Downloaded https://github.com/pdrogfer/MidiDroid/archive/master.zip, attempt 3
-2018-11-11 23:32:17,536 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip": 145 KB
-2018-11-11 23:32:17,536 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 23:32:17,541 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip: true
-2018-11-11 23:32:17,542 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src'.
-2018-11-11 23:32:17,566 INFO  FullProcessService - Size of directory with sources: 222 KB
-2018-11-11 23:32:17,566 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src]
-2018-11-11 23:32:17,586 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/.git/
+2019-07-06 01:08:24,699 INFO  DownloadService - Downloading "https://github.com/pdrogfer/MidiDroid/archive/master.zip", attempt 3
+2019-07-06 01:08:25,257 INFO  DownloadService - Downloaded https://github.com/pdrogfer/MidiDroid/archive/master.zip, attempt 3
+2019-07-06 01:08:25,257 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/master.zip": 145 KB
+2019-07-06 01:08:25,257 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:08:25,263 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/master.zip: true
+2019-07-06 01:08:25,263 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src'.
+2019-07-06 01:08:25,283 INFO  FullProcessService - Size of directory with sources: 222 KB
+2019-07-06 01:08:25,283 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src]
+2019-07-06 01:08:25,300 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/.git/
 
-2018-11-11 23:32:17,589 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew
-2018-11-11 23:32:17,592 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle
-2018-11-11 23:32:17,596 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/settings.gradle
-2018-11-11 23:32:17,596 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 23:32:17,596 INFO  ProjectFixService - Fixing project...
-2018-11-11 23:32:17,603 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/local.properties
-2018-11-11 23:32:17,605 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 23:32:17,605 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 23:32:17,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/local.properties
-2018-11-11 23:32:17,606 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-11-11 23:32:17,607 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-11-11 23:32:17,608 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 23:32:17,608 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-11-11 23:32:17,609 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 23:32:17,609 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:32:17,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:32:24,200 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-11-11 23:32:24,200 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 23:32:24,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 23:32:38,673 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:08:25,302 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/gradlew
+2019-07-06 01:08:25,305 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle
+2019-07-06 01:08:25,307 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/settings.gradle
+2019-07-06 01:08:25,307 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:08:25,307 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:08:25,311 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/local.properties
+2019-07-06 01:08:25,312 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 01:08:25,312 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 01:08:25,312 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/local.properties
+2019-07-06 01:08:25,313 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-07-06 01:08:25,313 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-07-06 01:08:25,313 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 01:08:25,313 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 01:08:25,314 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:08:25,314 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:08:25,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:08:30,520 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-07-06 01:08:30,520 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 01:08:30,520 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/midi/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 01:08:41,582 INFO  SysUtils - Configuration on demand is an incubating feature.
 :midi:preBuild UP-TO-DATE
 :midi:preDebugBuild UP-TO-DATE
 :midi:compileDebugAidl NO-SOURCE
@@ -97,15 +97,15 @@
 :midi:assemble
 :midi:build
 
-BUILD SUCCESSFUL in 14s
+BUILD SUCCESSFUL in 10s
 45 actionable tasks: 45 executed
 
-2018-11-11 23:32:38,731 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 23:32:38,731 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 23:32:45,242 INFO  ProjectTaskService - Detected possible tasks: 65
-2018-11-11 23:32:45,242 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-11-11 23:32:45,243 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541953936953-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-11-11 23:32:54,259 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:08:41,621 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:08:41,622 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:08:46,797 INFO  ProjectTaskService - Detected possible tasks: 65
+2019-07-06 01:08:46,797 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-06 01:08:46,797 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350104697-0/src/MidiDroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-06 01:08:52,942 INFO  SysUtils - Configuration on demand is an incubating feature.
 :midi:preBuild UP-TO-DATE
 :midi:preDebugBuild UP-TO-DATE
 :midi:compileDebugAidl NO-SOURCE
@@ -175,8 +175,8 @@ BUILD SUCCESSFUL in 14s
 :midi:assemble
 :midi:build
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 6s
 45 actionable tasks: 1 executed, 44 up-to-date
 
-2018-11-11 23:32:54,322 ERROR FullProcessService - Project build has not produced APK file
-2018-11-11 23:32:54,386 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-06 01:08:52,981 ERROR FullProcessService - Project build has not produced APK file
+2019-07-06 01:08:53,014 ERROR FullProcessService - Could not find generated or existed APK file

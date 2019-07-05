@@ -1,33 +1,33 @@
-2018-11-04 00:06:01,941 INFO  DownloadService - Downloading "https://github.com/Jaouan/CompoundLayout/archive/master.zip", attempt 3
-2018-11-04 00:06:06,604 INFO  DownloadService - Downloaded https://github.com/Jaouan/CompoundLayout/archive/master.zip, attempt 3
-2018-11-04 00:06:06,604 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/master.zip": 2 MB
-2018-11-04 00:06:06,604 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 00:06:06,605 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/master.zip: true
-2018-11-04 00:06:06,605 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src'.
-2018-11-04 00:06:06,657 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-11-04 00:06:06,657 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src]
-2018-11-04 00:06:06,693 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/.git/
+2019-07-06 01:21:50,816 INFO  DownloadService - Downloading "https://github.com/Jaouan/CompoundLayout/archive/master.zip", attempt 3
+2019-07-06 01:21:52,782 INFO  DownloadService - Downloaded https://github.com/Jaouan/CompoundLayout/archive/master.zip, attempt 3
+2019-07-06 01:21:52,782 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/master.zip": 2 MB
+2019-07-06 01:21:52,782 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:21:52,788 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/master.zip: true
+2019-07-06 01:21:52,788 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src'.
+2019-07-06 01:21:52,821 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-06 01:21:52,822 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src]
+2019-07-06 01:21:52,845 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/.git/
 
-2018-11-04 00:06:06,699 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/gradlew
-2018-11-04 00:06:06,706 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/compoundlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/build.gradle
-2018-11-04 00:06:06,711 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/compoundlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/settings.gradle
-2018-11-04 00:06:06,711 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 00:06:06,711 INFO  ProjectFixService - Fixing project...
-2018-11-04 00:06:06,724 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/local.properties
-2018-11-04 00:06:06,724 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-04 00:06:06,725 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/compoundlayout/local.properties
-2018-11-04 00:06:06,726 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/compoundlayout/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-04 00:06:06,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/local.properties
-2018-11-04 00:06:06,727 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-04 00:06:06,727 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-04 00:06:06,729 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-04 00:06:06,729 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 00:06:06,729 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 00:06:06,730 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 00:06:20,687 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-04 00:06:20,687 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-04 00:06:20,687 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-04 00:06:49,952 ERROR SysUtils - Could not process external command
+2019-07-06 01:21:52,849 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/gradlew
+2019-07-06 01:21:52,853 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/compoundlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/build.gradle
+2019-07-06 01:21:52,857 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/compoundlayout/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/settings.gradle
+2019-07-06 01:21:52,857 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:21:52,857 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:21:52,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/local.properties
+2019-07-06 01:21:52,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-06 01:21:52,864 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/compoundlayout/local.properties
+2019-07-06 01:21:52,865 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/compoundlayout/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 01:21:52,865 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/local.properties
+2019-07-06 01:21:52,865 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 01:21:52,866 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 01:21:52,868 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-06 01:21:52,869 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:21:52,869 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:21:52,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:21:58,391 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 01:21:58,391 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 01:21:58,391 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 01:22:12,293 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,14 +47,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-04 00:06:49,952 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 01:22:12,293 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
@@ -91,7 +91,7 @@ Incremental java compilation is an incubating feature.
 :compoundlayout:incrementalReleaseJavaCompilationSafeguard
 :compoundlayout:compileReleaseJavaWithJavac
 :compoundlayout:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/compoundlayout/src/main/java/com/jaouan/compoundlayout/GradientRadioLayout.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/compoundlayout/src/main/java/com/jaouan/compoundlayout/GradientRadioLayout.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 :compoundlayout:extractReleaseAnnotations
 :compoundlayout:mergeReleaseProguardFiles
@@ -138,7 +138,7 @@ Merged dex #5 (17 defs/48.5KiB)
 Merged dex #6 (44 defs/108.1KiB)
 Merged dex #7 (335 defs/262.9KiB)
 Merged dex #8 (41 defs/6.5KiB)
-Result is 1558 defs/2343.7KiB. Took 0.4s
+Result is 1558 defs/2343.7KiB. Took 0.2s
 :app:mergeDebugJniLibFolders
 :app:transformNative_libsWithMergeJniLibsForDebug
 :app:processDebugJavaRes UP-TO-DATE
@@ -263,6 +263,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 28.599 secs
+Total time: 13.293 secs
 
-2018-11-04 00:06:50,092 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541264761935-0/src/CompoundLayout-master/app/build/outputs/apk/app-debug.apk
+2019-07-06 01:22:12,354 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350910814-0/src/CompoundLayout-master/app/build/outputs/apk/app-debug.apk

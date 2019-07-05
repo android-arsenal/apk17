@@ -1,35 +1,35 @@
-2018-11-04 01:31:05,303 INFO  DownloadService - Downloading "https://github.com/ZuYun/Jgraph/archive/master.zip", attempt 3
-2018-11-04 01:31:10,163 INFO  DownloadService - Downloaded https://github.com/ZuYun/Jgraph/archive/master.zip, attempt 3
-2018-11-04 01:31:10,163 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/master.zip": 7 MB
-2018-11-04 01:31:10,163 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-04 01:31:10,167 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/master.zip: true
-2018-11-04 01:31:10,167 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src'.
-2018-11-04 01:31:10,258 INFO  FullProcessService - Size of directory with sources: 8 MB
-2018-11-04 01:31:10,258 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src]
-2018-11-04 01:31:10,275 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/.git/
+2019-07-06 01:32:54,722 INFO  DownloadService - Downloading "https://github.com/ZuYun/Jgraph/archive/master.zip", attempt 3
+2019-07-06 01:32:57,633 INFO  DownloadService - Downloaded https://github.com/ZuYun/Jgraph/archive/master.zip, attempt 3
+2019-07-06 01:32:57,633 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/master.zip": 7 MB
+2019-07-06 01:32:57,633 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 01:32:57,636 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/master.zip: true
+2019-07-06 01:32:57,637 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src'.
+2019-07-06 01:32:57,717 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-07-06 01:32:57,717 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src]
+2019-07-06 01:32:57,733 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/.git/
 
-2018-11-04 01:31:10,279 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-11-04 01:31:10,279 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-11-04 01:31:10,283 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/jgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/build.gradle
-2018-11-04 01:31:10,287 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/jgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/settings.gradle
-2018-11-04 01:31:10,287 INFO  ProjectBuildService - Remote scripts: none
-2018-11-04 01:31:10,287 INFO  ProjectFixService - Fixing project...
-2018-11-04 01:31:10,295 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/local.properties
-2018-11-04 01:31:10,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-04 01:31:10,296 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/jgraph/local.properties
-2018-11-04 01:31:10,296 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/jgraph/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-04 01:31:10,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/local.properties
-2018-11-04 01:31:10,297 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-11-04 01:31:10,297 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-11-04 01:31:10,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
-2018-11-04 01:31:10,298 INFO  ProjectFixService - Project was maybe fixed
-2018-11-04 01:31:10,298 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-04 01:31:10,298 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-04 01:31:10,302 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-11-04 01:31:10,302 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-04 01:31:10,302 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-04 01:31:10,303 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-04 01:31:10,307 ERROR SysUtils - Could not process external command
+2019-07-06 01:32:57,736 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-07-06 01:32:57,736 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-07-06 01:32:57,739 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/jgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/build.gradle
+2019-07-06 01:32:57,741 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/jgraph/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/settings.gradle
+2019-07-06 01:32:57,741 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 01:32:57,741 INFO  ProjectFixService - Fixing project...
+2019-07-06 01:32:57,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/local.properties
+2019-07-06 01:32:57,746 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-06 01:32:57,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/jgraph/local.properties
+2019-07-06 01:32:57,747 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/jgraph/build.gradle": [buildToolsVersion=23.0.3,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-06 01:32:57,747 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/local.properties
+2019-07-06 01:32:57,747 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-07-06 01:32:57,747 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-07-06 01:32:57,748 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=21,targetSdkVersion=23]
+2019-07-06 01:32:57,748 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 01:32:57,748 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 01:32:57,748 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 01:32:57,766 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-07-06 01:32:57,766 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 01:32:57,766 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 01:32:57,766 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 01:32:57,770 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -53,7 +53,7 @@ java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
@@ -66,5 +66,5 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2018-11-04 01:31:10,307 INFO  SysUtils - 
-2018-11-04 01:31:10,311 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541269865295-0/src/Jgraph-master/app-debug.apk
+2019-07-06 01:32:57,771 INFO  SysUtils - 
+2019-07-06 01:32:57,773 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562351574714-0/src/Jgraph-master/app-debug.apk
