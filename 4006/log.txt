@@ -1,34 +1,34 @@
-2018-11-11 20:46:54,378 INFO  DownloadService - Downloading "https://github.com/ybq/nougat-boot-animation/archive/master.zip", attempt 3
-2018-11-11 20:46:59,237 INFO  DownloadService - Downloaded https://github.com/ybq/nougat-boot-animation/archive/master.zip, attempt 3
-2018-11-11 20:46:59,237 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/master.zip": 2 MB
-2018-11-11 20:46:59,237 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:46:59,243 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/master.zip: true
-2018-11-11 20:46:59,243 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src'.
-2018-11-11 20:46:59,273 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-11-11 20:46:59,273 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src]
-2018-11-11 20:46:59,290 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/.git/
+2019-07-06 23:34:24,435 INFO  DownloadService - Downloading "https://github.com/ybq/nougat-boot-animation/archive/master.zip", attempt 3
+2019-07-06 23:34:27,935 INFO  DownloadService - Downloaded https://github.com/ybq/nougat-boot-animation/archive/master.zip, attempt 3
+2019-07-06 23:34:27,935 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/master.zip": 2 MB
+2019-07-06 23:34:27,935 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 23:34:27,936 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/master.zip: true
+2019-07-06 23:34:27,936 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src'.
+2019-07-06 23:34:27,962 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-06 23:34:27,962 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src]
+2019-07-06 23:34:27,978 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/.git/
 
-2018-11-11 20:46:59,293 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/gradlew
-2018-11-11 20:46:59,295 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/build.gradle
-2018-11-11 20:46:59,297 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/settings.gradle
-2018-11-11 20:46:59,297 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 20:46:59,297 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:46:59,303 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/local.properties
-2018-11-11 20:46:59,303 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-11-11 20:46:59,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/local.properties
-2018-11-11 20:46:59,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-11-11 20:46:59,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/local.properties
-2018-11-11 20:46:59,305 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 20:46:59,305 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 20:46:59,306 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
-2018-11-11 20:46:59,306 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:46:59,306 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:46:59,306 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:47:10,917 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 20:47:10,918 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 20:47:10,918 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 20:47:10,918 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 20:47:17,820 ERROR SysUtils - Could not process external command
+2019-07-06 23:34:27,979 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/gradlew
+2019-07-06 23:34:27,981 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/build.gradle
+2019-07-06 23:34:27,983 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/settings.gradle
+2019-07-06 23:34:27,983 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 23:34:27,983 INFO  ProjectFixService - Fixing project...
+2019-07-06 23:34:27,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/local.properties
+2019-07-06 23:34:27,988 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 23:34:27,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/local.properties
+2019-07-06 23:34:27,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 23:34:27,989 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/local.properties
+2019-07-06 23:34:27,989 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 23:34:27,990 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 23:34:27,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/build.gradle": [buildToolsVersion=24.0.0,compileSdkVersion=24,minSdkVersion=14,targetSdkVersion=24]
+2019-07-06 23:34:27,991 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 23:34:27,991 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:34:27,991 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:34:36,189 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 23:34:36,189 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 23:34:36,189 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 23:34:36,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 23:34:41,779 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:47:17,820 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:34:41,780 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -224,14 +225,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.403 secs
+Total time: 5.07 secs
 
-2018-11-11 20:47:17,829 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:47:17,829 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:47:23,534 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-11 20:47:23,534 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 20:47:23,534 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 20:47:37,047 ERROR SysUtils - Could not process external command
+2019-07-06 23:34:41,787 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:34:41,787 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:34:46,582 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 23:34:46,582 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 23:34:46,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 23:34:58,271 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -244,7 +245,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -258,7 +260,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:47:37,047 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:34:58,272 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preReleaseBuild UP-TO-DATE
@@ -461,6 +463,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 12.955 secs
+Total time: 11.171 secs
 
-2018-11-11 20:47:37,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541944014370-0/src/nougat-boot-animation-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 23:34:58,316 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430864432-0/src/nougat-boot-animation-master/sample/build/outputs/apk/sample-debug-unaligned.apk

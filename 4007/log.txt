@@ -1,34 +1,34 @@
-2018-11-11 20:45:21,022 INFO  DownloadService - Downloading "https://github.com/brunodles/PicPicker/archive/master.zip", attempt 3
-2018-11-11 20:45:21,731 INFO  DownloadService - Downloaded https://github.com/brunodles/PicPicker/archive/master.zip, attempt 3
-2018-11-11 20:45:21,731 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/master.zip": 112 KB
-2018-11-11 20:45:21,731 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:45:21,737 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/master.zip: true
-2018-11-11 20:45:21,737 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src'.
-2018-11-11 20:45:21,755 INFO  FullProcessService - Size of directory with sources: 129 KB
-2018-11-11 20:45:21,755 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src]
-2018-11-11 20:45:21,772 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/.git/
+2019-07-06 23:33:22,448 INFO  DownloadService - Downloading "https://github.com/brunodles/PicPicker/archive/master.zip", attempt 3
+2019-07-06 23:33:22,976 INFO  DownloadService - Downloaded https://github.com/brunodles/PicPicker/archive/master.zip, attempt 3
+2019-07-06 23:33:22,976 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/master.zip": 112 KB
+2019-07-06 23:33:22,976 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 23:33:22,982 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/master.zip: true
+2019-07-06 23:33:22,982 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src'.
+2019-07-06 23:33:23,000 INFO  FullProcessService - Size of directory with sources: 129 KB
+2019-07-06 23:33:23,000 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src]
+2019-07-06 23:33:23,014 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/.git/
 
-2018-11-11 20:45:21,775 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/gradlew
-2018-11-11 20:45:21,778 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/build.gradle
-2018-11-11 20:45:21,781 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/settings.gradle
-2018-11-11 20:45:21,782 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 20:45:21,782 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:45:21,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/local.properties
-2018-11-11 20:45:21,790 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:45:21,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/local.properties
-2018-11-11 20:45:21,791 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:45:21,791 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/local.properties
-2018-11-11 20:45:21,792 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 20:45:21,792 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 20:45:21,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:45:21,793 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:45:21,793 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:45:21,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:46:09,576 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 20:46:09,576 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 20:46:09,576 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 20:46:09,576 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 20:46:21,138 ERROR SysUtils - Could not process external command
+2019-07-06 23:33:23,017 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/gradlew
+2019-07-06 23:33:23,019 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/build.gradle
+2019-07-06 23:33:23,021 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/settings.gradle
+2019-07-06 23:33:23,022 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 23:33:23,022 INFO  ProjectFixService - Fixing project...
+2019-07-06 23:33:23,027 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/local.properties
+2019-07-06 23:33:23,028 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:33:23,028 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/local.properties
+2019-07-06 23:33:23,029 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:33:23,029 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/local.properties
+2019-07-06 23:33:23,030 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 23:33:23,030 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 23:33:23,031 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/build.gradle": [buildToolsVersion=23.0.2,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:33:23,031 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 23:33:23,031 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:33:23,031 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:33:45,556 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 23:33:45,556 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 23:33:45,556 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 23:33:45,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 23:33:55,343 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -41,7 +41,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -55,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:46:21,138 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:33:55,344 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :lib:preBuild UP-TO-DATE
 :lib:preDebugBuild UP-TO-DATE
@@ -126,79 +127,79 @@ Incremental java compilation is an incubating feature.
 :lib:bundleRelease
 :lib:compileReleaseSources
 :lib:assembleRelease
-:lib:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:7: error: package android.support.annotation does not exist
+:lib:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:7: error: package android.support.annotation does not exist
 import android.support.annotation.NonNull;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.StringRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:9: error: package android.support.v4.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:9: error: package android.support.v4.app does not exist
 import android.support.v4.app.ActivityCompat;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:10: error: package android.support.v7.app does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:10: error: package android.support.v7.app does not exist
 import android.support.v7.app.AlertDialog;
                              ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:14: error: package android.support.v4.content does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:14: error: package android.support.v4.content does not exist
 import android.support.v4.content.ContextCompat;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:25: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:25: error: cannot find symbol
     public WritePermissionAsker(Activity activity, int requestCode, @StringRes int dialogMessage) {
                                                                      ^
   symbol:   class StringRes
   location: class WritePermissionAsker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: error: cannot find symbol
     public boolean onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                                                                 ^
   symbol:   class NonNull
   location: class WritePermissionAsker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:68: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:68: error: cannot find symbol
                                               @NonNull int[] grantResults) {
                                                ^
   symbol:   class NonNull
   location: class WritePermissionAsker
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:85: warning: no description for @param
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:85: warning: no description for @param
      * @param cameraAppErrorListener
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:87: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:87: warning: no @return
     public PicPicker setCameraAppErrorListener(CantFindCameraAppErrorListener cameraAppErrorListener) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:100: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:100: warning: no @return
     public PicPicker setPermissionErrorListener(NeedWritePermissionErrorListener permissionErrorListener) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:113: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:113: warning: no @return
     public PicPicker setFileForCameraListener(ErrorCreatingTempFileForCameraListener fileForCameraListener) {
                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:211: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:211: error: reference not found
      * {@link android.support.v4.app.Fragment#onActivityResult(int, int, Intent)}
               ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for requestCode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for requestCode
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for resultCode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for resultCode
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for data
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:216: warning: no @param for data
     public boolean onActivityResult(int requestCode, int resultCode, Intent data) {
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:60: error: reference not found
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/PicPicker.java:60: error: reference not found
      *                        {@link android.support.v4.app.Fragment}
                                      ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for requestCode
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for requestCode
     public boolean onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for permissions
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for permissions
     public boolean onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for grantResults
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/impl/WritePermissionAsker.java:67: warning: no @param for grantResults
     public boolean onRequestPermissionsResult(int requestCode, @NonNull String[] permissions,
                    ^
 javadoc: warning - Class StringRes not found.
 javadoc: warning - Class NonNull not found.
 javadoc: warning - Class NonNull not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/listener/ActivityStarter.java:9: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/listener/ActivityStarter.java:9: error: self-closing element not allowed
  * <p/>
    ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/listener/ActivityStarter.java:12: error: self-closing element not allowed
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/lib/src/main/java/com/github/brunodles/picpicker/listener/ActivityStarter.java:12: error: self-closing element not allowed
  * <p/>
    ^
 
@@ -303,14 +304,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 11.062 secs
+Total time: 9.309 secs
 
-2018-11-11 20:46:21,192 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:46:21,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:46:27,365 INFO  ProjectTaskService - Detected possible tasks: 69
-2018-11-11 20:46:27,365 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 20:46:27,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 20:46:46,325 ERROR SysUtils - Could not process external command
+2019-07-06 23:33:55,383 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:33:55,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:34:00,346 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-06 23:34:00,346 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 23:34:00,346 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 23:34:16,348 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -323,7 +324,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -337,7 +339,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:46:46,326 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:34:16,349 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :lib:preBuild UP-TO-DATE
 :lib:preReleaseBuild UP-TO-DATE
@@ -525,6 +527,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 18.429 secs
+Total time: 15.497 secs
 
-2018-11-11 20:46:46,430 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943921018-0/src/PicPicker-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 23:34:16,422 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430802444-0/src/PicPicker-master/sample/build/outputs/apk/sample-debug-unaligned.apk

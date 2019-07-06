@@ -1,34 +1,34 @@
-2018-11-11 20:43:34,910 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/parallax-layer-layout/archive/master.zip", attempt 3
-2018-11-11 20:43:39,852 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/parallax-layer-layout/archive/master.zip, attempt 3
-2018-11-11 20:43:39,852 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/master.zip": 1 MB
-2018-11-11 20:43:39,852 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-11-11 20:43:39,858 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/master.zip: true
-2018-11-11 20:43:39,859 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src'.
-2018-11-11 20:43:39,896 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-11-11 20:43:39,896 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src]
-2018-11-11 20:43:39,920 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/.git/
+2019-07-06 23:31:46,422 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/parallax-layer-layout/archive/master.zip", attempt 3
+2019-07-06 23:31:49,850 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/parallax-layer-layout/archive/master.zip, attempt 3
+2019-07-06 23:31:49,850 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/master.zip": 1 MB
+2019-07-06 23:31:49,850 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 23:31:49,856 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/master.zip: true
+2019-07-06 23:31:49,856 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src'.
+2019-07-06 23:31:49,890 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-07-06 23:31:49,890 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src]
+2019-07-06 23:31:49,907 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/.git/
 
-2018-11-11 20:43:39,923 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/gradlew
-2018-11-11 20:43:39,925 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/build.gradle
-2018-11-11 20:43:39,928 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/settings.gradle
-2018-11-11 20:43:39,928 INFO  ProjectBuildService - Remote scripts: none
-2018-11-11 20:43:39,928 INFO  ProjectFixService - Fixing project...
-2018-11-11 20:43:39,935 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/local.properties
-2018-11-11 20:43:39,936 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:43:39,936 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/local.properties
-2018-11-11 20:43:39,937 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:43:39,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/local.properties
-2018-11-11 20:43:39,937 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
-2018-11-11 20:43:39,938 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
-2018-11-11 20:43:39,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
-2018-11-11 20:43:39,939 INFO  ProjectFixService - Project was maybe fixed
-2018-11-11 20:43:39,939 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:43:39,939 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:43:48,692 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-11-11 20:43:48,692 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-11-11 20:43:48,692 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-11-11 20:43:48,692 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-11-11 20:44:10,999 ERROR SysUtils - Could not process external command
+2019-07-06 23:31:49,909 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/gradlew
+2019-07-06 23:31:49,912 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/build.gradle
+2019-07-06 23:31:49,928 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/quality.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/settings.gradle
+2019-07-06 23:31:49,929 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 23:31:49,929 INFO  ProjectFixService - Fixing project...
+2019-07-06 23:31:49,937 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/local.properties
+2019-07-06 23:31:49,938 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:31:49,938 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/local.properties
+2019-07-06 23:31:49,939 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:31:49,940 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/local.properties
+2019-07-06 23:31:49,940 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.10-all.zip
+2019-07-06 23:31:49,941 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.10-bin.zip)
+2019-07-06 23:31:49,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=14,targetSdkVersion=23]
+2019-07-06 23:31:49,942 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 23:31:49,942 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:31:49,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:31:57,467 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-07-06 23:31:57,467 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-07-06 23:31:57,467 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-07-06 23:31:57,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-06 23:32:19,109 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -56,7 +56,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:44:10,999 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:32:19,109 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preDebugBuild UP-TO-DATE
@@ -128,15 +128,15 @@ Incremental java compilation is an incubating feature.
 :library:assembleRelease
 :library:assemble
 :library:checkstyle
-Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.16/checkstyle-6.16.pom
-Download https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.5.2-1/antlr4-runtime-4.5.2-1.pom
-Download https://jcenter.bintray.com/org/antlr/antlr4-master/4.5.2-1/antlr4-master-4.5.2-1.pom
 Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.16/checkstyle-6.16.jar
 Download https://jcenter.bintray.com/org/antlr/antlr4-runtime/4.5.2-1/antlr4-runtime-4.5.2-1.jar
 :library:findbugs
+Download https://jcenter.bintray.com/com/google/code/findbugs/findbugs/3.0.1/findbugs-3.0.1.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jFormatString/2.0.1/jFormatString-2.0.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-debug-all/5.0.2/asm-debug-all-5.0.2.jar
 Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.0.2/asm-commons-5.0.2.jar
+Download https://jcenter.bintray.com/com/apple/AppleJavaExtensions/1.4/AppleJavaExtensions-1.4.jar
 Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.0.2/asm-tree-5.0.2.jar
-Download https://jcenter.bintray.com/org/ow2/asm/asm/5.0.2/asm-5.0.2.jar
 :library:lint FAILED
 
 FAILURE: Build failed with an exception.
@@ -233,14 +233,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 21.741 secs
+Total time: 21.119 secs
 
-2018-11-11 20:44:11,010 INFO  ProjectTaskService - Detecting possible tasks...
-2018-11-11 20:44:11,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-11-11 20:44:17,768 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-11-11 20:44:17,768 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-11-11 20:44:17,768 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-11-11 20:44:38,197 ERROR SysUtils - Could not process external command
+2019-07-06 23:32:19,118 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:32:19,118 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:32:24,512 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-07-06 23:32:24,513 INFO  ProjectTaskService - Excluded tasks (22): pmd lintDebug mockableAndroidJar deviceCheck lint findbugs testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 23:32:24,513 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, pmd, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, findbugs, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 23:32:45,579 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -268,7 +268,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-11-11 20:44:38,198 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-06 23:32:45,580 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 :library:preBuild UP-TO-DATE
 :library:preReleaseBuild UP-TO-DATE
@@ -458,6 +458,6 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 19.822 secs
+Total time: 20.532 secs
 
-2018-11-11 20:44:38,272 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1541943814902-0/src/Parallax-Layer-Layout-master/sample/build/outputs/apk/sample-debug-unaligned.apk
+2019-07-06 23:32:45,628 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430706419-0/src/Parallax-Layer-Layout-master/sample/build/outputs/apk/sample-debug-unaligned.apk

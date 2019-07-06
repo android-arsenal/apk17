@@ -1,39 +1,36 @@
-2019-01-28 11:14:10,246 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Leku/archive/master.zip", attempt 3
-2019-01-28 11:15:10,911 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-01-28 11:15:12,208 INFO  GithubDownloadService - Default branch of this repository: master
-2019-01-28 11:15:12,209 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Leku/archive/master.zip", attempt 3
-2019-01-28 11:16:13,800 DEBUG FullProcessService - Repository https://github.com/SchibstedSpain/Leku available: true
-2019-01-28 11:16:13,801 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-01-28 11:16:13,801 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/SchibstedSpain/Leku, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src]
-2019-01-28 11:16:20,419 INFO  SysUtils - 
-2019-01-28 11:16:20,428 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/.git": true
-2019-01-28 11:16:20,434 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-01-28 11:16:20,434 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src]
-2019-01-28 11:16:20,453 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/.git/
+2019-07-06 23:27:42,237 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Leku/archive/master.zip", attempt 3
+2019-07-06 23:27:47,669 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Leku/archive/master.zip, attempt 3
+2019-07-06 23:27:47,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip": 5 MB
+2019-07-06 23:27:47,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-06 23:27:47,672 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip: true
+2019-07-06 23:27:47,672 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src'.
+2019-07-06 23:27:47,745 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-07-06 23:27:47,745 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src]
+2019-07-06 23:27:47,761 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/.git/
 
-2019-01-28 11:16:20,458 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/gradlew
-2019-01-28 11:16:20,463 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/build.gradle
-2019-01-28 11:16:20,467 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/settings.gradle
-2019-01-28 11:16:20,467 INFO  ProjectBuildService - Remote scripts: none
-2019-01-28 11:16:20,467 INFO  ProjectFixService - Fixing project...
-2019-01-28 11:16:20,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/local.properties
-2019-01-28 11:16:20,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,479 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,480 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/local.properties
-2019-01-28 11:16:20,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,481 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,482 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/local.properties
-2019-01-28 11:16:20,482 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-01-28 11:16:20,483 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-01-28 11:16:20,484 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,484 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-28 11:16:20,484 INFO  ProjectFixService - Project was maybe fixed
-2019-01-28 11:16:20,484 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-28 11:16:20,485 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-28 11:17:29,375 INFO  ProjectTaskService - Detected possible tasks: 84
-2019-01-28 11:17:29,375 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-28 11:17:29,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-28 11:19:39,685 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-07-06 23:27:47,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew
+2019-07-06 23:27:47,769 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle
+2019-07-06 23:27:47,773 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/settings.gradle
+2019-07-06 23:27:47,774 INFO  ProjectBuildService - Remote scripts: none
+2019-07-06 23:27:47,774 INFO  ProjectFixService - Fixing project...
+2019-07-06 23:27:47,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/local.properties
+2019-07-06 23:27:47,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/local.properties
+2019-07-06 23:27:47,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/local.properties
+2019-07-06 23:27:47,791 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-07-06 23:27:47,791 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-07-06 23:27:47,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,793 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-06 23:27:47,793 INFO  ProjectFixService - Project was maybe fixed
+2019-07-06 23:27:47,793 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-06 23:27:47,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-06 23:28:07,770 INFO  ProjectTaskService - Detected possible tasks: 84
+2019-07-06 23:28:07,771 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-06 23:28:07,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-06 23:31:11,026 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -41,7 +38,11 @@ Configuration on demand is an incubating feature.
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
 It will be removed at the end of 2019.
 For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display a stack trace.
+To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 Configuration(s) specified but the install task does not exist in project :leku.
 
 > Task :app:preBuild UP-TO-DATE
@@ -49,72 +50,73 @@ Configuration(s) specified but the install task does not exist in project :leku.
 > Task :leku:preDebugBuild UP-TO-DATE
 > Task :leku:checkDebugManifest
 > Task :leku:processDebugManifest
-> Task :app:preDebugBuild
-> Task :leku:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :leku:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
+> Task :leku:generateDebugResValues
+> Task :leku:generateDebugBuildConfig
+> Task :leku:prepareLintJar
+> Task :app:prepareLintJar
+> Task :leku:mergeDebugShaders
+> Task :leku:compileDebugShaders
+> Task :leku:generateDebugAssets
+> Task :leku:packageDebugAssets
+> Task :leku:processDebugJavaRes NO-SOURCE
+> Task :leku:mergeDebugJniLibFolders
+> Task :leku:transformNativeLibsWithMergeJniLibsForDebug
+> Task :leku:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :leku:compileDebugAidl NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :leku:compileDebugRenderscript
-> Task :leku:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :leku:compileDebugRenderscript NO-SOURCE
 > Task :leku:generateDebugResources
 > Task :leku:packageDebugResources
 > Task :app:mergeDebugResources
-> Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :leku:generateDebugRFile
 > Task :app:processDebugResources
-> Task :leku:generateDebugBuildConfig
-> Task :leku:compileDebugKotlin
-
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (31, 19): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (32, 25): Type mismatch: inferred type is Location? but Location was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (33, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (34, 24): Type mismatch: inferred type is String? but String was expected
-
-> Task :leku:prepareLintJar
 > Task :leku:generateDebugSources
+> Task :app:generateDebugSources
+> Task :app:mergeDebugShaders
+> Task :leku:compileDebugKotlin
 > Task :leku:javaPreCompileDebug
 > Task :leku:compileDebugJavaWithJavac
-> Task :leku:processDebugJavaRes NO-SOURCE
-> Task :leku:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :leku:bundleLibCompileDebug
 > Task :app:compileDebugKotlin
-> Task :app:prepareLintJar
-> Task :app:generateDebugSources
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugNdk NO-SOURCE
 > Task :app:compileDebugSources
-> Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
-> Task :leku:mergeDebugShaders
-> Task :leku:compileDebugShaders
-> Task :leku:generateDebugAssets
-> Task :leku:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3e6038f19ea8c372a55d46b1e8e48ec/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzc.zzb(long, byte)`
+> Task :leku:bundleLibRuntimeDebug
+> Task :app:checkDebugDuplicateClasses
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c6015bf74162eea028ba71df33ca3f6/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzc.zzb(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c6015bf74162eea028ba71df33ca3f6/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzb.zzb(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.URLFetchServiceFactory` was not found, it is required for default or static interface methods desugaring of `void com.google.maps.GaeRequestHandler.<init>()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.FetchOptions$Builder` was not found, it is required for default or static interface methods desugaring of `com.google.maps.PendingResult com.google.maps.GaeRequestHandler.handle(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, com.google.gson.FieldNamingPolicy, long, java.lang.Integer, com.google.maps.internal.ExceptionsAllowedToRetry)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3e6038f19ea8c372a55d46b1e8e48ec/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzb.zzb(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/546c18a1465b61212e3d37844642bbff/jars/classes.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.android.volley.RequestQueue com.android.volley.toolbox.Volley.newRequestQueue(android.content.Context, com.android.volley.toolbox.BaseHttpStack)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.bind()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :app:transformClassesWithMultidexlistForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :leku:compileDebugNdk NO-SOURCE
-> Task :leku:mergeDebugJniLibFolders
-> Task :leku:transformNativeLibsWithMergeJniLibsForDebug
-> Task :leku:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :leku:bundleLibResDebug
 > Task :leku:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
@@ -130,13 +132,13 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/
 > Task :leku:compileReleaseAidl NO-SOURCE
 > Task :app:compileReleaseAidl NO-SOURCE
 > Task :leku:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
-> Task :leku:compileReleaseRenderscript
+> Task :leku:compileReleaseRenderscript NO-SOURCE
 > Task :leku:generateReleaseResValues
 > Task :leku:generateReleaseResources
 > Task :leku:packageReleaseResources
@@ -146,25 +148,20 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/
 > Task :leku:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :leku:generateReleaseBuildConfig
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (31, 19): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (32, 25): Type mismatch: inferred type is Location? but Location was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (33, 22): Type mismatch: inferred type is String? but String was expected
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/src/main/java/com/schibstedspain/leku/LekuPoi.kt: (34, 24): Type mismatch: inferred type is String? but String was expected
 > Task :leku:compileReleaseKotlin
 > Task :leku:generateReleaseSources
 > Task :leku:javaPreCompileRelease
 > Task :leku:compileReleaseJavaWithJavac
-> Task :leku:processReleaseJavaRes NO-SOURCE
-> Task :leku:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :leku:bundleLibCompileRelease
 > Task :app:compileReleaseKotlin
 > Task :app:generateReleaseSources
 > Task :app:javaPreCompileRelease
 > Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
+> Task :leku:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/253ca04863f780f0ebf54682b814c303/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a640830128ca032ed51b524ffb7e7ec2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -176,357 +173,28 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
+> Task :leku:processReleaseJavaRes NO-SOURCE
+> Task :leku:bundleLibResRelease
 > Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :leku:bundleLibRuntimeRelease
 > Task :leku:mergeReleaseConsumerProguardFiles
-ProGuard, version 6.0.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/52889bb59d71ab00d41a542d5514256d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/319dede5f851076b11bac8c5ee39670a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4fb47323daef88398fdba08680131217/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/92b52f082d402d0fe48ef91d49790b10/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9de4f82a46fd4e95e1ae6a06770fd0d2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2df0bd56e6a96852ffbc23ba91048f78/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ea1427e1d3ac61f1d277eba9595c1ff/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5318ec65362fbdaa8b40a3620118f52a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f48a9d90360eab9570fac601821bf956/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffe91db7c3b171001b53bb17fe6f5de0/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8867c5de334245096c069e45c7144092/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6290f3592591aa8afdbf7732e3fea578/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/19b9eb50554243c28efdc702e97684e0/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f83f174708439bd448266228cfe49ed9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54c82176fe8df559a5b8c71800895418/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a23cee35c6b39e024133489785c69b16/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/318f58f30ce96da9df7eecf269677fc1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff8c7ea806fa86ab62c5db2bdbe5e01a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9c1915eda1d3124f5f76c1d56d56d2c2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/bb5519ba42869f1a8e5b2dd934ed080d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0e93392a1a15d81fc98858cca4aa0a3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c0fa362126d31e9fec5d331521930fa/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a2959127f8c24a912eef25d445121f45/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec9c2c68a8b93e61944c32250cf6a796/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e90f3cedac47f4bf108da6d5b7f83bbc/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c347b7b731ec37d3689528cf06a90d70/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/39ceaa0a5f5c8a906fdfccdb9805b08f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/92dad2f54cc3b59ccd018d1b5c38bd77/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e9a6c452bb7d553b747afc3a90be80c1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/86ad9b68520a276c012b36e87afa7709/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3e6038f19ea8c372a55d46b1e8e48ec/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8a5d39945129c182b36ceba82b556848/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/85c73c842e91faf24870f2091d5b2a2c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5dd3dcf47b1ea3569b734324357492b4/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a70861ff71126c57623dadd4a93cdbf7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/89d01cb8f29145f05146968c9a88c3e1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f341c4fcfe928550c59d5753a1c0ad12/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/35e8b3165623636a036ecbd0bff5b5e7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5f5ca20cf458f144cbd57b0e9180164a/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c60a31caa45a67d066d82540a1b20e31/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ea8239c29cfc33d33537829660b77bef/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10/f66c8125d1057ffce6c4e29e624cac863e110e2b/joda-time-2.10.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Initializing...
-Note: the configuration refers to the unknown class 'rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef'
-Note: the configuration refers to the unknown class 'rx.internal.util.atomic.LinkedQueueNode'
-Note: the configuration refers to the unknown class 'rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef'
-Note: the configuration refers to the unknown class 'rx.internal.util.atomic.LinkedQueueNode'
-Note: the configuration refers to the unknown class 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian'
 
-> Task :app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
+> Task :app:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
-Note: com.google.android.gms.common.util.WorkSourceUtil: can't find dynamically referenced class android.os.WorkSource$WorkChain
-Note: com.google.android.gms.internal.places.zzfl: can't find dynamically referenced class libcore.io.Memory
-Note: com.google.android.gms.internal.places.zzfl: can't find dynamically referenced class org.robolectric.Robolectric
-Note: com.google.android.gms.internal.places.zzgk: can't find dynamically referenced class com.google.protobuf.ExtensionRegistry
-Note: com.google.android.gms.internal.places.zzgl: can't find dynamically referenced class com.google.protobuf.Extension
-Note: com.google.android.gms.internal.places.zzgp: can't find dynamically referenced class com.google.protobuf.ExtensionSchemaFull
-Note: com.google.android.gms.internal.places.zzhw: can't find dynamically referenced class com.google.protobuf.DescriptorMessageInfoFactory
-Note: com.google.android.gms.internal.places.zzie: can't find dynamically referenced class com.google.protobuf.MapFieldSchemaFull
-Note: com.google.android.gms.internal.places.zziq: can't find dynamically referenced class com.google.protobuf.NewInstanceSchemaFull
-Note: com.google.android.gms.internal.places.zzja: can't find dynamically referenced class com.google.protobuf.GeneratedMessage
-Note: com.google.android.gms.internal.places.zzja: can't find dynamically referenced class com.google.protobuf.UnknownFieldSetSchema
-Note: com.google.gson.internal.UnsafeAllocator: can't find dynamically referenced class sun.misc.Unsafe
-Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor: can't find dynamically referenced class sun.misc.Unsafe
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class com.android.org.conscrypt.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.SSLParametersImpl
-Note: okhttp3.internal.platform.AndroidPlatform$CloseGuard: can't find dynamically referenced class dalvik.system.CloseGuard
-Note: okhttp3.internal.platform.ConscryptPlatform: can't find dynamically referenced class org.conscrypt.ConscryptEngineSocket
-Note: okhttp3.internal.platform.Platform: can't find dynamically referenced class sun.security.ssl.SSLContextImpl
-Note: com.google.android.gms.dynamite.DynamiteModule accesses a declared field 'MODULE_ID' dynamically
-Note: com.google.android.gms.dynamite.DynamiteModule accesses a declared field 'MODULE_VERSION' dynamically
-Note: com.google.android.gms.dynamite.DynamiteModule accesses a declared field 'sClassLoader' dynamically
-      Maybe this is program field 'com.google.android.gms.dynamite.DynamiteModule$DynamiteLoaderClassLoader { java.lang.ClassLoader sClassLoader; }'
-Note: com.google.gson.internal.UnsafeAllocator accesses a declared field 'theUnsafe' dynamically
-      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
-Note: com.google.gson.internal.reflect.UnsafeReflectionAccessor accesses a declared field 'theUnsafe' dynamically
-      Maybe this is program field 'com.google.gson.internal.reflect.UnsafeReflectionAccessor { java.lang.Object theUnsafe; }'
-Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field 'label' dynamically
-      Maybe this is program field 'com.google.maps.StaticMapsRequest$Markers { java.lang.String label; }'
-      Maybe this is program field 'kotlin.collections.SlidingWindowKt$windowedIterator$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.experimental.jvm.internal.CoroutineImpl { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineFromSuspendFunction$2 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$1 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$2 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$3 { int label; }'
-      Maybe this is program field 'kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4 { int label; }'
-      Maybe this is program field 'kotlin.sequences.SequencesKt__SequencesKt$ifEmpty$1 { int label; }'
-      Maybe this is program field 'kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2 { int label; }'
-      Maybe this is library field 'android.R$attr { int label; }'
-      Maybe this is library field 'android.app.LauncherActivity$ListItem { java.lang.CharSequence label; }'
-      Maybe this is library field 'android.appwidget.AppWidgetProviderInfo { java.lang.String label; }'
-      Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
-      Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
-      Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
-Note: the configuration refers to the unknown field 'com.google.android.gms.common.api.internal.BasePendingResult$ReleasableResultGuardian mResultGuardian' in class 'com.google.android.gms.common.api.internal.BasePendingResult'
-Note: the configuration keeps the entry point 'com.google.gson.TypeAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.gson.TypeAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.gson.TypeAdapter { java.lang.Object fromJsonTree(com.google.gson.JsonElement); }', but not the descriptor class 'com.google.gson.JsonElement'
-Note: the configuration keeps the entry point 'com.google.maps.GaeRequestHandler { com.google.maps.PendingResult handle(java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.GaeRequestHandler { com.google.maps.PendingResult handlePost(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.GeoApiContext { com.google.maps.PendingResult getWithPath(java.lang.Class,com.google.gson.FieldNamingPolicy,java.lang.String,java.lang.String,boolean,java.lang.String); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.GeoApiContext$RequestHandler { com.google.maps.PendingResult handle(java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.GeoApiContext$RequestHandler { com.google.maps.PendingResult handlePost(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.OkHttpRequestHandler { com.google.maps.PendingResult handle(java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.OkHttpRequestHandler { com.google.maps.PendingResult handlePost(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.internal.ApiConfig { com.google.maps.internal.ApiConfig fieldNamingPolicy(com.google.gson.FieldNamingPolicy); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DateTimeAdapter { org.joda.time.DateTime read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DateTimeAdapter { void write(com.google.gson.stream.JsonWriter,org.joda.time.DateTime); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DateTimeAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DateTimeAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DayOfWeekAdapter { com.google.maps.model.OpeningHours$Period$OpenClose$DayOfWeek read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DayOfWeekAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.OpeningHours$Period$OpenClose$DayOfWeek); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DayOfWeekAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DayOfWeekAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DistanceAdapter { com.google.maps.model.Distance read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DistanceAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.Distance); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DistanceAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DistanceAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DurationAdapter { com.google.maps.model.Duration read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DurationAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.Duration); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DurationAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.DurationAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.FareAdapter { com.google.maps.model.Fare read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.FareAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.Fare); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.FareAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.FareAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.GaePendingResult { GaePendingResult(com.google.appengine.api.urlfetch.HTTPRequest,com.google.appengine.api.urlfetch.URLFetchService,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.internal.GeolocationResponseAdapter { com.google.maps.GeolocationApi$Response read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.GeolocationResponseAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.GeolocationApi$Response); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.GeolocationResponseAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.GeolocationResponseAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.InstantAdapter { org.joda.time.Instant read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.InstantAdapter { void write(com.google.gson.stream.JsonWriter,org.joda.time.Instant); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.InstantAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.InstantAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LatLngAdapter { com.google.maps.model.LatLng read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LatLngAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.LatLng); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LatLngAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LatLngAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LocalTimeAdapter { org.joda.time.LocalTime read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LocalTimeAdapter { void write(com.google.gson.stream.JsonWriter,org.joda.time.LocalTime); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LocalTimeAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.LocalTimeAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.OkHttpPendingResult { OkHttpPendingResult(okhttp3.Request,okhttp3.OkHttpClient,java.lang.Class,com.google.gson.FieldNamingPolicy,long,java.lang.Integer,com.google.maps.internal.ExceptionsAllowedToRetry); }', but not the descriptor class 'com.google.gson.FieldNamingPolicy'
-Note: the configuration keeps the entry point 'com.google.maps.internal.PriceLevelAdapter { com.google.maps.model.PriceLevel read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.PriceLevelAdapter { void write(com.google.gson.stream.JsonWriter,com.google.maps.model.PriceLevel); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.PriceLevelAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.PriceLevelAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.SafeEnumAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Enum); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.google.maps.internal.SafeEnumAdapter { java.lang.Enum read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.SafeEnumAdapter { java.lang.Object read(com.google.gson.stream.JsonReader); }', but not the descriptor class 'com.google.gson.stream.JsonReader'
-Note: the configuration keeps the entry point 'com.google.maps.internal.SafeEnumAdapter { void write(com.google.gson.stream.JsonWriter,java.lang.Object); }', but not the descriptor class 'com.google.gson.stream.JsonWriter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.LekuPoi$Companion { LekuPoi$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.LocationPickerActivity { void showLocationInfo(kotlin.Pair); }', but not the descriptor class 'kotlin.Pair'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.AndroidGeocoderDataSource$getFromLocation$1 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.AndroidGeocoderDataSource$getFromLocationName$1 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.AndroidGeocoderDataSource$getFromLocationName$2 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderPresenter { GeocoderPresenter(pl.charmas.android.reactivelocation2.ReactiveLocationProvider,com.schibstedspain.leku.geocoder.GeocoderRepository,com.schibstedspain.leku.geocoder.places.GooglePlacesDataSource,com.schibstedspain.leku.geocoder.timezone.GoogleTimeZoneDataSource,io.reactivex.Scheduler); }', but not the descriptor class 'io.reactivex.Scheduler'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderPresenter { GeocoderPresenter(pl.charmas.android.reactivelocation2.ReactiveLocationProvider,com.schibstedspain.leku.geocoder.GeocoderRepository,com.schibstedspain.leku.geocoder.places.GooglePlacesDataSource,com.schibstedspain.leku.geocoder.timezone.GoogleTimeZoneDataSource,io.reactivex.Scheduler,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'io.reactivex.Scheduler'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderPresenter { GeocoderPresenter(pl.charmas.android.reactivelocation2.ReactiveLocationProvider,com.schibstedspain.leku.geocoder.GeocoderRepository,com.schibstedspain.leku.geocoder.places.GooglePlacesDataSource,com.schibstedspain.leku.geocoder.timezone.GoogleTimeZoneDataSource,io.reactivex.Scheduler,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderPresenter$getInfoFromLocation$disposable$4 { void accept(kotlin.Pair); }', but not the descriptor class 'kotlin.Pair'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderViewInterface { void showLocationInfo(kotlin.Pair); }', but not the descriptor class 'kotlin.Pair'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GeocoderViewInterface$NullView { void showLocationInfo(kotlin.Pair); }', but not the descriptor class 'kotlin.Pair'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GoogleGeocoderDataSource$getFromLocation$1 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GoogleGeocoderDataSource$getFromLocationName$1 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.GoogleGeocoderDataSource$getFromLocationName$2 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'com.schibstedspain.leku.geocoder.timezone.GoogleTimeZoneDataSource$Companion { GoogleTimeZoneDataSource$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.DataBufferObservable$1 { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.ReactiveLocationProvider { io.reactivex.Observable mockLocation(io.reactivex.Observable); }', but not the descriptor class 'io.reactivex.Observable'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe { com.google.android.gms.common.api.GoogleApiClient createApiClient(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe$ApiClientConnectionCallbacks { BaseObservableOnSubscribe$ApiClientConnectionCallbacks(pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe$ApiClientConnectionCallbacks { BaseObservableOnSubscribe$ApiClientConnectionCallbacks(pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe,io.reactivex.ObservableEmitter,pl.charmas.android.reactivelocation2.observables.BaseObservableOnSubscribe$1); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.GoogleAPIClientObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.ObservableEmitterWrapper { ObservableEmitterWrapper(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.ObservableEmitterWrapper { void onSubscribe(io.reactivex.disposables.Disposable); }', but not the descriptor class 'io.reactivex.disposables.Disposable'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.ObservableFactory { io.reactivex.Observable createObservable(io.reactivex.ObservableOnSubscribe); }', but not the descriptor class 'io.reactivex.ObservableOnSubscribe'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.ObservableFactory$RetryOnConnectionSuspension { io.reactivex.ObservableSource apply(io.reactivex.Observable); }', but not the descriptor class 'io.reactivex.Observable'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.PendingResultObservableOnSubscribe { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.PendingResultObservableOnSubscribe$1 { PendingResultObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.PendingResultObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.activity.ActivityUpdatesObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.activity.ActivityUpdatesObservableOnSubscribe$ActivityUpdatesBroadcastReceiver { ActivityUpdatesObservableOnSubscribe$ActivityUpdatesBroadcastReceiver(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geocode.FallbackReverseGeocodeObservable { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geocode.GeocodeObservable { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geocode.ReverseGeocodeObservable { void subscribe(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.AddGeofenceObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.AddGeofenceObservableOnSubscribe$1 { AddGeofenceObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.geofence.AddGeofenceObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceByPendingIntentObservableOnSubscribe { void removeGeofences(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceByPendingIntentObservableOnSubscribe$1 { RemoveGeofenceByPendingIntentObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceByPendingIntentObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceObservableOnSubscribe { void removeGeofences(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceRequestIdsObservableOnSubscribe { void removeGeofences(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceRequestIdsObservableOnSubscribe$1 { RemoveGeofenceRequestIdsObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.geofence.RemoveGeofenceRequestIdsObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.AddLocationIntentUpdatesObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.AddLocationIntentUpdatesObservableOnSubscribe$1 { AddLocationIntentUpdatesObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.location.AddLocationIntentUpdatesObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.LastKnownLocationObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.LocationUpdatesObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.LocationUpdatesObservableOnSubscribe$LocationUpdatesLocationListener { LocationUpdatesObservableOnSubscribe$LocationUpdatesLocationListener(io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe { io.reactivex.Observable createObservable(pl.charmas.android.reactivelocation2.observables.ObservableContext,pl.charmas.android.reactivelocation2.observables.ObservableFactory,io.reactivex.Observable); }', but not the descriptor class 'io.reactivex.Observable'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe { MockLocationObservableOnSubscribe(pl.charmas.android.reactivelocation2.observables.ObservableContext,io.reactivex.Observable); }', but not the descriptor class 'io.reactivex.Observable'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe { void startLocationMocking(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe { void access$000(pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe,com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe$1 { MockLocationObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe,com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe$2 { MockLocationObservableOnSubscribe$2(pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe,com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe$3 { MockLocationObservableOnSubscribe$3(pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe$4 { MockLocationObservableOnSubscribe$4(pl.charmas.android.reactivelocation2.observables.location.MockLocationObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.RemoveLocationIntentUpdatesObservableOnSubscribe { void onGoogleApiClientReady(com.google.android.gms.common.api.GoogleApiClient,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: the configuration keeps the entry point 'pl.charmas.android.reactivelocation2.observables.location.RemoveLocationIntentUpdatesObservableOnSubscribe$1 { RemoveLocationIntentUpdatesObservableOnSubscribe$1(pl.charmas.android.reactivelocation2.observables.location.RemoveLocationIntentUpdatesObservableOnSubscribe,io.reactivex.ObservableEmitter); }', but not the descriptor class 'io.reactivex.ObservableEmitter'
-Note: there were 5 references to unknown classes.
-      You should check your configuration for typos.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#unknownclass)
-Note: there were 1 references to unknown class members.
-      You should check your configuration for typos.
-Note: there were 115 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 22 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Note: there were 6 accesses to class members by means of introspection.
-      You should consider explicitly keeping the mentioned class members
-      (using '-keep' or '-keepclassmembers').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclassmember)
-Ignoring unused library classes...
-  Original number of library classes: 4803
-  Final number of library classes:    1482
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 6937
-  Final number of program classes:    3723
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/52889bb59d71ab00d41a542d5514256d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/319dede5f851076b11bac8c5ee39670a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.11/4839661cf6ce3c14b65ed7dcf5b9249b44ecca16/kotlin-stdlib-jdk7-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4fb47323daef88398fdba08680131217/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/92b52f082d402d0fe48ef91d49790b10/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9de4f82a46fd4e95e1ae6a06770fd0d2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2df0bd56e6a96852ffbc23ba91048f78/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ea1427e1d3ac61f1d277eba9595c1ff/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5318ec65362fbdaa8b40a3620118f52a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f48a9d90360eab9570fac601821bf956/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffe91db7c3b171001b53bb17fe6f5de0/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8867c5de334245096c069e45c7144092/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6290f3592591aa8afdbf7732e3fea578/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/19b9eb50554243c28efdc702e97684e0/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f83f174708439bd448266228cfe49ed9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/54c82176fe8df559a5b8c71800895418/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a23cee35c6b39e024133489785c69b16/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/318f58f30ce96da9df7eecf269677fc1/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff8c7ea806fa86ab62c5db2bdbe5e01a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9c1915eda1d3124f5f76c1d56d56d2c2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/bb5519ba42869f1a8e5b2dd934ed080d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0e93392a1a15d81fc98858cca4aa0a3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c0fa362126d31e9fec5d331521930fa/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a2959127f8c24a912eef25d445121f45/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ec9c2c68a8b93e61944c32250cf6a796/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e90f3cedac47f4bf108da6d5b7f83bbc/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c347b7b731ec37d3689528cf06a90d70/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/39ceaa0a5f5c8a906fdfccdb9805b08f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/92dad2f54cc3b59ccd018d1b5c38bd77/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e9a6c452bb7d553b747afc3a90be80c1/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/86ad9b68520a276c012b36e87afa7709/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c3e6038f19ea8c372a55d46b1e8e48ec/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8a5d39945129c182b36ceba82b556848/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/85c73c842e91faf24870f2091d5b2a2c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5dd3dcf47b1ea3569b734324357492b4/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a70861ff71126c57623dadd4a93cdbf7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.2/db2277cb0641bd8bd2f491fab555d37345351d6/rxjava-2.2.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/89d01cb8f29145f05146968c9a88c3e1/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f341c4fcfe928550c59d5753a1c0ad12/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.11/4cbc5922a54376018307a731162ccaf3ef851a39/kotlin-stdlib-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/35e8b3165623636a036ecbd0bff5b5e7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5f5ca20cf458f144cbd57b0e9180164a/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c60a31caa45a67d066d82540a1b20e31/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ea8239c29cfc33d33537829660b77bef/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10/f66c8125d1057ffce6c4e29e624cac863e110e2b/joda-time-2.10.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.11/d8b8e746e279f1c4f5e08bc14a96b82e6bb1de02/kotlin-stdlib-common-1.3.11.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.14.0/102d7be47241d781ef95f1581d414b0943053130/okio-1.14.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/leku/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzb.zzb(long, byte)`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.bind()`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzc.zzb(long, byte)`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `com.google.appengine.api.urlfetch.URLFetchServiceFactory` was not found, it is required for default or static interface methods desugaring of `void com.google.maps.GaeRequestHandler.<init>()`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `com.google.appengine.api.urlfetch.FetchOptions$Builder` was not found, it is required for default or static interface methods desugaring of `com.google.maps.PendingResult com.google.maps.GaeRequestHandler.handle(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, com.google.a.d, long, java.lang.Integer, com.google.maps.internal.ExceptionsAllowedToRetry)`
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/intermediates/transforms/proguard/release/0.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
 
-> Task :app:transformClassesWithDexBuilderForRelease
-> Task :app:transformDexArchiveWithDexMergerForRelease
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.reportActualBinding(java.util.Set)`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.URLFetchServiceFactory` was not found, it is required for default or static interface methods desugaring of `void com.google.maps.GaeRequestHandler.<init>()`
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.FetchOptions$Builder` was not found, it is required for default or static interface methods desugaring of `com.google.maps.PendingResult com.google.maps.GaeRequestHandler.handle(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, com.google.gson.FieldNamingPolicy, long, java.lang.Integer, com.google.maps.internal.ExceptionsAllowedToRetry)`
+
 > Task :app:mergeReleaseJniLibFolders
-> Task :leku:compileReleaseNdk NO-SOURCE
 > Task :leku:mergeReleaseJniLibFolders
 > Task :leku:transformNativeLibsWithMergeJniLibsForRelease
 > Task :leku:transformNativeLibsWithStripDebugSymbolForRelease
@@ -540,9 +208,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 2m 9s
+BUILD SUCCESSFUL in 3m 2s
 92 actionable tasks: 92 executed
 
-2019-01-28 11:19:39,809 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1548648850238-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-07-06 23:31:11,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build/outputs/apk/debug/app-debug.apk
