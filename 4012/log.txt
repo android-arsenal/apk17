@@ -1,36 +1,36 @@
-2019-07-06 23:27:42,237 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Leku/archive/master.zip", attempt 3
-2019-07-06 23:27:47,669 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Leku/archive/master.zip, attempt 3
-2019-07-06 23:27:47,670 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip": 5 MB
-2019-07-06 23:27:47,670 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-06 23:27:47,672 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip: true
-2019-07-06 23:27:47,672 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src'.
-2019-07-06 23:27:47,745 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-07-06 23:27:47,745 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src]
-2019-07-06 23:27:47,761 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/.git/
+2019-07-23 13:23:49,497 INFO  DownloadService - Downloading "https://github.com/SchibstedSpain/Leku/archive/master.zip", attempt 3
+2019-07-23 13:23:55,996 INFO  DownloadService - Downloaded https://github.com/SchibstedSpain/Leku/archive/master.zip, attempt 3
+2019-07-23 13:23:55,996 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/master.zip": 5 MB
+2019-07-23 13:23:55,996 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-07-23 13:23:55,998 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/master.zip: true
+2019-07-23 13:23:55,998 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src'.
+2019-07-23 13:23:56,067 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-07-23 13:23:56,067 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src]
+2019-07-23 13:23:56,087 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/.git/
 
-2019-07-06 23:27:47,765 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew
-2019-07-06 23:27:47,769 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle
-2019-07-06 23:27:47,773 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/settings.gradle
-2019-07-06 23:27:47,774 INFO  ProjectBuildService - Remote scripts: none
-2019-07-06 23:27:47,774 INFO  ProjectFixService - Fixing project...
-2019-07-06 23:27:47,785 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/local.properties
-2019-07-06 23:27:47,786 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,786 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,787 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/local.properties
-2019-07-06 23:27:47,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,789 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,790 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/local.properties
-2019-07-06 23:27:47,791 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-07-06 23:27:47,791 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-07-06 23:27:47,793 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,793 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-07-06 23:27:47,793 INFO  ProjectFixService - Project was maybe fixed
-2019-07-06 23:27:47,793 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-06 23:27:47,793 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-06 23:28:07,770 INFO  ProjectTaskService - Detected possible tasks: 84
-2019-07-06 23:28:07,771 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-06 23:28:07,771 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-06 23:31:11,026 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+2019-07-23 13:23:56,091 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/gradlew
+2019-07-23 13:23:56,096 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/build.gradle
+2019-07-23 13:23:56,099 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/leku/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/settings.gradle
+2019-07-23 13:23:56,100 INFO  ProjectBuildService - Remote scripts: none
+2019-07-23 13:23:56,100 INFO  ProjectFixService - Fixing project...
+2019-07-23 13:23:56,109 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/local.properties
+2019-07-23 13:23:56,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,110 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/leku/local.properties
+2019-07-23 13:23:56,112 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,112 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/leku/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,113 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/local.properties
+2019-07-23 13:23:56,113 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-07-23 13:23:56,113 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-07-23 13:23:56,115 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,115 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-07-23 13:23:56,115 INFO  ProjectFixService - Project was maybe fixed
+2019-07-23 13:23:56,115 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-23 13:23:56,115 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-23 13:24:05,136 INFO  ProjectTaskService - Detected possible tasks: 84
+2019-07-23 13:24:05,136 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-23 13:24:05,137 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-23 13:26:45,467 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -51,79 +51,46 @@ Configuration(s) specified but the install task does not exist in project :leku.
 > Task :leku:checkDebugManifest
 > Task :leku:processDebugManifest
 > Task :leku:packageDebugRenderscript NO-SOURCE
-> Task :leku:generateDebugResValues
-> Task :leku:generateDebugBuildConfig
-> Task :leku:prepareLintJar
-> Task :app:prepareLintJar
-> Task :leku:mergeDebugShaders
-> Task :leku:compileDebugShaders
-> Task :leku:generateDebugAssets
-> Task :leku:packageDebugAssets
-> Task :leku:processDebugJavaRes NO-SOURCE
-> Task :leku:mergeDebugJniLibFolders
-> Task :leku:transformNativeLibsWithMergeJniLibsForDebug
-> Task :leku:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :leku:compileDebugAidl NO-SOURCE
 > Task :app:preDebugBuild
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :leku:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:createDebugCompatibleScreenManifests
+> Task :leku:generateDebugResValues
 > Task :leku:compileDebugRenderscript NO-SOURCE
 > Task :leku:generateDebugResources
 > Task :leku:packageDebugResources
 > Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :leku:generateDebugRFile
 > Task :app:processDebugResources
+> Task :leku:generateDebugBuildConfig
+> Task :leku:prepareLintJar
 > Task :leku:generateDebugSources
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :app:mergeDebugShaders
-> Task :leku:compileDebugKotlin
-> Task :leku:javaPreCompileDebug
-> Task :leku:compileDebugJavaWithJavac
-> Task :leku:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
-> Task :app:javaPreCompileDebug
-> Task :app:compileDebugJavaWithJavac
-> Task :app:compileDebugSources
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :leku:mergeDebugShaders
+> Task :leku:compileDebugShaders
+> Task :leku:generateDebugAssets
+> Task :leku:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
-> Task :leku:bundleLibRuntimeDebug
-> Task :app:checkDebugDuplicateClasses
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c6015bf74162eea028ba71df33ca3f6/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzc.zzb(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5c6015bf74162eea028ba71df33ca3f6/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzb.zzb(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.URLFetchServiceFactory` was not found, it is required for default or static interface methods desugaring of `void com.google.maps.GaeRequestHandler.<init>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.2.9/fcfce0236a06e376ec43ebdfbec8ad1a1706c01c/google-maps-services-0.2.9.jar: D8: Type `com.google.appengine.api.urlfetch.FetchOptions$Builder` was not found, it is required for default or static interface methods desugaring of `com.google.maps.PendingResult com.google.maps.GaeRequestHandler.handle(java.lang.String, java.lang.String, java.lang.String, java.lang.Class, com.google.gson.FieldNamingPolicy, long, java.lang.Integer, com.google.maps.internal.ExceptionsAllowedToRetry)`
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/546c18a1465b61212e3d37844642bbff/jars/classes.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.android.volley.RequestQueue com.android.volley.toolbox.Volley.newRequestQueue(android.content.Context, com.android.volley.toolbox.BaseHttpStack)`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `void com.google.common.util.concurrent.AbstractFuture$UnsafeAtomicHelper.<clinit>()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.cache.Striped64.getUnsafe()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.5-android/4d11fefa7af9a26f4ad0071c2939537755224cba/guava-23.5-android.jar: D8: Type `sun.misc.Unsafe` was not found, it is required for default or static interface methods desugaring of `sun.misc.Unsafe com.google.common.hash.LittleEndianByteArray$UnsafeByteArray.getUnsafe()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticLoggerBinder` was not found, it is required for default or static interface methods desugaring of `void org.slf4j.LoggerFactory.bind()`
-/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
-> Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:transformClassesWithMultidexlistForDebug
-> Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :leku:bundleLibResDebug
+> Task :leku:processDebugJavaRes NO-SOURCE
+> Task :leku:mergeDebugJniLibFolders
+> Task :leku:transformNativeLibsWithMergeJniLibsForDebug
+> Task :leku:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :leku:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :app:transformNativeLibsWithMergeJniLibsForDebug
-> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
-> Task :app:transformResourcesWithMergeJavaResForDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:extractProguardFiles
 > Task :leku:preReleaseBuild UP-TO-DATE
 > Task :leku:checkReleaseManifest
@@ -145,6 +112,30 @@ Configuration(s) specified but the install task does not exist in project :leku.
 > Task :app:mergeReleaseResources
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
+> Task :leku:compileDebugKotlin
+> Task :leku:javaPreCompileDebug
+> Task :leku:compileDebugJavaWithJavac
+> Task :leku:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:checkDebugDuplicateClasses
+> Task :leku:bundleLibRuntimeDebug
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/746c29cf6f2205cc9e29311fe87704c3/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzc.zzb(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/746c29cf6f2205cc9e29311fe87704c3/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.places.zzjw$zzb.zzb(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4191de7a06f2e2da787fc48b77717125/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zzb.zza(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5cea458cb89fdd1c88423ab42fd3161f/jars/classes.jar: D8: Type `android.net.http.AndroidHttpClient` was not found, it is required for default or static interface methods desugaring of `com.android.volley.RequestQueue com.android.volley.toolbox.Volley.newRequestQueue(android.content.Context, com.android.volley.toolbox.BaseHttpStack)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4191de7a06f2e2da787fc48b77717125/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:transformClassesWithMultidexlistForDebug
+> Task :app:transformDexArchiveWithDexMergerForDebug
+> Task :leku:bundleLibResDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :leku:generateReleaseRFile
 > Task :app:processReleaseResources
 > Task :leku:generateReleaseBuildConfig
@@ -159,11 +150,11 @@ Configuration(s) specified but the install task does not exist in project :leku.
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :leku:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/a640830128ca032ed51b524ffb7e7ec2/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :leku:mergeReleaseShaders
@@ -186,7 +177,7 @@ disable R8 by updating gradle.properties with 'android.enableR8=false'.
 Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
 
-/Users/vbauer/.gradle/caches/transforms-2/files-2.1/034b865407a9b13858c83679a7415471/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
+/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4191de7a06f2e2da787fc48b77717125/jars/classes.jar: D8: Type `libcore.io.Memory` was not found, it is required for default or static interface methods desugaring of `void com.google.android.gms.internal.clearcut.zzfd$zza.zza(long, byte)`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMDCBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.spi.MDCAdapter org.slf4j.MDC.bwCompatibleGetMDCAdapterFromBinder()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar: D8: Type `org.slf4j.impl.StaticMarkerBinder` was not found, it is required for default or static interface methods desugaring of `org.slf4j.IMarkerFactory org.slf4j.MarkerFactory.bwCompatibleGetMarkerFactoryFromBinder()`
 /Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.10.0/7ef0f1d95bf4c0b3ba30bbae25e0e562b05cf75e/okhttp-3.10.0.jar: D8: Type `org.conscrypt.Conscrypt` was not found, it is required for default or static interface methods desugaring of `okhttp3.internal.platform.Platform okhttp3.internal.platform.ConscryptPlatform.buildIfSupported()`
@@ -210,7 +201,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 3m 2s
+BUILD SUCCESSFUL in 2m 39s
 92 actionable tasks: 92 executed
 
-2019-07-06 23:31:11,138 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562430462234-0/src/Leku-master/app/build/outputs/apk/debug/app-debug.apk
+2019-07-23 13:26:45,572 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563863029489-0/src/Leku-master/app/build/outputs/apk/debug/app-debug.apk
