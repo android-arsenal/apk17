@@ -1,33 +1,33 @@
-2019-07-23 13:11:48,003 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/master.zip", attempt 3
-2019-07-23 13:11:51,376 INFO  DownloadService - Downloaded https://github.com/Automattic/simplenote-android/archive/master.zip, attempt 3
-2019-07-23 13:11:51,376 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/master.zip": 994 KB
-2019-07-23 13:11:51,376 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-23 13:11:51,383 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/master.zip: true
-2019-07-23 13:11:51,383 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src'.
-2019-07-23 13:11:51,480 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-23 13:11:51,480 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src]
-2019-07-23 13:11:51,496 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/.git/
+2019-08-02 12:16:15,884 INFO  DownloadService - Downloading "https://github.com/Automattic/simplenote-android/archive/master.zip", attempt 3
+2019-08-02 12:16:18,943 INFO  DownloadService - Downloaded https://github.com/Automattic/simplenote-android/archive/master.zip, attempt 3
+2019-08-02 12:16:18,944 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/master.zip": 994 KB
+2019-08-02 12:16:18,944 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:16:18,950 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/master.zip: true
+2019-08-02 12:16:18,951 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src'.
+2019-08-02 12:16:19,051 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-02 12:16:19,051 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src]
+2019-08-02 12:16:19,068 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/.git/
 
-2019-07-23 13:11:51,504 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/gradlew
-2019-07-23 13:11:51,511 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/build.gradle
-2019-07-23 13:11:51,519 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Wear/build.gradle
-2019-07-23 13:11:51,519 INFO  ProjectBuildService - Remote scripts: none
-2019-07-23 13:11:51,519 INFO  ProjectFixService - Fixing project...
-2019-07-23 13:11:51,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/local.properties
-2019-07-23 13:11:51,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-23 13:11:51,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Wear/local.properties
-2019-07-23 13:11:51,535 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Wear/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=20,targetSdkVersion=27]
-2019-07-23 13:11:51,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/local.properties
-2019-07-23 13:11:51,536 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-23 13:11:51,536 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-23 13:11:51,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
-2019-07-23 13:11:51,537 INFO  ProjectFixService - Project was maybe fixed
-2019-07-23 13:11:51,537 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:11:51,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:12:01,579 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-23 13:12:01,580 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-23 13:12:01,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-23 13:13:02,564 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-08-02 12:16:19,077 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/gradlew
+2019-08-02 12:16:19,085 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Wear/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/build.gradle
+2019-08-02 12:16:19,092 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Wear/build.gradle
+2019-08-02 12:16:19,093 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:16:19,093 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:16:19,110 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/local.properties
+2019-08-02 12:16:19,110 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-02 12:16:19,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Wear/local.properties
+2019-08-02 12:16:19,111 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Wear/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=20,targetSdkVersion=27]
+2019-08-02 12:16:19,111 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/local.properties
+2019-08-02 12:16:19,112 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-02 12:16:19,112 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-02 12:16:19,113 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2019-08-02 12:16:19,113 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:16:19,113 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:16:19,113 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:16:29,060 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-02 12:16:29,060 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:16:29,061 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:17:34,720 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 > Task :Simplenote:preBuild UP-TO-DATE
@@ -81,9 +81,9 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :Simplenote:transformNativeLibsWithMergeJniLibsForDebug
 
 > Task :Simplenote:transformNativeLibsWithStripDebugSymbolForDebug
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/debug/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :Simplenote:processDebugJavaRes NO-SOURCE
 > Task :Simplenote:transformResourcesWithMergeJavaResForDebug
@@ -166,7 +166,6 @@ Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 > Task :Simplenote:compileReleaseSources
-> Task :Simplenote:signingConfigWriterRelease
 > Task :Simplenote:processReleaseJavaRes NO-SOURCE
 > Task :Simplenote:transformResourcesWithMergeJavaResForRelease
 
@@ -177,17 +176,18 @@ disable R8 by updating gradle.properties with 'android.enableR8=false'.
 Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
 
+> Task :Simplenote:crashlyticsStoreDeobsRelease
+> Task :Simplenote:crashlyticsUploadDeobsRelease
+> Task :Simplenote:signingConfigWriterRelease
 > Task :Simplenote:mergeReleaseJniLibFolders
 > Task :Simplenote:transformNativeLibsWithMergeJniLibsForRelease
 
 > Task :Simplenote:transformNativeLibsWithStripDebugSymbolForRelease
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
-Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips/libanddown.so' due to missing strip tool for ABI 'MIPS'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/mips64/libanddown.so' due to missing strip tool for ABI 'MIPS64'. Packaging it as is.
+Unable to strip library '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/intermediates/transforms/mergeJniLibs/release/0/lib/armeabi/libanddown.so' due to missing strip tool for ABI 'ARMEABI'. Packaging it as is.
 
 > Task :Simplenote:packageRelease
-> Task :Simplenote:crashlyticsStoreDeobsRelease
-> Task :Simplenote:crashlyticsUploadDeobsRelease
 > Task :Simplenote:assembleRelease
 > Task :Simplenote:assemble
 > Task :Simplenote:build
@@ -196,7 +196,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 0s
+BUILD SUCCESSFUL in 1m 5s
 77 actionable tasks: 77 executed
 
-2019-07-23 13:13:02,689 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862308000-0/src/simplenote-android-master/Simplenote/build/generated/res/microapk/release/raw/android_wear_micro_apk.apk
+2019-08-02 12:17:34,842 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722975881-0/src/simplenote-android-master/Simplenote/build/generated/res/microapk/release/raw/android_wear_micro_apk.apk

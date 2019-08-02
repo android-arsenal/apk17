@@ -1,33 +1,33 @@
-2019-07-23 13:09:26,978 INFO  DownloadService - Downloading "https://github.com/anastr/SpeedView/archive/master.zip", attempt 3
-2019-07-23 13:09:30,515 INFO  DownloadService - Downloaded https://github.com/anastr/SpeedView/archive/master.zip, attempt 3
-2019-07-23 13:09:30,516 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/master.zip": 5 MB
-2019-07-23 13:09:30,516 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-23 13:09:30,518 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/master.zip: true
-2019-07-23 13:09:30,518 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src'.
-2019-07-23 13:09:30,598 INFO  FullProcessService - Size of directory with sources: 5 MB
-2019-07-23 13:09:30,598 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src]
-2019-07-23 13:09:30,615 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/.git/
+2019-08-02 12:14:35,563 INFO  DownloadService - Downloading "https://github.com/anastr/SpeedView/archive/master.zip", attempt 3
+2019-08-02 12:14:38,041 INFO  DownloadService - Downloaded https://github.com/anastr/SpeedView/archive/master.zip, attempt 3
+2019-08-02 12:14:38,041 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/master.zip": 5 MB
+2019-08-02 12:14:38,041 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-02 12:14:38,043 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/master.zip: true
+2019-08-02 12:14:38,044 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src'.
+2019-08-02 12:14:38,127 INFO  FullProcessService - Size of directory with sources: 5 MB
+2019-08-02 12:14:38,127 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src]
+2019-08-02 12:14:38,149 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/.git/
 
-2019-07-23 13:09:30,619 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/gradlew
-2019-07-23 13:09:30,623 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/build.gradle
-2019-07-23 13:09:30,627 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/settings.gradle
-2019-07-23 13:09:30,628 INFO  ProjectBuildService - Remote scripts: none
-2019-07-23 13:09:30,628 INFO  ProjectFixService - Fixing project...
-2019-07-23 13:09:30,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/local.properties
-2019-07-23 13:09:30,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-23 13:09:30,636 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/local.properties
-2019-07-23 13:09:30,636 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=28]
-2019-07-23 13:09:30,637 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/local.properties
-2019-07-23 13:09:30,637 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-23 13:09:30,637 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-23 13:09:30,638 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-23 13:09:30,638 INFO  ProjectFixService - Project was maybe fixed
-2019-07-23 13:09:30,638 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-23 13:09:30,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-23 13:09:39,148 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-23 13:09:39,148 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-23 13:09:39,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-23 13:10:47,497 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-02 12:14:38,153 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/gradlew
+2019-08-02 12:14:38,158 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/build.gradle
+2019-08-02 12:14:38,162 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/settings.gradle
+2019-08-02 12:14:38,162 INFO  ProjectBuildService - Remote scripts: none
+2019-08-02 12:14:38,162 INFO  ProjectFixService - Fixing project...
+2019-08-02 12:14:38,172 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/local.properties
+2019-08-02 12:14:38,173 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-02 12:14:38,173 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/local.properties
+2019-08-02 12:14:38,174 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=8,targetSdkVersion=28]
+2019-08-02 12:14:38,174 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/local.properties
+2019-08-02 12:14:38,174 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-02 12:14:38,175 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-02 12:14:38,176 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-02 12:14:38,176 INFO  ProjectFixService - Project was maybe fixed
+2019-08-02 12:14:38,176 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-02 12:14:38,176 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-02 12:14:47,218 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-02 12:14:47,218 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-02 12:14:47,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-02 12:15:57,924 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :speedviewlib
 WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
@@ -57,18 +57,18 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :speedviewlib:generateDebugRFile
 
 > Task :speedviewlib:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/ImageSpeedometer.kt: (114, 51): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/Speedometer.kt: (664, 13): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (91, 32): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (94, 35): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (101, 21): Unchecked cast: Indicator<I> to I
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (117, 21): Unchecked cast: Indicator<I> to I
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (172, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (188, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (202, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (216, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (233, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/TextNote.kt: (35, 22): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/ImageSpeedometer.kt: (114, 51): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/Speedometer.kt: (664, 13): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (91, 32): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (94, 35): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (101, 21): Unchecked cast: Indicator<I> to I
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (117, 21): Unchecked cast: Indicator<I> to I
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (172, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (188, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (202, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (216, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (233, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/TextNote.kt: (35, 22): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
 
 > Task :speedviewlib:prepareLintJar
 > Task :speedviewlib:generateDebugSources
@@ -133,18 +133,18 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/
 > Task :speedviewlib:generateReleaseRFile
 
 > Task :speedviewlib:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/ImageSpeedometer.kt: (114, 51): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/Speedometer.kt: (664, 13): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (91, 32): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (94, 35): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (101, 21): Unchecked cast: Indicator<I> to I
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (117, 21): Unchecked cast: Indicator<I> to I
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (172, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (188, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (202, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (216, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (233, 21): Unchecked cast: Note<N> to N
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/TextNote.kt: (35, 22): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/ImageSpeedometer.kt: (114, 51): 'getDrawable(Int): Drawable!' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/Speedometer.kt: (664, 13): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (91, 32): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/TubeSpeedometer.kt: (94, 35): 'constructor EmbossMaskFilter(FloatArray!, Float, Float, Float)' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (101, 21): Unchecked cast: Indicator<I> to I
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/Indicators/Indicator.kt: (117, 21): Unchecked cast: Indicator<I> to I
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (172, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (188, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (202, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (216, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/Note.kt: (233, 21): Unchecked cast: Note<N> to N
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/speedviewlib/src/main/java/com/github/anastr/speedviewlib/components/note/TextNote.kt: (35, 22): 'constructor StaticLayout(CharSequence!, TextPaint!, Int, Layout.Alignment!, Float, Float, Boolean)' is deprecated. Deprecated in Java
 
 > Task :speedviewlib:generateReleaseSources
 > Task :speedviewlib:javaPreCompileRelease
@@ -200,7 +200,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 7s
+BUILD SUCCESSFUL in 1m 10s
 93 actionable tasks: 93 executed
 
-2019-07-23 13:10:47,563 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563862166974-0/src/SpeedView-master/app/build/outputs/apk/debug/app-debug.apk
+2019-08-02 12:15:58,009 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1564722875560-0/src/SpeedView-master/app/build/outputs/apk/debug/app-debug.apk
