@@ -1,21 +1,10 @@
-2019-08-29 14:29:45,324 INFO  DownloadService - Downloading "https://github.com/panpf/sketch/archive/master.zip", attempt 3
-2019-08-29 14:30:45,871 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-08-29 14:30:46,852 INFO  GithubDownloadService - Default branch of this repository: master
-2019-08-29 14:30:46,852 INFO  DownloadService - Downloading "https://github.com/panpf/sketch/archive/master.zip", attempt 3
-2019-08-29 14:31:48,271 DEBUG FullProcessService - Repository https://github.com/panpf/sketch available: true
-2019-08-29 14:31:48,271 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-08-29 14:31:48,271 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/panpf/sketch, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src]
-2019-08-29 14:32:01,367 INFO  SysUtils - 
-2019-08-29 14:32:01,384 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src/.git": true
-2019-08-29 14:32:01,396 INFO  FullProcessService - Size of directory with sources: 28 MB
-2019-08-29 14:32:01,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src]
-2019-08-29 14:32:01,417 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src/.git/
-
-2019-08-29 14:32:01,429 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src/gradlew
-2019-08-29 14:32:01,438 INFO  ProjectBuildService - Build script(s): none
-2019-08-29 14:32:01,446 INFO  ProjectBuildService - All script(s): none
-2019-08-29 14:32:01,446 INFO  ProjectBuildService - Remote scripts: none
-2019-08-29 14:32:01,446 ERROR FullProcessService - Project is not correct Gradle project
-2019-08-29 14:32:01,446 ERROR FullProcessService - Project build has not produced APK file
-2019-08-29 14:32:01,454 INFO  FullProcessService - Found existed APK file in the project: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src/docs/sketch-sample.apk
-2019-08-29 14:32:01,455 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567063785314-0/src/docs/sketch-sample.apk
+2019-09-07 17:53:42,463 INFO  DownloadService - Downloading "https://github.com/panpf/sketch/archive/master.zip", attempt 3
+2019-09-07 17:54:14,452 INFO  DownloadService - Downloaded https://github.com/panpf/sketch/archive/master.zip, attempt 3
+2019-09-07 17:54:14,452 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853622460-0/master.zip": 25 MB
+2019-09-07 17:54:14,452 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-07 17:54:14,456 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853622460-0/master.zip: false
+2019-09-07 17:54:14,456 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-09-07 17:54:14,456 ERROR FullProcessService - Could not find directory with sources
+2019-09-07 17:54:14,456 ERROR FullProcessService - Project will not be processed
+2019-09-07 17:54:14,456 ERROR FullProcessService - Project build has not produced APK file
+2019-09-07 17:54:14,456 ERROR FullProcessService - Could not find generated or existed APK file

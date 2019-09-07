@@ -32,10 +32,10 @@
     "file" : true
   },
   "dexClasses" : 750,
-  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "zh", "nb", "ca", "ta", "en_GB", "te" ],
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"2\" android:versionName=\"1.1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.automattic.simplenote\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"23\" android:targetSdkVersion=\"28\" />\n\t<uses-feature android:name=\"android.hardware.type.watch\" />\n\t<application android:theme=\"@android:style/Theme.DeviceDefault\" android:label=\"Simplenote\" android:icon=\"res/drawable-xxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.automattic.simplenote.CreateNoteActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.SEND\" />\n\t\t\t\t<category android:name=\"android.intent.category.DEFAULT\" />\n\t\t\t\t<category android:name=\"com.google.android.voicesearch.SELF_NOTE\" />\n\t\t\t\t<data android:mimeType=\"text/plain\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Translucent\" android:name=\"androidx.wear.activity.ConfirmationActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 572870,
-  "crc32" : 1836612116,
-  "sha256" : "83d2f1cf7a0293b2562fce2290afa68f29d4e87fdd78a14cfdaa7670fb370983",
-  "buildTime" : 1567064130000
+  "fileSize" : 572642,
+  "crc32" : 3160448737,
+  "sha256" : "67da0d20c3a36f01ebdeb1b58fa0b27e558174b60b146b9db893b95e9eea98a6",
+  "buildTime" : 1567853757000
 }
