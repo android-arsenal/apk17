@@ -1,10 +1,10 @@
-2019-09-07 17:51:31,514 INFO  DownloadService - Downloading "https://github.com/LouisCAD/Splitties/archive/master.zip", attempt 3
-2019-09-07 17:51:33,070 INFO  DownloadService - Downloaded https://github.com/LouisCAD/Splitties/archive/master.zip, attempt 3
-2019-09-07 17:51:33,071 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853491509-0/master.zip": 927 KB
-2019-09-07 17:51:33,071 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-07 17:51:33,073 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853491509-0/master.zip: false
-2019-09-07 17:51:33,074 INFO  FullProcessService - Archive with sources does not contain any build script
-2019-09-07 17:51:33,074 ERROR FullProcessService - Could not find directory with sources
-2019-09-07 17:51:33,074 ERROR FullProcessService - Project will not be processed
-2019-09-07 17:51:33,074 ERROR FullProcessService - Project build has not produced APK file
-2019-09-07 17:51:33,074 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-06 20:30:17,685 INFO  DownloadService - Downloading "https://github.com/LouisCAD/Splitties/archive/master.zip", attempt 3
+2019-10-06 20:30:20,799 INFO  DownloadService - Downloaded https://github.com/LouisCAD/Splitties/archive/master.zip, attempt 3
+2019-10-06 20:30:20,800 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368617678-0/master.zip": 927 KB
+2019-10-06 20:30:20,800 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-06 20:30:20,801 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368617678-0/master.zip: false
+2019-10-06 20:30:20,802 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-10-06 20:30:20,802 ERROR FullProcessService - Could not find directory with sources
+2019-10-06 20:30:20,802 ERROR FullProcessService - Project will not be processed
+2019-10-06 20:30:20,802 ERROR FullProcessService - Project build has not produced APK file
+2019-10-06 20:30:20,802 ERROR FullProcessService - Could not find generated or existed APK file
