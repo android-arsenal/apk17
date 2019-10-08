@@ -1,54 +1,54 @@
-2019-09-07 17:51:34,787 INFO  DownloadService - Downloading "https://github.com/LachlanMcKee/gsonpath/archive/master.zip", attempt 3
-2019-09-07 17:51:35,349 INFO  DownloadService - Downloaded https://github.com/LachlanMcKee/gsonpath/archive/master.zip, attempt 3
-2019-09-07 17:51:35,350 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/master.zip": 442 KB
-2019-09-07 17:51:35,350 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-09-07 17:51:35,352 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/master.zip: true
-2019-09-07 17:51:35,353 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src'.
-2019-09-07 17:51:35,482 INFO  FullProcessService - Size of directory with sources: 803 KB
-2019-09-07 17:51:35,482 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src]
-2019-09-07 17:51:35,504 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/.git/
+2019-10-08 18:43:11,602 INFO  DownloadService - Downloading "https://github.com/LachlanMcKee/gsonpath/archive/master.zip", attempt 3
+2019-10-08 18:43:12,539 INFO  DownloadService - Downloaded https://github.com/LachlanMcKee/gsonpath/archive/master.zip, attempt 3
+2019-10-08 18:43:12,539 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/master.zip": 442 KB
+2019-10-08 18:43:12,539 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 18:43:12,545 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/master.zip: true
+2019-10-08 18:43:12,546 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src'.
+2019-10-08 18:43:12,670 INFO  FullProcessService - Size of directory with sources: 803 KB
+2019-10-08 18:43:12,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src]
+2019-10-08 18:43:12,689 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/.git/
 
-2019-09-07 17:51:35,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew
-2019-09-07 17:51:35,531 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle
-2019-09-07 17:51:35,545 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle
-2019-09-07 17:51:35,546 INFO  ProjectBuildService - Remote scripts: none
-2019-09-07 17:51:35,546 INFO  ProjectFixService - Fixing project...
-2019-09-07 17:51:35,581 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/local.properties
-2019-09-07 17:51:35,581 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-bin.zip
-2019-09-07 17:51:35,586 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,586 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,588 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/local.properties
-2019-09-07 17:51:35,593 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,593 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,595 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/local.properties
-2019-09-07 17:51:35,599 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,599 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,601 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/local.properties
-2019-09-07 17:51:35,606 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,606 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,608 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/local.properties
-2019-09-07 17:51:35,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,612 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,613 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/local.properties
-2019-09-07 17:51:35,616 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,616 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,617 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/local.properties
-2019-09-07 17:51:35,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,621 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/local.properties
-2019-09-07 17:51:35,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-09-07 17:51:35,626 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
-2019-09-07 17:51:35,626 INFO  ProjectFixService - Project was maybe fixed
-2019-09-07 17:51:35,626 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:51:35,627 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:51:47,034 INFO  ProjectTaskService - Detected possible tasks: 48
-2019-09-07 17:51:47,034 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:51:47,034 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:52:25,583 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:43:12,701 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew
+2019-10-08 18:43:12,715 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle
+2019-10-08 18:43:12,726 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle
+2019-10-08 18:43:12,727 INFO  ProjectBuildService - Remote scripts: none
+2019-10-08 18:43:12,727 INFO  ProjectFixService - Fixing project...
+2019-10-08 18:43:12,755 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/local.properties
+2019-10-08 18:43:12,755 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-bin.zip
+2019-10-08 18:43:12,758 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,758 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/local.properties
+2019-10-08 18:43:12,762 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,762 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,763 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/local.properties
+2019-10-08 18:43:12,766 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,766 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,767 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/local.properties
+2019-10-08 18:43:12,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,770 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/local.properties
+2019-10-08 18:43:12,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/local.properties
+2019-10-08 18:43:12,777 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,777 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,778 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/local.properties
+2019-10-08 18:43:12,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/local.properties
+2019-10-08 18:43:12,785 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-08 18:43:12,785 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-08 18:43:12,785 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 18:43:12,785 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:43:12,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:43:38,486 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-10-08 18:43:38,487 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:43:38,487 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:13,471 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Task :library:compileJava
 warning: [options] bootstrap class path not set in conjunction with -source 1.7
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/src/main/java/gsonpath/GsonUtil.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/src/main/java/gsonpath/GsonUtil.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 1 warning
 
@@ -126,15 +126,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 34s
 30 actionable tasks: 30 executed
 
-2019-09-07 17:52:25,625 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:52:25,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:52:30,257 INFO  ProjectTaskService - Detected possible tasks: 46
-2019-09-07 17:52:30,257 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:52:30,257 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:52:35,218 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:13,507 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:13,507 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:44:17,848 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-10-08 18:44:17,848 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:44:17,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:22,932 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compiler:base:compileKotlin UP-TO-DATE
 > Task :compiler:base:compileJava NO-SOURCE
 > Task :compiler:base:processResources NO-SOURCE
@@ -154,12 +154,12 @@ See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 4s
 5 actionable tasks: 5 up-to-date
 
-2019-09-07 17:52:35,255 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:52:35,255 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:52:39,629 INFO  ProjectTaskService - Detected possible tasks: 46
-2019-09-07 17:52:39,629 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:52:39,629 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:52:45,458 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:22,970 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:22,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:44:27,604 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-10-08 18:44:27,604 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:44:27,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/standard/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:33,498 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:compileJava UP-TO-DATE
 > Task :library:processResources NO-SOURCE
 > Task :library:classes UP-TO-DATE
@@ -189,12 +189,12 @@ See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:comm
 BUILD SUCCESSFUL in 5s
 11 actionable tasks: 11 up-to-date
 
-2019-09-07 17:52:45,493 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:52:45,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:52:50,068 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-09-07 17:52:50,068 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:52:50,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:52:56,539 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:33,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:33,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:44:37,057 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-10-08 18:44:37,057 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:44:37,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/base/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:42,183 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:compileJava UP-TO-DATE
 > Task :library:processResources NO-SOURCE
 > Task :library:classes UP-TO-DATE
@@ -224,15 +224,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 4s
 12 actionable tasks: 12 up-to-date
 
-2019-09-07 17:52:56,580 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:52:56,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:53:02,287 INFO  ProjectTaskService - Detected possible tasks: 44
-2019-09-07 17:53:02,287 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:53:02,288 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:53:09,805 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:42,219 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:42,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:44:45,746 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-10-08 18:44:45,746 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:44:45,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/integration/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:51,464 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:compileJava UP-TO-DATE
 > Task :library:processResources NO-SOURCE
 > Task :library:classes UP-TO-DATE
@@ -268,15 +268,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 5s
 16 actionable tasks: 16 up-to-date
 
-2019-09-07 17:53:09,841 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:53:09,841 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:53:14,466 INFO  ProjectTaskService - Detected possible tasks: 44
-2019-09-07 17:53:14,466 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:53:14,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:53:19,807 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:51,499 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:51,499 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:44:55,895 INFO  ProjectTaskService - Detected possible tasks: 44
+2019-10-08 18:44:55,895 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:44:55,895 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/compiler/testing/unit/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:44:59,754 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :compiler:testing:unit:compileKotlin NO-SOURCE
 > Task :compiler:testing:unit:compileJava NO-SOURCE
 > Task :compiler:testing:unit:processResources NO-SOURCE
@@ -290,15 +290,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 5s
+BUILD SUCCESSFUL in 3s
 2 actionable tasks: 2 up-to-date
 
-2019-09-07 17:53:19,842 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:53:19,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:53:25,371 INFO  ProjectTaskService - Detected possible tasks: 46
-2019-09-07 17:53:25,372 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:53:25,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:53:30,019 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:44:59,790 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:44:59,791 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:45:04,348 INFO  ProjectTaskService - Detected possible tasks: 46
+2019-10-08 18:45:04,348 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:45:04,348 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:45:08,021 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:compileJava UP-TO-DATE
 > Task :library:processResources NO-SOURCE
 > Task :library:classes UP-TO-DATE
@@ -313,15 +313,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 4s
+BUILD SUCCESSFUL in 3s
 4 actionable tasks: 4 up-to-date
 
-2019-09-07 17:53:30,052 INFO  ProjectTaskService - Detecting possible tasks...
-2019-09-07 17:53:30,053 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-09-07 17:53:35,066 INFO  ProjectTaskService - Detected possible tasks: 42
-2019-09-07 17:53:35,066 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-09-07 17:53:35,066 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567853494782-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-09-07 17:53:42,158 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-08 18:45:08,057 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:45:08,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:45:12,022 INFO  ProjectTaskService - Detected possible tasks: 42
+2019-10-08 18:45:12,022 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-10-08 18:45:12,022 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570534991596-0/src/gsonpath-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-10-08 18:45:17,845 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :library:compileJava UP-TO-DATE
 > Task :library:processResources NO-SOURCE
 > Task :library:classes UP-TO-DATE
@@ -353,8 +353,8 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 6s
+BUILD SUCCESSFUL in 5s
 15 actionable tasks: 15 up-to-date
 
-2019-09-07 17:53:42,193 ERROR FullProcessService - Project build has not produced APK file
-2019-09-07 17:53:42,225 ERROR FullProcessService - Could not find generated or existed APK file
+2019-10-08 18:45:17,879 ERROR FullProcessService - Project build has not produced APK file
+2019-10-08 18:45:17,908 ERROR FullProcessService - Could not find generated or existed APK file

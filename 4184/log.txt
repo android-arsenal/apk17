@@ -1,97 +1,525 @@
-2019-07-06 01:15:26,147 INFO  DownloadService - Downloading "https://github.com/jackpocket/android-pulse-indicator/archive/master.zip", attempt 3
-2019-07-06 01:15:27,336 INFO  DownloadService - Downloaded https://github.com/jackpocket/android-pulse-indicator/archive/master.zip, attempt 3
-2019-07-06 01:15:27,337 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/master.zip": 1 MB
-2019-07-06 01:15:27,337 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-06 01:15:27,342 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/master.zip: true
-2019-07-06 01:15:27,343 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src'.
-2019-07-06 01:15:27,360 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-06 01:15:27,360 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src]
-2019-07-06 01:15:27,376 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/.git/
+2019-10-08 18:45:18,133 INFO  DownloadService - Downloading "https://github.com/jackpocket/android-pulse-indicator/archive/master.zip", attempt 3
+2019-10-08 18:45:20,963 INFO  DownloadService - Downloaded https://github.com/jackpocket/android-pulse-indicator/archive/master.zip, attempt 3
+2019-10-08 18:45:20,963 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/master.zip": 1 MB
+2019-10-08 18:45:20,964 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-08 18:45:20,970 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/master.zip: true
+2019-10-08 18:45:20,970 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src'.
+2019-10-08 18:45:20,995 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-10-08 18:45:20,995 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src]
+2019-10-08 18:45:21,014 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/.git/
 
-2019-07-06 01:15:27,378 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/gradlew
-2019-07-06 01:15:27,379 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/build.gradle
-2019-07-06 01:15:27,380 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/build.gradle
-2019-07-06 01:15:27,380 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2019-07-06 01:15:27,460 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2019-07-06 01:15:27,461 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2019-07-06 01:15:27,546 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2019-07-06 01:15:27,546 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
-2019-07-06 01:15:27,546 INFO  ProjectFixService - Fixing project...
-2019-07-06 01:15:27,551 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/local.properties
-2019-07-06 01:15:27,551 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.8-all.zip
-2019-07-06 01:15:27,551 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.8-bin.zip)
-2019-07-06 01:15:27,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/build.gradle": [buildToolsVersion=23.0.1,compileSdkVersion=23,minSdkVersion=9,targetSdkVersion=23]
-2019-07-06 01:15:27,552 INFO  ProjectFixService - Project was maybe fixed
-2019-07-06 01:15:27,552 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-06 01:15:27,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-06 01:15:34,312 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-07-06 01:15:34,312 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-06 01:15:34,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-06 01:15:40,418 INFO  SysUtils - Configuration on demand is an incubating feature.
-:compileLint
-:copyDebugLint UP-TO-DATE
-:mergeDebugProguardFiles
-:preBuild UP-TO-DATE
-:preDebugBuild UP-TO-DATE
-:checkDebugManifest
-:prepareDebugDependencies
-:compileDebugAidl
-:compileDebugRenderscript
-:generateDebugBuildConfig
-:generateDebugAssets UP-TO-DATE
-:mergeDebugAssets
-:generateDebugResValues
-:generateDebugResources
-:packageDebugResources
-:processDebugManifest
-:processDebugResources
-:generateDebugSources
-:processDebugJavaRes UP-TO-DATE
-:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
+2019-10-08 18:45:21,016 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew
+2019-10-08 18:45:21,019 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/build.gradle
+2019-10-08 18:45:21,020 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/settings.gradle
+2019-10-08 18:45:21,021 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-10-08 18:45:21,622 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-10-08 18:45:21,623 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-10-08 18:45:21,850 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-10-08 18:45:21,850 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle
+2019-10-08 18:45:21,850 INFO  ProjectFixService - Fixing project...
+2019-10-08 18:45:21,858 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/local.properties
+2019-10-08 18:45:21,858 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-08 18:45:21,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/local.properties
+2019-10-08 18:45:21,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=9,targetSdkVersion=28]
+2019-10-08 18:45:21,860 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/local.properties
+2019-10-08 18:45:21,861 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-10-08 18:45:21,861 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-10-08 18:45:21,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-10-08 18:45:21,862 INFO  ProjectFixService - Project was maybe fixed
+2019-10-08 18:45:21,862 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:45:21,862 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:45:26,675 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-10-08 18:45:26,676 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-10-08 18:45:26,676 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-10-08 18:45:26,676 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-10-08 18:45:29,601 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-08 18:45:29,601 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle' line: 1
+
+* What went wrong:
+A problem occurred evaluating root project 'pulse-indicator-sample'.
+> Plugin with id 'com.android.application' not found.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'pulse-indicator-sample'.
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
+	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
+	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl.apply(DefaultScriptPluginFactory.java:211)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1$1.run(BuildOperationScriptPlugin.java:69)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:66)
+	at org.gradle.configuration.BuildOperationScriptPlugin$1.execute(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.internal.DefaultUserCodeApplicationContext.apply(DefaultUserCodeApplicationContext.java:48)
+	at org.gradle.configuration.BuildOperationScriptPlugin.apply(BuildOperationScriptPlugin.java:63)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:41)
+	at org.gradle.configuration.project.BuildScriptProcessor.execute(BuildScriptProcessor.java:26)
+	at org.gradle.configuration.project.ConfigureActionsProjectEvaluator.evaluate(ConfigureActionsProjectEvaluator.java:34)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator$EvaluateProject.run(LifecycleProjectEvaluator.java:105)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:68)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:687)
+	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:140)
+	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
+	at org.gradle.configuration.DefaultBuildConfigurer.configure(DefaultBuildConfigurer.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$ConfigureBuild.run(DefaultGradleLauncher.java:274)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.configureBuild(DefaultGradleLauncher.java:182)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:141)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:124)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:77)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:74)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:154)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:38)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:96)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:74)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.run(RunAsBuildOperationBuildActionRunner.java:50)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:44)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:79)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:62)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:34)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:31)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:46)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:52)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:402)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:375)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:368)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:298)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: org.gradle.api.plugins.UnknownPluginException: Plugin with id 'com.android.application' not found.
+	at org.gradle.api.internal.plugins.DefaultPluginManager.apply(DefaultPluginManager.java:128)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.applyType(DefaultObjectConfigurationAction.java:120)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.access$200(DefaultObjectConfigurationAction.java:38)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction$3.run(DefaultObjectConfigurationAction.java:86)
+	at org.gradle.api.internal.plugins.DefaultObjectConfigurationAction.execute(DefaultObjectConfigurationAction.java:143)
+	at org.gradle.api.internal.project.AbstractPluginAware.apply(AbstractPluginAware.java:46)
+	at org.gradle.api.internal.project.ProjectScript.apply(ProjectScript.java:34)
+	at org.gradle.api.Script$apply$0.callCurrent(Unknown Source)
+	at build_cncfbg2pshvcnika7z5he6a13.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build.gradle:1)
+	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
+	... 90 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 2s
+
+2019-10-08 18:45:29,604 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:45:29,604 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:45:38,589 INFO  ProjectTaskService - Detected possible tasks: 72
+2019-10-08 18:45:38,589 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-08 18:45:38,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-08 18:45:45,933 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-10-08 18:45:45,933 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :preBuild UP-TO-DATE
+> Task :preDebugBuild UP-TO-DATE
+> Task :compileDebugAidl NO-SOURCE
+> Task :compileDebugRenderscript
+> Task :checkDebugManifest
+> Task :generateDebugBuildConfig
+> Task :generateDebugResValues
+> Task :generateDebugResources
+> Task :packageDebugResources FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':_internal_aapt2_binary'.
+> Could not find com.android.tools.build:aapt2:3.3.2-5309881.
+  Searched in the following locations:
+    - file:/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+    - file:/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+    - file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+    - file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+    - file:/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+    - file:/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+  Required by:
+      project :
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':_internal_aapt2_binary'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:1054)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1700(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1028)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:76)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter$FileCollectionVisitorImpl.visitCollection(DefaultFileSystemSnapshotter.java:257)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:282)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:206)
+	at org.gradle.api.internal.changedetection.state.DefaultFileSystemSnapshotter.snapshot(DefaultFileSystemSnapshotter.java:142)
+	at org.gradle.internal.fingerprint.impl.AbstractFileCollectionFingerprinter.fingerprint(AbstractFileCollectionFingerprinter.java:54)
+	at org.gradle.internal.fingerprint.impl.AbstractPathOnlyFileCollectionFingerprinter.fingerprint(AbstractPathOnlyFileCollectionFingerprinter.java:37)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.fingerprintTaskFiles(CacheBackedTaskHistoryRepository.java:358)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:163)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:76)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:123)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:200)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:94)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:50)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.run(EventFiringTaskExecuter.java:51)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:46)
+	at org.gradle.execution.taskgraph.LocalTaskInfoExecutor.execute(LocalTaskInfoExecutor.java:42)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:277)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareWorkItemExecutor.execute(DefaultTaskExecutionGraph.java:262)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:135)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.execute(DefaultTaskPlanExecutor.java:200)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.executeWithWork(DefaultTaskPlanExecutor.java:191)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$ExecutorWorker.run(DefaultTaskPlanExecutor.java:130)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.internal.resolve.ModuleVersionNotFoundException: Could not find com.android.tools.build:aapt2:3.3.2-5309881.
+Searched in the following locations:
+  - file:/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+  - file:/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+  - file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+  - file:/Users/vbauer/Library/Android/sdk/extras/google/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+  - file:/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881.pom
+  - file:/Users/vbauer/Library/Android/sdk/extras/android/m2repository/com/android/tools/build/aapt2/3.3.2-5309881/aapt2-3.3.2-5309881-osx.jar
+Required by:
+    project :
+	at org.gradle.internal.resolve.result.DefaultBuildableComponentResolveResult.notFound(DefaultBuildableComponentResolveResult.java:49)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolveModule(RepositoryChainComponentMetaDataResolver.java:108)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainComponentMetaDataResolver.resolve(RepositoryChainComponentMetaDataResolver.java:63)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ComponentMetaDataResolverChain.resolve(ComponentResolversChain.java:94)
+	at org.gradle.api.internal.artifacts.ivyservice.clientmodule.ClientModuleResolver.resolve(ClientModuleResolver.java:62)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:208)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.resolve(ComponentState.java:196)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.ComponentState.getMetadata(ComponentState.java:152)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.calculateTargetConfigurations(EdgeState.java:156)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.EdgeState.attachToTargetConfigurations(EdgeState.java:112)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.attachToTargetRevisionsSerially(DependencyGraphBuilder.java:315)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolveEdges(DependencyGraphBuilder.java:202)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.traverseGraph(DependencyGraphBuilder.java:155)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.graph.builder.DependencyGraphBuilder.resolve(DependencyGraphBuilder.java:126)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.DefaultArtifactDependencyResolver.resolve(DefaultArtifactDependencyResolver.java:123)
+	at org.gradle.api.internal.artifacts.ivyservice.DefaultConfigurationResolver.resolveGraph(DefaultConfigurationResolver.java:167)
+	at org.gradle.api.internal.artifacts.ivyservice.ShortCircuitEmptyConfigurationResolver.resolveGraph(ShortCircuitEmptyConfigurationResolver.java:89)
+	at org.gradle.api.internal.artifacts.ivyservice.ErrorHandlingConfigurationResolver.resolveGraph(ErrorHandlingConfigurationResolver.java:73)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$5.run(DefaultConfiguration.java:533)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:300)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:292)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:174)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:90)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveGraphIfRequired(DefaultConfiguration.java:524)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.resolveToStateOrLater(DefaultConfiguration.java:509)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1800(DefaultConfiguration.java:123)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getSelectedArtifacts(DefaultConfiguration.java:1037)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:1025)
+	... 42 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+5 actionable tasks: 5 executed
+
+2019-10-08 18:45:45,938 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-08 18:45:45,938 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-08 18:45:55,085 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-10-08 18:45:55,085 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-08 18:45:55,085 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-08 18:46:55,241 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :pulse-indicator:preBuild UP-TO-DATE
+> Task :pulse-indicator:preDebugBuild UP-TO-DATE
+> Task :pulse-indicator:compileDebugAidl NO-SOURCE
+> Task :pulse-indicator:compileDebugRenderscript
+> Task :pulse-indicator:checkDebugManifest
+> Task :pulse-indicator:generateDebugBuildConfig
+> Task :pulse-indicator:generateDebugResValues
+> Task :pulse-indicator:generateDebugResources
+> Task :pulse-indicator:packageDebugResources
+> Task :pulse-indicator:processDebugManifest
+> Task :pulse-indicator:generateDebugRFile
+> Task :pulse-indicator:prepareLintJar
+> Task :pulse-indicator:generateDebugSources
+> Task :pulse-indicator:javaPreCompileDebug
+
+> Task :pulse-indicator:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:packageDebugJar
-:compileDebugNdk UP-TO-DATE
-:packageDebugJniLibs UP-TO-DATE
-:packageDebugLocalJar UP-TO-DATE
-:packageDebugRenderscript UP-TO-DATE
-:bundleDebug
-:compileDebugSources
-:assembleDebug
-:copyReleaseLint UP-TO-DATE
-:mergeReleaseProguardFiles
-:preReleaseBuild UP-TO-DATE
-:checkReleaseManifest
-:prepareReleaseDependencies
-:compileReleaseAidl
-:compileReleaseRenderscript
-:generateReleaseBuildConfig
-:generateReleaseAssets UP-TO-DATE
-:mergeReleaseAssets
-:generateReleaseResValues
-:generateReleaseResources
-:packageReleaseResources
-:processReleaseManifest
-:processReleaseResources
-:generateReleaseSources
-:processReleaseJavaRes UP-TO-DATE
-:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562350526140-0/src/android-pulse-indicator-master/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
+> Task :pulse-indicator:extractDebugAnnotations
+> Task :pulse-indicator:mergeDebugConsumerProguardFiles
+> Task :pulse-indicator:mergeDebugShaders
+> Task :pulse-indicator:compileDebugShaders
+> Task :pulse-indicator:generateDebugAssets
+> Task :pulse-indicator:packageDebugAssets
+> Task :pulse-indicator:packageDebugRenderscript NO-SOURCE
+> Task :pulse-indicator:processDebugJavaRes NO-SOURCE
+> Task :pulse-indicator:transformResourcesWithMergeJavaResForDebug
+> Task :pulse-indicator:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :pulse-indicator:compileDebugNdk NO-SOURCE
+> Task :pulse-indicator:mergeDebugJniLibFolders
+> Task :pulse-indicator:transformNativeLibsWithMergeJniLibsForDebug
+> Task :pulse-indicator:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :pulse-indicator:transformNativeLibsWithSyncJniLibsForDebug
+> Task :pulse-indicator:bundleDebugAar
+> Task :pulse-indicator:compileDebugSources
+> Task :pulse-indicator:assembleDebug
+> Task :pulse-indicator:preReleaseBuild UP-TO-DATE
+> Task :pulse-indicator:compileReleaseAidl NO-SOURCE
+> Task :pulse-indicator:compileReleaseRenderscript
+> Task :pulse-indicator:checkReleaseManifest
+> Task :pulse-indicator:generateReleaseBuildConfig
+> Task :pulse-indicator:generateReleaseResValues
+> Task :pulse-indicator:generateReleaseResources
+> Task :pulse-indicator:packageReleaseResources
+> Task :pulse-indicator:processReleaseManifest
+> Task :pulse-indicator:generateReleaseRFile
+> Task :pulse-indicator:generateReleaseSources
+> Task :pulse-indicator:javaPreCompileRelease
+
+> Task :pulse-indicator:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator/src/main/java/com/jackpocket/pulse/PulseController.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:packageReleaseJar
-:compileReleaseNdk UP-TO-DATE
-:packageReleaseJniLibs UP-TO-DATE
-:packageReleaseLocalJar UP-TO-DATE
-:packageReleaseRenderscript UP-TO-DATE
-:bundleRelease
-:compileReleaseSources
-:assembleRelease
-:assemble
-:build
+> Task :pulse-indicator:extractReleaseAnnotations
+> Task :pulse-indicator:mergeReleaseConsumerProguardFiles
+> Task :pulse-indicator:mergeReleaseShaders
+> Task :pulse-indicator:compileReleaseShaders
+> Task :pulse-indicator:generateReleaseAssets
+> Task :pulse-indicator:packageReleaseAssets
+> Task :pulse-indicator:packageReleaseRenderscript NO-SOURCE
+> Task :pulse-indicator:processReleaseJavaRes NO-SOURCE
+> Task :pulse-indicator:transformResourcesWithMergeJavaResForRelease
+> Task :pulse-indicator:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :pulse-indicator:compileReleaseNdk NO-SOURCE
+> Task :pulse-indicator:mergeReleaseJniLibFolders
+> Task :pulse-indicator:transformNativeLibsWithMergeJniLibsForRelease
+> Task :pulse-indicator:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :pulse-indicator:transformNativeLibsWithSyncJniLibsForRelease
+> Task :pulse-indicator:bundleReleaseAar
+> Task :pulse-indicator:compileReleaseSources
+> Task :pulse-indicator:mergeReleaseResources
+> Task :pulse-indicator:verifyReleaseResources
+> Task :pulse-indicator:assembleRelease
+> Task :pulse-indicator:assemble
+> Task :pulse-indicator:build
+> Task :pulse-indicator:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :pulse-indicator-sample:preBuild UP-TO-DATE
+> Task :pulse-indicator-sample:preDebugBuild
+> Task :pulse-indicator-sample:compileDebugAidl NO-SOURCE
+> Task :pulse-indicator-sample:compileDebugRenderscript
+> Task :pulse-indicator-sample:checkDebugManifest
+> Task :pulse-indicator-sample:generateDebugBuildConfig
+> Task :pulse-indicator-sample:mainApkListPersistenceDebug
+> Task :pulse-indicator-sample:generateDebugResValues
+> Task :pulse-indicator-sample:generateDebugResources
+> Task :pulse-indicator-sample:mergeDebugResources
+> Task :pulse-indicator-sample:createDebugCompatibleScreenManifests
+> Task :pulse-indicator-sample:processDebugManifest
+> Task :pulse-indicator-sample:processDebugResources
 
-BUILD SUCCESSFUL
+> Task :pulse-indicator-sample:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (26, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (44, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (50, 31): Parameter 'view' is never used
 
-Total time: 5.576 secs
+> Task :pulse-indicator-sample:prepareLintJar
+> Task :pulse-indicator-sample:generateDebugSources
+> Task :pulse-indicator-sample:javaPreCompileDebug
+> Task :pulse-indicator-sample:compileDebugJavaWithJavac
+> Task :pulse-indicator-sample:compileDebugNdk NO-SOURCE
+> Task :pulse-indicator-sample:compileDebugSources
+> Task :pulse-indicator-sample:mergeDebugShaders
+> Task :pulse-indicator-sample:compileDebugShaders
+> Task :pulse-indicator-sample:generateDebugAssets
+> Task :pulse-indicator-sample:mergeDebugAssets
+> Task :pulse-indicator:createFullJarDebug
+> Transform full.jar (project :pulse-indicator) with IdentityTransform
+> Task :pulse-indicator-sample:mergeExtDexDebug
+> Transform full.jar (project :pulse-indicator) with DexingTransform
+> Task :pulse-indicator-sample:transformClassesWithDexBuilderForDebug
+> Task :pulse-indicator-sample:mergeDexDebug
+> Task :pulse-indicator-sample:validateSigningDebug
+> Task :pulse-indicator-sample:signingConfigWriterDebug
+> Task :pulse-indicator:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :pulse-indicator-sample:mergeDebugJniLibFolders
+> Task :pulse-indicator-sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :pulse-indicator-sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :pulse-indicator-sample:processDebugJavaRes NO-SOURCE
+> Task :pulse-indicator-sample:transformResourcesWithMergeJavaResForDebug
+> Task :pulse-indicator-sample:packageDebug
+> Task :pulse-indicator-sample:assembleDebug
+> Task :pulse-indicator:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :pulse-indicator-sample:preReleaseBuild
+> Task :pulse-indicator-sample:compileReleaseAidl NO-SOURCE
+> Task :pulse-indicator-sample:compileReleaseRenderscript
+> Task :pulse-indicator-sample:checkReleaseManifest
+> Task :pulse-indicator-sample:generateReleaseBuildConfig
+> Task :pulse-indicator-sample:mainApkListPersistenceRelease
+> Task :pulse-indicator-sample:generateReleaseResValues
+> Task :pulse-indicator-sample:generateReleaseResources
+> Task :pulse-indicator-sample:mergeReleaseResources
+> Task :pulse-indicator-sample:createReleaseCompatibleScreenManifests
+> Task :pulse-indicator-sample:processReleaseManifest
+> Task :pulse-indicator-sample:processReleaseResources
 
-2019-07-06 01:15:40,423 ERROR FullProcessService - Project build has not produced APK file
-2019-07-06 01:15:40,429 ERROR FullProcessService - Could not find generated or existed APK file
+> Task :pulse-indicator-sample:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (26, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (44, 28): Parameter 'view' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/src/main/java/com/jackpocket/pulse/test/MainActivity.kt: (50, 31): Parameter 'view' is never used
+
+> Task :pulse-indicator-sample:generateReleaseSources
+> Task :pulse-indicator-sample:javaPreCompileRelease
+> Task :pulse-indicator-sample:compileReleaseJavaWithJavac
+> Task :pulse-indicator-sample:compileReleaseNdk NO-SOURCE
+> Task :pulse-indicator-sample:compileReleaseSources
+
+> Task :pulse-indicator-sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/be7a3df690bbb5655b9d045a27fd4628/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :pulse-indicator:createFullJarRelease
+> Transform full.jar (project :pulse-indicator) with IdentityTransform
+> Task :pulse-indicator-sample:mergeExtDexRelease
+> Transform full.jar (project :pulse-indicator) with DexingTransform
+> Task :pulse-indicator-sample:transformClassesWithDexBuilderForRelease
+> Task :pulse-indicator-sample:mergeDexRelease
+> Task :pulse-indicator-sample:mergeReleaseShaders
+> Task :pulse-indicator-sample:compileReleaseShaders
+> Task :pulse-indicator-sample:generateReleaseAssets
+> Task :pulse-indicator-sample:mergeReleaseAssets
+> Task :pulse-indicator-sample:signingConfigWriterRelease
+> Task :pulse-indicator:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :pulse-indicator-sample:mergeReleaseJniLibFolders
+> Task :pulse-indicator-sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :pulse-indicator-sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :pulse-indicator-sample:processReleaseJavaRes NO-SOURCE
+> Task :pulse-indicator-sample:transformResourcesWithMergeJavaResForRelease
+> Task :pulse-indicator-sample:packageRelease
+> Task :pulse-indicator-sample:assembleRelease
+> Task :pulse-indicator-sample:assemble
+> Task :pulse-indicator-sample:build
+
+BUILD SUCCESSFUL in 59s
+104 actionable tasks: 104 executed
+
+2019-10-08 18:46:55,314 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570535118125-0/src/android-pulse-indicator-master/pulse-indicator-sample/build/outputs/apk/release/pulse-indicator-sample-release-unsigned.apk
