@@ -1,75 +1,75 @@
-2019-10-06 20:30:20,813 INFO  DownloadService - Downloading "https://github.com/airbnb/epoxy/archive/master.zip", attempt 3
-2019-10-06 20:30:22,248 INFO  DownloadService - Downloaded https://github.com/airbnb/epoxy/archive/master.zip, attempt 3
-2019-10-06 20:30:22,248 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/master.zip": 2 MB
-2019-10-06 20:30:22,248 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-10-06 20:30:22,250 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/master.zip: true
-2019-10-06 20:30:22,250 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src'.
-2019-10-06 20:30:22,429 INFO  FullProcessService - Size of directory with sources: 4 MB
-2019-10-06 20:30:22,429 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src]
-2019-10-06 20:30:22,450 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/.git/
+2019-10-10 12:38:02,407 INFO  DownloadService - Downloading "https://github.com/airbnb/epoxy/archive/master.zip", attempt 3
+2019-10-10 12:38:07,196 INFO  DownloadService - Downloaded https://github.com/airbnb/epoxy/archive/master.zip, attempt 3
+2019-10-10 12:38:07,196 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/master.zip": 2 MB
+2019-10-10 12:38:07,196 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-10 12:38:07,203 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/master.zip: true
+2019-10-10 12:38:07,203 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src'.
+2019-10-10 12:38:07,467 INFO  FullProcessService - Size of directory with sources: 4 MB
+2019-10-10 12:38:07,467 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src]
+2019-10-10 12:38:07,501 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/.git/
 
-2019-10-06 20:30:22,464 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew
-2019-10-06 20:30:22,480 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-preloadersample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/build.gradle
-2019-10-06 20:30:22,493 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/blessedDeps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-preloadersample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-litho/build.gradle
-2019-10-06 20:30:22,494 INFO  ProjectBuildService - Remote scripts: none
-2019-10-06 20:30:22,494 INFO  ProjectFixService - Fixing project...
-2019-10-06 20:30:22,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/local.properties
-2019-10-06 20:30:22,540 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,541 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,542 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/local.properties
-2019-10-06 20:30:22,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,552 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,553 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/local.properties
-2019-10-06 20:30:22,561 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,561 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,562 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/local.properties
-2019-10-06 20:30:22,568 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,568 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,569 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-litho/local.properties
-2019-10-06 20:30:22,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-modelfactory/local.properties
-2019-10-06 20:30:22,582 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,582 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,583 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/local.properties
-2019-10-06 20:30:22,590 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,590 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,591 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-pagingsample/local.properties
-2019-10-06 20:30:22,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
-2019-10-06 20:30:22,597 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
-2019-10-06 20:30:22,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-preloadersample/local.properties
-2019-10-06 20:30:22,603 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-preloadersample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,603 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-preloadersample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,604 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest/local.properties
-2019-10-06 20:30:22,610 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,610 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,611 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest2/local.properties
-2019-10-06 20:30:22,617 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,617 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-sample/local.properties
-2019-10-06 20:30:22,624 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,624 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,625 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/kotlinsample/local.properties
-2019-10-06 20:30:22,630 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,631 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,631 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/local.properties
-2019-10-06 20:30:22,632 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6-all.zip
-2019-10-06 20:30:22,632 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6-bin.zip)
-2019-10-06 20:30:22,642 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,643 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,644 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-annotations/local.properties
-2019-10-06 20:30:22,649 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,649 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,650 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/local.properties
-2019-10-06 20:30:22,656 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
-2019-10-06 20:30:22,656 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
-2019-10-06 20:30:22,656 INFO  ProjectFixService - Project was maybe fixed
-2019-10-06 20:30:22,656 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 20:30:22,656 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 20:30:35,361 INFO  ProjectTaskService - Detected possible tasks: 78
-2019-10-06 20:30:35,361 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-06 20:30:35,361 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-06 20:31:49,972 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:38:07,521 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew
+2019-10-10 12:38:07,542 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-litho/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-preloadersample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/build.gradle
+2019-10-10 12:38:07,561 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-pagingsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/blessedDeps.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/kotlinsample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-modelfactory/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-preloadersample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/ktlint.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-litho/build.gradle
+2019-10-10 12:38:07,563 INFO  ProjectBuildService - Remote scripts: none
+2019-10-10 12:38:07,563 INFO  ProjectFixService - Fixing project...
+2019-10-10 12:38:07,606 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/local.properties
+2019-10-10 12:38:07,616 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,616 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,618 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/local.properties
+2019-10-10 12:38:07,633 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,633 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,635 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/local.properties
+2019-10-10 12:38:07,648 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,648 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,651 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/local.properties
+2019-10-10 12:38:07,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,661 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,662 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-litho/local.properties
+2019-10-10 12:38:07,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,671 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-litho/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,672 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-modelfactory/local.properties
+2019-10-10 12:38:07,680 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,680 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-modelfactory/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,682 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/local.properties
+2019-10-10 12:38:07,690 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,691 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,692 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-pagingsample/local.properties
+2019-10-10 12:38:07,700 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=15,targetSdkVersion=<null>]
+2019-10-10 12:38:07,700 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-pagingsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-10-10 12:38:07,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-preloadersample/local.properties
+2019-10-10 12:38:07,708 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-preloadersample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,708 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-preloadersample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,709 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest/local.properties
+2019-10-10 12:38:07,718 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,718 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest2/local.properties
+2019-10-10 12:38:07,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,728 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processortest2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-sample/local.properties
+2019-10-10 12:38:07,736 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,738 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/kotlinsample/local.properties
+2019-10-10 12:38:07,744 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,745 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/kotlinsample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,746 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/local.properties
+2019-10-10 12:38:07,747 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6-all.zip
+2019-10-10 12:38:07,748 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6-bin.zip)
+2019-10-10 12:38:07,756 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,756 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,757 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-annotations/local.properties
+2019-10-10 12:38:07,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/local.properties
+2019-10-10 12:38:07,772 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=16,targetSdkVersion=<null>]
+2019-10-10 12:38:07,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=16,targetSdkVersion=29]
+2019-10-10 12:38:07,773 INFO  ProjectFixService - Project was maybe fixed
+2019-10-10 12:38:07,773 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:38:07,773 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:38:22,068 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-10-10 12:38:22,068 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-10 12:38:22,068 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-10 12:40:22,402 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :epoxy-adapter
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -81,7 +81,6 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-annotations:processResources NO-SOURCE
 > Task :epoxy-annotations:classes
 > Task :epoxy-annotations:jar
-
 > Task :epoxy-processor:compileKotlin
 w: Runtime JAR files in the classpath should have the same version. These files were found in the classpath:
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.50/50ad05ea1c2595fb31b800e76db464d08d599af3/kotlin-stdlib-jdk7-1.3.50.jar (version 1.3)
@@ -89,10 +88,10 @@ w: Runtime JAR files in the classpath should have the same version. These files 
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.50/b529d1738c7e98bbfa36a4134039528f2ce78ebf/kotlin-stdlib-1.3.50.jar (version 1.3)
     /Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.50/3d9cd3e1bc7b92e95f43d45be3bfbcf38e36ab87/kotlin-stdlib-common-1.3.50.jar (version 1.3)
 w: Some runtime JAR files in the classpath have an incompatible version. Consider removing them from the classpath
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/src/main/java/com/airbnb/epoxy/PoetExtensions.kt: (187, 81): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/src/main/java/com/airbnb/epoxy/PoetExtensions.kt: (187, 81): Call uses reflection API which is not found in compilation classpath. Make sure you have kotlin-reflect.jar in the classpath
 
 > Task :epoxy-processor:compileJava
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-processor/src/main/java/com/airbnb/epoxy/BaseModelAttributeInfo.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-processor/src/main/java/com/airbnb/epoxy/BaseModelAttributeInfo.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -124,7 +123,6 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-adapter:generateDebugAssets
 > Task :epoxy-adapter:packageDebugAssets
 > Task :epoxy-adapter:packageDebugRenderscript NO-SOURCE
-> Task :epoxy-adapter:processReleaseManifest
 > Task :epoxy-adapter:processDebugJavaRes NO-SOURCE
 > Task :epoxy-adapter:mergeDebugJniLibFolders
 > Task :epoxy-adapter:prepareLintJarForPublish
@@ -135,16 +133,17 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-adapter:packageReleaseRenderscript NO-SOURCE
 > Task :epoxy-adapter:processReleaseJavaRes NO-SOURCE
 > Task :epoxy-adapter:mergeReleaseJniLibFolders
+> Task :epoxy-adapter:processReleaseManifest
 > Task :epoxy-adapter:mergeReleaseResources
+> Task :epoxy-adapter:processDebugManifest
+> Task :epoxy-adapter:parseDebugLibraryResources
 > Task :epoxy-adapter:parseReleaseLibraryResources
-> Task :epoxy-adapter:mergeDebugNativeLibs
-> Task :epoxy-adapter:stripDebugDebugSymbols
-> Task :epoxy-adapter:transformNativeLibsWithSyncJniLibsForDebug
 > Task :epoxy-adapter:mergeReleaseNativeLibs
 > Task :epoxy-adapter:stripReleaseDebugSymbols
 > Task :epoxy-adapter:transformNativeLibsWithSyncJniLibsForRelease
-> Task :epoxy-adapter:parseDebugLibraryResources
-> Task :epoxy-adapter:processDebugManifest
+> Task :epoxy-adapter:mergeDebugNativeLibs
+> Task :epoxy-adapter:stripDebugDebugSymbols
+> Task :epoxy-adapter:transformNativeLibsWithSyncJniLibsForDebug
 > Task :epoxy-adapter:generateDebugRFile
 > Task :epoxy-adapter:kaptGenerateStubsDebugKotlin
 
@@ -152,13 +151,16 @@ Note: Recompile with -Xlint:unchecked for details.
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
 
 > Task :epoxy-adapter:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ActivityRecyclerPool.kt: (23, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ActivityRecyclerPool.kt: (23, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
 
 > Task :epoxy-adapter:generateReleaseRFile
 > Task :epoxy-adapter:kaptGenerateStubsReleaseKotlin
 
 > Task :epoxy-adapter:kaptReleaseKotlin
 w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
+
+> Task :epoxy-adapter:verifyReleaseResources
+> Task :epoxy-adapter:javaPreCompileDebug
 
 > Task :epoxy-adapter:dokka
 Unresolved link to .initViewPool in doc comment of com.airbnb.epoxy.EpoxyRecyclerView (EpoxyRecyclerView.kt:21)
@@ -764,12 +766,9 @@ Can't find node by signature com.airbnb.epoxy.EpoxyController$onExceptionSwallow
 Can't find node by signature com.airbnb.epoxy.EpoxyController$onExceptionSwallowed(java.lang.RuntimeException)
 
 > Task :epoxy-adapter:androidJavadocsJar
-> Task :epoxy-adapter:verifyReleaseResources
 
 > Task :epoxy-adapter:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ActivityRecyclerPool.kt: (23, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
-
-> Task :epoxy-adapter:javaPreCompileDebug
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-adapter/src/main/java/com/airbnb/epoxy/ActivityRecyclerPool.kt: (23, 5): '@JvmOverloads' annotation has no effect for methods without default arguments
 
 > Task :epoxy-adapter:compileDebugJavaWithJavac
 Note: Some input files use unchecked or unsafe operations.
@@ -801,19 +800,15 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-adapter:assemble
 > Task :epoxy-adapter:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 1m 13s
+BUILD SUCCESSFUL in 1m 59s
 63 actionable tasks: 63 executed
 
-2019-10-06 20:31:50,048 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 20:31:50,048 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 20:31:57,716 INFO  ProjectTaskService - Detected possible tasks: 75
-2019-10-06 20:31:57,716 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-06 20:31:57,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-06 20:32:13,906 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:40:22,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:40:22,481 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:40:33,117 INFO  ProjectTaskService - Detected possible tasks: 75
+2019-10-10 12:40:33,117 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-10 12:40:33,117 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-10 12:40:56,532 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :epoxy-databinding
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -859,10 +854,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-databinding:generateReleaseResValues
 > Task :epoxy-databinding:generateReleaseResources
 > Task :epoxy-databinding:packageReleaseResources
-> Task :epoxy-databinding:dataBindingMergeGenClassesRelease
-> Task :epoxy-databinding:prepareLintJarForPublish
-> Task :epoxy-databinding:generateReleaseSources
-> Task :epoxy-databinding:dataBindingExportBuildInfoRelease
+> Task :epoxy-adapter:bundleLibCompileRelease
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsRelease
 > Task :epoxy-databinding:androidSourcesJar
 > Task :epoxy-adapter:preDebugBuild UP-TO-DATE
 > Task :epoxy-adapter:compileDebugAidl NO-SOURCE
@@ -882,21 +875,21 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-adapter:compileDebugKotlin UP-TO-DATE
 > Task :epoxy-adapter:javaPreCompileDebug UP-TO-DATE
 > Task :epoxy-adapter:compileDebugJavaWithJavac UP-TO-DATE
+> Task :epoxy-databinding:javaPreCompileRelease
 > Task :epoxy-adapter:packageDebugRenderscript NO-SOURCE
 > Task :epoxy-databinding:compileDebugRenderscript NO-SOURCE
 > Task :epoxy-databinding:checkDebugManifest
 > Task :epoxy-databinding:generateDebugBuildConfig
+> Task :epoxy-databinding:parseReleaseLibraryResources
+> Task :epoxy-databinding:prepareLintJarForPublish
+> Task :epoxy-databinding:generateReleaseSources
+> Task :epoxy-databinding:dataBindingExportBuildInfoRelease
 > Task :epoxy-databinding:generateDebugSources
 > Task :epoxy-databinding:dataBindingExportBuildInfoDebug
-> Task :epoxy-databinding:parseReleaseLibraryResources
-> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsDebug
 > Task :epoxy-databinding:generateDebugResValues
 > Task :epoxy-databinding:generateDebugResources
 > Task :epoxy-databinding:packageDebugResources
-> Task :epoxy-databinding:processReleaseManifest
 > Task :epoxy-databinding:dataBindingMergeGenClassesDebug
-> Task :epoxy-databinding:dataBindingGenBaseClassesDebug
-> Task :epoxy-databinding:parseDebugLibraryResources
 > Task :epoxy-databinding:mergeDebugShaders
 > Task :epoxy-databinding:compileDebugShaders
 > Task :epoxy-databinding:generateDebugAssets
@@ -904,9 +897,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-databinding:packageDebugRenderscript NO-SOURCE
 > Task :epoxy-databinding:processDebugJavaRes NO-SOURCE
 > Task :epoxy-databinding:mergeDebugJniLibFolders
-> Task :epoxy-adapter:bundleLibCompileDebug
-> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsRelease
-> Task :epoxy-databinding:dataBindingGenBaseClassesRelease
+> Task :epoxy-databinding:processReleaseManifest
+> Task :epoxy-databinding:parseDebugLibraryResources
 > Task :epoxy-databinding:mergeReleaseShaders
 > Task :epoxy-databinding:compileReleaseShaders
 > Task :epoxy-databinding:generateReleaseAssets
@@ -914,41 +906,44 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-databinding:packageReleaseRenderscript NO-SOURCE
 > Task :epoxy-databinding:processReleaseJavaRes NO-SOURCE
 > Task :epoxy-databinding:mergeReleaseJniLibFolders
-> Task :epoxy-databinding:javaPreCompileDebug
+> Task :epoxy-databinding:dataBindingMergeDependencyArtifactsDebug
+> Task :epoxy-databinding:dataBindingGenBaseClassesDebug
 > Task :epoxy-databinding:mergeReleaseResources
-> Task :epoxy-databinding:processDebugManifest
-> Task :epoxy-adapter:bundleLibCompileRelease
+> Task :epoxy-adapter:bundleLibCompileDebug
+> Task :epoxy-databinding:dataBindingMergeGenClassesRelease
+> Task :epoxy-databinding:dataBindingGenBaseClassesRelease
 > Task :epoxy-databinding:mergeReleaseNativeLibs
 > Task :epoxy-databinding:stripReleaseDebugSymbols
 > Task :epoxy-databinding:transformNativeLibsWithSyncJniLibsForRelease
-> Task :epoxy-databinding:mergeDebugNativeLibs
-> Task :epoxy-databinding:stripDebugDebugSymbols
-> Task :epoxy-databinding:transformNativeLibsWithSyncJniLibsForDebug
-> Task :epoxy-databinding:javaPreCompileRelease
 > Task :epoxy-databinding:generateReleaseRFile
 > Task :epoxy-databinding:compileReleaseJavaWithJavac
 
 > Task :epoxy-databinding:androidJavadocs
-javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
 1 warning
+javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/reference/package-list
 
 > Task :epoxy-databinding:androidJavadocsJar
 > Task :epoxy-databinding:extractReleaseAnnotations
 > Task :epoxy-databinding:mergeReleaseGeneratedProguardFiles
 > Task :epoxy-databinding:mergeReleaseConsumerProguardFiles
+> Task :epoxy-databinding:mergeDebugNativeLibs
+> Task :epoxy-databinding:stripDebugDebugSymbols
+> Task :epoxy-databinding:transformNativeLibsWithSyncJniLibsForDebug
 > Task :epoxy-databinding:compileReleaseSources
-> Task :epoxy-databinding:generateDebugRFile
-> Task :epoxy-databinding:compileDebugJavaWithJavac
 > Task :epoxy-databinding:verifyReleaseResources
-> Task :epoxy-databinding:extractDebugAnnotations
-> Task :epoxy-databinding:mergeDebugGeneratedProguardFiles
-> Task :epoxy-databinding:mergeDebugConsumerProguardFiles
-> Task :epoxy-databinding:compileDebugSources
+> Task :epoxy-databinding:javaPreCompileDebug
+> Task :epoxy-databinding:processDebugManifest
 > Task :epoxy-databinding:mergeReleaseJavaResource
 > Task :epoxy-databinding:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :epoxy-databinding:bundleReleaseAar
 > Task :epoxy-databinding:assembleRelease
 > Task :epoxy-databinding:signArchives SKIPPED
+> Task :epoxy-databinding:generateDebugRFile
+> Task :epoxy-databinding:compileDebugJavaWithJavac
+> Task :epoxy-databinding:extractDebugAnnotations
+> Task :epoxy-databinding:mergeDebugGeneratedProguardFiles
+> Task :epoxy-databinding:mergeDebugConsumerProguardFiles
+> Task :epoxy-databinding:compileDebugSources
 > Task :epoxy-databinding:mergeDebugJavaResource
 > Task :epoxy-databinding:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :epoxy-databinding:bundleDebugAar
@@ -956,19 +951,15 @@ javadoc: warning - Error reading file: /Users/vbauer/Library/Android/sdk/docs/re
 > Task :epoxy-databinding:assemble
 > Task :epoxy-databinding:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 15s
+BUILD SUCCESSFUL in 22s
 92 actionable tasks: 61 executed, 31 up-to-date
 
-2019-10-06 20:32:14,011 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 20:32:14,011 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 20:32:21,927 INFO  ProjectTaskService - Detected possible tasks: 78
-2019-10-06 20:32:21,928 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-10-06 20:32:21,928 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-10-06 20:32:51,502 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:40:56,662 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:40:56,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:41:09,262 INFO  ProjectTaskService - Detected possible tasks: 78
+2019-10-10 12:41:09,262 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-10 12:41:09,262 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-10 12:42:04,261 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :epoxy-glide-preloader
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -1045,11 +1036,11 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-glide-preloader:compileDebugShaders
 > Task :epoxy-glide-preloader:generateDebugAssets
 > Task :epoxy-glide-preloader:packageDebugAssets
-> Task :epoxy-glide-preloader:processDebugManifest
+> Task :epoxy-glide-preloader:processReleaseManifest
 > Task :epoxy-glide-preloader:packageDebugRenderscript NO-SOURCE
 > Task :epoxy-glide-preloader:processDebugJavaRes NO-SOURCE
 > Task :epoxy-glide-preloader:mergeDebugJniLibFolders
-> Task :epoxy-glide-preloader:processReleaseManifest
+> Task :epoxy-glide-preloader:processDebugManifest
 > Task :epoxy-glide-preloader:mergeReleaseShaders
 > Task :epoxy-glide-preloader:compileReleaseShaders
 > Task :epoxy-glide-preloader:generateReleaseAssets
@@ -1057,13 +1048,13 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-glide-preloader:packageReleaseRenderscript NO-SOURCE
 > Task :epoxy-glide-preloader:processReleaseJavaRes NO-SOURCE
 > Task :epoxy-glide-preloader:mergeReleaseJniLibFolders
-> Task :epoxy-glide-preloader:prepareLintJarForPublish
+> Task :epoxy-glide-preloader:parseReleaseLibraryResources
 > Task :epoxy-glide-preloader:mergeReleaseResources
 > Task :epoxy-glide-preloader:parseDebugLibraryResources
-> Task :epoxy-glide-preloader:parseReleaseLibraryResources
 > Task :epoxy-glide-preloader:mergeReleaseNativeLibs
 > Task :epoxy-glide-preloader:stripReleaseDebugSymbols
 > Task :epoxy-glide-preloader:transformNativeLibsWithSyncJniLibsForRelease
+> Task :epoxy-glide-preloader:prepareLintJarForPublish
 > Task :epoxy-glide-preloader:mergeDebugNativeLibs
 > Task :epoxy-glide-preloader:stripDebugDebugSymbols
 > Task :epoxy-glide-preloader:transformNativeLibsWithSyncJniLibsForDebug
@@ -1072,8 +1063,8 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-glide-preloader:kaptReleaseKotlin
 
 > Task :epoxy-glide-preloader:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (12, 42): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (25, 5): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (12, 42): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (25, 5): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
 
 > Task :epoxy-glide-preloader:generateDebugRFile
 > Task :epoxy-glide-preloader:kaptGenerateStubsDebugKotlin
@@ -1112,27 +1103,27 @@ Can't find node by signature com.airbnb.epoxy.EpoxyRecyclerView, referenced at c
 > Task :epoxy-glide-preloader:androidJavadocsJar
 
 > Task :epoxy-glide-preloader:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (12, 42): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (25, 5): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (12, 42): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-glide-preloader/src/main/java/com/airbnb/epoxy/GlidePreloadRequestHolder.kt: (25, 5): 'BaseTarget<Z : Any!>' is deprecated. Deprecated in Java
 
+> Task :epoxy-glide-preloader:verifyReleaseResources
 > Task :epoxy-glide-preloader:javaPreCompileRelease
 > Task :epoxy-glide-preloader:compileReleaseJavaWithJavac
 > Task :epoxy-glide-preloader:extractReleaseAnnotations
 > Task :epoxy-glide-preloader:mergeReleaseGeneratedProguardFiles
 > Task :epoxy-glide-preloader:mergeReleaseConsumerProguardFiles
-> Task :epoxy-glide-preloader:verifyReleaseResources
 > Task :epoxy-glide-preloader:compileReleaseSources
-> Task :epoxy-glide-preloader:mergeReleaseJavaResource
-> Task :epoxy-glide-preloader:transformClassesAndResourcesWithSyncLibJarsForRelease
-> Task :epoxy-glide-preloader:bundleReleaseAar
-> Task :epoxy-glide-preloader:assembleRelease
-> Task :epoxy-glide-preloader:signArchives SKIPPED
 > Task :epoxy-glide-preloader:javaPreCompileDebug
 > Task :epoxy-glide-preloader:compileDebugJavaWithJavac
 > Task :epoxy-glide-preloader:extractDebugAnnotations
 > Task :epoxy-glide-preloader:mergeDebugGeneratedProguardFiles
 > Task :epoxy-glide-preloader:mergeDebugConsumerProguardFiles
 > Task :epoxy-glide-preloader:compileDebugSources
+> Task :epoxy-glide-preloader:mergeReleaseJavaResource
+> Task :epoxy-glide-preloader:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :epoxy-glide-preloader:bundleReleaseAar
+> Task :epoxy-glide-preloader:assembleRelease
+> Task :epoxy-glide-preloader:signArchives SKIPPED
 > Task :epoxy-glide-preloader:mergeDebugJavaResource
 > Task :epoxy-glide-preloader:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :epoxy-glide-preloader:bundleDebugAar
@@ -1140,19 +1131,15 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/
 > Task :epoxy-glide-preloader:assemble
 > Task :epoxy-glide-preloader:build
 
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
-Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
-
-BUILD SUCCESSFUL in 28s
+BUILD SUCCESSFUL in 54s
 89 actionable tasks: 56 executed, 33 up-to-date
 
-2019-10-06 20:32:51,637 INFO  ProjectTaskService - Detecting possible tasks...
-2019-10-06 20:32:51,638 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-10-06 20:32:59,609 INFO  ProjectTaskService - Detected possible tasks: 71
-2019-10-06 20:32:59,609 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-10-06 20:32:59,609 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-10-06 20:34:13,829 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-10-10 12:42:04,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-10 12:42:04,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-10 12:42:18,766 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-10-10 12:42:18,767 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-10-10 12:42:18,767 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-10-10 12:44:10,133 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :epoxy-adapter
 WARNING: API 'variant.getJavaCompile()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -1216,17 +1203,18 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-paging:preDebugBuild UP-TO-DATE
 > Task :epoxy-paging:compileDebugAidl NO-SOURCE
 > Task :epoxy-integrationtest:compileDebugAidl NO-SOURCE
-> Task :epoxy-databinding:bundleLibCompileDebug
 > Task :epoxy-databinding:packageDebugRenderscript NO-SOURCE
 > Task :epoxy-paging:packageDebugRenderscript NO-SOURCE
 > Task :epoxy-integrationtest:compileDebugRenderscript NO-SOURCE
 > Task :epoxy-integrationtest:checkDebugManifest
 > Task :epoxy-integrationtest:generateDebugBuildConfig
 > Task :epoxy-integrationtest:prepareLintJar
+> Task :epoxy-databinding:bundleLibCompileDebug
 > Task :epoxy-integrationtest:prepareLintJarForPublish
 > Task :epoxy-integrationtest:generateDebugSources
 > Task :epoxy-integrationtest:dataBindingExportBuildInfoDebug
 > Task :epoxy-integrationtest:dataBindingMergeDependencyArtifactsDebug
+> Task :epoxy-integrationtest:dataBindingMergeGenClassesDebug
 > Task :epoxy-integrationtest:generateDebugResValues
 > Task :epoxy-integrationtest:generateDebugResources
 > Task :epoxy-paging:compileDebugRenderscript NO-SOURCE
@@ -1234,7 +1222,6 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-paging:generateDebugResources
 > Task :epoxy-paging:packageDebugResources
 > Task :epoxy-integrationtest:dataBindingExportFeaturePackageIdsDebug
-> Task :epoxy-integrationtest:dataBindingMergeGenClassesDebug
 > Task :epoxy-integrationtest:mainApkListPersistenceDebug
 > Task :epoxy-integrationtest:createDebugCompatibleScreenManifests
 > Task :epoxy-paging:checkDebugManifest
@@ -1255,9 +1242,9 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-paging:generateDebugAssets
 > Task :epoxy-paging:packageDebugAssets
 > Task :epoxy-integrationtest:mergeDebugAssets
-> Task :epoxy-paging:parseDebugLibraryResources
 > Task :epoxy-integrationtest:mergeDebugResources
 > Task :epoxy-integrationtest:dataBindingGenBaseClassesDebug
+> Task :epoxy-paging:parseDebugLibraryResources
 > Task :epoxy-paging:processDebugManifest
 > Task :epoxy-integrationtest:processDebugManifest
 > Task :epoxy-adapter:processDebugJavaRes NO-SOURCE
@@ -1265,50 +1252,12 @@ To determine what is calling variant.getJavaCompile(), use -Pandroid.debug.obsol
 > Task :epoxy-integrationtest:processDebugJavaRes NO-SOURCE
 > Task :epoxy-paging:processDebugJavaRes NO-SOURCE
 > Task :epoxy-adapter:bundleLibResDebug
-> Task :epoxy-databinding:bundleLibResDebug
 > Task :epoxy-databinding:bundleLibRuntimeDebug
+> Task :epoxy-databinding:bundleLibResDebug
 > Task :epoxy-databinding:createFullJarDebug
 > Task :epoxy-integrationtest:checkDebugDuplicateClasses
 > Task :epoxy-adapter:bundleLibRuntimeDebug
 > Task :epoxy-adapter:createFullJarDebug
-> Task :epoxy-paging:generateDebugRFile
-> Task :epoxy-integrationtest:processDebugResources
-> Task :epoxy-paging:kaptGenerateStubsDebugKotlin
-> Task :epoxy-paging:kaptDebugKotlin
-
-> Task :epoxy-paging:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (59, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
-
-> Task :epoxy-paging:javaPreCompileDebug
-> Task :epoxy-paging:compileDebugJavaWithJavac
-> Task :epoxy-paging:bundleLibCompileDebug
-> Task :epoxy-integrationtest:kaptGenerateStubsDebugKotlin
-
-> Task :epoxy-integrationtest:kaptDebugKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
-
-> Task :epoxy-integrationtest:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (105, 26): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (106, 24): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (42, 18): Parameter 'image' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (46, 18): Parameter 'image' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (50, 32): Parameter 'num' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
-
-> Task :epoxy-paging:bundleLibRuntimeDebug
-> Task :epoxy-paging:bundleLibResDebug
-> Task :epoxy-paging:createFullJarDebug
-> Task :epoxy-integrationtest:javaPreCompileDebug
-
-> Task :epoxy-integrationtest:compileDebugJavaWithJavac
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :epoxy-integrationtest:compileDebugSources
-> Task :epoxy-integrationtest:mergeDebugJavaResource
-> Task :epoxy-integrationtest:transformClassesWithDexBuilderForDebug
 > Task :epoxy-integrationtest:validateSigningDebug
 > Task :epoxy-integrationtest:signingConfigWriterDebug
 > Task :epoxy-adapter:mergeDebugJniLibFolders UP-TO-DATE
@@ -1321,6 +1270,14 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-databinding:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :epoxy-integrationtest:mergeDebugJniLibFolders
 > Task :epoxy-paging:mergeDebugJniLibFolders
+> Task :epoxy-paging:generateDebugRFile
+> Task :epoxy-integrationtest:processDebugResources
+> Task :epoxy-paging:kaptGenerateStubsDebugKotlin
+> Task :epoxy-paging:kaptDebugKotlin
+
+> Task :epoxy-paging:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (59, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
+
 > Task :epoxy-adapter:preReleaseBuild UP-TO-DATE
 > Task :epoxy-adapter:compileReleaseAidl NO-SOURCE
 > Task :epoxy-adapter:compileReleaseRenderscript NO-SOURCE
@@ -1357,6 +1314,10 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-databinding:generateReleaseRFile UP-TO-DATE
 > Task :epoxy-databinding:javaPreCompileRelease UP-TO-DATE
 > Task :epoxy-databinding:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :epoxy-paging:javaPreCompileDebug
+> Task :epoxy-paging:compileDebugJavaWithJavac
+> Task :epoxy-integrationtest:mergeExtDexDebug
+> Task :epoxy-databinding:bundleLibCompileRelease
 > Task :epoxy-integrationtest:preReleaseBuild UP-TO-DATE
 > Task :epoxy-paging:preReleaseBuild UP-TO-DATE
 > Task :epoxy-paging:compileReleaseAidl NO-SOURCE
@@ -1368,87 +1329,68 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :epoxy-integrationtest:generateReleaseBuildConfig
 > Task :epoxy-integrationtest:generateReleaseSources
 > Task :epoxy-integrationtest:dataBindingExportBuildInfoRelease
+> Task :epoxy-paging:bundleLibCompileDebug
+> Task :epoxy-integrationtest:kaptGenerateStubsDebugKotlin
+
+> Task :epoxy-integrationtest:kaptDebugKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
+
 > Task :epoxy-paging:mergeDebugNativeLibs
-> Task :epoxy-paging:stripDebugDebugSymbols
-> Task :epoxy-paging:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :epoxy-databinding:bundleLibCompileRelease
-> Task :epoxy-integrationtest:dataBindingMergeDependencyArtifactsRelease
+
+> Task :epoxy-integrationtest:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (105, 26): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/debug/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (106, 24): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (42, 18): Parameter 'image' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (46, 18): Parameter 'image' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (50, 32): Parameter 'num' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
+
 > Task :epoxy-integrationtest:generateReleaseResValues
 > Task :epoxy-integrationtest:generateReleaseResources
 > Task :epoxy-paging:compileReleaseRenderscript NO-SOURCE
 > Task :epoxy-paging:generateReleaseResValues
 > Task :epoxy-paging:generateReleaseResources
 > Task :epoxy-paging:packageReleaseResources
-> Task :epoxy-integrationtest:dataBindingExportFeaturePackageIdsRelease
+> Task :epoxy-paging:bundleLibResDebug
+> Task :epoxy-integrationtest:dataBindingMergeDependencyArtifactsRelease
 > Task :epoxy-integrationtest:mainApkListPersistenceRelease
 > Task :epoxy-integrationtest:createReleaseCompatibleScreenManifests
 > Task :epoxy-paging:checkReleaseManifest
-> Task :epoxy-integrationtest:mergeDebugNativeLibs
-> Task :epoxy-integrationtest:stripDebugDebugSymbols
-> Task :epoxy-paging:generateReleaseBuildConfig
-> Task :epoxy-paging:processReleaseManifest
-> Task :epoxy-integrationtest:processReleaseManifest
+> Task :epoxy-integrationtest:dataBindingExportFeaturePackageIdsRelease
 > Task :epoxy-integrationtest:dataBindingMergeGenClassesRelease
+> Task :epoxy-paging:generateReleaseBuildConfig
+> Task :epoxy-integrationtest:javaPreCompileDebug
+
+> Task :epoxy-integrationtest:compileDebugJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-integrationtest:compileDebugSources
 > Task :epoxy-integrationtest:mergeReleaseResources
-> Task :epoxy-integrationtest:dataBindingGenBaseClassesRelease
+> Task :epoxy-paging:bundleLibRuntimeDebug
+> Task :epoxy-paging:createFullJarDebug
+> Task :epoxy-paging:processReleaseManifest
 > Task :epoxy-paging:parseReleaseLibraryResources
+> Task :epoxy-integrationtest:transformClassesWithDexBuilderForDebug
+> Task :epoxy-integrationtest:mergeDebugJavaResource
+> Task :epoxy-integrationtest:dataBindingGenBaseClassesRelease
+> Task :epoxy-integrationtest:processReleaseManifest
+> Task :epoxy-paging:stripDebugDebugSymbols
+> Task :epoxy-paging:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :epoxy-adapter:prepareLintJarForPublish UP-TO-DATE
 > Task :epoxy-adapter:processReleaseJavaRes NO-SOURCE
-> Task :epoxy-paging:prepareLintJarForPublish
 > Task :epoxy-paging:processReleaseJavaRes NO-SOURCE
 > Task :epoxy-databinding:processReleaseJavaRes NO-SOURCE
 > Task :epoxy-adapter:bundleLibResRelease
-> Task :epoxy-integrationtest:checkReleaseDuplicateClasses
 > Task :epoxy-databinding:bundleLibResRelease
+> Task :epoxy-integrationtest:checkReleaseDuplicateClasses
+> Task :epoxy-paging:prepareLintJarForPublish
 > Task :epoxy-databinding:bundleLibRuntimeRelease
 > Task :epoxy-databinding:createFullJarRelease
 > Task :epoxy-adapter:bundleLibRuntimeRelease
 > Task :epoxy-adapter:createFullJarRelease
-> Task :epoxy-paging:generateReleaseRFile
-> Task :epoxy-integrationtest:processReleaseResources
-> Task :epoxy-paging:kaptGenerateStubsReleaseKotlin
-> Task :epoxy-paging:kaptReleaseKotlin
-
-> Task :epoxy-paging:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (59, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
-
-> Task :epoxy-integrationtest:mergeExtDexDebug
-> Task :epoxy-paging:javaPreCompileRelease
-> Task :epoxy-paging:compileReleaseJavaWithJavac
-> Task :epoxy-paging:bundleLibResRelease
-> Task :epoxy-paging:bundleLibRuntimeRelease
-> Task :epoxy-paging:createFullJarRelease
-> Task :epoxy-paging:bundleLibCompileRelease
-> Task :epoxy-integrationtest:kaptGenerateStubsReleaseKotlin
-
-> Task :epoxy-integrationtest:kaptReleaseKotlin
-w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
-
-> Task :epoxy-integrationtest:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (105, 26): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (106, 24): Projection is redundant: the corresponding type parameter of List has the same variance
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (42, 18): Parameter 'image' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (46, 18): Parameter 'image' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (50, 32): Parameter 'num' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
-
-> Task :epoxy-integrationtest:mergeDexDebug
-> Task :epoxy-integrationtest:packageDebug
-> Task :epoxy-integrationtest:assembleDebug
-> Task :epoxy-integrationtest:javaPreCompileRelease
-
-> Task :epoxy-integrationtest:compileReleaseJavaWithJavac
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :epoxy-integrationtest:compileReleaseSources
-
-> Task :epoxy-integrationtest:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/359ac6d46b00978f548c7b5301b9cb80/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
-> Task :epoxy-integrationtest:transformClassesWithDexBuilderForRelease
 > Task :epoxy-adapter:mergeReleaseShaders UP-TO-DATE
 > Task :epoxy-adapter:compileReleaseShaders UP-TO-DATE
 > Task :epoxy-adapter:generateReleaseAssets UP-TO-DATE
@@ -1477,13 +1419,56 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :epoxy-databinding:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :epoxy-integrationtest:mergeReleaseJniLibFolders
 > Task :epoxy-paging:mergeReleaseJniLibFolders
+> Task :epoxy-paging:generateReleaseRFile
+> Task :epoxy-integrationtest:processReleaseResources
+> Task :epoxy-paging:kaptGenerateStubsReleaseKotlin
+> Task :epoxy-paging:kaptReleaseKotlin
+
+> Task :epoxy-paging:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-paging/src/main/java/com/airbnb/epoxy/paging/PagedListEpoxyController.kt: (59, 77): Unchecked cast: DiffUtil.ItemCallback<Any> to DiffUtil.ItemCallback<T>
+
+> Task :epoxy-integrationtest:mergeDebugNativeLibs
+> Task :epoxy-integrationtest:stripDebugDebugSymbols
+> Task :epoxy-integrationtest:mergeExtDexRelease
 > Task :epoxy-paging:mergeReleaseNativeLibs
 > Task :epoxy-paging:stripReleaseDebugSymbols
 > Task :epoxy-paging:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :epoxy-paging:javaPreCompileRelease
+> Task :epoxy-paging:compileReleaseJavaWithJavac
+> Task :epoxy-integrationtest:mergeDexDebug
+> Task :epoxy-integrationtest:packageDebug
+> Task :epoxy-integrationtest:assembleDebug
+> Task :epoxy-paging:bundleLibResRelease
+> Task :epoxy-paging:bundleLibRuntimeRelease
+> Task :epoxy-paging:createFullJarRelease
+> Task :epoxy-paging:bundleLibCompileRelease
+> Task :epoxy-integrationtest:kaptGenerateStubsReleaseKotlin
+
+> Task :epoxy-integrationtest:kaptReleaseKotlin
+w: [kapt] Incremental annotation processing requested, but support is disabled because the following processors are not incremental: com.airbnb.epoxy.EpoxyProcessor (NON_INCREMENTAL).
+
+> Task :epoxy-integrationtest:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (58, 66): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (105, 26): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/generated/source/kapt/release/com/airbnb/epoxy/integrationtest/EpoxyModelKotlinExtensions.kt: (106, 24): Projection is redundant: the corresponding type parameter of List has the same variance
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (42, 18): Parameter 'image' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (46, 18): Parameter 'image' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/KotlinViewWithDefaultParams.kt: (50, 32): Parameter 'num' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (35, 26): Parameter 'title' is never used
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/src/main/java/com/airbnb/epoxy/integrationtest/ViewWithInterface.kt: (58, 26): Parameter 'title' is never used
+
 > Task :epoxy-integrationtest:mergeReleaseNativeLibs
 > Task :epoxy-integrationtest:stripReleaseDebugSymbols
+> Task :epoxy-integrationtest:javaPreCompileRelease
+
+> Task :epoxy-integrationtest:compileReleaseJavaWithJavac
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :epoxy-integrationtest:compileReleaseSources
+> Task :epoxy-integrationtest:lintVitalRelease
+> Task :epoxy-integrationtest:transformClassesWithDexBuilderForRelease
 > Task :epoxy-integrationtest:mergeReleaseJavaResource
-> Task :epoxy-integrationtest:mergeExtDexRelease
 > Task :epoxy-integrationtest:mergeDexRelease
 > Task :epoxy-integrationtest:packageRelease
 > Task :epoxy-integrationtest:assembleRelease
@@ -1494,7 +1479,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 13s
+BUILD SUCCESSFUL in 1m 50s
 217 actionable tasks: 131 executed, 86 up-to-date
 
-2019-10-06 20:34:14,051 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570368620810-0/src/epoxy-master/epoxy-integrationtest/build/outputs/apk/release/epoxy-integrationtest-release-unsigned.apk
+2019-10-10 12:44:10,398 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570685882399-0/src/epoxy-master/epoxy-integrationtest/build/outputs/apk/release/epoxy-integrationtest-release-unsigned.apk
